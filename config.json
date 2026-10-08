@@ -46,5 +46,13 @@
       "뮤지컬 티켓 오픈",
       "뮤지컬 캐스팅 스케줄"
     ]
-  }
+  },
+  "collectionExclusions": [
+    {
+      "title": "스타크로스드",
+      "genre": "연극",
+      "reason": "현재 자동수집은 뮤지컬 장르를 대상으로 하므로 연극은 수집 대상에서 제외됩니다.",
+      "url": "https://ticket.yes24.com/Perf/59650"
+    }
+  ]
 }
