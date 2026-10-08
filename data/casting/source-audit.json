@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-10-09",
+  "shows": {
+    "PF291461": {
+      "title": "드라큘라 [서울]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79286",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79286",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF291886": {
+      "title": "헬스키친",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219",
+          "status": "checked"
+        }
+      ],
+      "result": "schedule_confirmed",
+      "scheduleImage": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/9/30/20260930092219f079da61b1c64f69a5819b087b33b2fa.jpg",
+      "from": "2026-09-29",
+      "to": "2026-11-08"
+    },
+    "PF292306": {
+      "title": "디어 에반 핸슨 (Musical Dear Evan Hansen) [서울]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79229",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79229",
+          "status": "checked"
+        }
+      ],
+      "result": "schedule_confirmed",
+      "scheduleImage": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/9/28/202609280847045651913914814bbaa205987373ca53af.jpg",
+      "from": "2026-09-22",
+      "to": "2026-11-01"
+    },
+    "PF296312": {
+      "title": "드림하이 시즌3: 리부트",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79401",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79401",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF292160": {
+      "title": "겨울왕국 [서울]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79228",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79228",
+          "status": "checked"
+        }
+      ]
+    },
+    "PF295552": {
+      "title": "광화문연가 [서울]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF297912": {
+      "title": "곤 투모로우 [대학로]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79370",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79370",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF299169": {
+      "title": "미드나잇: 앤틀러스 [대학로]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF299346": {
+      "title": "렛미플라이 [서울]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79470",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79470",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF301912": {
+      "title": "마제스티 [대학로]",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79464",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79464",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    "PF282162": {
+      "title": "서울시뮤지컬단, 크리스마스 캐럴",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78945",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78945",
+          "status": "checked"
+        }
+      ],
+      "result": "no_schedule_in_checked_page",
+      "note": "클립서비스 상세 이미지 4개 대조. 이 페이지에서 표가 확인되지 않았으며 다른 출처의 미등록을 의미하지 않음."
+    },
+    "PF302842": {
+      "title": "오페라의 유령 40주년 스페셜 시즌",
+      "checkedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79473",
+      "pages": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79473",
+          "status": "checked"
+        }
+      ],
+      "result": "schedule_confirmed",
+      "scheduleImage": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/7/202610070904140786378cef634f058612b1003d681d6e.jpg",
+      "from": "2026-12-22",
+      "to": "2027-01-15"
+    }
+  }
+}
