@@ -15,3 +15,16 @@ export function extractImages(html, pageUrl) {
   return [...new Set(found)];
 }
 export function isBlocked(html) {return /Restricted access|비정상적인 접근|Verify you are human|Access Denied|Checking your browser/i.test(html);}
+
+// HTTP 200으로 반환되는 오류 페이지도 정상 상세 페이지와 구분한다.
+export function pageProblem(html) {
+ if(isBlocked(html))return "blocked";
+ if(/상품정보가 올바르지 않습니다|상품이 존재하지 않습니다/.test(html))return "invalid_product";
+ return null;
+}
+export function imageCollectionStatus(record) {
+ if(record.images.length)return "images_need_extraction";
+ if(record.pages.some(p=>p.status==="blocked"))return "blocked";
+ if(record.pages.some(p=>["fetch_failed","image_fetch_failed","invalid_product"].includes(p.status)))return "fetch_failed";
+ return record.pages.length?"no_images":"no_sources";
+}
