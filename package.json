@@ -8,6 +8,7 @@
     "casting": "node scripts/import-casting.mjs",
     "charlotte": "node scripts/fetch-charlotte.mjs",
     "melon": "node scripts/fetch-melon.mjs",
+    "ticketlink": "node scripts/fetch-ticketlink.mjs",
     "notices": "node scripts/fetch-notices.mjs"
   }
 }

@@ -24,6 +24,8 @@ jobs:
         continue-on-error: true
       - run: node scripts/fetch-melon.mjs
         continue-on-error: true
+      - run: node scripts/fetch-ticketlink.mjs
+        continue-on-error: true
       - name: commit
         run: |
           git config user.name "github-actions[bot]"
