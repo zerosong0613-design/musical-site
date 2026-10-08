@@ -1,8 +1,26 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {openingDetails,makeAnnouncement,applyAnnouncements,matchShow,officialUrl,plain} from '../scripts/lib/announcements.mjs';
-import {mergeOpenings,castingLink} from '../src/announcement-links.js';
-import {filterShows} from '../src/casting.js';
+import {mergeOpenings,castingLink,mobileVendorUrl} from '../src/announcement-links.js';
+import {filterShows,mountCasting} from '../src/casting.js';
 const show={id:'PFX2026SWEENEY',title:'스위니토드',venue:'디큐브 링크아트센터'};
+test('캐스팅 화면에서 공식 이미지 원본을 직접 열 수 있다',()=>{
+ const el={innerHTML:'',addEventListener(){}};
+ const image='https://commonfile.clipservice.co.kr/cast.jpg';
+ mountCasting(el,{roles:['앨리'],shows:[{date:'2026-11-01',time:'19:30',cast:['김수하']}],sourceImage:image,source:'공식 표',checkedAt:'2026-10-09'},{});
+ assert.ok(el.innerHTML.includes(`href="${image}"`));
+ assert.ok(el.innerHTML.includes('캐스팅표 원본 보기'));
+});
+test('모바일 상세 링크가 작품 번호를 보존하며 PC·다른 도메인은 유지한다',()=>{
+ for(const id of ['79219','79229','79473']) {
+  const pc=`https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=${id}`;
+  assert.equal(mobileVendorUrl(pc,true),`https://m-ticket.clipservice.co.kr/Play/PlayDetail?playNum=${id}`);
+  assert.equal(mobileVendorUrl(pc,false),pc);
+ }
+ const image='https://commonfile.clipservice.co.kr/cast.jpg';
+ assert.equal(mobileVendorUrl(image,true),image);
+ assert.equal(mobileVendorUrl('https://ticket.clipservice.co.kr.evil.example/Clipservice/Ticket/ShowDetail?playNum=79219',true),'https://ticket.clipservice.co.kr.evil.example/Clipservice/Ticket/ShowDetail?playNum=79219');
+ assert.equal(mobileVendorUrl('https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=123',true),'https://m.ticket.yes24.com/Notice/Detail.aspx?bid=123');
+});
 const body='스위니토드 1차 티켓오픈 일반예매 : 2026년 10월 13일(화) 오전 11시 1차 티켓오픈 공연기간 : 2026년 12월 4일(금) ~ 2026년 12월 20일(일) 캐스팅 스케줄 안내';
 test('한 공지에서 오픈 시각/판매 기간과 캐스팅 공지를 각각 반영하고 재수집 중복 제거',()=>{
  const a=makeAnnouncement({url:'https://nol.yanolja.com/ticket/products/26014509',text:body,source:'NOL 티켓'},show);
@@ -59,3 +77,4 @@ test('추후 공지 문구를 스케줄 공개로 잘못 등록하지 않는다'
 test('작품명 꺾쇠를 HTML 태그로 지우지 않는다',()=>{
  assert.equal(matchShow(plain('뮤지컬 <곤 투모로우> 티켓오픈'),[{id:'PF1',title:'곤 투모로우 [대학로]',venue:'광림'}],'PF1').id,'PF1');
 });
+
