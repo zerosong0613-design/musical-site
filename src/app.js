@@ -1,6 +1,6 @@
-import { mountCasting } from './casting.js';
-import { mergeOpenings, castingLink } from './announcement-links.js';
-import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js';
+import { mountCasting } from './casting.js?v=20261009-1';
+import { mergeOpenings, castingLink } from './announcement-links.js?v=20261009-1';
+import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
 let favoritesSaved = true;
