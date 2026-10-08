@@ -1,7 +1,7 @@
 // 예매처 공개 상세 페이지 → 자동 이미지 발견·다운로드·내용 변경 감지.
 // 이미지 원본은 Actions artifact로 보관. 캐스팅 미확보를 성공으로 표시하지 않는다.
 import { readFile,writeFile,mkdir } from 'node:fs/promises';
-import { hash,extractImages,isBlocked } from './lib/source-images.mjs';
+import { hash,extractImages,pageProblem,imageCollectionStatus } from './lib/source-images.mjs';
 const ROOT=new URL('../',import.meta.url);
 const OUT=new URL('data/casting/image-sources.json',ROOT);
 await mkdir(new URL('data/casting/',ROOT),{recursive:true});
@@ -33,7 +33,8 @@ for(const show of master.filter(s=>s.large&&s.to>=today&&(!process.env.CASTING_T
   try {
    let images=imageGroups.get(url);
    if(!images){const response=await get(url);const html=await response.text();
-    if(isBlocked(html)) {record.pages.push({url,status:'blocked'});continue;}
+    const problem=pageProblem(html);
+    if(problem) {record.pages.push({url,status:problem});continue;}
     images=extractImages(html,response.url);}
    record.pages.push({url,status:images.length?'images_found':'no_images'});
    for(const imageUrl of images.slice(0,12)) {
@@ -49,7 +50,7 @@ for(const show of master.filter(s=>s.large&&s.to>=today&&(!process.env.CASTING_T
    }
   }catch(e){record.pages.push({url,status:'fetch_failed',error:e.message});}
  }
- record.status=record.images.length?'images_need_extraction':record.pages.some(p=>p.status==='blocked')?'blocked':record.pages.length?'not_found':'no_sources';
+ record.status=imageCollectionStatus(record);
  if(!record.images.length&&previous.shows?.[show.id]?.images?.length) {record.images=previous.shows[show.id].images;record.retainedPreviousImages=true;}
  result.shows[show.id]=record;
  console.log(`${show.title}: ${record.status}, 상세 이미지 ${record.images.length}개`);
