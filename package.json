@@ -9,6 +9,7 @@
     "charlotte": "node scripts/fetch-charlotte.mjs",
     "melon": "node scripts/fetch-melon.mjs",
     "ticketlink": "node scripts/fetch-ticketlink.mjs",
+    "openings": "node scripts/fetch-openings.mjs",
     "notices": "node scripts/fetch-notices.mjs"
   }
 }

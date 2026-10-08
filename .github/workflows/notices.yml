@@ -18,11 +18,14 @@ jobs:
         with:
           node-version: 24
       - run: node scripts/fetch-notices.mjs
+        continue-on-error: true
+      - run: node scripts/fetch-openings.mjs
+        continue-on-error: true
       - name: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/notices.json
+          git add data/notices.json data/openings.json
           git diff --cached --quiet || git commit -m "data: 캐스팅 공지 갱신"
           git pull --rebase
           git push
