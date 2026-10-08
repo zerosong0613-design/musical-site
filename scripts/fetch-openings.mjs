@@ -94,7 +94,8 @@ const SOURCES = {
 };
 
 const config = await readJSON('config.json', {});
-const { shows = [] } = await readJSON('data/shows.json', {});
+// KOPIS 등록 전이라 직접 넣어 둔 작품(shows.manual.json)도 함께 맞춰 본다.
+const shows = [...((await readJSON('data/shows.json', {})).shows ?? []), ...(await readJSON('data/shows.manual.json', []))];
 const previous = await readJSON('data/openings.json', []);
 
 // 수도권 밖 공연 공지는 제목의 지역 표기로 걸러낸다.

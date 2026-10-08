@@ -22,15 +22,19 @@ const data = { shows: [], casting: new Map(), openings: [], notices: [] };
 const view = { tab: 'now', largeOnly: true };
 
 async function load() {
-  const [file, castingIndex, auto, manual, notices, events] = await Promise.all([
+  const [file, castingIndex, auto, manual, notices, events, manualShows] = await Promise.all([
     getJSON('data/shows.json'),
     getJSON('data/casting/index.json', []),
     getJSON('data/openings.json', []),
     getJSON('data/openings.manual.json', []),
     getJSON('data/notices.json', []),
     getJSON('data/casting/events.json', []),
+    getJSON('data/shows.manual.json', []),
   ]);
-  data.shows = file.shows;
+  // KOPIS에 아직 없는 작품은 직접 넣은 목록(shows.manual.json)으로 보여 주고, KOPIS에 같은 제목이 올라오면 그쪽을 쓴다.
+  const letters = s => s.replace(/[^\p{L}\p{N}]/gu, '');
+  const pending = manualShows.filter(m => !file.shows.some(s => letters(s.title).includes(letters(m.matchTitle ?? m.title))));
+  data.shows = [...file.shows, ...pending];
   // 제작사 공지와, 수집한 캐스팅 표의 변화(새 구간 공개·배우 변경)를 한 목록으로 합친다.
   data.notices = [...notices, ...events.map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
   data.casting = new Map(castingIndex.map(c => [c.mt20id, c]));

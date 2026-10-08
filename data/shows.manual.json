@@ -1,0 +1,25 @@
+[
+ {
+  "id": "PFX2026SWEENEY",
+  "matchTitle": "스위니토드",
+  "title": "스위니토드",
+  "from": "2026-12-04",
+  "to": "2027-05-02",
+  "openrun": false,
+  "venue": "디큐브 링크아트센터",
+  "seats": 1242,
+  "large": true,
+  "area": "서울특별시",
+  "poster": "",
+  "prices": "VIP석 180,000원, R석 150,000원, S석 110,000원, A석 80,000원",
+  "times": "화·목·금 19:30 / 수 14:30, 19:30 / 토·공휴일 14:00, 19:00 / 일 13:00, 18:00 (월 공연 없음)",
+  "runtime": "170분 (인터미션 20분)",
+  "age": "14세 이상",
+  "producer": "오디컴퍼니",
+  "links": [
+   { "name": "티켓링크", "url": "https://www.ticketlink.co.kr/product/66145" },
+   { "name": "NOL 티켓", "url": "https://nol.yanolja.com/ticket/products/26014509" }
+  ],
+  "note": "KOPIS 등록 전이라 예매처 티켓 오픈 공지 기준으로 직접 넣은 작품"
+ }
+]
