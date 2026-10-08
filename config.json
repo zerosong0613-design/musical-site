@@ -38,5 +38,13 @@
     "enabled": false,
     "model": "gpt-4.1",
     "maxImagesPerRun": 4
+  },
+  "announcements": {
+    "dcinside": true,
+    "maxPagesPerRun": 30,
+    "newsQueries": [
+      "뮤지컬 티켓 오픈",
+      "뮤지컬 캐스팅 스케줄"
+    ]
   }
 }

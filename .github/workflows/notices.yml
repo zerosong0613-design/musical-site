@@ -21,11 +21,17 @@ jobs:
         continue-on-error: true
       - run: node scripts/fetch-openings.mjs
         continue-on-error: true
+      - run: node --test tests/*.test.mjs
+      - run: node scripts/fetch-announcements.mjs
+        continue-on-error: true
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
       - name: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/notices.json data/openings.json
+          git add data
           git diff --cached --quiet || git commit -m "data: 캐스팅 공지 갱신"
           git pull --rebase
           git push

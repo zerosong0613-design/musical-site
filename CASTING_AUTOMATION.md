@@ -36,3 +36,17 @@ KOPIS는 이미지 판독 API를 제공하지 않는다. 이미지 전용 작품
 
 검증: `node --test tests/casting.test.mjs`
 이미지 발견만 특정 작품 확인: `CASTING_TARGET_ID=PF292306 node scripts/fetch-casting-images.mjs`
+
+## 통합 공지 수집과 연결
+
+`node scripts/fetch-announcements.mjs`가 예매처 공지 상세를 읽고 공지 하나를 예매오픈과 캐스팅 공지로 각각 분배합니다. 기존 notices 워크플로(10·13·16·19·22시 KST)에서 실행하며, 매일 06시에는 통합 공지 → 이미지 다운로드 → 선택적 이미지 변환 순서로 실행합니다.
+
+- 명시된 오픈 시각만 예매오픈에 반영합니다. 기사 게시 시각·공연 시작 시각·연도 없는 날짜를 추측하지 않습니다. 예매처 목록에서 이미 읽은 오픈 시각은 그대로 사용할 수 있습니다.
+- 판매 공연기간을 확보하면 예매오픈 카드에 표시합니다. 캐스팅표가 생기는 즉시 해당 기간으로 필터링한 캐스팅 검색 링크가 표시됩니다. 전체 회차 보기로 기간 필터를 해제할 수 있습니다.
+- 출연진 발표는 출연진 공지로, 회차별 표는 스케줄로 구분합니다. ‘스케줄 추후 공지’는 공개된 표로 처리하지 않습니다.
+- 디씨 `theatergoing` 정보 게시글의 관련 제목을 최대 8개 읽습니다. 게시글 본문과 첨부 이미지·공식 링크를 후보로 기록하고, 공식 링크가 있으면 원문을 확인합니다. 비공식 글은 확인 전 공개 데이터에 반영하지 않습니다. 차단/본문 구조 변경 시 우회하지 않고 기존 정보를 보존합니다.
+- 네이버 뉴스 검색은 GitHub Actions Secrets에 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`을 넣으면 자동 실행됩니다. 공식 문서: https://developers.naver.com/docs/serviceapi/search/news/news.md . OpenAI 키는 뉴스 검색에 사용하지 않습니다. 현재 키가 없으면 뉴스 검색만 건너뜁니다. Google 검색은 구현하지 않았습니다.
+- `config.announcementSourceUrls`에 `{ "PF작품ID": ["https://공식공지주소"] }`를 추가할 수 있습니다. 제작사 호스트는 `announcementOfficialHosts`에 명시적으로 등록합니다. 제목만으로 지방공연·다른 시즌을 구분할 수 없으면 확인 대기로 남깁니다.
+- 수동 검증 공지는 `data/announcements.manual.json`에 `{ "url":"https://원문", "text":"전체 공지 텍스트", "mt20id":"PF작품ID", "verified":true, "source":"제작사", "vendor":"예매처", "images":["https://표이미지"] }`로 등록합니다. `verified`는 실제 원문 확인 후에만 사용합니다. 공지 ID/URL을 유지해야 수정 시 중복을 막을 수 있습니다.
+- `data/announcements.json`은 검증/확인 대기 상태와 공지 연결, `announcement-status.json`은 수집 실패·뉴스 키 미설정 상태, `announcement-pages.json`은 페이지별 점검 결과를 보관합니다. 확인 대기 정보는 현재 공개 화면에 표시하지 않습니다.
+- 자동 이미지 변환의 기존 활성화 조건·요청 상한·2회 검증·수동 캐스팅 보호는 그대로 적용됩니다. 뉴스/디씨 발견은 이미지 인식 활성화와 별개입니다. 이미지 변환이 꺼져 있어도 오픈 정보와 이미 등록된 캐스팅표 연결은 동작합니다.

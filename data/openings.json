@@ -85,7 +85,13 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66135",
-  "mt20id": "PFX2026SWEENEY"
+  "mt20id": "PFX2026SWEENEY",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-3567ea3d9a960793de97"
+  ],
+  "performanceFrom": "2026-12-04",
+  "performanceTo": "2026-12-20"
  },
  {
   "id": "nol-26014509",
@@ -96,7 +102,13 @@
   "exclusive": false,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26014509",
-  "mt20id": "PFX2026SWEENEY"
+  "mt20id": "PFX2026SWEENEY",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-6bc0032494a31f488d3d"
+  ],
+  "performanceFrom": "2026-12-04",
+  "performanceTo": "2026-12-20"
  },
  {
   "id": "ticketlink-66152",
@@ -118,7 +130,11 @@
   "exclusive": false,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26012145",
-  "mt20id": "PF299169"
+  "mt20id": "PF299169",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-6d7ee62491239867fdb8"
+  ]
  },
  {
   "id": "ticketlink-66128",
@@ -140,7 +156,11 @@
   "exclusive": false,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
-  "mt20id": "PF299346"
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-34ccaebed529c43a21eb"
+  ]
  },
  {
   "id": "ticketlink-66134",
@@ -162,6 +182,10 @@
   "exclusive": true,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655",
-  "mt20id": "PF294946"
+  "mt20id": "PF294946",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-1a0ca447b643f2061481"
+  ]
  }
 ]

@@ -10,6 +10,8 @@
     "melon": "node scripts/fetch-melon.mjs",
     "ticketlink": "node scripts/fetch-ticketlink.mjs",
     "openings": "node scripts/fetch-openings.mjs",
-    "notices": "node scripts/fetch-notices.mjs"
+    "notices": "node scripts/fetch-notices.mjs",
+    "announcements": "node scripts/fetch-announcements.mjs",
+    "test": "node --test tests/*.test.mjs"
   }
 }

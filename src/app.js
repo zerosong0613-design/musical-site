@@ -1,4 +1,14 @@
 import { mountCasting } from './casting.js';
+import { mergeOpenings, castingLink } from './announcement-links.js';
+import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js';
+let storage; try { storage = window.localStorage; } catch {}
+const favorites = readFavorites(storage);
+let favoritesSaved = true;
+function toggleFavorite(id) {
+  favorites.has(id) ? favorites.delete(id) : favorites.add(id);
+  favoritesSaved = saveFavorites(storage, favorites);
+}
+const favoriteButton = s => `<button type="button" class="favorite-btn" data-favorite="${esc(s.id)}" aria-pressed="${favorites.has(s.id)}" aria-label="${esc(s.title)} 즐겨찾기 ${favorites.has(s.id) ? '해제' : '추가'}">${favorites.has(s.id) ? '★ 즐겨찾기' : '☆ 즐겨찾기'}</button>`;
 
 const app = document.getElementById('app');
 const DAYS = ['일', '월', '화', '수', '목', '금', '토'];
@@ -36,9 +46,9 @@ async function load() {
   const pending = manualShows.filter(m => !file.shows.some(s => letters(s.title).includes(letters(m.matchTitle ?? m.title))));
   data.shows = [...file.shows, ...pending];
   // 제작사 공지와, 수집한 캐스팅 표의 변화(새 구간 공개·배우 변경)를 한 목록으로 합친다.
-  data.notices = [...notices, ...events.map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
+  data.notices = [...notices.filter(n => n.kind !== 'opening'), ...events.map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
   data.casting = new Map(castingIndex.map(c => [c.mt20id, c]));
-  data.openings = [...auto, ...manual].sort((a, b) => a.at.localeCompare(b.at));
+  data.openings = mergeOpenings(auto, manual);
   if (file.generatedAt) document.getElementById('updated').textContent = `작품 정보 갱신: ${new Date(file.generatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}`;
 }
 
@@ -48,8 +58,8 @@ const poster = s => `<div class="poster" data-initial="${esc(s.title.slice(0, 1)
 function renderList() {
   const t = today();
   const pool = data.shows.filter(s => s.to >= t && s.large && s.seats >= 500);
-  const now = pool.filter(s => s.from <= t).sort((a, b) => a.to.localeCompare(b.to));
-  const soon = pool.filter(s => s.from > t).sort((a, b) => a.from.localeCompare(b.from));
+  const now = favoritesFirst(pool.filter(s => s.from <= t), favorites, (a, b) => a.to.localeCompare(b.to));
+  const soon = favoritesFirst(pool.filter(s => s.from > t), favorites, (a, b) => a.from.localeCompare(b.from));
   const list = view.tab === 'now' ? now : soon;
 
   app.innerHTML = `
@@ -60,8 +70,9 @@ function renderList() {
       </div>
       <span class="note">서울·경기·인천 · 500석 이상 · 어린이 공연 제외</span>
     </div>
+    <p class="note">즐겨찾기는 이 브라우저에 저장되며 목록 상단에 표시됩니다.${favoritesSaved ? '' : ' 브라우저 저장이 제한되어 현재 화면에서만 유지됩니다.'}</p>
     ${list.length ? `<ul class="cards">${list.map(s => `
-      <li><a class="card" href="#/show/${esc(s.id)}">
+      <li class="show-card">${favoriteButton(s)}<a class="card" href="#/show/${esc(s.id)}">
         ${poster(s)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
@@ -71,6 +82,7 @@ function renderList() {
         </div>
       </a></li>`).join('')}</ul>` : '<p class="empty">해당하는 작품이 없습니다.</p>'}`;
 
+  app.querySelectorAll('[data-favorite]').forEach(b => b.addEventListener('click', () => { toggleFavorite(b.dataset.favorite); renderList(); }));
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderList(); }));
 
 }
@@ -89,11 +101,14 @@ function openingItems(list) {
     const k = new Date(at.getTime() + 9 * 3600e3);
     const show = data.shows.find(s => s.id === o.mt20id);
     const url = vendorUrl(safeUrl(o.url));
+    const schedule = castingLink(o, data.casting);
     return `<li class="${at < now ? 'past' : ''}">
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span> <span class="time">${esc(o.at.slice(11))}</span></div>
       <div class="what">
         <strong>${show ? `<a href="#/show/${esc(show.id)}">${esc(o.title)}</a>` : esc(o.title)}</strong>
         <span class="muted">${[o.vendor, o.round].filter(Boolean).map(esc).join(' · ')}</span>
+        ${o.performanceFrom && o.performanceTo ? `<span class="excerpt">판매 공연기간: ${esc(dot(o.performanceFrom))} ~ ${esc(dot(o.performanceTo))}</span>` : ''}
+        ${schedule ? `<a class="link" href="${esc(schedule)}">${o.performanceFrom ? '해당 기간 캐스팅 보기' : '캐스팅 보기'}</a>` : ''}
         ${o.exclusive ? '<em class="tag">단독</em>' : ''}${o.presale ? '<em class="tag">선예매</em>' : ''}
         ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">공지 원문</a>` : ''}
       </div>
@@ -120,13 +135,13 @@ function noticeItems(list) {
     return `<li>
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span></div>
       <div class="what">
-        <em class="tag">${n.kind === 'change' ? '변경' : '스케줄'}</em>
+        <em class="tag">${n.kind === 'change' ? '변경' : n.kind === 'roster' ? '출연진' : '스케줄'}</em>
         ${show ? `<strong><a href="#/show/${esc(show.id)}">${esc(show.title)}</a></strong>` : n.title ? `<strong>${esc(n.title)}</strong>` : ''}
         <span class="muted">${esc(n.source)}</span>
         ${n.lines
           ? `<span class="excerpt">${n.lines.slice(0, 6).map(esc).join('<br>')}${n.lines.length > 6 ? `<br>외 ${n.lines.length - 6}건` : ''}</span>`
           : `<span class="excerpt">${esc(n.excerpt)}…</span>`}
-        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">인스타그램 원문</a>` : ''}
+        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">공지 원문</a>` : ''}
       </div>
     </li>`;
   }).join('')}</ol>`;
@@ -134,11 +149,12 @@ function noticeItems(list) {
 
 function renderNotices() {
   app.innerHTML = `<h1>캐스팅 공지</h1>
-    <p class="note">예매처 캐스팅 표를 매일 비교해 새로 공개된 구간과 바뀐 배우를 올립니다. 제작사 공지는 현재 EMK뮤지컬컴퍼니만 확인합니다.</p>
+    <p class="note">예매처 캐스팅 표를 매일 비교해 새로 공개된 구간과 바뀐 배우를 올립니다. 예매처·제작사 공지를 함께 확인하며, 기사·커뮤니티에서 발견한 정보는 원출처 확인 후 반영합니다.</p>
     ${data.notices.length ? noticeItems(data.notices) : '<p class="empty">아직 수집된 공지가 없습니다.</p>'}`;
 }
 
-async function renderShow(id) {
+async function renderShow(id, range = {}) {
+  const currentHash = location.hash;
   const s = data.shows.find(x => x.id === id);
   if (!s) { app.innerHTML = '<p class="empty">작품을 찾을 수 없습니다. <a href="#/">목록으로</a></p>'; return; }
   const rows = [
@@ -156,6 +172,7 @@ async function renderShow(id) {
       ${poster(s)}
       <div>
         <h1>${esc(s.title)}</h1>
+        ${favoriteButton(s)}
         <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
         <div class="links">
           ${s.links.filter(l => safeUrl(l.url)).map(l => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
@@ -167,12 +184,18 @@ async function renderShow(id) {
     ${notices.length ? `<section><h2>캐스팅 공지</h2>${noticeItems(notices)}</section>` : ''}
     <section><h2>캐스팅 검색</h2><div id="casting"></div></section>`;
 
+  app.querySelector('[data-favorite]').addEventListener('click', e => {
+    toggleFavorite(id); const button = e.currentTarget;
+    button.setAttribute('aria-pressed', String(favorites.has(id)));
+    button.setAttribute('aria-label', `${s.title} 즐겨찾기 ${favorites.has(id) ? '해제' : '추가'}`);
+    button.textContent = favorites.has(id) ? '★ 즐겨찾기' : '☆ 즐겨찾기';
+  });
   const box = app.querySelector('#casting');
   if (!data.casting.has(id)) { box.innerHTML = '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>'; return; }
   box.innerHTML = '<p class="empty">불러오는 중…</p>';
   const casting = await getJSON(`data/casting/${id}.json`, null);
   if (!casting) { box.innerHTML = '<p class="empty">캐스팅 표를 불러오지 못했습니다.</p>'; return; }
-  if (location.hash === `#/show/${id}`) { box.innerHTML = ''; mountCasting(box, casting, s); }
+  if (location.hash === currentHash) { box.innerHTML = ''; mountCasting(box, casting, s, range); }
 }
 
 function renderOpenings() {
@@ -183,11 +206,11 @@ function renderOpenings() {
 
 function route() {
   const hash = location.hash || '#/';
-  const show = hash.match(/^#\/show\/(\w+)$/);
+  const show = hash.match(/^#\/show\/(\w+)(?:\?([^#]*))?$/);
   const nav = { '#/openings': 'openings', '#/notices': 'notices' }[hash] ?? 'shows';
   document.querySelectorAll('[data-nav]').forEach(a => a.toggleAttribute('aria-current', a.dataset.nav === nav));
   window.scrollTo(0, 0);
-  if (show) renderShow(show[1]);
+  if (show) { const params = new URLSearchParams(show[2] ?? ''); renderShow(show[1], {from: params.get('from'), to: params.get('to')}); }
   else if (hash === '#/openings') renderOpenings();
   else if (hash === '#/notices') renderNotices();
   else renderList();

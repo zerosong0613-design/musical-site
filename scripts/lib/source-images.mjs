@@ -9,7 +9,7 @@ export function extractImages(html, pageUrl) {
     if (!src) continue;
     let u;try {u=new URL(src.replaceAll('&amp;','&'),pageUrl);}catch {continue;}
     if (!['http:','https:'].includes(u.protocol)) continue;
-    if (/logo|icon|btn_|banner|poster|common\//i.test(u.pathname)) continue;
+    if (/logo|icon|btn_|banner|poster|common\/|favicon|\/tr$|viewtracking/i.test(u.pathname) || /facebook\.com|acecounter\.com|google-analytics\.com/.test(u.hostname)) continue;
     found.push(u.href);
   }
   return [...new Set(found)];

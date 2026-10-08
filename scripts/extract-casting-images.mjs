@@ -8,7 +8,9 @@ const config=JSON.parse(await readFile(new URL('config.json',ROOT),'utf8'));
 const manifest=await readFile(new URL('data/casting/image-sources.json',ROOT),'utf8').then(JSON.parse,()=>null);
 if(!manifest)process.exit(0);
 if(!config.castingVision?.enabled||!process.env.OPENAI_API_KEY){console.log('이미지 자동 변환 미활성: castingVision.enabled 및 OPENAI_API_KEY 필요');process.exit(0);}
-const master=JSON.parse(await readFile(new URL('data/shows.json',ROOT),'utf8')).shows;
+const main=JSON.parse(await readFile(new URL('data/shows.json',ROOT),'utf8')).shows;
+const manual=await readFile(new URL('data/shows.manual.json',ROOT),'utf8').then(JSON.parse,()=>[]);
+const master=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))];
 const cacheURL=new URL('data/casting/image-extractions.json',ROOT);
 const cache=await readFile(cacheURL,'utf8').then(JSON.parse,()=>({}));
 let calls=0;const maximum=config.castingVision.maxImagesPerRun??4;

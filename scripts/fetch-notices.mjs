@@ -15,6 +15,8 @@ const SOURCES = [
 const KINDS = [
   ['change', /(캐스팅|캐스트|스케줄|배우)\s*변경|변경\s*안내/],
   ['schedule', /(캐스팅|캐스트)\s*(스케줄|일정)|cast(ing)?\s*schedule/i],
+  ['roster', /캐스팅|캐스트|출연진/],
+  ['opening', /티켓\s*오픈|예매\s*오픈|ticket\s*open/i],
 ];
 
 const readJSON = async (path, fallback) => {
@@ -76,7 +78,7 @@ for (const src of SOURCES) {
       id: p.id, account: src.account, source: src.name, kind,
       at: p.at, url: p.url, mt20id: show?.id ?? null,
       excerpt: p.text.replace(/\n/g, ' ').slice(0, 140),
-      multi: p.multi,
+      multi: p.multi, text: p.text, images: p.image ? [p.image] : [],
     });
     known.add(p.id);
     added++;

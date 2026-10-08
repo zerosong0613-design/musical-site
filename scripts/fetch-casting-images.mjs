@@ -8,7 +8,10 @@ await mkdir(new URL('data/casting/',ROOT),{recursive:true});
 const LOCAL=new URL('.cache/casting-images/',ROOT);await mkdir(LOCAL,{recursive:true});
 const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
 const config=JSON.parse(await readFile(new URL('config.json',ROOT),'utf8'));
-const master=JSON.parse(await readFile(new URL('data/shows.json',ROOT),'utf8')).shows;
+const main=JSON.parse(await readFile(new URL('data/shows.json',ROOT),'utf8')).shows;
+const manual=await readFile(new URL('data/shows.manual.json',ROOT),'utf8').then(JSON.parse,()=>[]);
+const master=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))];
+const announcements=await readFile(new URL('data/announcements.json',ROOT),'utf8').then(JSON.parse,()=>[]);
 const previous=await readFile(OUT,'utf8').then(JSON.parse,()=>({shows:{}}));
 const result={checkedAt:today,shows:{...previous.shows}};
 async function get(url) {
@@ -19,15 +22,19 @@ async function get(url) {
 for(const show of master.filter(s=>s.large&&s.to>=today&&(!process.env.CASTING_TARGET_ID||s.id===process.env.CASTING_TARGET_ID))) {
  const existing=await readFile(new URL(`data/casting/${show.id}.json`,ROOT),'utf8').then(JSON.parse,()=>null);
  // 자동 JSON 공급원이 오늘 갱신한 작품은 불필요한 이미지 요청을 줄인다.
- if(existing?.auto&&existing.checkedAt===today) continue;
- const sources=[...show.links.filter(l=>/clipservice\.co\.kr|yes24\.com|interpark\.com/.test(new URL(l.url).hostname)).map(l=>l.url),...(config.castingSourceUrls?.[show.id]??[])];
+ const related=announcements.filter(a=>a.mt20id===show.id&&a.status==='verified'&&(a.hasCasting||a.images?.length));
+ if(existing?.auto&&existing.checkedAt===today&&!related.length) continue;
+ const sources=[...show.links.filter(l=>/clipservice\.co\.kr|yes24\.com|interpark\.com|nol\.yanolja\.com/.test(new URL(l.url).hostname)).map(l=>l.url),...(config.castingSourceUrls?.[show.id]??[]),...related.filter(a=>!a.account&&/^https:\/\//.test(a.url)&&!/instagram\.com|dcinside\.com/.test(new URL(a.url).hostname)).map(a=>a.url)];
  const record={title:show.title,checkedAt:today,pages:[],images:[],status:'no_sources'};
- for(const url of [...new Set(sources)]) {
+ const imageGroups=new Map();
+ for(const a of related.filter(a=>a.images?.length))imageGroups.set(a.url,a.images);
+ for(const url of [...new Set([...sources,...imageGroups.keys()])]) {
   await new Promise(r=>setTimeout(r,1000));
   try {
-   const response=await get(url);const html=await response.text();
-   if(isBlocked(html)) {record.pages.push({url,status:'blocked'});continue;}
-   const images=extractImages(html,response.url);
+   let images=imageGroups.get(url);
+   if(!images){const response=await get(url);const html=await response.text();
+    if(isBlocked(html)) {record.pages.push({url,status:'blocked'});continue;}
+    images=extractImages(html,response.url);}
    record.pages.push({url,status:images.length?'images_found':'no_images'});
    for(const imageUrl of images.slice(0,12)) {
     try {
@@ -36,6 +43,7 @@ for(const show of master.filter(s=>s.large&&s.to>=today&&(!process.env.CASTING_T
      const bytes=Buffer.from(await response.arrayBuffer());if(bytes.length>15e6)continue;
      const digest=hash(bytes);const old=previous.shows?.[show.id]?.images?.find(i=>i.url===imageUrl);
      await writeFile(new URL(`${show.id}-${digest}.img`,LOCAL),bytes);
+     if(record.images.some(i=>i.sha256===digest))continue;
      record.images.push({url:imageUrl,pageUrl:url,sha256:digest,changed:old?.sha256!==digest,contentType:type});
     }catch {record.pages.push({url:imageUrl,status:'image_fetch_failed'});}
    }

@@ -28,6 +28,15 @@ jobs:
         continue-on-error: true
       - run: node scripts/fetch-ticketlink.mjs
         continue-on-error: true
+      - run: node scripts/fetch-notices.mjs
+        continue-on-error: true
+      - run: node scripts/fetch-openings.mjs
+        continue-on-error: true
+      - run: node scripts/fetch-announcements.mjs
+        continue-on-error: true
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
       - run: node scripts/fetch-casting-images.mjs
         continue-on-error: true
       - run: npm install --no-save --no-audit --no-fund sharp # 긴 상세 이미지를 조각내는 데 쓴다

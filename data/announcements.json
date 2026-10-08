@@ -1,0 +1,377 @@
+[
+ {
+  "id": "announcement-3567ea3d9a960793de97",
+  "url": "https://www.ticketlink.co.kr/help/notice/66135",
+  "title": "뮤지컬 스위니토드( SWEENEY TODD ) - 10주년 1차 티켓오픈 안내 | 티켓링크",
+  "source": "티켓링크",
+  "at": "2026-10-08T15:22:38.198Z",
+  "mt20id": "PFX2026SWEENEY",
+  "excerpt": "캐스트들의 신선한 에너지의 조화! 10년의 역사와 새로운 에너지가 만나 만들어 낼 케미스트리로 오직 10주년 기념 프로덕션에서만 만날 수 있는 완벽한 완성도를 선보일 예정이다. 오디컴퍼니의 마스터피스! 스티븐 손드하임 거장이 빚어낸 가장 완벽한 불협화",
+  "contentHash": "64071f3108b179c958553b9918d94b109cdeff46524a02a2ce3bc7a7f623155e",
+  "status": "verified",
+  "kind": "roster",
+  "hasCasting": true,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-13 11:00",
+    "presale": false
+   }
+  ],
+  "performanceFrom": "2026-12-04",
+  "performanceTo": "2026-12-20",
+  "round": "1차",
+  "vendor": "티켓링크",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-6bc0032494a31f488d3d",
+  "url": "https://nol.yanolja.com/ticket/products/26014509",
+  "title": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년 뮤지컬 일정 및 예매 | NOL(야놀자)",
+  "source": "NOL 티켓",
+  "at": "2026-10-08T15:22:46.405Z",
+  "mt20id": "PFX2026SWEENEY",
+  "excerpt": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년 뮤지컬 일정 및 예매 | NOL(야놀자) <!DOCTYPE html> 뮤지컬 스위니토드(SWEENEY TODD) - 10주년 뮤지컬 일정 및 예매 | NOL(야놀자) <!--$--><!--/$--",
+  "contentHash": "51ca7cb62ee4fe3c838e92870ed94fc4436c270e34786c106481bbccc4e19925",
+  "status": "verified",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-13 11:00",
+    "presale": false
+   }
+  ],
+  "performanceFrom": "2026-12-04",
+  "performanceTo": "2026-12-20",
+  "round": "1차",
+  "vendor": "NOL 티켓",
+  "images": [
+   "https://ticketimage.interpark.com/Play/image/large/26/26014509_p.gif",
+   "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100814542992.jpg",
+   "http://ticketimage.interpark.com/Play/image/etc/26/26014509-01.jpg",
+   "http://ticketimage.interpark.com/Play/image/etc/26/26014509-02.jpg",
+   "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100814542542.jpg"
+  ],
+  "officialLinks": [
+   "https://nol.yanolja.com/ticket/products/26014509",
+   "https://nol.yanolja.com/ticket",
+   "https://nol.yanolja.com/member/mypage",
+   "https://nol.yanolja.com/member/wishlist?tab=entertainment",
+   "https://nol.yanolja.com/recent-product/list?target=HOME",
+   "https://nol.yanolja.com/ticket/products/26014509#important-info",
+   "https://nol.yanolja.com/ticket/products/26014509#details",
+   "https://nol.yanolja.com/ticket/products/26014509#prices",
+   "https://nol.yanolja.com/ticket/products/26014509#discount-info",
+   "https://nol.yanolja.com/ticket/products/26014509#visitor-info",
+   "https://nol.yanolja.com/ticket/products/26014509#cancellations-refunds",
+   "https://nol.yanolja.com/ticket/products/26014509#venue",
+   "https://nol.yanolja.com/ticket/products/26014509#review",
+   "https://nol.yanolja.com/ticket/display/event/47"
+  ]
+ },
+ {
+  "id": "announcement-1773bb0591c2dde018c2",
+  "url": "https://nol.yanolja.com/ticket/products/26014529",
+  "title": "뮤지컬 〈플릭스!〉 (Musical FLIX!) 스페셜 초연 티켓오픈",
+  "source": "NOL 티켓",
+  "at": "2026-10-08T15:20:55.871Z",
+  "mt20id": null,
+  "excerpt": "뮤지컬 〈플릭스!〉 (Musical FLIX!) 스페셜 초연 티켓오픈",
+  "contentHash": "e2dde97601dbcab9cbaca1445978a1bd29cf3c35ab6e20d9652965d25cd0262f",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-12 14:00",
+    "presale": false
+   }
+  ],
+  "round": "",
+  "vendor": "NOL 티켓",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-8c312794e357dde83d95",
+  "url": "https://www.ticketlink.co.kr/help/notice/66144",
+  "title": "뮤지컬 < 플릭스! > ( Musical FLIX! ) 스페셜 초연 티켓오픈 안내",
+  "source": "티켓링크",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": null,
+  "excerpt": "뮤지컬 ( Musical FLIX! ) 스페셜 초연 티켓오픈 안내",
+  "contentHash": "d90ccb6bf6a39e5d08bcfb300408a5d56bfbb2dcf28209a0106384fd7b3a724f",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-12 14:00",
+    "presale": false
+   }
+  ],
+  "round": "",
+  "vendor": "티켓링크",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-a85cf1f2b17927a0a7aa",
+  "url": "https://www.ticketlink.co.kr/help/notice/66152",
+  "title": "[피처링 트랙_59] 뮤지컬 <곤 투모로우> 10주년 기념 공연 티켓오픈 안내",
+  "source": "티켓링크",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": null,
+  "excerpt": "[피처링 트랙_59] 뮤지컬 10주년 기념 공연 티켓오픈 안내",
+  "contentHash": "bcf64ebc3c70f6c2d68c834161fda7ec59ee5b5986e23bcd6fd8bb8a12df7caa",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-13 14:00",
+    "presale": false
+   }
+  ],
+  "round": "",
+  "vendor": "티켓링크",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-6d7ee62491239867fdb8",
+  "url": "https://nol.yanolja.com/ticket/products/26012145",
+  "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 티켓오픈",
+  "source": "NOL 티켓",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": "PF299169",
+  "excerpt": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 티켓오픈",
+  "contentHash": "d31f8319e43156445b81e208bc1550dcbe75b8f202803a3ed12a8bd8b793f35d",
+  "status": "verified",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-13 16:00",
+    "presale": false
+   }
+  ],
+  "round": "",
+  "vendor": "NOL 티켓",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-4aa6001953d399bfc2fc",
+  "url": "https://www.ticketlink.co.kr/help/notice/66128",
+  "title": "2026 뮤지컬 <미드나잇 : 앤틀러스> 마지막 티켓오픈 안내",
+  "source": "티켓링크",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": null,
+  "excerpt": "2026 뮤지컬 마지막 티켓오픈 안내",
+  "contentHash": "1f0d4b5fc4c190f3fb0a630c9503fc6e329e629171e711c0667e0acda512f492",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-13 16:00",
+    "presale": false
+   }
+  ],
+  "round": "마지막",
+  "vendor": "티켓링크",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-34ccaebed529c43a21eb",
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
+  "title": "뮤지컬 [렛미플라이] 3차 티켓오픈 안내",
+  "source": "예스24",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": "PF299346",
+  "excerpt": "뮤지컬 [렛미플라이] 3차 티켓오픈 안내",
+  "contentHash": "170b26ee01bf23136d91e001fddd67c7d8fc1d708e10ac701247395d1394b191",
+  "status": "verified",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-14 14:00",
+    "presale": false
+   }
+  ],
+  "round": "3차",
+  "vendor": "예스24",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-3c8c2da6a409a4efc07d",
+  "url": "https://www.ticketlink.co.kr/help/notice/66134",
+  "title": "뮤지컬 <렛미플라이> 3차 티켓오픈 안내",
+  "source": "티켓링크",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": null,
+  "excerpt": "뮤지컬 3차 티켓오픈 안내",
+  "contentHash": "ac29e109bd9cc83969f4de8e166d40ce124b561366529e48316f6d633a1d99cd",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-14 14:00",
+    "presale": false
+   }
+  ],
+  "round": "3차",
+  "vendor": "티켓링크",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-1a0ca447b643f2061481",
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655",
+  "title": "뮤지컬 [엘리자벳] - YES24DAY 티켓오픈 안내",
+  "source": "예스24",
+  "at": "2026-10-08T15:20:55.872Z",
+  "mt20id": "PF294946",
+  "excerpt": "뮤지컬 [엘리자벳] - YES24DAY 티켓오픈 안내",
+  "contentHash": "6066e521f4c23652d8ea910fc25b737bcbd92196d361576bfe9957e4d457ef2c",
+  "status": "verified",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [
+   {
+    "at": "2026-10-14 15:00",
+    "presale": false
+   }
+  ],
+  "round": "",
+  "vendor": "예스24",
+  "images": [],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-f3232c43835b05cfb2d6",
+  "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1",
+  "title": "ᄐᄋᄀ)스위니 토드 1차 티켓팅 스케줄",
+  "source": "디씨 뮤지컬 연극 통합 갤러리",
+  "at": "2026-10-08T15:21:07.215Z",
+  "mt20id": "PFX2026SWEENEY",
+  "excerpt": "ᄐᄋᄀ)스위니 토드 1차 티켓팅 스케줄 - dc official App 0588f62fdaea75a45b9ef79d2e8001730d5151793eea95f2d3434e4c6c3e07 0588f62fdac228a74b9ef7852c841d733e3f1",
+  "contentHash": "db9479d67d646251d003997ec5bb10d261dc0a10b1a278705514ec8514da4927",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [],
+  "round": "",
+  "vendor": "",
+  "images": [
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73ce782fa1bd8233c89209f10892e9cfc81b6b14a0404a2f3e8d3eaf5c526eebda33ada5fc884e26a6ee500c7e348a692d3bdaa990d7d4342a446b99e8aaae6adebf798695d8a446e3916e8bef3e01c8f1f",
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73ce782fa1bd8233c89209f10892e9cfc81b6b14a0404a2f3e8d3eaf5c526eebda33ada5fc884e26a6ee500c5e746a498dfb2ad960d2e1f407aeff062e37e22f4931a44ef1132cce94876fd7cf34efc902b"
+  ],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-408cd9d4a89d349eac8b",
+  "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127534&page=1",
+  "title": "엘리 11/10 예사데이 캐슷 - 린아 김준수 강홍석",
+  "source": "디씨 뮤지컬 연극 통합 갤러리",
+  "at": "2026-10-08T15:21:08.382Z",
+  "mt20id": null,
+  "excerpt": "엘리 11/10 예사데이 캐슷 - 린아 김준수 강홍석 팃팅 담주 수 세시 0490f719bd8461f320b5c6b011f11a39ff826feed26bb3f9",
+  "contentHash": "1ae7a89e7f92ae5c841ba096c61e53555a455a7c14c3d6503e2feff7671629f1",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [],
+  "round": "",
+  "vendor": "",
+  "images": [
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73de782fa1bd8233c2e047c7b5f1cb32b521c642c2aa92805bb97a7c00de7078a8d26ad176f17bfb8ac19fe5612525580c4aca11b048921c0838e0705daec2d917aeffdfc6d3f1b"
+  ],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-5d98e6f725044db9eae0",
+  "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127518&page=1",
+  "title": "스위니토드 1차오픈공지 (스케줄 추후공개)",
+  "source": "디씨 뮤지컬 연극 통합 갤러리",
+  "at": "2026-10-08T15:21:09.389Z",
+  "mt20id": "PFX2026SWEENEY",
+  "excerpt": "스위니토드 1차오픈공지 (스케줄 추후공개) 18에 노할인 - dc official App 0588f10abdc110a45b9ef7a647c4127345c9535d805850bdd3a495a4804cad 0588f10bcfd829a7659ef79a21d",
+  "contentHash": "23c3d79c73c6055d2b54abc14a64972ac548b8ffa4553c942225a30b15b30a6a",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [],
+  "round": "",
+  "vendor": "",
+  "images": [
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73ce782fa1bd8233c89209f10892e9cfc81b6b14a0404a2fc69c2d436d28b04a155ea940068d64d05bbda465e80fa597665827337231e07caf6aa41ca4e96a18c1ae4f42a9e58dcc8d1688c6cb6d5d88eab",
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73ce782fa1bd8233c89209f10892e9cfc81b6b14a0404a2fc69c2d436d28b04a155ea940068d64d05bbda4a5980fa5f716889793b23195794070f67a01458d168266cdb58c4fef939d095c22acde8fa72dd",
+   "https://nstatic.dcinside.com/dc/m/img/gallview_loading_ori.gif"
+  ],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-6b32705fe3d4f8fbfd03",
+  "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127508&page=1",
+  "title": "80일의 끝에서 캐슷",
+  "source": "디씨 뮤지컬 연극 통합 갤러리",
+  "at": "2026-10-08T15:21:10.392Z",
+  "mt20id": null,
+  "excerpt": "80일의 끝에서 캐슷 1ebec223e0dc2bae61abe9e74683726cbba00cf9e5596466ad60d4695f38cdcc0b71348b6eda0dcca675f8443ca13a879ab789ee0f",
+  "contentHash": "a9020eda029ef4034181cf3c3373af1051f37708c21205f0fa9a1b58a6e98227",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [],
+  "round": "",
+  "vendor": "",
+  "images": [
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73ce782fa1bd8233c89209f10892e9cfc81b6b14a0404a2fd446ad76e068ee2d1de247d813deeb7555128ac9dd4c942bffec818f4108aeffadd4e5f6f5e01636aeb45e0871e7cf655e646b1df4a80b7251642de66d1d2dc69dbc929c901109eae144254b95598"
+  ],
+  "officialLinks": []
+ },
+ {
+  "id": "announcement-620e3e96791116e4e74e",
+  "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1",
+  "title": "스위니토드 캐스팅",
+  "source": "디씨 뮤지컬 연극 통합 갤러리",
+  "at": "2026-10-08T15:21:11.498Z",
+  "mt20id": "PFX2026SWEENEY",
+  "excerpt": "스위니토드 캐스팅 7aed8570b39c32b6699fe8b115ef046e81122f42ea 7aed8570b09c32b6699fe8b115ef046ff8d960500c 7aed8570b19c32b6699fe8b115ef046f00b49bfbcc 7",
+  "contentHash": "247c2323062f0dee42a7fa0b95e7ca08bd1e37a5021c4da6111d9b39b87d41b4",
+  "status": "review_needed",
+  "kind": "opening",
+  "hasCasting": false,
+  "hasSchedule": false,
+  "openings": [],
+  "round": "",
+  "vendor": "",
+  "images": [
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73de782fa1bd8233c2e047c7b5f1cb32b521c642c2aa9280b9d2fc64843fe98adbd4f0bd9b927c9f34f6b042f29934216f6e0091586e27ad97586e660ebcc33ee000780",
+   "https://dcimg8.dcinside.co.kr/viewimage.php?id=20b49432edd739b26badd1ba1fdf23&no=24b0d769e1d32ca73de782fa1bd8233c2e047c7b5f1cb32b521c642c2aa9280b9d2fc64843fe98adbd4f0bd9b927caf16364948756da71e61322fb751533c5277f69354156eff3624f93bf",
+   "https://nstatic.dcinside.com/dc/m/img/gallview_loading_ori.gif"
+  ],
+  "officialLinks": []
+ }
+]

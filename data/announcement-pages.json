@@ -1,0 +1,37 @@
+{
+ "https://www.ticketlink.co.kr/help/notice/66135": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "32e1806d9dd3b4466bd4bce98a7f205672e458c2632320bd8f1f5d78cd761605"
+ },
+ "https://nol.yanolja.com/ticket/products/26014509": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "247d37dd08ee10dfdbee84c60fdb179b2c09ba9991236b4c00e3afd0ced6ef7e"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "dad86ee9f13660fbb3b7eb67c723f49e6d562fb400aca7662cec8b64fd59934c"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127534&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "07021e08d2d4a8c3af8a34529768c3fc877ddae67348186fbc1414f0df1a41dd"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127518&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "0971e5c1b37004234ed99097821c1493e20a849c6faf67d871a14b433107bc6b"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127508&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "b2bfe42b7a1a607d155953dba58b5354cfe29e6f083e04978609946fa76088d4"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "5e92f33c5a17bd0b6aaf03dfcaa4dddcf807475effcf6f7cccdede9e5a62700e"
+ }
+}

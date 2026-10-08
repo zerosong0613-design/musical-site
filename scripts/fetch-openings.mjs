@@ -122,13 +122,14 @@ function classify(vendor, item) {
 
 const cutoff = new Date(Date.now() + 9 * 3600e3 - KEEP_DAYS * 86400e3).toISOString().slice(0, 16).replace('T', ' ');
 const merged = new Map();
+for (const p of previous.filter(p => !Object.hasOwn(SOURCES, p.vendor))) merged.set(p.id, p);
 let failed = 0;
 for (const [vendor, load] of Object.entries(SOURCES)) {
   try {
     const items = (await load()).map(i => classify(vendor, i)).filter(Boolean);
     // 성공한 예매처는 이번에 본 항목으로 갱신하되, 목록에서 밀려난 예전 항목도 남겨 둔다.
     for (const p of previous.filter(p => p.vendor === vendor)) merged.set(p.id, p);
-    for (const i of items) merged.set(i.id, i);
+    for (const i of items) merged.set(i.id, { ...merged.get(i.id), ...i });
     console.log(`✓ ${vendor}: 뮤지컬 티켓 오픈 ${items.length}건`);
   } catch (e) {
     failed++;

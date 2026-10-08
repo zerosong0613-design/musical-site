@@ -10,14 +10,15 @@ export function filterShows(shows, state, now = Date.now()) {
   return shows.filter(s => {
     const at = showTime(s);
     if (!state.includePast && at < now) return false;
+    if (state.from && s.date < state.from || state.to && s.date > state.to) return false;
     if (state.days.size && !state.days.has(showDay(s))) return false;
     if (state.time && state.time !== (s.time < '17:00' ? 'day' : 'night')) return false;
     return state.pick.every((name, i) => !name || s.cast[i] === name);
   });
 }
 
-export function mountCasting(el, casting, show) {
-  const state = { pick: casting.roles.map(() => null), days: new Set(), time: null, includePast: false };
+export function mountCasting(el, casting, show, range = {}) {
+  const state = { pick: casting.roles.map(() => null), days: new Set(), time: null, includePast: false, from: /^\d{4}-\d{2}-\d{2}$/.test(range.from ?? '') ? range.from : null, to: /^\d{4}-\d{2}-\d{2}$/.test(range.to ?? '') ? range.to : null };
   const actors = casting.roles.map((_, i) => [...new Set(casting.shows.map(s => s.cast[i]))]);
   const key = s => `${s.date} ${s.time}`;
 
@@ -33,6 +34,7 @@ export function mountCasting(el, casting, show) {
     const list = filterShows(casting.shows, state, now);
     const picked = state.pick.filter(Boolean);
     el.innerHTML = `
+      ${state.from && state.to ? `<p class="note">판매 공연기간: ${esc(state.from)} ~ ${esc(state.to)} <button type="button" class="link" data-range-clear>전체 회차 보기</button></p>` : ''}
       <div class="panel">
       <div class="roles">${casting.roles.map((role, i) => `
         <div class="role"><span class="role-name">${esc(role)}</span>
@@ -75,6 +77,8 @@ export function mountCasting(el, casting, show) {
     } else if (b.dataset.day) {
       const d = Number(b.dataset.day);
       state.days.has(d) ? state.days.delete(d) : state.days.add(d);
+    } else if ('rangeClear' in b.dataset) {
+      state.from = null; state.to = null;
     } else if ('reset' in b.dataset) {
       state.pick.fill(null); state.days.clear(); state.time = null;
     } else return;
