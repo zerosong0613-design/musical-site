@@ -4,6 +4,7 @@ import { readFile,writeFile,mkdir } from 'node:fs/promises';
 import { hash,extractImages,isBlocked } from './lib/source-images.mjs';
 const ROOT=new URL('../',import.meta.url);
 const OUT=new URL('data/casting/image-sources.json',ROOT);
+await mkdir(new URL('data/casting/',ROOT),{recursive:true});
 const LOCAL=new URL('.cache/casting-images/',ROOT);await mkdir(LOCAL,{recursive:true});
 const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
 const config=JSON.parse(await readFile(new URL('config.json',ROOT),'utf8'));
