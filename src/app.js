@@ -1,5 +1,5 @@
-import { mountCasting } from './casting.js?v=20261009-1';
-import { mergeOpenings, castingLink } from './announcement-links.js?v=20261009-1';
+import { mountCasting } from './casting.js?v=20261009-4';
+import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
@@ -87,10 +87,7 @@ function renderList() {
 
 // 예스24 PC 공지 주소는 휴대폰에서 "모바일웹으로 이동" 안내 뒤 첫 화면으로 보내 버린다. 휴대폰에서는 모바일 공지 주소로 바꾼다.
 const isPhone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
-const vendorUrl = url => {
-  const id = isPhone && url.match(/^https:\/\/ticket\.yes24\.com\/New\/Notice\/NoticeMain\.aspx#id=(\d+)$/)?.[1];
-  return id ? `https://m.ticket.yes24.com/Notice/Detail.aspx?bid=${id}` : url;
-};
+const vendorUrl = url => mobileVendorUrl(url, isPhone);
 
 function openingItems(list) {
   const now = Date.now();
@@ -129,7 +126,7 @@ function noticeItems(list) {
   return `<ol class="openings">${list.map(n => {
     const k = new Date(new Date(n.at).getTime() + 9 * 3600e3);
     const show = data.shows.find(s => s.id === n.mt20id);
-    const url = safeUrl(n.url);
+    const url = vendorUrl(safeUrl(n.url));
     return `<li>
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span></div>
       <div class="what">
@@ -173,7 +170,7 @@ async function renderShow(id, range = {}) {
         ${favoriteButton(s)}
         <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
         <div class="links">
-          ${s.links.filter(l => safeUrl(l.url)).map(l => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
+          ${s.links.filter(l => safeUrl(l.url)).map(l => `<a class="btn" href="${esc(vendorUrl(l.url))}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
           <a class="btn ghost" href="${naver}" target="_blank" rel="noopener">네이버에서 캐스팅 일정 보기</a>
         </div>
       </div>
@@ -221,4 +218,5 @@ try {
 } catch {
   app.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.</p>';
 }
+
 
