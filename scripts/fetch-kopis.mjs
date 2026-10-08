@@ -13,8 +13,8 @@ if (!KEY) {
   process.exit(1);
 }
 
-// https로 부르면 리다이렉트되면서 쿼리가 떨어진다. http만 쓴다.
-const BASE = 'http://kopis.or.kr/openApi/restful';
+// 서비스키는 HTTPS로만 전송한다.
+const BASE = 'https://kopis.or.kr/openApi/restful';
 const GAP_MS = 300;
 
 const readJSON = async (path, fallback) => {
@@ -48,10 +48,11 @@ async function api(path, params = {}) {
       const xml = await res.text();
       const code = tag(xml, 'returncode');
       if (code && code !== '00') throw new Error(`KOPIS 오류 ${code}: ${tag(xml, 'errmsg')}`);
+      if (!/<dbs(?:\s[^>]*)?>/.test(xml)) throw new Error('정상 XML 목록이 아닙니다.');
       return xml;
     } catch (e) {
       last = Date.now();
-      error = e;
+      error = new Error(String(e.message).replaceAll(KEY, '[redacted]'));
       await sleep(1000 * attempt);
     }
   }
@@ -68,45 +69,35 @@ async function listIds() {
   const end = start + config.monthsAhead * 30 * DAY;
   for (let from = start; from < end; from += 90 * DAY) {
     const to = Math.min(from + 89 * DAY, end);
+    for (const region of (config.regions ?? [config.region])) {
     for (let cpage = 1; ; cpage++) {
       const params = { stdate: ymd(new Date(from)), eddate: ymd(new Date(to)), cpage, rows: 100, shcate: 'GGGA' };
-      if (config.region) params.signgucode = config.region;
+      if (region) params.signgucode = region;
       const rows = blocks(await api('/pblprfr', params), 'db');
       rows.forEach(r => ids.add(tag(r, 'mt20id')));
       if (rows.length < 100) break;
+    }
     }
   }
   ids.delete('');
   return [...ids];
 }
 
+const seatNumber = s => /^\d+$/.test(String(s).replaceAll(',', '')) ? Number(String(s).replaceAll(',', '')) : null;
 async function venue(mt10id) {
   if (!mt10id) return null;
-  if (!venues[mt10id]) {
-    const db = blocks(await api(`/prfplc/${mt10id}`), 'db')[0] ?? '';
-    const halls = blocks(db, 'mt13').map(h => ({ name: tag(h, 'prfplcnm'), seats: Number(tag(h, 'seatscale')) || null }));
+  // 기존 캐시에 홀 ID가 없으면 다시 조회한다.
+  if (!venues[mt10id]?.halls?.every(h => h.id)) {
+    const db = blocks(await api(`/prfplc/${mt10id}`), 'db')[0];
+    if (!db) throw new Error('공연시설 상세가 비어 있습니다.');
+    const halls = blocks(db, 'mt13').map(h => ({ id: tag(h, 'mt13id'), name: tag(h, 'prfplcnm'), seats: seatNumber(tag(h, 'seatscale')) }));
     const own = db.replace(/<mt13s>[\s\S]*<\/mt13s>/, '');
-    venues[mt10id] = { name: tag(own, 'fcltynm'), seats: Number(tag(own, 'seatscale')) || null, halls };
+    venues[mt10id] = { name: tag(own, 'fcltynm'), halls };
   }
   return venues[mt10id];
 }
-
-// "블루스퀘어 (우리은행홀)" → 그 홀의 좌석 수. 홀을 못 맞추면 null.
-function hallSeats(fcltynm, v) {
-  if (!v) return null;
-  if (v.halls.length === 1) return v.halls[0].seats ?? v.seats;
-  if (!v.halls.length) return v.seats;
-  // 홀 이름에도 괄호가 들어가므로("우리은행홀 (구. 인터파크홀)") 괄호·공백을 지우고 비교한다.
-  const norm = s => s.replace(/[\s()]/g, '');
-  const hall = norm(fcltynm.startsWith(v.name) ? fcltynm.slice(v.name.length) : fcltynm);
-  const hit = v.halls.filter(h => hall.includes(norm(h.name))).sort((a, b) => b.name.length - a.name.length)[0];
-  if (!hit) return null;
-  if (hit.seats) return hit.seats;
-  // KOPIS에 대극장 좌석 수만 비어 있는 경우가 많다. 나머지 홀을 다 알면 시설 전체에서 빼서 구한다.
-  const others = v.halls.filter(h => h !== hit);
-  if (!v.seats || others.some(h => !h.seats)) return null;
-  const rest = v.seats - others.reduce((sum, h) => sum + h.seats, 0);
-  return rest > 0 ? rest : null;
+function hallSeats(hallId, v) {
+  return v?.halls.find(h => h.id === hallId)?.seats ?? null;
 }
 
 const ids = await listIds();
@@ -129,12 +120,16 @@ for (const id of ids) {
 
   const fcltynm = tag(db, 'fcltynm');
   const venueId = tag(db, 'mt10id');
-  const seats = hallSeats(fcltynm, await venue(venueId));
-  const large = seats != null ? seats >= config.minSeats : config.largeVenueKeywords.some(k => fcltynm.includes(k));
+  const hallId = tag(db, 'mt13id');
+  const seats = hallSeats(hallId, await venue(venueId));
+  const child = tag(db, 'child');
+  const large = child === 'N' && seats != null && seats >= config.minSeats;
 
   shows.push({
     id, title, from, to, openrun,
-    venue: fcltynm, venueId, seats, large,
+    venue: fcltynm, venueId, hallId, seats, large, child,
+    cast: tag(db, 'prfcast'),
+    images: blocks(db, 'styurl').map(u => decode(u).replace(/^http:/, 'https:')),
     area: tag(db, 'area'),
     poster: tag(db, 'poster').replace(/^http:/, 'https:'),
     state: tag(db, 'prfstate'),
@@ -156,6 +151,7 @@ shows.sort((a, b) => a.from.localeCompare(b.from) || a.title.localeCompare(b.tit
 const out = {
   generatedAt: new Date().toISOString(),
   source: '(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)',
+  criteria: { regions: config.regions, minSeats: config.minSeats, excludeChildren: true },
   shows,
 };
 await writeFile(new URL('data/venues.json', ROOT), JSON.stringify(venues, null, 2) + '\n');
@@ -164,4 +160,5 @@ await writeFile(new URL('data/shows.json', ROOT), JSON.stringify(out, null, 1) +
 const large = shows.filter(s => s.large);
 console.log(`저장 ${shows.length}건 (대극장 ${large.length}건) · 제외: 아동 ${skipped.child}, 단기 ${skipped.short}, 키워드 ${skipped.keyword}`);
 const unknown = [...new Set(shows.filter(s => s.seats == null).map(s => s.venue))];
-if (unknown.length) console.log(`좌석 수를 못 찾은 공연장 ${unknown.length}곳 (config.json의 largeVenueKeywords로 판정):\n  ` + unknown.join('\n  '));
+if (unknown.length) console.log(`좌석 수를 못 찾은 공연장 ${unknown.length}곳 (규모 미확인으로 공개 목록에서 제외):\n  ` + unknown.join('\n  '));
+
