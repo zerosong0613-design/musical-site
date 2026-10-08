@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {classifyCollection} from './lib/collection-status.mjs';
+const ROOT=new URL('../',import.meta.url);
+const read=(p,f)=>readFile(new URL(p,ROOT),'utf8').then(JSON.parse,()=>f);
+const config=await read('config.json',{}), main=(await read('data/shows.json',{})).shows??[],manual=await read('data/shows.manual.json',[]);
+const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
+const master=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))].filter(s=>s.large&&s.to>=today);
+const images=(await read('data/casting/image-sources.json',{})).shows??{};
+const audits=(await read('data/casting/source-audit.json',{})).shows??{};
+const shows=[];
+for(const show of master)shows.push(classifyCollection({show,casting:await read(`data/casting/${show.id}.json`,null),imageRecord:images[show.id],audit:audits[show.id],today}));
+const excluded=(config.collectionExclusions??[]).map(excluded=>classifyCollection({excluded,today}));
+await writeFile(new URL('data/casting/collection-status.json',ROOT),JSON.stringify({checkedAt:today,shows,excluded},null,2)+'\n');
+console.log(`캐스팅 수집 상태 ${shows.length}편 · 대상 제외 ${excluded.length}편`);
