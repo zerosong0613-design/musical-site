@@ -116,7 +116,7 @@ for (const id of ids) {
 
   if (tag(db, 'child') === 'Y') { skipped.child++; continue; }
   if (!openrun && runDays < config.minRunDays) { skipped.short++; continue; }
-  if (config.excludeKeywords.some(k => title.includes(k))) { skipped.keyword++; continue; }
+  if (config.excludeKeywords.some(k => title.toLowerCase().includes(k.toLowerCase()))) { skipped.keyword++; continue; }
 
   const fcltynm = tag(db, 'fcltynm');
   const venueId = tag(db, 'mt10id');
