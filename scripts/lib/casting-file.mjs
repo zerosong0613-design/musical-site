@@ -33,6 +33,38 @@ export async function writeCasting(head, shows, firstShow = {}) {
   const tmp = new URL(`${head.mt20id}.json.tmp`, OUT);
   await writeFile(tmp, JSON.stringify(body, null, 2)+'\n');
   await rename(tmp, path);
+  await recordEvents(head, current, merged);
+}
+
+// 저장 전후를 비교해 "새 구간 공개"와 "캐스팅 변경"을 data/casting/events.json 에 남긴다.
+// 사이트의 캐스팅 공지 화면이 이 기록을 보여준다. 지난 회차의 차이는 기록하지 않는다.
+const EVENT_LIMIT = 300;
+export function diffCasting(head, current, merged, today) {
+  const key = s => `${s.date} ${s.time}`;
+  const upcoming = merged.filter(s => s.date >= today);
+  if (!current) return upcoming.length ? [{ kind: 'new', from: upcoming[0].date, to: upcoming.at(-1).date, count: upcoming.length }] : [];
+  if (current.roles.length !== head.roles.length || !head.roles.every(r => current.roles.includes(r))) return []; // 배역 구성이 바뀌면 비교하지 않는다
+  const before = new Map(current.shows.map(s => [key(s), head.roles.map(r => s.cast[current.roles.indexOf(r)])]));
+  const added = [];
+  const changes = [];
+  for (const s of upcoming) {
+    const old = before.get(key(s));
+    if (!old) { added.push(s); continue; }
+    s.cast.forEach((name, i) => { if (name !== old[i]) changes.push({ date: s.date, time: s.time, role: head.roles[i], from: old[i], to: name }); });
+  }
+  const events = [];
+  if (added.length) events.push({ kind: 'added', from: added[0].date, to: added.at(-1).date, count: added.length });
+  if (changes.length) events.push({ kind: 'changed', changes });
+  return events;
+}
+async function recordEvents(head, current, merged) {
+  const now = new Date();
+  const events = diffCasting(head, current, merged, new Date(now.getTime() + 9 * 3600e3).toISOString().slice(0, 10));
+  if (!events.length) return;
+  const path = new URL('events.json', OUT);
+  const log = await readFile(path, 'utf8').then(JSON.parse, () => []);
+  for (const e of events) log.unshift({ at: now.toISOString(), mt20id: head.mt20id, title: head.title, source: head.source ?? '', ...e });
+  await writeFile(path, JSON.stringify(log.slice(0, EVENT_LIMIT), null, 1) + '\n');
 }
 export async function rebuildIndex() {
   const index = [];

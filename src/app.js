@@ -22,15 +22,17 @@ const data = { shows: [], casting: new Map(), openings: [], notices: [] };
 const view = { tab: 'now', largeOnly: true };
 
 async function load() {
-  const [file, castingIndex, auto, manual, notices] = await Promise.all([
+  const [file, castingIndex, auto, manual, notices, events] = await Promise.all([
     getJSON('data/shows.json'),
     getJSON('data/casting/index.json', []),
     getJSON('data/openings.json', []),
     getJSON('data/openings.manual.json', []),
     getJSON('data/notices.json', []),
+    getJSON('data/casting/events.json', []),
   ]);
   data.shows = file.shows;
-  data.notices = notices;
+  // 제작사 공지와, 수집한 캐스팅 표의 변화(새 구간 공개·배우 변경)를 한 목록으로 합친다.
+  data.notices = [...notices, ...events.map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
   data.casting = new Map(castingIndex.map(c => [c.mt20id, c]));
   data.openings = [...auto, ...manual].sort((a, b) => a.at.localeCompare(b.at));
   if (file.generatedAt) document.getElementById('updated').textContent = `작품 정보 갱신: ${new Date(file.generatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}`;
@@ -88,6 +90,17 @@ function openingItems(list) {
   }).join('')}</ol>`;
 }
 
+// 캐스팅 표 비교 기록(events.json)을 공지 한 줄로 바꾼다.
+function eventNotice(e) {
+  const md = iso => { const [, m, d] = iso.split('-').map(Number); return `${m}/${d}`; };
+  const day = iso => DAYS[new Date(`${iso}T00:00:00Z`).getUTCDay()];
+  if (e.kind === 'changed') {
+    return { ...e, kind: 'change', lines: e.changes.map(c => `${md(c.date)}(${day(c.date)}) ${c.time} ${c.role} ${c.from} → ${c.to}`) };
+  }
+  const range = e.from === e.to ? md(e.from) : `${md(e.from)} ~ ${md(e.to)}`;
+  return { ...e, kind: 'schedule', lines: [`${e.kind === 'new' ? '캐스팅 스케줄 공개' : '캐스팅 스케줄 추가 공개'} · ${range} (${e.count}회차)`] };
+}
+
 function noticeItems(list) {
   return `<ol class="openings">${list.map(n => {
     const k = new Date(new Date(n.at).getTime() + 9 * 3600e3);
@@ -97,9 +110,11 @@ function noticeItems(list) {
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span></div>
       <div class="what">
         <em class="tag">${n.kind === 'change' ? '변경' : '스케줄'}</em>
-        ${show ? `<strong><a href="#/show/${esc(show.id)}">${esc(show.title)}</a></strong>` : ''}
+        ${show ? `<strong><a href="#/show/${esc(show.id)}">${esc(show.title)}</a></strong>` : n.title ? `<strong>${esc(n.title)}</strong>` : ''}
         <span class="muted">${esc(n.source)}</span>
-        <span class="excerpt">${esc(n.excerpt)}…</span>
+        ${n.lines
+          ? `<span class="excerpt">${n.lines.slice(0, 6).map(esc).join('<br>')}${n.lines.length > 6 ? `<br>외 ${n.lines.length - 6}건` : ''}</span>`
+          : `<span class="excerpt">${esc(n.excerpt)}…</span>`}
         ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">인스타그램 원문</a>` : ''}
       </div>
     </li>`;
@@ -108,7 +123,7 @@ function noticeItems(list) {
 
 function renderNotices() {
   app.innerHTML = `<h1>캐스팅 공지</h1>
-    <p class="note">제작사가 올린 캐스팅 스케줄·변경 공지입니다. 현재 EMK뮤지컬컴퍼니만 자동으로 확인합니다.</p>
+    <p class="note">예매처 캐스팅 표를 매일 비교해 새로 공개된 구간과 바뀐 배우를 올립니다. 제작사 공지는 현재 EMK뮤지컬컴퍼니만 확인합니다.</p>
     ${data.notices.length ? noticeItems(data.notices) : '<p class="empty">아직 수집된 공지가 없습니다.</p>'}`;
 }
 
