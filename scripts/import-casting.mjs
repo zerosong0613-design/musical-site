@@ -53,6 +53,11 @@ let failed = false;
 
 for (const file of files) {
   const r = await convert(file);
+  // 자동 수집으로 받는 작품은 수동 입력본으로 덮어쓰지 않는다(파일을 직접 지정하면 덮어쓴다).
+  if (!args.length && !r.errors.length) {
+    const current = await readFile(new URL(`data/casting/${r.meta.mt20id}.json`, ROOT), 'utf8').then(JSON.parse, () => null);
+    if (current?.auto) { console.log(`- ${r.meta.title}: 자동 수집(${current.auto}) 작품이라 건너뜀`); continue; }
+  }
   if (r.errors.length) {
     failed = true;
     console.error(`✗ ${file}\n  ` + r.errors.join('\n  '));

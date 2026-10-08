@@ -75,7 +75,7 @@ const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 await writeCasting({
   mt20id: show.id, title: show.title, year: Number(opening.slice(0, 4)), roles,
   source: `샤롯데씨어터 홈페이지 일정 안내 (출연진 공개 구간 ${from} ~ ${to})`,
-  checkedAt: today,
+  auto: 'charlotte', checkedAt: today,
 }, shows, firstShow);
 await rebuildIndex();
 
