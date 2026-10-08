@@ -19,7 +19,7 @@ const targets = master
   .map(s => ({
     show: s,
     prodIds: [...new Set([
-      s.links.find(l => /ticket\.melon\.com/.test(l.url))?.url.match(/prodId=(\d+)/)?.[1],
+      ...s.links.filter(l => /ticket\.melon\.com/.test(l.url)).map(l => l.url.match(/prodId=(\d+)/)?.[1]),
       ...(config.melonProdIds?.[s.id] ?? []),
     ].filter(Boolean))],
   }))
@@ -45,15 +45,21 @@ async function fetchSchedule(show, prodId) {
 let saved = 0;
 let failed = 0;
 for (const { show, prodIds } of targets) {
+  const current = await readFile(new URL(`data/casting/${show.id}.json`, ROOT), 'utf8').then(JSON.parse, () => null);
+  if (current && !current.auto) { console.log(`· ${show.title}: 수동 검증 데이터 보호`); continue; }
   let roleList = [];
   const byTime = new Map();
   let skipped = 0;
-  try {
-    for (const prodId of prodIds) {
+  let productFailures = 0;
+  for (const prodId of prodIds) {
+    try {
       const data = await fetchSchedule(show, prodId);
       const roles = (data.roleList ?? []).filter(r => r.useYn !== 'N').sort((a, b) => Number(a.orderNo) - Number(b.orderNo));
       if (!roles.length) continue;
       if (!roleList.length) roleList = roles;
+      if (roles.map(r => r.roleName).sort().join('|') !== roleList.map(r => r.roleName).sort().join('|')) {
+        console.error(`배역 구조 불일치: ${show.id}/${prodId}, 해당 상품 건너뜀`); continue;
+      }
       for (const item of data.itemList ?? []) {
         const byRole = new Map((item.casting?.artistRoleList ?? []).map(a => [a.roleName, a.artistName?.trim()]));
         const cast = roleList.map(r => byRole.get(r.roleName));
@@ -62,12 +68,12 @@ for (const { show, prodIds } of targets) {
         const time = item.perfTime.replace(/(\d\d)(\d\d)/, '$1:$2');
         byTime.set(`${date} ${time}`, { date, time, cast });
       }
+    } catch (e) {
+      console.error(`✗ ${show.title} / 상품 ${prodId}: ${e.message} (다른 상품 계속 조회)`);
+      productFailures++;
     }
-  } catch (e) {
-    console.error(`✗ ${show.title}: ${e.message} (기존 데이터 유지)`);
-    failed++;
-    continue;
   }
+  if (productFailures === prodIds.length) { failed++; continue; }
   const shows = [...byTime.values()];
   if (!shows.length) {
     console.log(`· ${show.title}: 캐스팅 스케줄 없음`);
@@ -91,3 +97,4 @@ for (const { show, prodIds } of targets) {
 await rebuildIndex();
 console.log(`멜론티켓: 대상 ${targets.length}편, 저장 ${saved}편, 실패 ${failed}편`);
 if (targets.length && failed === targets.length) process.exit(1);
+
