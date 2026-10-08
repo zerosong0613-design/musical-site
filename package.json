@@ -1,0 +1,12 @@
+{
+  "name": "musical-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "fetch": "node scripts/fetch-kopis.mjs",
+    "casting": "node scripts/import-casting.mjs",
+    "charlotte": "node scripts/fetch-charlotte.mjs",
+    "notices": "node scripts/fetch-notices.mjs"
+  }
+}

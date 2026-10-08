@@ -1,0 +1,3562 @@
+{
+ "generatedAt": "2026-10-08T10:53:47.917Z",
+ "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
+ "shows": [
+  {
+   "id": "PF173894",
+   "title": "프리즌 [H씨어터]",
+   "from": "2021-05-01",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "에이치씨어터 (익스트림씨어터 2관)",
+   "venueId": "FC001804",
+   "seats": 180,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF173894_260413_145942.gif",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "수요일 ~ 금요일(19:30), 토요일 ~ 일요일(13:00,14:00,15:00,16:00,16:30,17:00,19:00,20:00), HOL(13:00,14:00,15:00,16:30,17:00,18:00,20:00), 수요일(14:00,16:00,19:00,19:30), 목요일(16:00,17:30,19:00,19:30), 금요일(14:00,16:00,19:30), 월요일(13:30,14:00,16:00,19:00,19:30), 화요일(16:00,17:00,19:00,19:30)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "11번가",
+     "url": "https://ticket.11st.co.kr/Product/Detail?id=265154"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/348118"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/348118/items/3888901"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=21003285"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD19338"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Pages/Perf/Detail/Detail.aspx?IdPerf=38930"
+    },
+    {
+     "name": "옥션",
+     "url": "http://ticket1.auction.co.kr/VIP/Item?IdPerf=38798"
+    },
+    {
+     "name": "위메프",
+     "url": "https://ticket.wemakeprice.com/product/3000007147"
+    },
+    {
+     "name": "쿠팡",
+     "url": "https://trip.coupang.com/tp/products/30000000421596"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/index.php?number=4352"
+    }
+   ],
+   "registeredAt": "2021-04-23 10:52:47",
+   "updatedAt": "2026-09-21 11:46:33"
+  },
+  {
+   "id": "PF235543",
+   "title": "난타 [명동]",
+   "from": "2021-12-02",
+   "to": "2026-12-31",
+   "openrun": true,
+   "venue": "명동난타극장 (명동난타극장)",
+   "venueId": "FC000580",
+   "seats": 386,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF235543_251014_140238.gif",
+   "state": "공연중",
+   "prices": "VIP석 70,000원, S석 60,000원, A석 50,000원",
+   "times": "월요일 ~ 금요일(17:00,20:00), 토요일(14:00,17:00,20:00), 일요일(14:00,17:00), HOL(14:00,17:00,20:00)",
+   "runtime": "1시간 30분",
+   "age": "12개월 이상",
+   "producer": "(주)피엠씨프러덕션(PMC Production)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/139693"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22006637"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=4798"
+    }
+   ],
+   "registeredAt": "2024-02-15 13:26:00",
+   "updatedAt": "2026-09-21 15:47:31"
+  },
+  {
+   "id": "PF229985",
+   "title": "천로역정",
+   "from": "2023-12-09",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "명륜아트홀 (명륜아트홀)",
+   "venueId": "FC003682",
+   "seats": 119,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF229985_240819_152304.jpg",
+   "state": "공연중",
+   "prices": "전석 60,000원",
+   "times": "월요일 ~ 화요일(19:30), 목요일(19:00,19:30), 일요일(17:00), HOL(12:00,13:00,15:00,16:00,17:00,18:00), 토요일(13:00,15:00,16:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 9세 이상",
+   "producer": "조이피플",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "11번가",
+     "url": "http://ticket.11st.co.kr/Product/Detail/268482"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1019061"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=23016783"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Perf/47835"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://www.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78330"
+    },
+    {
+     "name": "티몬",
+     "url": "https://www.tmon.co.kr/deal/24751373770"
+    }
+   ],
+   "registeredAt": "2023-11-15 10:13:26",
+   "updatedAt": "2026-07-31 10:29:13"
+  },
+  {
+   "id": "PF236674",
+   "title": "썸데이 [대학로]",
+   "from": "2024-03-16",
+   "to": "2026-11-30",
+   "openrun": true,
+   "venue": "대학로 무하아트센터 (대학로 무하아트센터)",
+   "venueId": "FC003868",
+   "seats": 164,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF236674_250602_133202.gif",
+   "state": "공연중",
+   "prices": "전석 55,000원",
+   "times": "월요일 ~ 화요일(19:30), 수요일(16:00,19:30), 목요일 ~ 금요일(19:30), 토요일(14:00,16:20), 일요일(14:00,16:20), HOL(14:00,16:20,18:40)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "극단 무하",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/963985"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=24007874"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=5229"
+    }
+   ],
+   "registeredAt": "2024-03-05 11:01:35",
+   "updatedAt": "2026-10-01 13:40:01"
+  },
+  {
+   "id": "PF237479",
+   "title": "페인터즈 [경향아트힐]",
+   "from": "2024-03-25",
+   "to": "2026-12-31",
+   "openrun": true,
+   "venue": "경향아트힐 (1관)",
+   "venueId": "FC000198",
+   "seats": 292,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF237479_260518_151643.gif",
+   "state": "공연중",
+   "prices": "VIP석 70,000원, R석 60,000원, S석 50,000원",
+   "times": "월요일 ~ 금요일(14:00,17:00,20:00), 토요일 ~ 일요일(14:00,17:00,20:00)",
+   "runtime": "1시간 15분",
+   "age": "전체 관람가",
+   "producer": "(주)펜타토닉",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "CJ올리브네트웍스",
+     "url": "https://www.thepainters.co.kr/%EA%B4%91%ED%99%94%EB%AC%B8%EC%A0%84%EC%9A%A9%EA%B4%80"
+    },
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/48982"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/788443"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22014959"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=211235"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Perf/49034"
+    },
+    {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/14818"
+    },
+    {
+     "name": "쿠팡",
+     "url": "https://trip.coupang.com/tp/products/100000013257"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78452"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=5636"
+    }
+   ],
+   "registeredAt": "2024-03-15 13:36:20",
+   "updatedAt": "2026-10-08 10:55:50"
+  },
+  {
+   "id": "PF236349",
+   "title": "난타 [홍대]",
+   "from": "2024-04-01",
+   "to": "2026-12-31",
+   "openrun": true,
+   "venue": "홍대난타극장(구. 뮤직쇼웨딩 전용관) (홍대난타극장(구. 뮤직쇼웨딩 전용관))",
+   "venueId": "FC000090",
+   "seats": 323,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF236349_251016_133538.gif",
+   "state": "공연중",
+   "prices": "VIP석 70,000원, S석 60,000원, A석 50,000원",
+   "times": "월요일 ~ 금요일(17:00), 토요일(14:00,17:00), 일요일(14:00), HOL(14:00,17:00)",
+   "runtime": "1시간 30분",
+   "age": "12개월 이상",
+   "producer": "(주)피엠씨프러덕션(PMC Production)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/141831"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=23012005"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=5303"
+    }
+   ],
+   "registeredAt": "2024-02-28 14:09:49",
+   "updatedAt": "2026-07-22 13:40:23"
+  },
+  {
+   "id": "PF242666",
+   "title": "페인터즈 [서대문전용관]",
+   "from": "2024-06-05",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "NH아트홀 (NH아트홀)",
+   "venueId": "FC000576",
+   "seats": 406,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF242666_260810_141710.gif",
+   "state": "공연중",
+   "prices": "VIP석 70,000원, R석 60,000원, S석 50,000원",
+   "times": "월요일 ~ 금요일(17:00), 토요일 ~ 일요일(17:00), HOL(17:00)",
+   "runtime": "1시간 15분",
+   "age": "전체 관람가",
+   "producer": "(주)펜타토닉",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "CJ올리브네트웍스",
+     "url": "https://www.thepainters.co.kr/%EC%84%9C%EB%8C%80%EB%AC%B8%EC%A0%84%EC%9A%A9%EA%B4%80"
+    },
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/50505"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/942356"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25005146"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=5694"
+    }
+   ],
+   "registeredAt": "2024-06-10 14:46:12",
+   "updatedAt": "2026-08-10 14:19:44"
+  },
+  {
+   "id": "PF247938",
+   "title": "점프 JUMP",
+   "from": "2024-10-01",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "명보아트홀 (가온홀 (B3F) )",
+   "venueId": "FC000883",
+   "seats": 333,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF247938_240829_104022.gif",
+   "state": "공연중",
+   "prices": "VIP석 70,000원, R석 60,000원, S석 50,000원",
+   "times": "월요일 ~ 금요일(17:00), 토요일 ~ 일요일(14:00,17:00), HOL(14:00,17:00)",
+   "runtime": "1시간 20분",
+   "age": "36개월 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "2TM(우리은행)",
+     "url": "https://www.2tm.co.kr/ticket/10235"
+    },
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/51876"
+    },
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=12614"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1227916"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=24015236"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79201"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/?number=5983"
+    }
+   ],
+   "registeredAt": "2024-08-29 10:40:22",
+   "updatedAt": "2026-09-08 16:53:31"
+  },
+  {
+   "id": "PF251017",
+   "title": "터치 파이브 (TOUCH FIVE)",
+   "from": "2024-11-08",
+   "to": "2026-11-29",
+   "openrun": true,
+   "venue": "TOUCH FIVE 전용관 (TOUCH FIVE 전용관)",
+   "venueId": "FC004129",
+   "seats": null,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF251017_260706_104403.gif",
+   "state": "공연중",
+   "prices": "VVIP석 129,000원, VIP석 110,000원, R석 99,000원, S석 77,000원, 스탠딩석 55,000원, SPECIAL ROOM 800,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(17:00,20:00), 일요일(17:00,19:00,20:00), HOL(17:00,20:00)",
+   "runtime": "1시간 10분",
+   "age": "만 19세 이상",
+   "producer": "터치파이브",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1323770"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=24014659"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1771908991"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://www.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78223"
+    }
+   ],
+   "registeredAt": "2024-10-11 10:20:00",
+   "updatedAt": "2026-09-30 15:10:00"
+  },
+  {
+   "id": "PF259779",
+   "title": "써니텐 [대학로]",
+   "from": "2025-01-01",
+   "to": "2026-10-11",
+   "openrun": true,
+   "venue": "JTN 아트홀(구. 대학로예술마당) (1관)",
+   "venueId": "FC000139",
+   "seats": 228,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF259779_260223_160526.gif",
+   "state": "공연중",
+   "prices": "전석 66,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,16:30), 일요일(14:00)",
+   "runtime": "1시간 40분",
+   "age": "만 9세 이상",
+   "producer": "하마컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/55102"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/483020"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25002567"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD27049"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Perf/52880"
+    },
+    {
+     "name": "쿠팡",
+     "url": "https://trip.coupang.com/tp/products/100000031224"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/5496"
+    }
+   ],
+   "registeredAt": "2025-02-25 11:43:46",
+   "updatedAt": "2026-09-15 14:09:35"
+  },
+  {
+   "id": "PF272938",
+   "title": "더 맨 얼라이브: 초이스",
+   "from": "2025-01-15",
+   "to": "2026-12-31",
+   "openrun": true,
+   "venue": "더 서울라이티움 (갤러리아포레) (G층 전용관)",
+   "venueId": "FC002012",
+   "seats": 800,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF272938_260506_110502.gif",
+   "state": "공연중",
+   "prices": "Special석  110,000원, Alive석  99,000원, Choice석  77,000원",
+   "times": "월요일 ~ 금요일(20:00), 토요일 ~ 일요일(19:30), HOL(19:30)",
+   "runtime": "1시간 15분",
+   "age": "만 19세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/59446"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1099197"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25014107"
+    }
+   ],
+   "registeredAt": "2025-08-29 11:11:21",
+   "updatedAt": "2026-10-06 16:39:29"
+  },
+  {
+   "id": "PF276055",
+   "title": "헝키쇼 (HUNKY SHOW)",
+   "from": "2025-04-25",
+   "to": "2026-10-31",
+   "openrun": false,
+   "venue": "스타스테이지 (스타스테이지)",
+   "venueId": "FC003274",
+   "seats": 204,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF276055_251014_105639.jpg",
+   "state": "공연중",
+   "prices": "VIP석 88,000원, R석 77,000원",
+   "times": "수요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(15:00), HOL(15:00,19:00)",
+   "runtime": "1시간 30분",
+   "age": "만 19세 이상",
+   "producer": "아라컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/56986"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1370290"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25003978"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=211543"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/53416"
+    },
+    {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/215499"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78440"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/6231"
+    }
+   ],
+   "registeredAt": "2025-10-14 10:56:39",
+   "updatedAt": "2026-09-11 15:45:25"
+  },
+  {
+   "id": "PF264855",
+   "title": "와일드 와일드",
+   "from": "2025-06-13",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "명보아트홀 (와일드와일드 전용관)",
+   "venueId": "FC000883",
+   "seats": 294,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF264855_250514_105144.gif",
+   "state": "공연중",
+   "prices": "WILDEVENT석 125,000원, WILDWILD석 99,000원, WILD석 77,000원, R석 66,000원, 시야방해석 60,000원",
+   "times": "화요일 ~ 목요일(20:00), 금요일(17:00,20:00), 토요일(17:00,20:00), 일요일(15:00,18:00)",
+   "runtime": "1시간 15분",
+   "age": "만 19세 이상",
+   "producer": "더블유투컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25006677"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/5743"
+    }
+   ],
+   "registeredAt": "2025-05-14 10:51:44",
+   "updatedAt": "2026-09-16 10:18:55"
+  },
+  {
+   "id": "PF273014",
+   "title": "스폿라이트 [대학로]",
+   "from": "2025-08-28",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "스폿라이트 (스폿라이트)",
+   "venueId": "FC004537",
+   "seats": 100,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF273014_260702_163452.gif",
+   "state": "공연중",
+   "prices": "전석 20,000원",
+   "times": "화요일(18:00,20:30), 수요일 ~ 목요일(18:00,19:30,20:30), 금요일(18:00,18:30,20:30,21:00), 토요일(14:00,14:30,16:30,17:00,19:00,19:30), 일요일(14:00,14:30,16:30,17:00,19:00)",
+   "runtime": "1시간 50분",
+   "age": "만 10세 이상",
+   "producer": "",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/58416"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25012647"
+    },
+    {
+     "name": "아신아트컴퍼니",
+     "url": "http://asinart.moonhwain.kr/rsvc/rsv_pm.html?b_id=asinart&p_idx=1043"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/55092"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/6503"
+    }
+   ],
+   "registeredAt": "2025-09-01 10:37:06",
+   "updatedAt": "2026-09-29 15:57:34"
+  },
+  {
+   "id": "PF286497",
+   "title": "김종욱 찾기 [대학로]",
+   "from": "2026-03-07",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "틴틴홀 (틴틴홀)",
+   "venueId": "FC000806",
+   "seats": 244,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF286497_260306_173930.gif",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "월요일 ~ 금요일(14:00,17:00,20:00), 토요일 ~ 일요일(13:00,15:10,17:30,19:40), HOL(13:00,15:10,17:30,19:40)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "(주)CJ ENM, (주)네오",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/61883"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1608324"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26003258"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30011"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=212895"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/57443"
+    },
+    {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/14172"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1775797859"
+    },
+    {
+     "name": "쿠팡",
+     "url": "https://trip.coupang.com/tp/products/30000011369724"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/4896"
+    }
+   ],
+   "registeredAt": "2026-03-06 17:39:31",
+   "updatedAt": "2026-09-21 15:38:28"
+  },
+  {
+   "id": "PF285591",
+   "title": "저항: 찬송이 된 사람들",
+   "from": "2026-04-10",
+   "to": "2026-12-19",
+   "openrun": false,
+   "venue": "광야아트센터 (광야아트센터)",
+   "venueId": "FC002226",
+   "seats": 216,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF285591_260403_162724.jpg",
+   "state": "공연중",
+   "prices": "일반석 50,000원, 발코니석 35,000원, 시야제한석 35,000원",
+   "times": "월요일 ~ 화요일(19:30), 수요일(14:00), 금요일(19:30), 토요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 55분",
+   "age": "만 7세 이상",
+   "producer": "300용사, 광야아트미니스트리",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "광야아트센터",
+     "url": "http://stgwangya.moonhwain.kr/rsvc/rsv_pm.html?b_id=stgwangya&p_idx=1065"
+    },
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=13818"
+    }
+   ],
+   "registeredAt": "2026-02-23 14:52:10",
+   "updatedAt": "2026-09-28 14:03:11"
+  },
+  {
+   "id": "PF285983",
+   "title": "스크루테이프의 편지 [대학로]",
+   "from": "2026-04-17",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "명륜아트홀 (명륜아트홀)",
+   "venueId": "FC003682",
+   "seats": 119,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF285983_260227_135825.gif",
+   "state": "공연중",
+   "prices": "전석 60,000원",
+   "times": "금요일(19:00), 토요일(13:00), HOL(13:00)",
+   "runtime": "1시간 30분",
+   "age": "만 9세 이상",
+   "producer": "조이피플",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/608197"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26002789"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/57259"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79048"
+    }
+   ],
+   "registeredAt": "2026-02-27 13:58:26",
+   "updatedAt": "2026-09-22 14:54:50"
+  },
+  {
+   "id": "PF290797",
+   "title": "Club 설화 [대학로]",
+   "from": "2026-05-14",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "극장 온 (ON) (구.CJ아지트) (공연장)",
+   "venueId": "FC000098",
+   "seats": 190,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF290797_260507_112714.jpg",
+   "state": "공연중",
+   "prices": "전석 35,000원",
+   "times": "화요일 ~ 목요일(20:00), 금요일(20:00,22:30), 토요일(00:00,19:30,21:30,23:30), 일요일(18:00,20:30), HOL(18:00,20:30)",
+   "runtime": "50분",
+   "age": "만 19세 이상",
+   "producer": "(주)73컴퍼니(칠삼컴퍼니)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63062"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1650466"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008571"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30553"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7133"
+    }
+   ],
+   "registeredAt": "2026-05-07 11:27:14",
+   "updatedAt": "2026-08-24 16:18:51"
+  },
+  {
+   "id": "PF291533",
+   "title": "빨래: 32차 프로덕션",
+   "from": "2026-06-11",
+   "to": "2027-02-21",
+   "openrun": false,
+   "venue": "유니플렉스 (2관(중극장))",
+   "venueId": "FC001233",
+   "seats": 269,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291533_260515_150927.gif",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 55,000원, 시야제한석 20,000원",
+   "times": "수요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30)",
+   "runtime": "2시간 45분",
+   "age": "만 13세 이상",
+   "producer": "(주)씨에이치수박",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007159"
+    }
+   ],
+   "registeredAt": "2026-05-15 15:09:27",
+   "updatedAt": "2026-05-15 18:00:04.119171"
+  },
+  {
+   "id": "PF294961",
+   "title": "SEXY MEN STANDING 섹시 맨 스탠딩",
+   "from": "2026-07-01",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "레드루즈씨어터 (레드루즈씨어터)",
+   "venueId": "FC004812",
+   "seats": 40,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294961_260630_134910.gif",
+   "state": "공연중",
+   "prices": "로맨틱존 129,000원, 히트존 119,000원, 블랙존 99,000원",
+   "times": "목요일 ~ 금요일(20:00), 토요일(16:00,19:00), 일요일(17:00)",
+   "runtime": "1시간",
+   "age": "만 19세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1658989"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012683"
+    }
+   ],
+   "registeredAt": "2026-06-30 13:49:11",
+   "updatedAt": "2026-09-14 13:46:40"
+  },
+  {
+   "id": "PF292469",
+   "title": "룰렛",
+   "from": "2026-07-09",
+   "to": "2026-10-11",
+   "openrun": false,
+   "venue": "롯데시네마 [도곡]  (7관)",
+   "venueId": "FC004761",
+   "seats": 302,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292469_260528_145445.jpg",
+   "state": "공연중",
+   "prices": "이머시브석 77,000원, 다이아석 66,000원, 스페이드석 55,000원, 하트석 44,000원, 클로버석 33,000원",
+   "times": "월요일(20:00), 수요일 ~ 금요일(20:00), 토요일 ~ 일요일(16:00,20:00), HOL(16:00)",
+   "runtime": "1시간 30분",
+   "age": "만 14세 이상",
+   "producer": "(주)스포트라이트",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63292"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1664667"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79339"
+    }
+   ],
+   "registeredAt": "2026-05-28 14:54:46",
+   "updatedAt": "2026-07-31 15:46:47"
+  },
+  {
+   "id": "PF291461",
+   "title": "드라큘라 [서울]",
+   "from": "2026-07-10",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "LG아트센터 서울 (LG SIGNATURE 홀)",
+   "venueId": "FC003045",
+   "seats": 1335,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291461_260515_111114.png",
+   "state": "공연중",
+   "prices": "OP석  180,000원, VIP석 180,000원, R석 150,000원, S석 110,000원, A석 80,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(13:00,18:00)",
+   "runtime": "2시간 45분",
+   "age": "만 13세 이상",
+   "producer": "(주)오디컴퍼니(ODCOMPANY), TJB 대전방송",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "LG아트센터",
+     "url": "https://www.lgart.com/product/performance/252966"
+    },
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63174"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1659108"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=L0000142"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/58702"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79286"
+    }
+   ],
+   "registeredAt": "2026-05-15 10:55:10",
+   "updatedAt": "2026-07-02 14:04:16"
+  },
+  {
+   "id": "PF294696",
+   "title": "동아줄",
+   "from": "2026-07-11",
+   "to": "2026-10-11",
+   "openrun": false,
+   "venue": "디너씨어터 (디너씨어터 (B1) )",
+   "venueId": "FC004164",
+   "seats": null,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294696_260626_131834.png",
+   "state": "공연중",
+   "prices": "주말 30,000원, 평일 25,000원",
+   "times": "목요일 ~ 금요일(20:00), 토요일(18:00), 일요일(17:00)",
+   "runtime": "1시간 15분",
+   "age": "만 13세 이상",
+   "producer": "(주)스테이지랩코리아",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1429108"
+    }
+   ],
+   "registeredAt": "2026-06-26 13:18:35",
+   "updatedAt": "2026-06-26 15:00:02.193662"
+  },
+  {
+   "id": "PF295172",
+   "title": "늦은 봄날",
+   "from": "2026-07-17",
+   "to": "2026-11-01",
+   "openrun": true,
+   "venue": "블랙박스 1357 (블랙박스 1357(B1))",
+   "venueId": "FC004947",
+   "seats": null,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295172_260702_145427.gif",
+   "state": "공연중",
+   "prices": "전석 60,000원",
+   "times": "수요일 ~ 금요일(19:00), 토요일 ~ 일요일(14:00), HOL(14:00)",
+   "runtime": "2시간",
+   "age": "전체 관람가",
+   "producer": "블랙박스 1357, 엠스테이지",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1744323"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009078"
+    }
+   ],
+   "registeredAt": "2026-07-02 14:54:27",
+   "updatedAt": "2026-10-01 11:08:15"
+  },
+  {
+   "id": "PF293269",
+   "title": "죽음에 관하여",
+   "from": "2026-07-21",
+   "to": "2026-10-11",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 3관)",
+   "venueId": "FC001528",
+   "seats": 211,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF293269_260610_130851.jpg",
+   "state": "공연중",
+   "prices": "전석 66,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "낭만바리케이트",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63679"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1672503"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79365"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7334"
+    }
+   ],
+   "registeredAt": "2026-06-10 13:08:52",
+   "updatedAt": "2026-08-13 13:38:13"
+  },
+  {
+   "id": "PF294163",
+   "title": "비더슈탄트",
+   "from": "2026-07-23",
+   "to": "2026-10-11",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 1관)",
+   "venueId": "FC001528",
+   "seats": 352,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294163_260619_144142.gif",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 66,000원",
+   "times": "화요일(19:30), 수요일(15:00,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
+   "runtime": "2시간 25분",
+   "age": "만 13세 이상",
+   "producer": "라이브러리컴퍼니, 미스틱컬처",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1700825"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008861"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1784095416"
+    }
+   ],
+   "registeredAt": "2026-06-19 14:41:43",
+   "updatedAt": "2026-07-28 13:50:18"
+  },
+  {
+   "id": "PF291886",
+   "title": "헬스키친",
+   "from": "2026-07-24",
+   "to": "2026-11-08",
+   "openrun": false,
+   "venue": "GS아트센터 (GS아트센터)",
+   "venueId": "FC004267",
+   "seats": 1211,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291886_260520_152250.gif",
+   "state": "공연중",
+   "prices": "VIP석 170,000원, OP석 170,000원, R석 150,000원, S석 110,000원, A석 80,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00)",
+   "runtime": "2시간 40분",
+   "age": "만 7세 이상",
+   "producer": "에스앤코(S&CO)",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "29CM",
+     "url": "https://ticket.29cm.co.kr/catalog/4131282"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1657859"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007169"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213624"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/58477"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219"
+    }
+   ],
+   "registeredAt": "2026-05-20 15:22:51",
+   "updatedAt": "2026-09-02 10:28:28"
+  },
+  {
+   "id": "PF294747",
+   "title": "소년의 초상 [대학로]",
+   "from": "2026-07-28",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "티오엠씨어터(구. 문화공간필링) (2관)",
+   "venueId": "FC000382",
+   "seats": 220,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294747_260629_105148.gif",
+   "state": "공연중",
+   "prices": "R석 66,000원, S석 55,000원, A석 44,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)레드앤블루(구. 악어컴퍼니)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008698"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79332"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7285"
+    }
+   ],
+   "registeredAt": "2026-06-29 10:51:49",
+   "updatedAt": "2026-07-29 13:15:11"
+  },
+  {
+   "id": "PF292306",
+   "title": "디어 에반 핸슨 (Musical Dear Evan Hansen) [서울]",
+   "from": "2026-08-01",
+   "to": "2026-11-01",
+   "openrun": false,
+   "venue": "충무아트센터 (대극장)",
+   "venueId": "FC000014",
+   "seats": 1250,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292306_260527_110648.gif",
+   "state": "공연중",
+   "prices": "VIP석 160,000원, R석 130,000원, S석 100,000원, A석 70,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00)",
+   "runtime": "2시간 40분",
+   "age": "만 13세 이상",
+   "producer": "에스앤코(S&CO)",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "29CM",
+     "url": "https://ticket.29cm.co.kr/catalog/4104896"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1659791"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007442"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/58543"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79229"
+    }
+   ],
+   "registeredAt": "2026-05-27 11:06:48",
+   "updatedAt": "2026-10-07 13:14:59"
+  },
+  {
+   "id": "PF297031",
+   "title": "TOO HOT SHOW (투핫쇼)",
+   "from": "2026-08-01",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "K-POP STAGE (구. 윤형빈소극장 [홍대] ) (K-POP STAGE (구. 윤형빈소극장 [홍대] ) )",
+   "venueId": "FC001624",
+   "seats": 147,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297031_260727_143005.gif",
+   "state": "공연중",
+   "prices": "루비 플러스석 150,000원, 루비석 120,000원, 에메랄드석 100,000원, 사파이어석 80,000원",
+   "times": "토요일 ~ 일요일(20:00), HOL(20:00)",
+   "runtime": "1시간",
+   "age": "만 19세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/5/bizes/1706672"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010839"
+    }
+   ],
+   "registeredAt": "2026-07-27 14:30:06",
+   "updatedAt": "2026-09-28 11:03:03"
+  },
+  {
+   "id": "PF294425",
+   "title": "사칠",
+   "from": "2026-08-04",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 2관)",
+   "venueId": "FC001528",
+   "seats": 211,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294425_260623_130251.jpg",
+   "state": "공연중",
+   "prices": "전석 66,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)네오, 극단 좋은사람",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64013"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1351667"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/58949"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1785464320"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7347"
+    }
+   ],
+   "registeredAt": "2026-06-23 13:02:51",
+   "updatedAt": "2026-09-28 17:32:33"
+  },
+  {
+   "id": "PF296312",
+   "title": "드림하이 시즌3: 리부트",
+   "from": "2026-08-08",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "광림아트센터 (BBCH홀)",
+   "venueId": "FC001370",
+   "seats": 998,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296312_260720_111603.jpg",
+   "state": "공연중",
+   "prices": "VIP석 140,000원, OP석  130,000원, R석 110,000원, S석 80,000원, A석 50,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00), HOL(14:00,19:00)",
+   "runtime": "2시간 40분",
+   "age": "만 7세 이상",
+   "producer": "(주)아트원컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64424"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1700492"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59313"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79401"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7359"
+    }
+   ],
+   "registeredAt": "2026-07-20 11:16:03",
+   "updatedAt": "2026-08-27 11:24:49"
+  },
+  {
+   "id": "PF296139",
+   "title": "미드나잇: 액터뮤지션 THE CHOICE [대학로]",
+   "from": "2026-08-11",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "유니플렉스 (3관(소극장))",
+   "venueId": "FC001233",
+   "seats": 181,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296139_260715_125904.gif",
+   "state": "공연중",
+   "prices": "전석 70,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)모먼트메이커",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64370"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1697980"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010167"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59537"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79367"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7302"
+    }
+   ],
+   "registeredAt": "2026-07-15 12:59:04",
+   "updatedAt": "2026-10-06 11:06:03"
+  },
+  {
+   "id": "PF292160",
+   "title": "겨울왕국 [서울]",
+   "from": "2026-08-13",
+   "to": "2027-03-01",
+   "openrun": false,
+   "venue": "샤롯데씨어터 (샤롯데씨어터)",
+   "venueId": "FC000012",
+   "seats": 1230,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292160_260601_111455.gif",
+   "state": "공연중",
+   "prices": "VIP석 190,000원, R석 160,000원, S석 130,000원, A석 90,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00)",
+   "runtime": "2시간 15분",
+   "age": "만 7세 이상",
+   "producer": "에스앤코(S&CO)",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63344"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1670476"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "https://tickets.interpark.com/goods/26007416"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/58563"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79228"
+    }
+   ],
+   "registeredAt": "2026-05-26 11:45:01",
+   "updatedAt": "2026-09-08 14:02:25"
+  },
+  {
+   "id": "PF295611",
+   "title": "푸른 꽃",
+   "from": "2026-08-13",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "충무아트센터 (중극장 블랙)",
+   "venueId": "FC000014",
+   "seats": 320,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295611_260708_133621.gif",
+   "state": "공연중",
+   "prices": "R석 75,000원, S석 60,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
+   "runtime": "1시간 50분",
+   "age": "만 6세 이상",
+   "producer": "네버엔딩플레이(N.E.P Contents)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64269"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1704911"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009616"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79404"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7314"
+    }
+   ],
+   "registeredAt": "2026-07-08 13:36:22",
+   "updatedAt": "2026-10-07 14:53:35"
+  },
+  {
+   "id": "PF296265",
+   "title": "옹알스 [대학로]",
+   "from": "2026-08-15",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "씨어터조이 (구. 마당세실극장) (씨어터조이 (구. 마당세실극장) )",
+   "venueId": "FC000419",
+   "seats": 100,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296265_260716_140211.jpg",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "금요일(19:30), 토요일(14:00,16:00), 일요일(14:00)",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/874409"
+    }
+   ],
+   "registeredAt": "2026-07-16 14:02:11",
+   "updatedAt": "2026-09-17 12:56:57"
+  },
+  {
+   "id": "PF294946",
+   "title": "엘리자벳",
+   "from": "2026-08-16",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
+   "venueId": "FC000031",
+   "seats": null,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294946_260701_134627.gif",
+   "state": "공연중",
+   "prices": "VIP석 180,000원, R석 150,000원, S석 120,000원, A석 90,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
+   "runtime": "2시간 50분",
+   "age": "만 7세 이상",
+   "producer": "(주)EMK뮤지컬컴퍼니",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009314"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213527"
+    }
+   ],
+   "registeredAt": "2026-06-30 12:44:39",
+   "updatedAt": "2026-07-03 11:15:38"
+  },
+  {
+   "id": "PF296319",
+   "title": "다이브 [대학로]",
+   "from": "2026-08-18",
+   "to": "2026-11-08",
+   "openrun": false,
+   "venue": "링크더스페이스(LINK THE SPACE) (1관)",
+   "venueId": "FC004779",
+   "seats": 280,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296319_260720_113054.jpg",
+   "state": "공연중",
+   "prices": "R석 70,000원, S석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 50분",
+   "age": "만 13세 이상",
+   "producer": "(주)엠비제트컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64426"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1721527"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30661"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59300"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1787016350"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79336"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7406"
+    }
+   ],
+   "registeredAt": "2026-07-20 11:30:55",
+   "updatedAt": "2026-09-21 11:23:30"
+  },
+  {
+   "id": "PF297157",
+   "title": "카페인 [대학로]",
+   "from": "2026-08-20",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "굿씨어터 (굿씨어터)",
+   "venueId": "FC001240",
+   "seats": 320,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_261001_142446.gif",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 66,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 8세 이상",
+   "producer": "(주) 피알컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010929"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7338"
+    }
+   ],
+   "registeredAt": "2026-07-29 10:06:42",
+   "updatedAt": "2026-10-01 14:24:47"
+  },
+  {
+   "id": "PF295552",
+   "title": "광화문연가 [서울]",
+   "from": "2026-09-06",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "디큐브링크아트센터 (디큐브씨어터)",
+   "venueId": "FC000011",
+   "seats": 1242,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295552_260708_103436.gif",
+   "state": "공연중",
+   "prices": "VIP석 160,000원, R석 140,000원, S석 110,000원, A석 80,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
+   "runtime": "2시간 35분",
+   "age": "만 7세 이상",
+   "producer": "(주)CJ ENM",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64251"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1693563"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009625"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432"
+    }
+   ],
+   "registeredAt": "2026-07-08 10:34:36",
+   "updatedAt": "2026-09-08 11:18:29"
+  },
+  {
+   "id": "PF298032",
+   "title": "난세: 정도전과 이방원의 이야기 [대학로]",
+   "from": "2026-09-08",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "NOL 서경스퀘어(구. 서경대학교 공연예술센터) (스콘2관)",
+   "venueId": "FC001877",
+   "seats": 264,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298032_260810_110532.gif",
+   "state": "공연중",
+   "prices": "R석 66,000원, S석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "(주)콘텐츠플래닝",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64831"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1726164"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011560"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79371"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7418"
+    }
+   ],
+   "registeredAt": "2026-08-10 11:05:32",
+   "updatedAt": "2026-09-29 10:28:02"
+  },
+  {
+   "id": "PF298497",
+   "title": "사의찬미 2ND STAGE [대학로]",
+   "from": "2026-09-08",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "링크아트센터 (페이코홀)",
+   "venueId": "FC003244",
+   "seats": 470,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298497_260814_100958.jpg",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 66,000원, A석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 50분",
+   "age": "만 12세 이상",
+   "producer": "(주)네오프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64914"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59718"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1787287315"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7431"
+    }
+   ],
+   "registeredAt": "2026-08-14 10:09:59",
+   "updatedAt": "2026-10-01 11:37:13"
+  },
+  {
+   "id": "PF298171",
+   "title": "오셀로와 이아고 [대학로]",
+   "from": "2026-09-08",
+   "to": "2026-11-22",
+   "openrun": false,
+   "venue": "대학로 자유극장 (자유문화발전소) (대학로 자유극장 (자유문화발전소) )",
+   "venueId": "FC000785",
+   "seats": 233,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298171_260811_102627.gif",
+   "state": "공연중",
+   "prices": "R석 66,000원, S석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "만 13세 이상",
+   "producer": "(주)뉴프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64855"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011611"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79375"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7444"
+    }
+   ],
+   "registeredAt": "2026-08-11 10:26:28",
+   "updatedAt": "2026-10-07 15:54:58"
+  },
+  {
+   "id": "PF297712",
+   "title": "잔혹동화 생존기 [대학로]",
+   "from": "2026-09-08",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "티오엠씨어터(구. 문화공간필링) (1관)",
+   "venueId": "FC000382",
+   "seats": 335,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297712_260805_110410.jpg",
+   "state": "공연중",
+   "prices": "R석 70,000원, S석 50,000원",
+   "times": "화요일 ~ 목요일(20:00), 금요일(16:00,20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 16세 이상",
+   "producer": "(주)뉴프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64707"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1743976"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59488"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79346"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7417"
+    }
+   ],
+   "registeredAt": "2026-08-05 11:04:11",
+   "updatedAt": "2026-09-28 16:35:26"
+  },
+  {
+   "id": "PF296148",
+   "title": "소크라테스 패러독스",
+   "from": "2026-09-10",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "NOL 서경스퀘어(구. 서경대학교 공연예술센터) (스콘1관)",
+   "venueId": "FC001877",
+   "seats": 440,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296148_260715_132702.gif",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 55,000원, A석 44,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "producer": "(주)에이치제이컬쳐(HJ컬쳐)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65266"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1698473"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010086"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59239"
+    },
+    {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/730283"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79412"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7367"
+    }
+   ],
+   "registeredAt": "2026-07-15 13:27:03",
+   "updatedAt": "2026-09-22 11:30:46"
+  },
+  {
+   "id": "PF297912",
+   "title": "곤 투모로우 [대학로]",
+   "from": "2026-09-15",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "홍익대 대학로 아트센터 (대극장)",
+   "venueId": "FC001208",
+   "seats": 702,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297912_260810_105436.gif",
+   "state": "공연중",
+   "prices": "VIP석 130,000원, OP석 130,000원, R석 90,000원, S석 60,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(15:00,19:30), 일요일(14:00,18:30), HOL(14:00,18:30)",
+   "runtime": "2시간 30분",
+   "age": "만 7세 이상",
+   "producer": "(주) 페이지원(Page1)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64817"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1715737"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011520"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59596"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79370"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7399"
+    }
+   ],
+   "registeredAt": "2026-08-07 10:47:18",
+   "updatedAt": "2026-09-16 10:27:59"
+  },
+  {
+   "id": "PF298593",
+   "title": "아나키스트 [대학로]",
+   "from": "2026-09-15",
+   "to": "2026-12-06",
+   "openrun": false,
+   "venue": "예스24아트원(구.대학로아트원씨어터) (1관)",
+   "venueId": "FC000833",
+   "seats": 393,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298593_260814_161438.jpg",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "2시간",
+   "age": "만 13세 이상",
+   "producer": "(주)엠비제트컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64924"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1716360"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30964"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59694"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1790584776"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79376"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7408"
+    }
+   ],
+   "registeredAt": "2026-08-14 16:14:38",
+   "updatedAt": "2026-09-30 13:55:42"
+  },
+  {
+   "id": "PF298596",
+   "title": "제임스 바이런 딘: 디 오리지널 [대학로]",
+   "from": "2026-09-15",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 4관)",
+   "venueId": "FC001528",
+   "seats": 205,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298596_260814_163742.jpg",
+   "state": "공연중",
+   "prices": "전석 66,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일 ~ 일요일(15:00,19:00), HOL(15:00,19:00)",
+   "runtime": "1시간 35분",
+   "age": "만 13세 이상",
+   "producer": "(주)씨일공일",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65470"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1716794"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79405"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7374"
+    }
+   ],
+   "registeredAt": "2026-08-14 16:37:43",
+   "updatedAt": "2026-09-21 13:56:29"
+  },
+  {
+   "id": "PF298163",
+   "title": "연의 편지 [대학로]",
+   "from": "2026-09-16",
+   "to": "2026-11-29",
+   "openrun": false,
+   "venue": "플러스씨어터(구. 컬처스페이스 엔유) (플러스씨어터(구. 컬처스페이스 엔유))",
+   "venueId": "FC001459",
+   "seats": 314,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298163_260811_101048.gif",
+   "state": "공연중",
+   "prices": "R석 70,000원, S석 55,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 9세 이상",
+   "producer": "(주)수컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1713788"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59639"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79465"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7378"
+    }
+   ],
+   "registeredAt": "2026-08-11 10:10:48",
+   "updatedAt": "2026-09-29 15:28:19"
+  },
+  {
+   "id": "PF296104",
+   "title": "콰이어 오브 맨 [대학로]",
+   "from": "2026-09-18",
+   "to": "2027-01-03",
+   "openrun": false,
+   "venue": "NOL 씨어터 대학로 (구. 대학로뮤지컬센터) (우리투자증권홀(구.중극장))",
+   "venueId": "FC001213",
+   "seats": 490,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296104_260715_104510.gif",
+   "state": "공연중",
+   "prices": "R석 99,000원, S석 77,000원, A석 66,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)신시컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009193"
+    },
+    {
+     "name": "신시컴퍼니",
+     "url": "http://www.iseensee.com/Home/Perf/MakingDetail.aspx?IdPerf=1223"
+    }
+   ],
+   "registeredAt": "2026-07-15 10:45:11",
+   "updatedAt": "2026-07-15 15:00:02.077577"
+  },
+  {
+   "id": "PF298801",
+   "title": "브람스 [서울]",
+   "from": "2026-09-19",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "KT&G 상상마당 대치아트홀 (KT&G 상상마당 대치아트홀)",
+   "venueId": "FC000052",
+   "seats": 422,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298801_260819_104807.gif",
+   "state": "공연중",
+   "prices": "VIP석 77,000원, R석 66,000원, S석 55,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 12세 이상",
+   "producer": "피에이치이엔엠(PH E&M)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1720694"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012097"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59755"
+    }
+   ],
+   "registeredAt": "2026-08-19 10:48:07",
+   "updatedAt": "2026-08-21 11:08:12"
+  },
+  {
+   "id": "PF300823",
+   "title": "라면에 파송송 [대학로]",
+   "from": "2026-09-22",
+   "to": "2026-10-11",
+   "openrun": false,
+   "venue": "제이원 씨어터 (구. 서완소극장, 구. 씨어터고리) (제이원 씨어터 (구. 서완소극장, 구. 씨어터고리) )",
+   "venueId": "FC001201",
+   "seats": 98,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300823_260914_134302.gif",
+   "state": "공연중",
+   "prices": "전석 40,000원",
+   "times": "화요일 ~ 수요일(19:30), 목요일(13:30,18:30), 토요일(18:30), 목요일 ~ 금요일(19:30), 토요일(18:30), 일요일(16:30)",
+   "runtime": "1시간 30분",
+   "age": "만 8세 이상",
+   "producer": "극단 기적",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1725344"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012626"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7433"
+    }
+   ],
+   "registeredAt": "2026-09-14 13:43:03",
+   "updatedAt": "2026-10-07 10:32:02"
+  },
+  {
+   "id": "PF298792",
+   "title": "섬: 1933~2019",
+   "from": "2026-09-22",
+   "to": "2026-11-22",
+   "openrun": false,
+   "venue": "국립정동극장 (국립정동극장)",
+   "venueId": "FC000006",
+   "seats": 326,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298792_260819_103024.gif",
+   "state": "공연중",
+   "prices": "전석 77,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(15:00,19:30), 토요일(14:00,18:00), 일요일(14:00), HOL(14:00,18:00)",
+   "runtime": "1시간 55분",
+   "age": "만 11세 이상",
+   "producer": "(재)국립정동극장, 라이브러리컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1733568"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011828"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1787718617"
+    }
+   ],
+   "registeredAt": "2026-08-19 10:30:24",
+   "updatedAt": "2026-09-21 14:22:56"
+  },
+  {
+   "id": "PF297794",
+   "title": "엠. 버터플라이",
+   "from": "2026-09-22",
+   "to": "2026-12-13",
+   "openrun": false,
+   "venue": "예스24 스테이지(구. DCF대명문화공장) (1관)",
+   "venueId": "FC001236",
+   "seats": 406,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297794_260805_153337.gif",
+   "state": "공연중",
+   "prices": "R석 75,000원, S석 55,000원, A석 40,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 50분",
+   "age": "만 16세 이상",
+   "producer": "(주)연극열전",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1712222"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453"
+    },
+    {
+     "name": "연극열전",
+     "url": "https://www.thebestplay.co.kr/program/perf_view.asp?id=280139&pref_state=PLAN"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59565"
+    }
+   ],
+   "registeredAt": "2026-08-05 15:33:38",
+   "updatedAt": "2026-08-07 15:00:00.025773"
+  },
+  {
+   "id": "PF300366",
+   "title": "컴포터 [대학로]",
+   "from": "2026-09-22",
+   "to": "2026-11-08",
+   "openrun": false,
+   "venue": "브릭스씨어터 (구. 콘텐츠 그라운드) (브릭스씨어터 (구. 콘텐츠 그라운드))",
+   "venueId": "FC001199",
+   "seats": 202,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300366_260908_105100.png",
+   "state": "공연중",
+   "prices": "전석 45,000원",
+   "times": "월요일(20:00), 수요일 ~ 목요일(20:00), 금요일(16:00,20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 12세 이상",
+   "producer": "(주)네오프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65448"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7435"
+    }
+   ],
+   "registeredAt": "2026-09-08 10:51:01",
+   "updatedAt": "2026-10-06 16:47:27"
+  },
+  {
+   "id": "PF298880",
+   "title": "뮤지컬 오페라",
+   "from": "2026-10-01",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "이화여자대학교 삼성홀 (이화여자대학교 삼성홀)",
+   "venueId": "FC001799",
+   "seats": 702,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298880_260819_144147.jpg",
+   "state": "공연중",
+   "prices": "VIP석 99,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00), HOL(14:00,19:00)",
+   "runtime": "2시간 15분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65001"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1719290"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7429"
+    }
+   ],
+   "registeredAt": "2026-08-19 14:41:48",
+   "updatedAt": "2026-10-01 14:00:23"
+  },
+  {
+   "id": "PF302113",
+   "title": "언디파인드 [대학로]",
+   "from": "2026-10-01",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "더 씨어터 (더 씨어터)",
+   "venueId": "FC001249",
+   "seats": 96,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302113_260930_132743.jpg",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "월요일 ~ 금요일(19:30), 토요일(14:00,18:00), 일요일(16:00), HOL(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "전체 관람가",
+   "producer": "공연제작소 아이디어스테이지",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "플레이티켓",
+     "url": "http://playticket.co.kr/nav/detail.html?idx=4590"
+    }
+   ],
+   "registeredAt": "2026-09-30 13:27:43",
+   "updatedAt": "2026-09-30 15:00:00.099302"
+  },
+  {
+   "id": "PF299855",
+   "title": "이끼숲",
+   "from": "2026-10-01",
+   "to": "2026-12-13",
+   "openrun": false,
+   "venue": "백암아트홀 (백암아트홀)",
+   "venueId": "FC000062",
+   "seats": 417,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299855_260902_100757.png",
+   "state": "공연중",
+   "prices": "R석 77,000원, S석 66,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(15:00,19:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "주식회사 라이브커넥션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65293"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1728923"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1790579217"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79449"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7447"
+    }
+   ],
+   "registeredAt": "2026-09-02 10:07:58",
+   "updatedAt": "2026-10-07 13:38:43"
+  },
+  {
+   "id": "PF301185",
+   "title": "윈디시티",
+   "from": "2026-10-02",
+   "to": "2026-10-10",
+   "openrun": false,
+   "venue": "꿈의숲아트센터 (퍼포먼스홀)",
+   "venueId": "FC000567",
+   "seats": 283,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301185_260917_125602.gif",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(15:00), 일요일(17:00)",
+   "runtime": "1시간 50분",
+   "age": "만 9세 이상",
+   "producer": "극단 쏠라이트미션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65583"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004832"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213896"
+    },
+    {
+     "name": "세종문화회관",
+     "url": "https://www.sejongpac.or.kr/dfac/dfacPerformance/dfacPerformance/performTicket.do?performIdx=37631&menuNo=1200007"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60162"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79444"
+    }
+   ],
+   "registeredAt": "2026-09-17 12:56:02",
+   "updatedAt": "2026-10-06 11:15:14"
+  },
+  {
+   "id": "PF300009",
+   "title": "창작ing, 돌쇠전",
+   "from": "2026-10-02",
+   "to": "2026-10-15",
+   "openrun": false,
+   "venue": "국립정동극장 세실 (구.세실극장) (국립정동극장 세실 (구.세실극장))",
+   "venueId": "FC001125",
+   "seats": 234,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300009_260903_104340.gif",
+   "state": "공연중",
+   "prices": "전석 30,000원",
+   "times": "월요일 ~ 금요일(19:30), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "만 18세 이상",
+   "producer": "창작집단 농담사",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14001"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012659"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1788239511"
+    }
+   ],
+   "registeredAt": "2026-09-03 10:43:40",
+   "updatedAt": "2026-09-23 11:32:58"
+  },
+  {
+   "id": "PF299169",
+   "title": "미드나잇: 앤틀러스 [대학로]",
+   "from": "2026-10-04",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "유니플렉스 (1관(대극장))",
+   "venueId": "FC001233",
+   "seats": 599,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299169_260824_113642.gif",
+   "state": "공연중",
+   "prices": "R석 88,000원, S석 66,000원, A석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(16:00,20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "만 13세 이상",
+   "producer": "(주)모먼트메이커",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65093"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1724182"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012145"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7428"
+    }
+   ],
+   "registeredAt": "2026-08-24 11:36:43",
+   "updatedAt": "2026-09-30 14:16:37"
+  },
+  {
+   "id": "PF299346",
+   "title": "렛미플라이 [서울]",
+   "from": "2026-10-06",
+   "to": "2027-01-03",
+   "openrun": false,
+   "venue": "두산아트센터 (연강홀)",
+   "venueId": "FC000402",
+   "seats": 620,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299346_260825_140107.jpg",
+   "state": "공연중",
+   "prices": "R석 88,000원, S석 66,000원",
+   "times": "화요일(19:30), 수요일(15:00,19:30), 목요일 ~ 금요일(19:30), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "2시간",
+   "age": "만 7세 이상",
+   "producer": "프로스랩",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65165"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1724383"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012259"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59852"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79470"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7454"
+    }
+   ],
+   "registeredAt": "2026-08-25 14:01:07",
+   "updatedAt": "2026-10-08 13:05:42"
+  },
+  {
+   "id": "PF301985",
+   "title": "DRAG in 혜화 (드랙인혜화)",
+   "from": "2026-10-09",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "뮤지컬펍 커튼콜 (뮤지컬펍 커튼콜)",
+   "venueId": "FC004586",
+   "seats": 30,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301985_260929_140516.jpg",
+   "state": "공연예정",
+   "prices": "전석 30,000원",
+   "times": "금요일(23:00), 토요일(23:00)",
+   "runtime": "40분",
+   "age": "만 19세 이상",
+   "producer": "(주)파릇",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1744237"
+    }
+   ],
+   "registeredAt": "2026-09-29 14:05:17",
+   "updatedAt": "2026-09-29 15:00:00.178521"
+  },
+  {
+   "id": "PF300214",
+   "title": "카페 론리 Cafe Lonely [대학로]",
+   "from": "2026-10-10",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "R&J씨어터(구. 연진아트홀) (R&J씨어터(구. 연진아트홀))",
+   "venueId": "FC001142",
+   "seats": 127,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300214_260907_105012.png",
+   "state": "공연예정",
+   "prices": "전석 45,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,19:30)",
+   "runtime": "1시간 50분",
+   "age": "만 9세 이상",
+   "producer": "극단 아침달",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1696105"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013296"
+    }
+   ],
+   "registeredAt": "2026-09-07 10:50:13",
+   "updatedAt": "2026-09-17 11:20:43"
+  },
+  {
+   "id": "PF300598",
+   "title": "수레바퀴 아래서 [대학로]",
+   "from": "2026-10-13",
+   "to": "2027-01-03",
+   "openrun": false,
+   "venue": "SH아트홀 (SH아트홀)",
+   "venueId": "FC001384",
+   "seats": 260,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300598_260910_131601.jpg",
+   "state": "공연예정",
+   "prices": "R석 60,000원, S석 50,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "네버엔딩플레이(N.E.P Contents)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65502"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1744810"
+    }
+   ],
+   "registeredAt": "2026-09-10 13:16:02",
+   "updatedAt": "2026-09-29 11:23:35"
+  },
+  {
+   "id": "PF300890",
+   "title": "이상한 나라의 춘자씨 [서울 용산]",
+   "from": "2026-10-16",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "더 줌 아트센터 (더 줌 아트센터)",
+   "venueId": "FC001994",
+   "seats": 128,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300890_260914_162535.gif",
+   "state": "공연예정",
+   "prices": "전석 77,000원",
+   "times": "월요일(19:30), 수요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)",
+   "runtime": "1시간 45분",
+   "age": "만 7세 이상",
+   "producer": "품씨어트리컬스 유한책임회사",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013144"
+    }
+   ],
+   "registeredAt": "2026-09-14 16:25:35",
+   "updatedAt": "2026-09-14 18:00:00.025371"
+  },
+  {
+   "id": "PF301308",
+   "title": "하트비트: 심폐소생일지 [대학로]",
+   "from": "2026-10-20",
+   "to": "2027-01-03",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 3관)",
+   "venueId": "FC001528",
+   "seats": 211,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301308_260918_134912.jpg",
+   "state": "공연예정",
+   "prices": "전석 66,000원",
+   "times": "월요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "낭만바리케이트",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65738"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1740390"
+    }
+   ],
+   "registeredAt": "2026-09-18 13:49:13",
+   "updatedAt": "2026-09-18 15:00:00.083592"
+  },
+  {
+   "id": "PF302270",
+   "title": "V 에버 애프터 [대학로]",
+   "from": "2026-10-21",
+   "to": "2027-01-17",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 1관)",
+   "venueId": "FC001528",
+   "seats": 352,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302270_261001_150418.jpg",
+   "state": "공연예정",
+   "prices": "R석 77,000원, S석 55,000원",
+   "times": "화요일 ~ 수요일(20:00), 목요일(16:00,20:00), 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 35분",
+   "age": "만 12세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65969"
+    }
+   ],
+   "registeredAt": "2026-10-01 15:04:18",
+   "updatedAt": "2026-10-01 18:00:00.11532"
+  },
+  {
+   "id": "PF301098",
+   "title": "남벌 [서울 광진]",
+   "from": "2026-10-23",
+   "to": "2026-11-14",
+   "openrun": false,
+   "venue": "티켓링크 1975 씨어터(구.능동 어린이회관) (티켓링크 1975 씨어터(구.무지개극장))",
+   "venueId": "FC000156",
+   "seats": null,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301098_260916_150959.gif",
+   "state": "공연예정",
+   "prices": "VIP석 150,000원, R석 130,000원, S석 100,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(14:30)",
+   "runtime": "2시간 30분",
+   "age": "만 13세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65515"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1739401"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012901"
+    }
+   ],
+   "registeredAt": "2026-09-16 15:10:00",
+   "updatedAt": "2026-09-16 18:00:00.066507"
+  },
+  {
+   "id": "PF301091",
+   "title": "솔로몬 [대학로]",
+   "from": "2026-10-23",
+   "to": "2026-11-01",
+   "openrun": false,
+   "venue": "다케이씨어터 (구. 창조소극장)  (다케이씨어터 (구. 창조소극장) )",
+   "venueId": "FC001636",
+   "seats": 110,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301091_260916_145417.gif",
+   "state": "공연예정",
+   "prices": "전석 45,000원",
+   "times": "금요일(20:00), 토요일(14:00,19:00), 일요일(19:00)",
+   "runtime": "1시간 40분",
+   "age": "만 11세 이상",
+   "producer": "극단 히엘(HIEL), 극단 히엘(HIEL)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012997"
+    }
+   ],
+   "registeredAt": "2026-09-16 14:54:17",
+   "updatedAt": "2026-09-16 15:00:00.096789"
+  },
+  {
+   "id": "PF301912",
+   "title": "마제스티 [대학로]",
+   "from": "2026-10-25",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "NOL 씨어터 대학로 (구. 대학로뮤지컬센터) (우리카드홀 )",
+   "venueId": "FC001213",
+   "seats": 935,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301912_260929_101243.gif",
+   "state": "공연예정",
+   "prices": "VIP석 120,000원, R석 90,000원, S석 60,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00)",
+   "runtime": "2시간 40분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65909"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1748258"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79464"
+    }
+   ],
+   "registeredAt": "2026-09-29 10:12:43",
+   "updatedAt": "2026-10-02 11:35:04"
+  },
+  {
+   "id": "PF301634",
+   "title": "정신병동에도 아침이 와요",
+   "from": "2026-10-31",
+   "to": "2026-11-22",
+   "openrun": false,
+   "venue": "이화여자대학교 삼성홀 (이화여자대학교 삼성홀)",
+   "venueId": "FC001799",
+   "seats": 702,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301634_260923_103936.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 120,000원, R석 90,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,18:30), 일요일(15:00)",
+   "runtime": "2시간 30분",
+   "age": "만 13세 이상",
+   "producer": "(주)에이엠컬쳐(AMCULTURE)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65821"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1743767"
+    }
+   ],
+   "registeredAt": "2026-09-23 10:39:36",
+   "updatedAt": "2026-09-23 15:00:00.065979"
+  },
+  {
+   "id": "PF302368",
+   "title": "요셉전 [대학로]",
+   "from": "2026-11-02",
+   "to": "2026-12-02",
+   "openrun": false,
+   "venue": "아트하우스 (아트하우스)",
+   "venueId": "FC003224",
+   "seats": 212,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302368_261002_140512.gif",
+   "state": "공연예정",
+   "prices": "전석 55,000원",
+   "times": "월요일 ~ 화요일(19:30), 수요일(16:00), 목요일 ~ 금요일(19:30), 토요일(14:00,17:00), 일요일(15:00)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "(주)위아더컬쳐",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014168"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7427"
+    }
+   ],
+   "registeredAt": "2026-10-02 14:05:12",
+   "updatedAt": "2026-10-02 15:48:11"
+  },
+  {
+   "id": "PF301746",
+   "title": "마하고니 [대학로]",
+   "from": "2026-11-03",
+   "to": "2027-01-24",
+   "openrun": false,
+   "venue": "링크아트센터 (페이코홀)",
+   "venueId": "FC003244",
+   "seats": 470,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301746_260928_114407.jpg",
+   "state": "공연예정",
+   "prices": "R석 77,000원, S석 66,000원, A석 55,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(16:00,20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 50분",
+   "age": "만 13세 이상",
+   "producer": "(주)네오프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65819"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60316"
+    }
+   ],
+   "registeredAt": "2026-09-28 11:44:07",
+   "updatedAt": "2026-09-28 15:00:00.05876"
+  },
+  {
+   "id": "PF301565",
+   "title": "FATED [대학로]",
+   "from": "2026-11-03",
+   "to": "2027-01-24",
+   "openrun": false,
+   "venue": "링크아트센터드림 (드림 2관)",
+   "venueId": "FC001528",
+   "seats": 211,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301565_260922_133248.jpg",
+   "state": "공연예정",
+   "prices": "R석 66,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "(주)노어스컴퍼니 (knowers company)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65818"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1743331"
+    }
+   ],
+   "registeredAt": "2026-09-22 13:32:49",
+   "updatedAt": "2026-09-22 15:00:00.046131"
+  },
+  {
+   "id": "PF294534",
+   "title": "바람으로의 여행",
+   "from": "2026-11-06",
+   "to": "2027-01-10",
+   "openrun": false,
+   "venue": "스튜디오 블루 (스튜디오 블루)",
+   "venueId": "FC002989",
+   "seats": 180,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294534_260624_132649.gif",
+   "state": "공연예정",
+   "prices": "전석 50,000원",
+   "times": "수요일 ~ 금요일(19:30), 토요일(15:00,19:00), 일요일(16:00)",
+   "runtime": "2시간 5분",
+   "age": "만 7세 이상",
+   "producer": "엘피 스토리(LP STORY), 창작공간 스튜디오 블루",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/590324"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008744"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30695"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79390"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7321"
+    }
+   ],
+   "registeredAt": "2026-06-24 13:26:50",
+   "updatedAt": "2026-09-11 17:29:34"
+  },
+  {
+   "id": "PF300790",
+   "title": "쇼 머스트 고 온 in 대학로",
+   "from": "2026-11-06",
+   "to": "2026-12-31",
+   "openrun": false,
+   "venue": "한성아트홀(구. 인켈아트홀) (2관)",
+   "venueId": "FC000152",
+   "seats": 160,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300790_260914_121206.gif",
+   "state": "공연예정",
+   "prices": "전석 66,000원",
+   "times": "수요일 ~ 금요일(19:30), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 39분",
+   "age": "만 7세 이상",
+   "producer": "극단 쇼고(SHOWGO), 극단 신명",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65597"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1733041"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013092"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD30989"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60112"
+    },
+    {
+     "name": "카카오톡예약하기",
+     "url": "https://booking.kakao.com/detail/ticket/731131"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79440"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7377"
+    }
+   ],
+   "registeredAt": "2026-09-14 12:12:07",
+   "updatedAt": "2026-10-08 11:16:17"
+  },
+  {
+   "id": "PF300941",
+   "title": "사춘기 [대학로]",
+   "from": "2026-11-09",
+   "to": "2027-01-31",
+   "openrun": false,
+   "venue": "예그린씨어터 (예그린씨어터)",
+   "venueId": "FC001212",
+   "seats": 202,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300941_260915_104351.gif",
+   "state": "공연예정",
+   "prices": "전석 66,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)웰컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65623"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1738405"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013198"
+    }
+   ],
+   "registeredAt": "2026-09-15 10:43:52",
+   "updatedAt": "2026-09-15 15:00:00.072101"
+  },
+  {
+   "id": "PF300974",
+   "title": "두 도시 이야기",
+   "from": "2026-11-11",
+   "to": "2027-02-08",
+   "openrun": false,
+   "venue": "광림아트센터 (BBCH홀)",
+   "venueId": "FC001370",
+   "seats": 998,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300974_260915_132402.gif",
+   "state": "공연예정",
+   "prices": "VIP석 160,000원, R석 140,000원, S석 110,000원, A석 80,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00), HOL(14:00,19:00)",
+   "runtime": "2시간 50분",
+   "age": "만 7세 이상",
+   "producer": "(주)쇼노트",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1737045"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013098"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213865"
+    },
+    {
+     "name": "쇼노트",
+     "url": "http://www.shownote.com/Ticket/Performance/Details?performanceId=378"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60128"
+    }
+   ],
+   "registeredAt": "2026-09-15 13:24:02",
+   "updatedAt": "2026-09-17 15:15:05"
+  },
+  {
+   "id": "PF302037",
+   "title": "바울: 사랑으로 걷다 [대학로]",
+   "from": "2026-11-19",
+   "to": "2027-01-30",
+   "openrun": true,
+   "venue": "명륜아트홀 (명륜아트홀)",
+   "venueId": "FC003682",
+   "seats": 119,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302037_260929_163533.gif",
+   "state": "공연예정",
+   "prices": "전석 60,000원",
+   "times": "목요일(19:00), 토요일(13:00,16:00), HOL(13:00)",
+   "runtime": "1시간 40분",
+   "age": "만 8세 이상",
+   "producer": "조이피플",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1733931"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013774"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79463"
+    }
+   ],
+   "registeredAt": "2026-09-29 16:35:33",
+   "updatedAt": "2026-10-08 11:31:42"
+  },
+  {
+   "id": "PF302516",
+   "title": "레베카 [서울 중구]",
+   "from": "2026-11-24",
+   "to": "2027-03-14",
+   "openrun": false,
+   "venue": "충무아트센터 (대극장)",
+   "venueId": "FC000014",
+   "seats": 1250,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302516_261006_134804.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 180,000원, R석 150,000원, S석 120,000원, A석 90,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
+   "runtime": "2시간 50분",
+   "age": "만 7세 이상",
+   "producer": "(주)EMK뮤지컬컴퍼니",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213984"
+    }
+   ],
+   "registeredAt": "2026-10-06 13:45:41",
+   "updatedAt": "2026-10-08 10:35:14"
+  },
+  {
+   "id": "PF302748",
+   "title": "직소 [대학로]",
+   "from": "2026-11-26",
+   "to": "2026-12-13",
+   "openrun": false,
+   "venue": "브이씨어터 (브이씨어터)",
+   "venueId": "FC004208",
+   "seats": null,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302748_261007_151330.jpg",
+   "state": "공연예정",
+   "prices": "전석 44,000원",
+   "times": "월요일 ~ 화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(16:00,20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 15분",
+   "age": "만 11세 이상",
+   "producer": "투영 프로덕션",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66090"
+    }
+   ],
+   "registeredAt": "2026-10-07 15:13:31",
+   "updatedAt": "2026-10-07 18:00:00.088388"
+  },
+  {
+   "id": "PF282162",
+   "title": "서울시뮤지컬단, 크리스마스 캐럴",
+   "from": "2026-12-02",
+   "to": "2026-12-27",
+   "openrun": false,
+   "venue": "세종문화회관 (세종M씨어터)",
+   "venueId": "FC000020",
+   "seats": 609,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF282162_251224_140222.png",
+   "state": "공연예정",
+   "prices": "R석 80,000원, S석 60,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(15:00,19:00), 일요일(15:00), HOL(15:00,19:00)",
+   "runtime": "1시간 40분",
+   "age": "만 4세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/60486"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004481"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=212575"
+    },
+    {
+     "name": "세종문화회관",
+     "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=36793&menuNo=200320"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/56551"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78945"
+    }
+   ],
+   "registeredAt": "2025-12-24 14:02:23",
+   "updatedAt": "2026-02-25 17:46:06"
+  },
+  {
+   "id": "PF302677",
+   "title": "미세스 다웃파이어 [서울]",
+   "from": "2026-12-03",
+   "to": "2027-02-21",
+   "openrun": false,
+   "venue": "GS아트센터 (GS아트센터)",
+   "venueId": "FC004267",
+   "seats": 1211,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302677_261007_113759.jpg",
+   "state": "공연예정",
+   "prices": "OP석  180,000원, VIP석 180,000원, R석 150,000원, S석 120,000원, A석 90,000원",
+   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(14:00), HOL(14:00,19:00)",
+   "runtime": "2시간 55분",
+   "age": "만 7세 이상",
+   "producer": "(주)샘컴퍼니, 스튜디오선데이",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66039"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1749684"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014015"
+    }
+   ],
+   "registeredAt": "2026-10-07 11:38:00",
+   "updatedAt": "2026-10-07 15:00:00.086823"
+  },
+  {
+   "id": "PF302015",
+   "title": "시카고 [서울]",
+   "from": "2026-12-05",
+   "to": "2027-03-14",
+   "openrun": false,
+   "venue": "LG아트센터 서울 (LG SIGNATURE 홀)",
+   "venueId": "FC003045",
+   "seats": 1335,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302015_260929_151431.gif",
+   "state": "공연예정",
+   "prices": "OP석 170,000원, VIP석 170,000원, 시카고석 160,000원, R석 150,000원, S석 110,000원, A석 80,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(15:00,19:30), 토요일(14:00,18:30), 일요일(14:00)",
+   "runtime": "2시간 25분",
+   "age": "만 13세 이상",
+   "producer": "",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "LG아트센터",
+     "url": "https://www.lgart.com/product/performance/252983"
+    },
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65846"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1746995"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=L0000150"
+    },
+    {
+     "name": "신시컴퍼니",
+     "url": "http://www.iseensee.com/Home/Perf/MakingDetail.aspx?IdPerf=1226"
+    }
+   ],
+   "registeredAt": "2026-09-29 15:14:31",
+   "updatedAt": "2026-10-06 18:00:16"
+  },
+  {
+   "id": "PF302399",
+   "title": "담배가게 아가씨",
+   "from": "2026-12-13",
+   "to": "2026-12-20",
+   "openrun": false,
+   "venue": "한국콘텐츠진흥원 CKL스테이지 (한국콘텐츠진흥원 CKL스테이지)",
+   "venueId": "FC001428",
+   "seats": 190,
+   "large": false,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302399_261002_145907.gif",
+   "state": "공연예정",
+   "prices": "전석 70,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(15:00,18:00), 일요일(14:00,17:00)",
+   "runtime": "1시간 30분",
+   "age": "만 11세 이상",
+   "producer": "(주)에이더블유콘텐츠(aw contents)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014045"
+    }
+   ],
+   "registeredAt": "2026-10-02 14:59:08",
+   "updatedAt": "2026-10-02 18:00:00.088619"
+  },
+  {
+   "id": "PF302744",
+   "title": "식스 더 뮤지컬 (SIX THE MUSICAL)",
+   "from": "2026-12-15",
+   "to": "2027-03-01",
+   "openrun": false,
+   "venue": "홍익대 대학로 아트센터 (대극장)",
+   "venueId": "FC001208",
+   "seats": 702,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302744_261007_145953.jpg",
+   "state": "공연예정",
+   "prices": "OP석 120,000원, VIP석 120,000원, R석 90,000원, S석 60,000원",
+   "times": "화요일 ~ 목요일(20:00), 금요일(17:00,20:30), 토요일(17:00,20:30), 일요일(15:00)",
+   "runtime": "1시간 20분",
+   "age": "만 13세 이상",
+   "producer": "(주)아이엠컬처",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1749508"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60484"
+    }
+   ],
+   "registeredAt": "2026-10-07 14:59:53",
+   "updatedAt": "2026-10-07 18:00:00.088388"
+  },
+  {
+   "id": "PF302842",
+   "title": "오페라의 유령 40주년 스페셜 시즌",
+   "from": "2026-12-22",
+   "to": "2027-02-28",
+   "openrun": false,
+   "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
+   "venueId": "FC000031",
+   "seats": null,
+   "large": true,
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302842_261008_143949.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 190,000원, R석 160,000원, S석 130,000원, A석 90,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
+   "runtime": "2시간 30분",
+   "age": "만 7세 이상",
+   "producer": "LW ENTERTAINMENT (구. The Really Useful Group(RUG), 에스앤코(S&CO)",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79473"
+    }
+   ],
+   "registeredAt": "2026-10-08 14:39:50",
+   "updatedAt": "2026-10-08 15:00:00.092925"
+  }
+ ]
+}

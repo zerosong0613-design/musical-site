@@ -1,0 +1,32 @@
+name: daily-data
+on:
+  schedule:
+    - cron: '0 21 * * *' # 매일 06:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: data-commit
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/fetch-kopis.mjs
+        env:
+          KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
+      - run: node scripts/fetch-charlotte.mjs
+        continue-on-error: true
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: KOPIS 갱신"
+          git pull --rebase
+          git push
