@@ -119,7 +119,11 @@
   "exclusive": true,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66152",
-  "mt20id": "PF297912"
+  "mt20id": "PF297912",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a85cf1f2b17927a0a7aa"
+  ]
  },
  {
   "id": "nol-26012145",
@@ -145,7 +149,11 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66128",
-  "mt20id": "PF299169"
+  "mt20id": "PF299169",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-4aa6001953d399bfc2fc"
+  ]
  },
  {
   "id": "yes24-18641",
@@ -171,7 +179,11 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66134",
-  "mt20id": "PF299346"
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-3c8c2da6a409a4efc07d"
+  ]
  },
  {
   "id": "yes24-18655",
@@ -185,7 +197,8 @@
   "mt20id": "PF294946",
   "auto": "announcement",
   "announcementIds": [
-   "announcement-1a0ca447b643f2061481"
+   "announcement-1a0ca447b643f2061481",
+   "announcement-195c40d336a6bea2d7f1"
   ]
  }
 ]

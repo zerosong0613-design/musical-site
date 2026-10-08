@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-08T15:22:46.414Z",
+ "checkedAt": "2026-10-08T19:06:43.963Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66135",
@@ -8,6 +8,54 @@
   {
    "url": "https://nol.yanolja.com/ticket/products/26014509",
    "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66152",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26012145",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66128",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66134",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655",
+   "status": "verified"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127534&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127518&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127508&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
+   "status": "checked"
   },
   {
    "source": "네이버 뉴스",
