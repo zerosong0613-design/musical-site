@@ -33,6 +33,7 @@ export function mountCasting(el, casting, show) {
     const list = filterShows(casting.shows, state, now);
     const picked = state.pick.filter(Boolean);
     el.innerHTML = `
+      <div class="panel">
       <div class="roles">${casting.roles.map((role, i) => `
         <div class="role"><span class="role-name">${esc(role)}</span>
           <div class="chips">${actors[i].map(n => chip(`data-role="${i}" data-name="${esc(n)}"`, n, state.pick[i] === n)).join('')}</div>
@@ -46,17 +47,20 @@ export function mountCasting(el, casting, show) {
         </div>
         <label class="check"><input type="checkbox" data-past ${state.includePast ? 'checked' : ''}> 지난 회차 포함</label>
       </div>
+      </div>
       <p class="count"><strong>${list.length}</strong>회차${picked.length ? ` · ${picked.map(esc).join(' + ')}` : ''}
         ${picked.length || state.days.size || state.time ? '<button type="button" class="link" data-reset>조건 지우기</button>' : ''}</p>
-      ${list.length ? `<ol class="showlist">${list.map(s => {
+      ${list.length ? `<div class="tablewrap"><table class="casttable">
+        <thead><tr><th>일시</th>${casting.roles.map(r => `<th>${esc(r)}</th>`).join('')}</tr></thead>
+        <tbody>${list.map(s => {
         const [, m, d] = s.date.split('-').map(Number);
         const day = showDay(s);
-        return `<li class="${showTime(s) < now ? 'past' : ''}">
-          <div class="when"><b>${m}/${d}</b> <span class="day d${day}">${DAYS[day]}</span> <span class="time">${s.time}</span></div>
-          <div class="cast">${s.cast.map((n, i) => `<span class="${state.pick[i] === n ? 'hit' : ''}"><i>${esc(casting.roles[i])}</i>${esc(n)}${
-            firstOf[n] === key(s) ? '<em class="tag first">첫공</em>' : ''}${lastOf[n] === key(s) ? '<em class="tag last">막공</em>' : ''}</span>`).join('')}</div>
-        </li>`;
-      }).join('')}</ol>` : '<p class="empty">조건에 맞는 회차가 없습니다.</p>'}
+        return `<tr class="${showTime(s) < now ? 'past' : ''}">
+          <td class="when"><b>${m}/${d}</b> <span class="day d${day}">${DAYS[day]}</span><span class="time">${s.time}</span></td>
+          ${s.cast.map((n, i) => `<td data-label="${esc(casting.roles[i])}" class="${state.pick[i] === n ? 'hit' : ''}">${esc(n)}${
+            firstOf[n] === key(s) ? '<em class="tag first">첫공</em>' : ''}${lastOf[n] === key(s) ? '<em class="tag last">막공</em>' : ''}</td>`).join('')}
+        </tr>`;
+      }).join('')}</tbody></table></div>` : '<p class="empty">조건에 맞는 회차가 없습니다.</p>'}
       <p class="note">${esc(casting.source)} · ${esc(casting.checkedAt)} 확인 · 표 범위 ${esc(casting.shows[0].date)} ~ ${esc(casting.shows.at(-1).date)}</p>`;
   }
 
