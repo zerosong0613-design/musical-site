@@ -52,8 +52,8 @@ async function load() {
   if (file.generatedAt) document.getElementById('updated').textContent = `작품 정보 갱신: ${new Date(file.generatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}`;
 }
 
-const poster = s => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${
-  safeUrl(s.poster) ? `<img src="${esc(s.poster)}" alt="" loading="lazy" onerror="this.remove()">` : ''}</div>`;
+const poster = (s, showFavorite = false) => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${
+  safeUrl(s.poster) ? `<img src="${esc(s.poster)}" alt="" loading="lazy" onerror="this.remove()">` : ''}${showFavorite && favorites.has(s.id) ? '<span class="favorite-mark" role="img" aria-label="즐겨찾기">★</span>' : ''}</div>`;
 
 function renderList() {
   const t = today();
@@ -72,7 +72,7 @@ function renderList() {
     </div>
     ${list.length ? `<ul class="cards">${list.map(s => `
       <li><a class="card" href="#/show/${esc(s.id)}">
-        ${poster(s)}
+        ${poster(s, true)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
           <p>${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}</p>
