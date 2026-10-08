@@ -33,3 +33,15 @@ test('멜론 상품 한 개 실패해도 다른 상품의 캐스팅 저장',asyn
   const saved=JSON.parse(await readFile(join(root,'data/casting/PF123.json'),'utf8'));assert.equal(saved.shows.length,1);assert.deepEqual(saved.shows[0].cast,['김준수']);
  }finally{await rm(root,{recursive:true,force:true});}
 });
+test('새 작업 환경에서 상세 이미지 자동 다운로드·상태 저장',async()=>{
+ const root=await mkdtemp(join(tmpdir(),'images-test-'));
+ try {
+  await mkdir(join(root,'scripts/lib'),{recursive:true});await mkdir(join(root,'data'),{recursive:true});
+  for(const file of ['scripts/fetch-casting-images.mjs','scripts/lib/source-images.mjs'])await copyFile(new URL('../'+file,import.meta.url),join(root,file));
+  await writeFile(join(root,'config.json'),'{}');
+  await writeFile(join(root,'data/shows.json'),JSON.stringify({shows:[{id:'PF123',title:'공연',to:'2099-01-31',large:true,links:[{url:'https://ticket.clipservice.co.kr/detail'}]}]}));
+  await writeFile(join(root,'mock.mjs'),`globalThis.setTimeout=(fn,ms)=>{queueMicrotask(fn);return 0;};globalThis.fetch=async url=>({ok:true,url,headers:{get:()=>url.endsWith('.jpg')?'image/jpeg':'text/html'},text:async()=>'<dl id="jsDetails"><img src="/cast.jpg"></dl>',arrayBuffer:async()=>new Uint8Array([1,2,3]).buffer});`);
+  execFileSync(process.execPath,['--import',join(root,'mock.mjs'),join(root,'scripts/fetch-casting-images.mjs')],{stdio:'pipe'});
+  const manifest=JSON.parse(await readFile(join(root,'data/casting/image-sources.json'),'utf8'));assert.equal(manifest.shows.PF123.images.length,1);assert.equal(manifest.shows.PF123.status,'images_need_extraction');assert.equal(manifest.shows.PF123.images[0].changed,true);
+ }finally{await rm(root,{recursive:true,force:true});}
+});
