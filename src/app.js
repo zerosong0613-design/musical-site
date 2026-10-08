@@ -41,7 +41,7 @@ const poster = s => `<div class="poster" data-initial="${esc(s.title.slice(0, 1)
 
 function renderList() {
   const t = today();
-  const pool = data.shows.filter(s => s.to >= t && (!view.largeOnly || s.large));
+  const pool = data.shows.filter(s => s.to >= t && s.large && s.seats >= 500);
   const now = pool.filter(s => s.from <= t).sort((a, b) => a.to.localeCompare(b.to));
   const soon = pool.filter(s => s.from > t).sort((a, b) => a.from.localeCompare(b.from));
   const list = view.tab === 'now' ? now : soon;
@@ -52,7 +52,7 @@ function renderList() {
         <button role="tab" data-tab="now" aria-selected="${view.tab === 'now'}">공연 중 <small>${now.length}</small></button>
         <button role="tab" data-tab="soon" aria-selected="${view.tab === 'soon'}">예정 <small>${soon.length}</small></button>
       </div>
-      <label class="check"><input type="checkbox" id="large" ${view.largeOnly ? 'checked' : ''}> 대극장만</label>
+      <span class="note">서울·경기·인천 · 500석 이상 · 어린이 공연 제외</span>
     </div>
     ${list.length ? `<ul class="cards">${list.map(s => `
       <li><a class="card" href="#/show/${esc(s.id)}">
@@ -66,7 +66,7 @@ function renderList() {
       </a></li>`).join('')}</ul>` : '<p class="empty">해당하는 작품이 없습니다.</p>'}`;
 
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderList(); }));
-  app.querySelector('#large').addEventListener('change', e => { view.largeOnly = e.target.checked; renderList(); });
+
 }
 
 function openingItems(list) {
@@ -118,7 +118,7 @@ async function renderShow(id) {
   const rows = [
     ['기간', `${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}`],
     ['공연장', s.venue + (s.seats ? ` · ${s.seats.toLocaleString()}석` : '')],
-    ['공연 시간', s.times], ['가격', s.prices], ['러닝타임', s.runtime], ['관람 연령', s.age], ['제작', s.producer],
+    ['출연진', s.cast], ['공연 시간', s.times], ['가격', s.prices], ['러닝타임', s.runtime], ['관람 연령', s.age], ['제작', s.producer],
   ].filter(r => r[1]);
   const naver = `https://search.naver.com/search.naver?query=${encodeURIComponent(`뮤지컬 ${s.title} 캐스팅 일정`)}`;
   const openings = data.openings.filter(o => o.mt20id === s.id);
@@ -132,7 +132,7 @@ async function renderShow(id) {
         <h1>${esc(s.title)}</h1>
         <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
         <div class="links">
-          ${s.links.map(l => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
+          ${s.links.filter(l => safeUrl(l.url)).map(l => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
           <a class="btn ghost" href="${naver}" target="_blank" rel="noopener">네이버에서 캐스팅 일정 보기</a>
         </div>
       </div>
@@ -174,3 +174,4 @@ try {
 } catch {
   app.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.</p>';
 }
+
