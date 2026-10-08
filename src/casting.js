@@ -1,4 +1,5 @@
 // 캐스팅 조합 검색: 배역마다 한 명씩 골라, 모두 함께 서는 회차만 남긴다.
+import { mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 const DAYS = ['일', '월', '화', '수', '목', '금', '토'];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -63,7 +64,9 @@ export function mountCasting(el, casting, show, range = {}) {
             firstOf[n] === key(s) ? '<em class="tag first">첫공</em>' : ''}${lastOf[n] === key(s) ? '<em class="tag last">막공</em>' : ''}</td>`).join('')}
         </tr>`;
       }).join('')}</tbody></table></div>` : '<p class="empty">조건에 맞는 회차가 없습니다.</p>'}
-      <p class="note">${esc(casting.source)} · ${esc(casting.checkedAt)} 확인 · 표 범위 ${esc(casting.shows[0].date)} ~ ${esc(casting.shows.at(-1).date)}</p>`;
+      <p class="note">${esc(casting.source)} · ${esc(casting.checkedAt)} 확인 · 표 범위 ${esc(casting.shows[0].date)} ~ ${esc(casting.shows.at(-1).date)}</p>
+      <p class="note">${/^https?:\/\//.test(casting.sourceImage??'') ? `<a class="link" href="${esc(casting.sourceImage)}" target="_blank" rel="noopener">캐스팅표 원본 보기</a>` : ''}
+      ${/^https?:\/\//.test(casting.sourcePage??'') ? `<a class="link" href="${esc(mobileVendorUrl(casting.sourcePage,/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent)))}" target="_blank" rel="noopener">출처 상세 페이지</a>` : ''}</p>`;
   }
 
   el.addEventListener('click', e => {
@@ -89,3 +92,4 @@ export function mountCasting(el, casting, show, range = {}) {
   });
   render();
 }
+
