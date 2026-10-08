@@ -1,0 +1,394 @@
+{
+  "checkedAt": "2026-10-09",
+  "shows": [
+    {
+      "mt20id": "PF272938",
+      "title": "더 맨 얼라이브: 초이스",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF291461",
+      "title": "드라큘라 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-10-18",
+      "rows": 13,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79286",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF291886",
+      "title": "헬스키친",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-08",
+      "rows": 37,
+      "dataCheckedAt": "2026-10-09",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF292306",
+      "title": "디어 에반 핸슨 (Musical Dear Evan Hansen) [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-01",
+      "rows": 30,
+      "dataCheckedAt": "2026-10-09",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF296312",
+      "title": "드림하이 시즌3: 리부트",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-10-18",
+      "rows": 12,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79401",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF292160",
+      "title": "겨울왕국 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-12-06",
+      "rows": 73,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF294946",
+      "title": "엘리자벳",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-15",
+      "rows": 50,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF295552",
+      "title": "광화문연가 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-15",
+      "rows": 48,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF297912",
+      "title": "곤 투모로우 [대학로]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-29",
+      "rows": 59,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79370",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF298880",
+      "title": "뮤지컬 오페라",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-10-18",
+      "rows": 15,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF299169",
+      "title": "미드나잇: 앤틀러스 [대학로]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-10-29",
+      "rows": 30,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF299346",
+      "title": "렛미플라이 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-09",
+      "to": "2026-11-08",
+      "rows": 39,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79470",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF301098",
+      "title": "남벌 [서울 광진]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-23",
+      "to": "2026-11-14",
+      "rows": 24,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF301912",
+      "title": "마제스티 [대학로]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-25",
+      "to": "2026-11-15",
+      "rows": 28,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": [
+        {
+          "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79464",
+          "status": "invalid_product"
+        }
+      ]
+    },
+    {
+      "mt20id": "PF301634",
+      "title": "정신병동에도 아침이 와요",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-10-31",
+      "to": "2026-11-22",
+      "rows": 24,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF300974",
+      "title": "두 도시 이야기",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-11-11",
+      "to": "2026-11-22",
+      "rows": 15,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF302516",
+      "title": "레베카 [서울 중구]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-11-24",
+      "to": "2026-12-13",
+      "rows": 26,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF282162",
+      "title": "서울시뮤지컬단, 크리스마스 캐럴",
+      "checkedAt": "2026-10-09",
+      "status": "not_found_in_checked_page",
+      "label": "확인한 페이지에 캐스팅표 없음",
+      "sourceCheckedAt": "2026-10-09",
+      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78945"
+    },
+    {
+      "mt20id": "PF302677",
+      "title": "미세스 다웃파이어 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF302015",
+      "title": "시카고 [서울]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-12-05",
+      "to": "2026-12-27",
+      "rows": 28,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF302744",
+      "title": "식스 더 뮤지컬 (SIX THE MUSICAL)",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-12-15",
+      "to": "2026-12-27",
+      "rows": 17,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF302842",
+      "title": "오페라의 유령 40주년 스페셜 시즌",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-12-22",
+      "to": "2027-01-15",
+      "rows": 31,
+      "dataCheckedAt": "2026-10-09",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF300591",
+      "title": "왕세자 실종사건",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF300693",
+      "title": "민들레 피리 [오산]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF299684",
+      "title": "빨래 [수원]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF299331",
+      "title": "HAC Choice, 만천명월 격쟁을 허하라 [화성]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF299250",
+      "title": "파랑새 [용인]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF298908",
+      "title": "팬레터 [성남]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-11-07",
+      "to": "2026-11-08",
+      "rows": 4,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PF298294",
+      "title": "그날들 [이천]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF294046",
+      "title": "빨래 [하남]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF301439",
+      "title": "광화문연가 [인천]",
+      "checkedAt": "2026-10-09",
+      "status": "unverified",
+      "label": "캐스팅표 확인 필요"
+    },
+    {
+      "mt20id": "PF298550",
+      "title": "팬레터 [인천]",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-11-21",
+      "to": "2026-11-22",
+      "rows": 4,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    },
+    {
+      "mt20id": "PFX2026SWEENEY",
+      "title": "스위니토드",
+      "checkedAt": "2026-10-09",
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-12-04",
+      "to": "2026-12-20",
+      "rows": 23,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
+    }
+  ],
+  "excluded": [
+    {
+      "mt20id": null,
+      "title": "스타크로스드",
+      "checkedAt": "2026-10-09",
+      "status": "excluded",
+      "label": "수집 대상 제외",
+      "reason": "현재 자동수집은 뮤지컬 장르를 대상으로 하므로 연극은 수집 대상에서 제외됩니다.",
+      "url": "https://ticket.yes24.com/Perf/59650"
+    }
+  ]
+}
