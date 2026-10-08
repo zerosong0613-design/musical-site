@@ -41,7 +41,8 @@ let failed = 0;
 for (const { show, productId } of targets) {
   const current = await readJSON(`data/casting/${show.id}.json`, null);
   // 다른 경로(멜론·샤롯데·수동 입력)로 이미 들어온 작품은 건드리지 않는다.
-  if (current && current.auto !== 'ticketlink') continue;
+  // 수동 검증 데이터는 보호한다. 다른 자동 경로의 데이터는 최신 회차를 보완한다.
+  if (current && !current.auto) continue;
 
   try {
     const info = (await get(`product/cast/schedule/${productId}`)).cast;
@@ -73,10 +74,10 @@ for (const { show, productId } of targets) {
 
     // 지난 회차는 예전에 받아 둔 것을 유지한다(배역 구성이 같을 때만).
     const now = kst(Date.now()).slice(0, 16);
-    if (current?.auto === 'ticketlink' && current.roles.join() === roles.join()) {
+    if (current?.auto && current.roles.length === roles.length && current.roles.every(r => roles.includes(r))) {
       for (const s of current.shows) {
         const key = `${s.date}T${s.time}`;
-        if (key < now && !byTime.has(key)) byTime.set(key, s);
+        if (!byTime.has(key)) byTime.set(key, { ...s, cast: roles.map(role => s.cast[current.roles.indexOf(role)]) });
       }
     }
     const shows = [...byTime.values()].sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
@@ -96,3 +97,4 @@ for (const { show, productId } of targets) {
 await rebuildIndex();
 console.log(`티켓링크: 대상 ${targets.length}편, 저장 ${saved}편, 실패 ${failed}편`);
 if (targets.length && failed === targets.length) process.exit(1);
+
