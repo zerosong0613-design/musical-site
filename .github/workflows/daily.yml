@@ -30,6 +30,8 @@ jobs:
         continue-on-error: true
       - run: node scripts/fetch-casting-images.mjs
         continue-on-error: true
+      - run: npm install --no-save --no-audit --no-fund sharp # 긴 상세 이미지를 조각내는 데 쓴다
+        continue-on-error: true
       - run: node scripts/extract-casting-images.mjs
         continue-on-error: true
         env:
