@@ -71,13 +71,20 @@ function renderList() {
 
 }
 
+// 예스24 PC 공지 주소는 휴대폰에서 "모바일웹으로 이동" 안내 뒤 첫 화면으로 보내 버린다. 휴대폰에서는 모바일 공지 주소로 바꾼다.
+const isPhone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+const vendorUrl = url => {
+  const id = isPhone && url.match(/^https:\/\/ticket\.yes24\.com\/New\/Notice\/NoticeMain\.aspx#id=(\d+)$/)?.[1];
+  return id ? `https://m.ticket.yes24.com/Notice/Detail.aspx?bid=${id}` : url;
+};
+
 function openingItems(list) {
   const now = Date.now();
   return `<ol class="openings">${list.map(o => {
     const at = new Date(`${o.at.replace(' ', 'T')}:00+09:00`);
     const k = new Date(at.getTime() + 9 * 3600e3);
     const show = data.shows.find(s => s.id === o.mt20id);
-    const url = safeUrl(o.url);
+    const url = vendorUrl(safeUrl(o.url));
     return `<li class="${at < now ? 'past' : ''}">
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span> <span class="time">${esc(o.at.slice(11))}</span></div>
       <div class="what">
