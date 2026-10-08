@@ -70,9 +70,8 @@ function renderList() {
       </div>
       <span class="note">서울·경기·인천 · 500석 이상 · 어린이 공연 제외</span>
     </div>
-    <p class="note">즐겨찾기는 이 브라우저에 저장되며 목록 상단에 표시됩니다.${favoritesSaved ? '' : ' 브라우저 저장이 제한되어 현재 화면에서만 유지됩니다.'}</p>
     ${list.length ? `<ul class="cards">${list.map(s => `
-      <li class="show-card">${favoriteButton(s)}<a class="card" href="#/show/${esc(s.id)}">
+      <li><a class="card" href="#/show/${esc(s.id)}">
         ${poster(s)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
@@ -82,7 +81,6 @@ function renderList() {
         </div>
       </a></li>`).join('')}</ul>` : '<p class="empty">해당하는 작품이 없습니다.</p>'}`;
 
-  app.querySelectorAll('[data-favorite]').forEach(b => b.addEventListener('click', () => { toggleFavorite(b.dataset.favorite); renderList(); }));
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderList(); }));
 
 }
