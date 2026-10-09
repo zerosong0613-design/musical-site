@@ -28,10 +28,27 @@ jobs:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
       - name: commit
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || git commit -m "data: 캐스팅 공지 갱신"
-          git pull --rebase
-          git push
+          # 수집 중 원격 변경 시 최신 데이터에서 재수집한다. 강제 푸시는 하지 않는다.
+          for attempt in 1 2 3; do
+            git add data
+            git diff --cached --quiet || git commit -m "data: 캐스팅 공지 갱신"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" = 3 ]; then
+              echo "::error::원격 변경으로 저장하지 못했습니다. 다음 수집에서 다시 시도합니다."
+              exit 1
+            fi
+            git fetch origin main
+            git reset --hard origin/main
+            node --test tests/*.test.mjs
+            node scripts/fetch-notices.mjs || echo "::warning::제작사 피드 조회 실패"
+            node scripts/fetch-openings.mjs || echo "::warning::예매오픈 조회 실패"
+            node scripts/fetch-announcements.mjs
+          done
