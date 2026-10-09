@@ -1,12 +1,8 @@
 {
- "checkedAt": "2026-10-09T09:59:49.070Z",
+ "checkedAt": "2026-10-09T16:46:21.628Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
-   "status": "verified"
-  },
-  {
-   "url": "https://nol.yanolja.com/ticket/products/26011553",
    "status": "verified"
   },
   {
@@ -14,15 +10,7 @@
    "status": "verified"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/26014509",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/66152",
-   "status": "verified"
-  },
-  {
-   "url": "https://nol.yanolja.com/ticket/products/26012145",
    "status": "verified"
   },
   {
@@ -39,10 +27,6 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
-   "status": "verified"
-  },
-  {
-   "url": "https://nol.yanolja.com/ticket/products/26012259",
    "status": "verified"
   },
   {
@@ -97,19 +81,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 13
+   "matches": 10
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 21
+   "matches": 24
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -142,24 +126,40 @@
    "status": "verified"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/26009314",
-   "status": "verified"
+   "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4025856",
+   "status": "review_needed"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/26007169",
-   "status": "verified"
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241957",
+   "status": "review_needed"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/26012217",
-   "status": "verified"
+   "url": "https://www.slist.kr/news/articleView.html?idxno=772032",
+   "status": "review_needed"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/L0000150",
-   "status": "verified"
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241725",
+   "status": "review_needed"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/products/26009616",
-   "status": "verified"
+   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=763263",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.bntnews.co.kr/article/view/bnt202610080178",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://sports.donga.com/life/article/all/20261008/134807139/1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.sportsseoul.com/news/read/1640179?ref=naver",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.xportsnews.com/article/2205050",
+   "status": "review_needed"
   }
  ]
 }
