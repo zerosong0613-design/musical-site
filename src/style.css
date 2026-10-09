@@ -24,6 +24,8 @@ section { margin-top: 40px; }
 
 .top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .brand { font-weight: 800; font-size: 1.05rem; text-decoration: none; letter-spacing: -0.01em; }
+.brand-row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex: 1; }
+.today-basis { color: var(--muted); font-size: .72rem; font-weight: 400; white-space: nowrap; }
 .top nav { display: flex; gap: 20px; }
 .top nav a { text-decoration: none; color: var(--muted); font-size: .93rem; padding-bottom: 14px; margin-bottom: -15px; border-bottom: 2px solid transparent; }
 .top nav a:hover { color: var(--text); }
@@ -132,6 +134,7 @@ footer p { margin: 2px 0; }
 @media (max-width: 640px) {
   main, .top, footer { padding-left: 16px; padding-right: 16px; }
   .top { flex-direction: column; align-items: flex-start; gap: 10px; padding-top: 14px; padding-bottom: 0; }
+  .brand-row { width: 100%; }
   .top nav a { padding-bottom: 10px; margin-bottom: -1px; }
   .detail { align-items: center; }
   .detail > div:not(.poster) { display: contents; }
