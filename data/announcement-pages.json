@@ -7,7 +7,7 @@
  "https://nol.yanolja.com/ticket/products/26014509": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "834164639acd732c3aba3a4b0cd027070e9f5a7f225aa0c579f9b5978c4bb21b"
+  "contentHash": "855f75a47547744f16866d40228575cba179306479952b6f81aaaffe7a7d5438"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1": {
   "checkedAt": "2026-10-09",
@@ -27,7 +27,7 @@
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127508&page=1": {
   "checkedAt": "2026-10-09",
   "status": "review_needed",
-  "contentHash": "b2bfe42b7a1a607d155953dba58b5354cfe29e6f083e04978609946fa76088d4"
+  "contentHash": "d5e3cc647717bc54b45dfb28d10e98062a6c5323fba212bc865c7520c27ac4a1"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1": {
   "checkedAt": "2026-10-09",
@@ -42,7 +42,7 @@
  "https://nol.yanolja.com/ticket/products/26012145": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "9710d0884f1588ef3ba5e0ef6fc08526e687dff49152759be7d0d784b05bdf97"
+  "contentHash": "37001649be093b0da9035808d45397a64e1ff84f268392a647f9df466adab912"
  },
  "https://www.ticketlink.co.kr/help/notice/66128": {
   "checkedAt": "2026-10-09",
@@ -52,7 +52,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "79eda7e7f8972f93f5cdbf9eb838c82fe036de6c950ce189882aa58f3ee333e9"
+  "contentHash": "dadb34178a1af20325e35d59dbaf37e5ec265e4a7076fd90b2476eccc72d911c"
  },
  "https://www.ticketlink.co.kr/help/notice/66134": {
   "checkedAt": "2026-10-09",
@@ -62,11 +62,36 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "304a87113c18ad8352f0587d8fef5e8b7508289bf33d5ba2944090ee57860b4a"
+  "contentHash": "ac5059f719e897a269277dd4c9aa7a856873ab68463f4e6fbd177b150c39419d"
  },
  "https://nol.yanolja.com/ticket/products/26012259": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "3c532ea1af4efc1f959c8ce89d2b7480f0d866eaf57d529c27caa98f2e692095"
+  "contentHash": "0e65cf4452abc6ddfa25751752313f1c6b7a5d4a4a476355f05e6ce06c756744"
+ },
+ "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "da43f57f2360f48cea9844e174843134b2743a953d8136e3818457a2fc6fda3f"
+ },
+ "https://nol.yanolja.com/ticket/products/26011553": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "ca558d23593d3994a429eb61688143c87a4573478363a33477812ce4e171f25c"
+ },
+ "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "4592d9530b53894d82a231f02dd1fd470fd2fb22bdf8810219d372d85b23cdfd"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66160": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "76c2ed5880cba2abfbab3393973be81060c65f216cf5164e13f2cc089b6ec5c9"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127546&page=1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "2e59c847f617a2b7d816aaa40bb7283331472d31e26b476ae27023fb1f1cce62"
  }
 }

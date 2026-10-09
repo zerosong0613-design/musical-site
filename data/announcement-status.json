@@ -1,6 +1,14 @@
 {
- "checkedAt": "2026-10-09T01:09:34.394Z",
+ "checkedAt": "2026-10-09T07:04:54.127Z",
  "sources": [
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26011553",
+   "status": "verified"
+  },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66135",
    "status": "verified"
@@ -22,6 +30,14 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66160",
+   "status": "verified"
+  },
+  {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
    "status": "verified"
   },
@@ -36,6 +52,10 @@
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655",
    "status": "verified"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127546&page=1",
+   "status": "review_needed"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1",

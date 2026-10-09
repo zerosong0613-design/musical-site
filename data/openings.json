@@ -33,6 +33,17 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18609",
+  "at": "2026-10-08 11:00",
+  "title": "뮤지컬 [잔혹동화 생존기] 마지막 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18609",
+  "mt20id": "PF297712"
+ },
+ {
   "id": "yes24-18631",
   "at": "2026-10-08 13:00",
   "title": "2026 뮤지컬 <미드나잇 : 앤틀러스> 혜공 전관 - 그래이공 DAY 티켓오픈 안내",
@@ -75,6 +86,36 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66144",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18645",
+  "at": "2026-10-13 11:00",
+  "title": "뮤지컬 [연의 편지] 마지막 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
+  "mt20id": "PF298163",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-436acb34079f04571781"
+  ]
+ },
+ {
+  "id": "nol-26011553",
+  "at": "2026-10-13 11:00",
+  "title": "뮤지컬 〈연의 편지〉 마지막 티켓 오픈",
+  "vendor": "NOL 티켓",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26011553",
+  "mt20id": "PF298163",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a0df739959ee5137c6ae"
+  ]
  },
  {
   "id": "ticketlink-66135",
@@ -156,6 +197,36 @@
   ]
  },
  {
+  "id": "yes24-18658",
+  "at": "2026-10-14 12:00",
+  "title": "뮤지컬 [마하고니] 2차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
+  "mt20id": "PF301746",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-76d761f7d33ece05282c"
+  ]
+ },
+ {
+  "id": "ticketlink-66160",
+  "at": "2026-10-14 12:00",
+  "title": "뮤지컬 <마하고니> 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66160",
+  "mt20id": "PF301746",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-ad4346871f18813b080b"
+  ]
+ },
+ {
   "id": "yes24-18641",
   "at": "2026-10-14 14:00",
   "title": "뮤지컬 [렛미플라이] 3차 티켓오픈 안내",
@@ -215,5 +286,27 @@
    "announcement-1a0ca447b643f2061481",
    "announcement-195c40d336a6bea2d7f1"
   ]
+ },
+ {
+  "id": "ticketlink-66173",
+  "at": "2026-10-15 15:00",
+  "title": "뮤지컬 <브로큰 넘버스> 프리뷰, 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66173",
+  "mt20id": null
+ },
+ {
+  "id": "nol-26014511",
+  "at": "2026-10-16 15:00",
+  "title": "뮤지컬 〈여신님이 보고 계셔〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26014511",
+  "mt20id": null
  }
 ]
