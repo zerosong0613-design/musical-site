@@ -1,4 +1,4 @@
-import {searchNews} from './lib/naver-news.mjs';
+import {searchNaver,searchSources,searchCandidate} from './lib/naver-news.mjs';
 import { isEligibleShow } from '../src/show-filter.js';
 // 공지 하나를 예매오픈/캐스팅 양쪽으로 분배한다. 비공식 글은 원문 발견·검토용이다.
 import {readFile,writeFile} from 'node:fs/promises';
@@ -81,21 +81,30 @@ if(!process.env.ANNOUNCEMENT_TARGET_ID&&config.announcements?.dcinside!==false) 
  }catch(e){statuses.push({url,status:'fetch_failed',error:e.message});}
 }
 if(!process.env.ANNOUNCEMENT_TARGET_ID&&process.env.NAVER_CLIENT_ID&&process.env.NAVER_CLIENT_SECRET) {
- // 뉴스 검색 결과는 후보이다. 요약문만으로 날짜·배우를 확정하지 않는다.
- const queries=config.announcements?.newsQueries??['뮤지컬 티켓 오픈','뮤지컬 캐스팅 스케줄'];
- for(const query of queries.slice(0,5)) {
+ // 세 검색 종류 모두 발견용이다. 공식 원문의 본문을 조회한 뒤에만 공개한다.
+ const queries=config.announcements?.searchQueries??config.announcements?.newsQueries??['뮤지컬 티켓 오픈','뮤지컬 캐스팅 스케줄'];
+ const candidates=new Map();
+ for(const [kind,source] of Object.entries(searchSources))for(const query of queries.slice(0,5)) {
   try {
-   const items=await searchNews(query,process.env,get);
-   for(const n of items) {
-    if(Date.now()-new Date(n.pubDate).getTime()>14*86400e3)continue;
-    const text=plain(n.title+' '+n.description);const show=matchShow(text,shows);if(!show||!relevant(text))continue;
-    const original=n.originallink||n.link;register({url:original,title:plain(n.title),text,source:'네이버 뉴스',at:new Date(n.pubDate).toISOString(),mt20id:show.id});
-    await page(original,{source:'네이버 뉴스',at:new Date(n.pubDate).toISOString(),mt20id:show.id});
+   const items=await searchNaver(kind,query,process.env,get);
+   let matches=0;
+   for(const item of items) {
+    const candidate=searchCandidate(item,kind);if(!candidate)continue;
+    candidate.title=plain(candidate.title);candidate.text=plain(candidate.text);
+    const show=matchShow(candidate.text,shows);if(!show||!relevant(candidate.text))continue;
+    matches++;
+    if(!candidates.has(candidate.url))candidates.set(candidate.url,{...candidate,mt20id:show.id});
    }
-   statuses.push({source:'네이버 뉴스',query,status:'checked'});
-  }catch(e){statuses.push({source:'네이버 뉴스',query,status:'fetch_failed',error:e.message});}
+   statuses.push({source,query,status:'checked',matches});
+  }catch(e){statuses.push({source,query,status:'fetch_failed',error:e.message});}
  }
-}else statuses.push({source:'네이버 뉴스',status:'not_configured'});
+ // 공식 사이트를 먼저 확인해 전체 페이지 상한 안에서 원출처를 우선한다.
+ const ordered=[...candidates.values()].sort((a,b)=>Number(officialUrl(b.url,config))-Number(officialUrl(a.url,config)));
+ for(const candidate of ordered) {
+  if(!officialUrl(candidate.url,config))register(candidate);
+  await page(candidate.url,candidate);
+ }
+}else for(const source of Object.values(searchSources))statuses.push({source,status:'not_configured'});
 const announcements=[...records.values()].slice(-500);
 const result=applyAnnouncements(announcements,openings,notices,await read('data/openings.manual.json',[]));
 // 기존 예매처 공급원이 이후 갱신해도 이 단계가 메타데이터/스케줄 연결을 복원한다.
