@@ -1,3 +1,4 @@
+import { isEligibleShow } from '../src/show-filter.js';
 import {readFile,writeFile} from 'node:fs/promises';
 import {posterPages,posterFromPage} from './lib/poster-source.mjs';
 const ROOT=new URL('../',import.meta.url);
@@ -6,7 +7,7 @@ const main=(await read('data/shows.json',{})).shows??[],manual=await read('data/
 const shows=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))];
 const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
 const posters=await read('data/posters.json',{});
-for(const show of shows.filter(s=>s.large&&s.to>=today&&!s.poster)) {
+for(const show of shows.filter(s=>isEligibleShow(s)&&s.to>=today&&!s.poster)) {
  const attempts=[];let found=false;
  for(const pageUrl of posterPages(show.links??[])) {
   try {

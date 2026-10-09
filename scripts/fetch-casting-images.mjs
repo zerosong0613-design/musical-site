@@ -1,3 +1,4 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 예매처 공개 상세 페이지 → 자동 이미지 발견·다운로드·내용 변경 감지.
 // 이미지 원본은 Actions artifact로 보관. 캐스팅 미확보를 성공으로 표시하지 않는다.
 import { readFile,writeFile,mkdir } from 'node:fs/promises';
@@ -19,7 +20,7 @@ async function get(url) {
  if (!r.ok) throw new Error(`HTTP ${r.status}`);
  return r;
 }
-for(const show of master.filter(s=>s.large&&s.to>=today&&(!process.env.CASTING_TARGET_ID||s.id===process.env.CASTING_TARGET_ID))) {
+for(const show of master.filter(s=>isEligibleShow(s)&&s.to>=today&&(!process.env.CASTING_TARGET_ID||s.id===process.env.CASTING_TARGET_ID))) {
  const existing=await readFile(new URL(`data/casting/${show.id}.json`,ROOT),'utf8').then(JSON.parse,()=>null);
  // 자동 JSON 공급원이 오늘 갱신한 작품은 불필요한 이미지 요청을 줄인다.
  const related=announcements.filter(a=>a.mt20id===show.id&&a.status==='verified'&&(a.hasCasting||a.images?.length));

@@ -1,5 +1,6 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 멜론티켓 캐스팅 스케줄 → data/casting/{mt20id}.json
-// shows.json에서 멜론티켓 예매 링크가 있는 대극장 작품만, 작품당 하루 한 번 요청한다.
+// shows.json에서 멜론티켓 예매 링크가 있는 300석 이상 작품만, 작품당 하루 한 번 요청한다.
 // 멜론티켓 이용약관은 자동 수집을 금지한다. 운영자가 알고 결정한 사항이며, 요청 수는 최소로 유지한다.
 import { readFile } from 'node:fs/promises';
 import { writeCasting, rebuildIndex } from './lib/casting-file.mjs';
@@ -15,7 +16,7 @@ const config = JSON.parse(await readFile(new URL('config.json', ROOT), 'utf8'));
 const { shows: master } = JSON.parse(await readFile(new URL('data/shows.json', ROOT), 'utf8'));
 // 멜론은 한 작품에 상품 번호가 여럿일 수 있다. KOPIS 링크의 번호에 config.json의 melonProdIds를 더해 모두 확인한다.
 const targets = master
-  .filter(s => s.large && s.to >= today)
+  .filter(s => isEligibleShow(s) && s.to >= today)
   .map(s => ({
     show: s,
     prodIds: [...new Set([

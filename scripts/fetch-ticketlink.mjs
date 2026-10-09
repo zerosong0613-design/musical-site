@@ -1,5 +1,6 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 티켓링크 캐스팅 일정 → data/casting/{mt20id}.json
-// shows.json에서 티켓링크 예매 링크가 있는 대극장 작품만 확인한다.
+// shows.json에서 티켓링크 예매 링크가 있는 300석 이상 작품만 확인한다.
 // 작품당 요청: 배역표 1건 + 첫 배역 배우 수만큼(보통 2~4건). 한 회차에는 첫 배역 배우가 반드시 한 명 서므로
 // 그 배우들의 일정을 합치면 전체 회차가 된다. 티켓링크는 남은 회차만 내려주므로 지난 회차는 기존 파일에서 이어 붙인다.
 // 멜론·샤롯데씨어터·수동 입력으로 이미 들어온 작품은 건너뛴다.
@@ -32,7 +33,7 @@ async function get(path, params) {
 
 const { shows: master } = await readJSON('data/shows.json', { shows: [] });
 const targets = master
-  .filter(s => s.large && s.to >= today)
+  .filter(s => isEligibleShow(s) && s.to >= today)
   .map(s => ({ show: s, productId: s.links.find(l => /ticketlink\.co\.kr\/product\/\d+/.test(l.url))?.url.match(/product\/(\d+)/)?.[1] }))
   .filter(t => t.productId);
 

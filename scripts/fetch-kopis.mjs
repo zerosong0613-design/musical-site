@@ -1,5 +1,5 @@
 // KOPIS 오픈API → data/shows.json
-// 목록 전체 페이지 → 상세 조회 → 어린이극·단기 행사 제외 → 대극장 여부 표시
+// 목록 전체 페이지 → 상세 조회 → 어린이극·단기 행사 제외 → 300석 수집 기준·500석 대극장 여부 분리
 // 실패하면 아무것도 쓰지 않고 종료한다(이전 JSON 유지).
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -123,7 +123,7 @@ for (const id of ids) {
   const hallId = tag(db, 'mt13id');
   const seats = hallSeats(hallId, await venue(venueId));
   const child = tag(db, 'child');
-  const large = child === 'N' && seats != null && seats >= config.minSeats;
+  const large = child === 'N' && seats != null && seats >= 500;
 
   shows.push({
     id, title, from, to, openrun,
@@ -158,7 +158,7 @@ await writeFile(new URL('data/venues.json', ROOT), JSON.stringify(venues, null, 
 await writeFile(new URL('data/shows.json', ROOT), JSON.stringify(out, null, 1) + '\n');
 
 const large = shows.filter(s => s.large);
-console.log(`저장 ${shows.length}건 (대극장 ${large.length}건) · 제외: 아동 ${skipped.child}, 단기 ${skipped.short}, 키워드 ${skipped.keyword}`);
+console.log(`저장 ${shows.length}건 (300석 이상 ${shows.filter(s => s.seats >= config.minSeats).length}건, 대극장 ${large.length}건) · 제외: 아동 ${skipped.child}, 단기 ${skipped.short}, 키워드 ${skipped.keyword}`);
 const unknown = [...new Set(shows.filter(s => s.seats == null).map(s => s.venue))];
 if (unknown.length) console.log(`좌석 수를 못 찾은 공연장 ${unknown.length}곳 (규모 미확인으로 공개 목록에서 제외):\n  ` + unknown.join('\n  '));
 

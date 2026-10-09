@@ -1,3 +1,4 @@
+import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-1';
 import { mountCasting } from './casting.js?v=20261009-4';
 import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
@@ -29,7 +30,7 @@ async function getJSON(path, fallback) {
 }
 
 const data = { shows: [], casting: new Map(), openings: [], notices: [] };
-const view = { tab: 'now', largeOnly: true };
+const view = { tab: 'now', largeOnly: readLargeOnly(storage) };
 
 async function load() {
   const [file, castingIndex, auto, manual, notices, events, manualShows, posters] = await Promise.all([
@@ -58,7 +59,7 @@ const poster = (s, showFavorite = false) => `<div class="poster" data-initial="$
 
 function renderList() {
   const t = today();
-  const pool = data.shows.filter(s => s.to >= t && s.large && s.seats >= 500);
+  const pool = data.shows.filter(s => s.to >= t && isEligibleShow(s, view.largeOnly ? 500 : 300));
   const now = favoritesFirst(pool.filter(s => s.from <= t), favorites, (a, b) => a.to.localeCompare(b.to));
   const soon = favoritesFirst(pool.filter(s => s.from > t), favorites, (a, b) => a.from.localeCompare(b.from));
   const list = view.tab === 'now' ? now : soon;
@@ -69,7 +70,8 @@ function renderList() {
         <button role="tab" data-tab="now" aria-selected="${view.tab === 'now'}">공연 중 <small>${now.length}</small></button>
         <button role="tab" data-tab="soon" aria-selected="${view.tab === 'soon'}">예정 <small>${soon.length}</small></button>
       </div>
-      <span class="note">서울·경기·인천 · 500석 이상 · 어린이 공연 제외</span>
+      <label class="check large-filter"><input type="checkbox" data-large-only ${view.largeOnly ? 'checked' : ''}>대극장만 보기 <small>500석 이상</small></label>
+      <span class="note scope-note">서울·경기·인천 · ${view.largeOnly ? '500' : '300'}석 이상 · 어린이 공연 제외</span>
     </div>
     ${list.length ? `<ul class="cards">${list.map(s => `
       <li><a class="card" href="#/show/${esc(s.id)}">
@@ -82,6 +84,11 @@ function renderList() {
         </div>
       </a></li>`).join('')}</ul>` : '<p class="empty">해당하는 작품이 없습니다.</p>'}`;
 
+  app.querySelector('[data-large-only]').addEventListener('change', e => {
+    view.largeOnly = e.currentTarget.checked;
+    saveLargeOnly(storage, view.largeOnly);
+    renderList();
+  });
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderList(); }));
 
 }

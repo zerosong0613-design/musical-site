@@ -1,3 +1,4 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 예매처 티켓 오픈 공지 → data/openings.json
 // 멜론티켓·예스24·티켓링크의 공지 목록에서 일시·제목·링크만 가져온다(본문은 가져오지 않는다).
 // KOPIS에 아직 등록되지 않은 작품도 티켓 오픈은 먼저 공지되므로, 작품을 못 맞춰도 목록에는 남긴다.
@@ -111,7 +112,7 @@ function classify(vendor, item) {
   if (OTHER_REGIONS.test(t)) return null;
   const name = letters(t);
   const show = shows.filter(s => bare(s.title).length >= 2 && name.includes(bare(s.title))).sort((a, b) => bare(b.title).length - bare(a.title).length)[0];
-  if (show && !show.large) return null; // 대상 밖(소극장 등)으로 확인된 작품
+  if (show && !isEligibleShow(show)) return null; // 300석 미만 등 대상 밖으로 확인된 작품
   return {
     id: item.id, at: item.at, title: t.replace(/^\[단독판매\]\s*/, ''), vendor,
     round: t.match(/(\d+\s*차|마지막|라스트|추가)\s*티켓\s*오픈/)?.[1].replace(/\s/g, '') ?? '',

@@ -1,3 +1,4 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 이미지 전용 자동 변환. OPENAI_API_KEY와 config.castingVision.enabled 설정 시 실행.
 // 변경된 이미지만 두 번 독립 추출하고 결과·기간 검증을 통과하면 저장한다.
 import { readFile,writeFile } from 'node:fs/promises';
@@ -28,7 +29,7 @@ async function extract(image,show) {
  const raw=data.output.filter(o=>o.type==='message').flatMap(o=>o.content).filter(c=>c.type==='output_text').map(c=>c.text).join('');
  return JSON.parse(raw.replace(/^```(?:json)?\s*|\s*```$/g,''));
 }
-for(const show of master.filter(s=>s.large)) {
+for(const show of master.filter(s=>isEligibleShow(s))) {
  const record=manifest.shows[show.id];if(!record)continue;
  for(const image of record.images) {
   const key=`${show.id}:${image.sha256}`;

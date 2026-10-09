@@ -1,3 +1,4 @@
+import { isEligibleShow } from '../src/show-filter.js';
 // 공지 하나를 예매오픈/캐스팅 양쪽으로 분배한다. 비공식 글은 원문 발견·검토용이다.
 import {readFile,writeFile} from 'node:fs/promises';
 import {hash,extractImages,isBlocked} from './lib/source-images.mjs';
@@ -8,7 +9,7 @@ const save=(p,v)=>writeFile(new URL(p,ROOT),JSON.stringify(v,null,1)+'\n');
 const config=await read('config.json',{});
 const master=(await read('data/shows.json',{})).shows??[];
 const manualShows=await read('data/shows.manual.json',[]);
-const shows=[...master,...manualShows.filter(s=>!master.some(x=>x.id===s.id))].filter(s=>s.large&&s.to>=new Date(Date.now()+9*3600e3).toISOString().slice(0,10));
+const shows=[...master,...manualShows.filter(s=>!master.some(x=>x.id===s.id))].filter(s=>isEligibleShow(s)&&s.to>=new Date(Date.now()+9*3600e3).toISOString().slice(0,10));
 const prior=await read('data/announcements.json',[]);const records=new Map(prior.map(a=>[a.id,a]));
 const openings=await read('data/openings.json',[]),notices=await read('data/notices.json',[]);
 const statuses=[];let pageCount=0;

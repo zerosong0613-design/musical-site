@@ -1,6 +1,6 @@
 {
   "monthsAhead": 3,
-  "minSeats": 500,
+  "minSeats": 300,
   "minRunDays": 1,
   "excludeKeywords": [
     "어린이",
