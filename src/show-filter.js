@@ -3,7 +3,7 @@ export const MIN_SEATS = 300;
 export const LARGE_SEATS = 500;
 const FILTER_KEY = 'musical-site:large-only';
 export function isEligibleShow(show, minSeats = MIN_SEATS) {
-  if (show.child === 'Y') return false;
+  if (show.child === 'Y' || show.excluded === true) return false;
   if (show.seats == null) return show.large === true; // 좌석 수 없는 기존 대극장 수동 자료 호환
   const seats = Number(show.seats);
   return Number.isFinite(seats) && seats >= minSeats;

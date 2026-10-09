@@ -10,6 +10,7 @@ test('300석 기본 범위와 500석 대극장 필터를 구분한다', () => {
   }
   assert.equal(isEligibleShow({ seats: 400, large: false }), true);
   assert.equal(isEligibleShow({ seats: 1000, child: 'Y', large: true }), false);
+  assert.equal(isEligibleShow({ seats: 700, excluded: true }), false);
   assert.equal(isEligibleShow({ seats: null, large: false }), false);
   assert.equal(isEligibleShow({ seats: 'unknown' }), false);
   assert.equal(isEligibleShow({ large: true }), true);

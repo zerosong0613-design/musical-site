@@ -3719,7 +3719,8 @@
    "from": "2026-11-10",
    "poster": "",
    "openrun": false,
-   "area": "서울특별시"
+   "area": "서울특별시",
+   "excluded": true
   },
   {
    "id": "PF300591",
@@ -3771,7 +3772,8 @@
    "from": "2026-10-18",
    "poster": "",
    "openrun": false,
-   "area": "경기도"
+   "area": "경기도",
+   "excluded": true
   },
   {
    "id": "PF301272",
@@ -3797,7 +3799,8 @@
    "from": "2026-12-19",
    "poster": "",
    "openrun": false,
-   "area": "경기도"
+   "area": "경기도",
+   "excluded": true
   },
   {
    "id": "PF300693",

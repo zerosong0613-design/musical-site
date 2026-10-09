@@ -1,4 +1,4 @@
-import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-1';
+import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
 import { mountCasting } from './casting.js?v=20261009-4';
 import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
