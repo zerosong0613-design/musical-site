@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-09T09:48:31.908Z",
+ "checkedAt": "2026-10-09T09:59:49.070Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
@@ -82,58 +82,84 @@
    "status": "checked"
   },
   {
-   "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4025856",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241957",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=772032",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241725",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=763263",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610080178",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://sports.donga.com/life/article/all/20261008/134807139/1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.sportsseoul.com/news/read/1640179?ref=naver",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.xportsnews.com/article/2205050",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.womennews.co.kr/news/articleView.html?idxno=283005",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010322949&plink=ORI&cooper=NAVER",
-   "status": "fetch_failed"
-  },
-  {
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
-   "status": "checked"
+   "status": "checked",
+   "matches": 17
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
-   "status": "checked"
+   "status": "checked",
+   "matches": 4
+  },
+  {
+   "source": "네이버 블로그",
+   "query": "뮤지컬 티켓 오픈",
+   "status": "checked",
+   "matches": 13
+  },
+  {
+   "source": "네이버 블로그",
+   "query": "뮤지컬 캐스팅 스케줄",
+   "status": "checked",
+   "matches": 21
+  },
+  {
+   "source": "네이버 웹문서",
+   "query": "뮤지컬 티켓 오픈",
+   "status": "checked",
+   "matches": 9
+  },
+  {
+   "source": "네이버 웹문서",
+   "query": "뮤지컬 캐스팅 스케줄",
+   "status": "checked",
+   "matches": 14
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65605",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65961",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26009314",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26007169",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26012217",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/L0000150",
+   "status": "verified"
+  },
+  {
+   "url": "https://nol.yanolja.com/ticket/products/26009616",
+   "status": "verified"
   }
  ]
 }

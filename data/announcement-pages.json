@@ -7,7 +7,7 @@
  "https://nol.yanolja.com/ticket/products/26014509": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "3ec32aaafb52fe94bdcf9267659a3e4bac9fcc1b8dcc6795b4ed5aa7e081d000"
+  "contentHash": "a2490eb5d2aab292f3d265968ab95ad76b568873502506212999e108d24dbc8a"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1": {
   "checkedAt": "2026-10-09",
@@ -42,7 +42,7 @@
  "https://nol.yanolja.com/ticket/products/26012145": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "df8014a3066945416932f7736208fd19ca78e70781f234cbce26cf0cb9f2f910"
+  "contentHash": "6ed254b41da88bf32125c6935a17740daa0185042bf395144cefb4693f6dc13c"
  },
  "https://www.ticketlink.co.kr/help/notice/66128": {
   "checkedAt": "2026-10-09",
@@ -52,7 +52,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "585ac547d08a6af3990663e156e92815c86df2489cf30eac94edcae55b1d4f5c"
+  "contentHash": "083d6e0c9f8b2bb03055dea9c46f8dafd275c860f0348b882b6be0b8a1fcf17e"
  },
  "https://www.ticketlink.co.kr/help/notice/66134": {
   "checkedAt": "2026-10-09",
@@ -62,27 +62,27 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "bb28c6b79d6a76c225485d50ccaee576b96f72c308a8ec599d2d576630381bcc"
+  "contentHash": "8d03bb4e7fa6b1d6d5c2bdc78ee75ea24f9515b54826124a147faab5df8a8d41"
  },
  "https://nol.yanolja.com/ticket/products/26012259": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "333dc425eb9f9e440db509b85172bb96bf257b1f9a8de4f284c31172071a3ab2"
+  "contentHash": "a7be3c8d90764cb46a7b1ad1dd0b419aff3bfd5b15ca11080c99d99ef4377939"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "1c3872c58e82b1b6a95cb24b2298840fd4f24b46ee4539be2124247cf2c40bb0"
+  "contentHash": "f13ca29107fab9a11fd771a836de3b475491c44930a911d60fc86ff463034888"
  },
  "https://nol.yanolja.com/ticket/products/26011553": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "632b9619dd07a3500e949f2fe621e7cc27ce351e4553844cdbf525c1d64a4c8a"
+  "contentHash": "390cb83a30e27875f28befbdf991a8003c9a6f26ade8c42a776382189ab2727e"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658": {
   "checkedAt": "2026-10-09",
   "status": "review_needed",
-  "contentHash": "15666a06986cc2e2a02374da77916c7c403b48328aa173b1493e4deea1151cd0"
+  "contentHash": "d0cb84412cb4a87ed283694698713a93456b8b3fe4a0ff852d570ea76f414b1e"
  },
  "https://www.ticketlink.co.kr/help/notice/66160": {
   "checkedAt": "2026-10-09",
@@ -148,5 +148,60 @@
   "checkedAt": "2026-10-09",
   "status": "fetch_failed",
   "error": "HTTP 403"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66028": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "826013980f725c032b61c66a3a712c8531114d6e1d8e727afc8d9e10ccdcf7d4"
+ },
+ "https://www.ticketlink.co.kr/help/notice/65605": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "b2350601d86d34450ab7237093c54fc4e6130eab13ccd803199f7fd6d3568f7b"
+ },
+ "https://www.ticketlink.co.kr/help/notice/65676": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "1638fd7f6b7c1aa36bab60f0f2bd56bb039296fcd2cb4f3ce4e76501b0eaa3a9"
+ },
+ "https://www.ticketlink.co.kr/help/notice/65990": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "6e541ccfadc4877d435e148c1f19f1780ddce7b962af8a2c5157e85c4b81ad02"
+ },
+ "https://www.ticketlink.co.kr/help/notice/65890": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "b89b838d903d3f3bae9dd4e9a5ec603f872fb77f61af92da80e879766997e6dd"
+ },
+ "https://www.ticketlink.co.kr/help/notice/65961": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "9bdc028883c1195490d75289c7abf2ea99b725310d62b9b4128ee572ce9bd738"
+ },
+ "https://nol.yanolja.com/ticket/products/26009314": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "dcd75bbaaec8fa46be68bf34b37432a96f98c0ebe387e0dbe5befeef1af77ab4"
+ },
+ "https://nol.yanolja.com/ticket/products/26007169": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "dbd0ace903421d41d599d6d7de28773ff036e29f6cdf2024e76363b001e21dad"
+ },
+ "https://nol.yanolja.com/ticket/products/26012217": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "381e215062774e5565a44a8bb2e912c580b67f68946999853ac619f919269c17"
+ },
+ "https://nol.yanolja.com/ticket/products/L0000150": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "5cdccd953f218661a916156bcb024711afcd2e784b56e8c62206a46a20c08458"
+ },
+ "https://nol.yanolja.com/ticket/products/26009616": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "863fac4733f95e7a7c4a8bf0cd9bb8463985add83fd27d394d65e1d889c4a33b"
  }
 }
