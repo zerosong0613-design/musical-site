@@ -22,6 +22,8 @@ jobs:
         continue-on-error: true
         env:
           KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
+      - run: node scripts/fetch-posters.mjs
+        continue-on-error: true
       - run: node scripts/fetch-charlotte.mjs
         continue-on-error: true
       - run: node scripts/fetch-melon.mjs
