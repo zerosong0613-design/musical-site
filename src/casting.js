@@ -1,3 +1,4 @@
+import { initialActorPicks, sameActor } from './actor-search.js?v=20261009-1';
 // 캐스팅 조합 검색: 배역마다 한 명씩 골라, 모두 함께 서는 회차만 남긴다.
 import { mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 const DAYS = ['일', '월', '화', '수', '목', '금', '토'];
@@ -14,12 +15,14 @@ export function filterShows(shows, state, now = Date.now()) {
     if (state.from && s.date < state.from || state.to && s.date > state.to) return false;
     if (state.days.size && !state.days.has(showDay(s))) return false;
     if (state.time && state.time !== (s.time < '17:00' ? 'day' : 'night')) return false;
+    if (state.actor && !s.cast.some(name => sameActor(name, state.actor))) return false;
     return state.pick.every((name, i) => !name || s.cast[i] === name);
   });
 }
 
 export function mountCasting(el, casting, show, range = {}) {
-  const state = { pick: casting.roles.map(() => null), days: new Set(), time: null, includePast: false, from: /^\d{4}-\d{2}-\d{2}$/.test(range.from ?? '') ? range.from : null, to: /^\d{4}-\d{2}-\d{2}$/.test(range.to ?? '') ? range.to : null };
+  const state = { pick: initialActorPicks(casting, range.actor), actor: range.actor || null, days: new Set(), time: null, includePast: false, from: /^\d{4}-\d{2}-\d{2}$/.test(range.from ?? '') ? range.from : null, to: /^\d{4}-\d{2}-\d{2}$/.test(range.to ?? '') ? range.to : null };
+  if (state.pick.some(Boolean)) state.actor = null;
   const actors = casting.roles.map((_, i) => [...new Set(casting.shows.map(s => s.cast[i]))]);
   const key = s => `${s.date} ${s.time}`;
 
@@ -34,6 +37,7 @@ export function mountCasting(el, casting, show, range = {}) {
     const now = Date.now();
     const list = filterShows(casting.shows, state, now);
     const picked = state.pick.filter(Boolean);
+    if (state.actor) picked.push(state.actor);
     el.innerHTML = `
       ${state.from && state.to ? `<p class="note">판매 공연기간: ${esc(state.from)} ~ ${esc(state.to)} <button type="button" class="link" data-range-clear>전체 회차 보기</button></p>` : ''}
       <div class="panel">
@@ -83,7 +87,7 @@ export function mountCasting(el, casting, show, range = {}) {
     } else if ('rangeClear' in b.dataset) {
       state.from = null; state.to = null;
     } else if ('reset' in b.dataset) {
-      state.pick.fill(null); state.days.clear(); state.time = null;
+      state.pick.fill(null); state.actor = null; state.days.clear(); state.time = null;
     } else return;
     render();
   });

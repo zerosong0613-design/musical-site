@@ -1,5 +1,6 @@
+import { actorMatch } from './actor-search.js?v=20261009-1';
 import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
-import { mountCasting } from './casting.js?v=20261009-4';
+import { mountCasting } from './casting.js?v=20261009-5';
 import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261009-4';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
 let storage; try { storage = window.localStorage; } catch {}
@@ -29,8 +30,19 @@ async function getJSON(path, fallback) {
   }
 }
 
-const data = { shows: [], casting: new Map(), openings: [], notices: [] };
-const view = { tab: 'now', largeOnly: readLargeOnly(storage) };
+const data = { shows: [], casting: new Map(), castingFiles: new Map(), openings: [], notices: [] };
+const view = { tab: 'now', largeOnly: readLargeOnly(storage), actor: '', actorLoading: false };
+const actorFailures = new Set();
+async function loadActorSchedules() {
+  const ids = data.shows.filter(s => s.to >= today() && isEligibleShow(s) && data.casting.has(s.id) && !data.castingFiles.has(s.id)).map(s => s.id);
+  for (let start = 0; start < ids.length; start += 4) {
+    await Promise.all(ids.slice(start, start + 4).map(async id => {
+      const casting = data.castingFiles.get(id) || await getJSON(`data/casting/${id}.json`, null);
+      data.castingFiles.set(id, casting);
+      if (!casting) actorFailures.add(id);
+    }));
+  }
+}
 
 async function load() {
   const [file, castingIndex, auto, manual, notices, events, manualShows, posters] = await Promise.all([
@@ -59,38 +71,62 @@ const poster = (s, showFavorite = false) => `<div class="poster" data-initial="$
 
 function renderList() {
   const t = today();
-  const pool = data.shows.filter(s => s.to >= t && isEligibleShow(s, view.largeOnly ? 500 : 300));
+  const matches = new Map();
+  const pool = data.shows.filter(s => {
+    if (s.to < t || !isEligibleShow(s, view.largeOnly ? 500 : 300)) return false;
+    const match = actorMatch(s, data.castingFiles.get(s.id), view.actor);
+    matches.set(s.id, match);
+    return match.matched;
+  });
   const now = favoritesFirst(pool.filter(s => s.from <= t), favorites, (a, b) => a.to.localeCompare(b.to));
   const soon = favoritesFirst(pool.filter(s => s.from > t), favorites, (a, b) => a.from.localeCompare(b.from));
-  const list = view.tab === 'now' ? now : soon;
+  // 배우 검색은 탭에 갇히지 않고 공연 중·예정 작품을 함께 찾는다.
+  const list = view.actor ? [...now, ...soon] : view.tab === 'now' ? now : soon;
 
   app.innerHTML = `
+    <form class="actor-search" aria-label="배우 출연 작품 검색">
+      <input type="search" name="actor" aria-label="배우 이름" placeholder="배우 이름으로 출연 작품 찾기" maxlength="80" value="${esc(view.actor)}">
+      <button type="submit">검색</button>
+      ${view.actor ? '<button type="button" data-actor-clear>해제</button>' : ''}
+    </form>
+    ${view.actor ? `<p class="note actor-help">현재 수집한 수도권·300석 이상 작품의 출연진과 캐스팅표에서 검색합니다. 결과가 없어도 출연작이 없다는 뜻은 아닙니다.${actorFailures.size ? ' 일부 캐스팅표를 불러오지 못해 결과가 누락될 수 있습니다.' : ''}</p>` : ''}
     <div class="bar">
-      <div class="tabs" role="tablist">
+      ${view.actor ? `<p class="actor-summary" role="status">${esc(view.actor)} 출연 작품 <strong>${list.length}</strong>편 <small>공연 중 ${now.length} · 예정 ${soon.length}</small>${view.actorLoading ? ' · 확인 중…' : ''}</p>` : `<div class="tabs" role="tablist">
         <button role="tab" data-tab="now" aria-selected="${view.tab === 'now'}">공연 중 <small>${now.length}</small></button>
         <button role="tab" data-tab="soon" aria-selected="${view.tab === 'soon'}">예정 <small>${soon.length}</small></button>
-      </div>
+      </div>`}
       <label class="check large-filter"><input type="checkbox" data-large-only ${view.largeOnly ? 'checked' : ''}>대극장만 보기 <small>500석 이상</small></label>
       <span class="note scope-note">서울·경기·인천 · ${view.largeOnly ? '500' : '300'}석 이상 · 어린이 공연 제외</span>
     </div>
     ${list.length ? `<ul class="cards">${list.map(s => `
-      <li><a class="card" href="#/show/${esc(s.id)}">
+      <li><a class="card" href="#/show/${esc(s.id)}${view.actor ? '?actor=' + encodeURIComponent(view.actor) : ''}">
         ${poster(s, true)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
           <p>${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}</p>
           <p class="muted">${esc(s.venue)}</p>
-          ${data.casting.has(s.id) ? '<span class="badge">캐스팅 검색</span>' : ''}
+          ${view.actor ? `<span class="badge">${matches.get(s.id).count ? '남은 출연 ' + matches.get(s.id).count + '회차' : matches.get(s.id).hasSchedule ? '확보한 표에 남은 출연 회차 없음' : '출연진 확인 · 회차 미확보'}</span>` : data.casting.has(s.id) ? '<span class="badge">캐스팅 검색</span>' : ''}
         </div>
-      </a></li>`).join('')}</ul>` : '<p class="empty">해당하는 작품이 없습니다.</p>'}`;
+      </a></li>`).join('')}</ul>` : `<p class="empty">${view.actorLoading ? '캐스팅표를 확인하는 중입니다…' : view.actor ? '확보한 정보에서 일치하는 배우를 찾지 못했습니다. 배우 이름 전체를 입력해 주세요.' : '해당하는 작품이 없습니다.'}</p>`}`;
 
+  app.querySelector('.actor-search').addEventListener('submit', async e => {
+    e.preventDefault();
+    const actor = new FormData(e.currentTarget).get('actor').trim();
+    view.actor = actor; view.actorLoading = !!actor;
+    renderList();
+    if (!actor) return;
+    await loadActorSchedules();
+    if (view.actor !== actor) return;
+    view.actorLoading = false;
+    if (!location.hash || location.hash === '#/') renderList();
+  });
+  app.querySelector('[data-actor-clear]')?.addEventListener('click', () => { view.actor = ''; view.actorLoading = false; renderList(); });
   app.querySelector('[data-large-only]').addEventListener('change', e => {
     view.largeOnly = e.currentTarget.checked;
     saveLargeOnly(storage, view.largeOnly);
     renderList();
   });
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderList(); }));
-
 }
 
 // 예스24 PC 공지 주소는 휴대폰에서 "모바일웹으로 이동" 안내 뒤 첫 화면으로 보내 버린다. 휴대폰에서는 모바일 공지 주소로 바꾼다.
@@ -217,7 +253,7 @@ function route() {
   const nav = { '#/openings': 'openings', '#/notices': 'notices' }[hash] ?? 'shows';
   document.querySelectorAll('[data-nav]').forEach(a => a.toggleAttribute('aria-current', a.dataset.nav === nav));
   window.scrollTo(0, 0);
-  if (show) { const params = new URLSearchParams(show[2] ?? ''); renderShow(show[1], {from: params.get('from'), to: params.get('to')}); }
+  if (show) { const params = new URLSearchParams(show[2] ?? ''); renderShow(show[1], {from: params.get('from'), to: params.get('to'), actor: params.get('actor')}); }
   else if (hash === '#/openings') renderOpenings();
   else if (hash === '#/notices') renderNotices();
   else renderList();
