@@ -1,4 +1,4 @@
-import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261009-1';
+import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261009-2';
 import { actorMatch } from './actor-search.js?v=20261009-1';
 import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
 import { mountCasting } from './casting.js?v=20261009-5';
@@ -168,7 +168,7 @@ function eventNotice(e) {
 }
 
 function noticeItems(list) {
-  list=list.filter(n=>!n.announcementId||!n.source?.startsWith('네이버')||!isProductPage(n.url));
+  list=list.filter(n=>!n.announcementId||!isProductPage(n.url)||!/상품상세|가격 할인정보|취소 및 환불규정/.test(n.excerpt??''));
   return `<ol class="openings">${list.map(n => {
     const k = new Date(new Date(n.at).getTime() + 9 * 3600e3);
     const show = data.shows.find(s => s.id === n.mt20id);

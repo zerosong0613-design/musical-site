@@ -6,6 +6,8 @@ const show={id:'TEST',title:'시카고'};
 test('아이콘 코드와 스크립트를 제거하고 작품명의 꺾쇠는 보존한다',()=>{
  assert.equal(cleanMarkupText('<div>뮤지컬 &lt;시카고&gt;</div><svg><path d="M0 0"/></svg><script>alert(1)</script> 변경 공지'),'뮤지컬 <시카고> 변경 공지');
  assert.equal(cleanMarkupText('장소 &lt;svg xmlns="http://www.w3.org/2000/svg" width="12"'),'장소');
+ assert.equal(cleanMarkupText('일반 예매 <time dateTime="2026-10-14" class="textStyle'),'일반 예매');
+ assert.equal(cleanMarkupText('<time datetime="2026-10-14">10월 14일</time>'),'10월 14일');
 });
 test('상품페이지의 메뉴와 변경 규정은 캐스팅 변경 공지로 공개하지 않는다',()=>{
  const url='https://nol.yanolja.com/ticket/products/123';

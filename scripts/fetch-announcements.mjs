@@ -112,7 +112,7 @@ if(!process.env.ANNOUNCEMENT_TARGET_ID&&process.env.NAVER_CLIENT_ID&&process.env
 }else for(const source of Object.values(searchSources))statuses.push({source,status:'not_configured'});
 // 이전 버전이 일반 상품페이지에서 잘못 만든 캐스팅 공지를 공개하지 않는다.
 const rejected=new Set();
-for(const a of records.values())if(isProductPage(a.url)&&a.hasCasting&&a.source?.startsWith('네이버')){a.status='product_page';a.hasCasting=false;a.hasSchedule=false;a.excerpt='';rejected.add(a.id);}
+for(const a of records.values())if(isProductPage(a.url)&&(a.hasCasting||a.status==='product_page')&&/상품상세|가격 할인정보|취소 및 환불규정/.test(a.excerpt??'')){a.status='product_page';a.hasCasting=false;a.hasSchedule=false;a.excerpt='';rejected.add(a.id);}
 const announcements=[...records.values()].slice(-500);
 const result=applyAnnouncements(announcements,openings,notices.filter(n=>!rejected.has(n.announcementId)),await read('data/openings.manual.json',[]));
 // 기존 예매처 공급원이 이후 갱신해도 이 단계가 메타데이터/스케줄 연결을 복원한다.
