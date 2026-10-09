@@ -64,7 +64,6 @@ function renderList() {
   const list = view.tab === 'now' ? now : soon;
 
   app.innerHTML = `
-    <p class="note">오늘 기준: ${dot(t)} · 한국 시간</p>
     <div class="bar">
       <div class="tabs" role="tablist">
         <button role="tab" data-tab="now" aria-selected="${view.tab === 'now'}">공연 중 <small>${now.length}</small></button>
@@ -202,6 +201,10 @@ function renderOpenings() {
 }
 
 function route() {
+  const basis = document.querySelector('#today-basis');
+  const date = today();
+  basis.dateTime = date;
+  basis.textContent = `오늘 기준 ${dot(date)}`;
   const hash = location.hash || '#/';
   const show = hash.match(/^#\/show\/(\w+)(?:\?([^#]*))?$/);
   const nav = { '#/openings': 'openings', '#/notices': 'notices' }[hash] ?? 'shows';
