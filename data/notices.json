@@ -1,9 +1,20 @@
 [
  {
+  "id": "announcement-a6e2fef68258d2b052e8",
+  "mt20id": "PF299346",
+  "title": "뮤지컬 〈렛미플라이〉 뮤지컬 일정 및 예매 | NOL(야놀자)",
+  "at": "2026-10-09T01:09:25.469Z",
+  "url": "https://nol.yanolja.com/ticket/products/26012259",
+  "source": "NOL 티켓",
+  "kind": "change",
+  "excerpt": "캐스팅 상품상세 가격 할인정보 이용안내 취소 및 환불규정 장소 리뷰 일반 예매 <time dateTime=\"2026-10-14T14:00:00.000+09:00\" class=\"textStyle_body.14.bold c_semantic.brand.ma",
+  "announcementId": "announcement-a6e2fef68258d2b052e8"
+ },
+ {
   "id": "announcement-6d7ee62491239867fdb8",
   "mt20id": "PF299169",
   "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 뮤지컬 일정 및 예매 | NOL(야놀자)",
-  "at": "2026-10-08T19:06:31.245Z",
+  "at": "2026-10-09T01:09:21.562Z",
   "url": "https://nol.yanolja.com/ticket/products/26012145",
   "source": "NOL 티켓",
   "kind": "change",

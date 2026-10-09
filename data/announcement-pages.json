@@ -7,7 +7,7 @@
  "https://nol.yanolja.com/ticket/products/26014509": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "96c3dc2ccdeee2de3908fd26863852b4c0e6310b12bcec2fb535ab65582f8d3e"
+  "contentHash": "834164639acd732c3aba3a4b0cd027070e9f5a7f225aa0c579f9b5978c4bb21b"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1": {
   "checkedAt": "2026-10-09",
@@ -32,7 +32,7 @@
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1": {
   "checkedAt": "2026-10-09",
   "status": "review_needed",
-  "contentHash": "5e92f33c5a17bd0b6aaf03dfcaa4dddcf807475effcf6f7cccdede9e5a62700e"
+  "contentHash": "03dc157d1a72c350072c66056a68ff32b01cb32bf3b2c8b3aa58cd935e04dcf3"
  },
  "https://www.ticketlink.co.kr/help/notice/66152": {
   "checkedAt": "2026-10-09",
@@ -42,7 +42,7 @@
  "https://nol.yanolja.com/ticket/products/26012145": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "371e7fd5ac245c2417a74d378706d0546531cf95788b67f9083a2a1b33b50f4e"
+  "contentHash": "9710d0884f1588ef3ba5e0ef6fc08526e687dff49152759be7d0d784b05bdf97"
  },
  "https://www.ticketlink.co.kr/help/notice/66128": {
   "checkedAt": "2026-10-09",
@@ -52,7 +52,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "60e010d0d126606f51a1c9a3a93b0fa0c360dfe1f78fa0e3c7fae70bfa797e74"
+  "contentHash": "79eda7e7f8972f93f5cdbf9eb838c82fe036de6c950ce189882aa58f3ee333e9"
  },
  "https://www.ticketlink.co.kr/help/notice/66134": {
   "checkedAt": "2026-10-09",
@@ -62,6 +62,11 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "c205f9f70dc95f7126b76ed14f4f3fd3c79050de96d37e8143c350899ed289b5"
+  "contentHash": "304a87113c18ad8352f0587d8fef5e8b7508289bf33d5ba2944090ee57860b4a"
+ },
+ "https://nol.yanolja.com/ticket/products/26012259": {
+  "checkedAt": "2026-10-09",
+  "status": "verified",
+  "contentHash": "3c532ea1af4efc1f959c8ce89d2b7480f0d866eaf57d529c27caa98f2e692095"
  }
 }

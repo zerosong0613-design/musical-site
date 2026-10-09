@@ -171,6 +171,21 @@
   ]
  },
  {
+  "id": "nol-26012259",
+  "at": "2026-10-14 14:00",
+  "title": "뮤지컬 〈렛미플라이〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26012259",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a6e2fef68258d2b052e8"
+  ]
+ },
+ {
   "id": "ticketlink-66134",
   "at": "2026-10-14 14:00",
   "title": "뮤지컬 <렛미플라이> 3차 티켓오픈 안내",
