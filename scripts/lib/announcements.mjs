@@ -1,8 +1,7 @@
+import {cleanMarkupText as plain,isProductPage} from '../../src/source-content.js';
 import { hash } from './source-images.mjs';
 export const relevant = s => /티켓\s*오픈|예매\s*오픈|캐스팅|캐슷|캐스트|스케줄|캐변|casting\s*schedule/i.test(s);
-export function plain(html) {
- return html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi,' ').replace(/<\/?(?:html|head|body|meta|link|title|div|span|a|p|br|b|i|u|em|strong|font|small|h[1-6]|ul|ol|li|dl|dt|dd|table|thead|tbody|tr|th|td|img|input|button|select|option|form|label|script|style|section|article|header|footer|nav|main|aside|noscript)\b[^>]*>/gi,' ').replace(/&#(x[\da-f]+|\d+);/gi,(_,n)=>String.fromCodePoint(n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n))).replace(/&nbsp;|&amp;|&quot;|&#39;|&lt;|&gt;/g,s=>({'&nbsp;':' ','&amp;':'&','&quot;':'"','&#39;':"'",'&lt;':'<','&gt;':'>'}[s])).normalize('NFKC').replace(/\s+/g,' ').trim();
-}
+export {cleanMarkupText as plain} from '../../src/source-content.js';
 const letters=s=>s.replace(/[^\p{L}\p{N}]/gu,'');
 export function matchShow(text, shows, preferredId) {
  const name=letters(text);
@@ -38,15 +37,16 @@ export function openingDetails(text) {
 }
 export function makeAnnouncement(input,show,config={}) {
  const text=plain(input.text??'');
- const trusted=officialUrl(input.url,config)||input.verified===true; // verified는 명시적인 수동 확인에만 사용
+ const productOnly=isProductPage(input.url)&&!input.stub&&input.verified!==true;
+ const trusted=!productOnly&&(officialUrl(input.url,config)||input.verified===true); // verified는 명시적인 수동 확인에만 사용
  const available=text.replace(/(?:캐스팅|캐스트)\s*(?:스케줄|일정)[^.!?]{0,30}(?:별도|추후|예정)[^.!?]{0,20}(?:공지|공개|발표)[^.!?]*/g,'');
- const schedule=/(?:캐스팅|캐스트)\s*(?:스케줄|일정)|casting\s*schedule/i.test(available);
- const change=/(?:캐스팅|캐스트|스케줄|배우)\s*변경|캐변/.test(text);
- const roster=/(?:캐스팅|캐스트)\s*(?:공개|발표|라인업)|\[캐스팅\]|출연진|캐슷|캐스팅$/.test(available);
+ const schedule=!productOnly&&/(?:캐스팅|캐스트)\s*(?:스케줄|일정)|casting\s*schedule/i.test(available);
+ const change=!productOnly&&/(?:캐스팅|캐스트|스케줄|배우)\s*변경|캐변/.test(text);
+ const roster=!productOnly&&/(?:캐스팅|캐스트)\s*(?:공개|발표|라인업)|\[캐스팅\]|출연진|캐슷|캐스팅$/.test(available);
  const details=openingDetails(text);
  const vendor=input.vendor||(/ticketlink\.co\.kr/.test(input.url)?'티켓링크':/melon\.com/.test(input.url)?'멜론티켓':/yes24\.com/.test(input.url)?'예스24':/nol\.yanolja\.com|interpark\.com/.test(input.url)?'NOL 티켓':'');
  const supplied=validStamp(input.openingAt)?[{at:input.openingAt,presale:!!input.presale}]:[];
- return {id:input.id??'announcement-'+hash(input.url).slice(0,20),url:input.url,title:input.title??show?.title??'',source:input.source??'',at:input.at??new Date().toISOString(),mt20id:show?.id??null,excerpt:((change||schedule||roster)?available.slice(Math.max(0,available.search(/캐스팅|캐스트|출연진|casting/i))):text).slice(0,140),contentHash:hash(text),status:trusted&&show?'verified':'review_needed',kind:change?'change':schedule?'schedule':roster?'roster':'opening',hasCasting:change||schedule||roster,hasSchedule:schedule,openings:[...new Map([...details.openings,...supplied].map(o=>[o.at+':'+o.presale,o])).values()],performanceFrom:details.performanceFrom,performanceTo:details.performanceTo,round:input.round??text.match(/(\d+차|마지막|추가|라스트)\s*티켓\s*오픈/)?.[1]??'',vendor,images:input.images??[],officialLinks:input.officialLinks??[]};
+ return {id:input.id??'announcement-'+hash(input.url).slice(0,20),url:input.url,title:input.title??show?.title??'',source:input.source??'',at:input.at??new Date().toISOString(),mt20id:show?.id??null,excerpt:((change||schedule||roster)?available.slice(Math.max(0,available.search(/캐스팅|캐스트|출연진|casting/i))):text).slice(0,140),contentHash:hash(text),status:productOnly?'product_page':trusted&&show?'verified':'review_needed',kind:change?'change':schedule?'schedule':roster?'roster':'opening',hasCasting:change||schedule||roster,hasSchedule:schedule,openings:[...new Map([...details.openings,...supplied].map(o=>[o.at+':'+o.presale,o])).values()],performanceFrom:details.performanceFrom,performanceTo:details.performanceTo,round:input.round??text.match(/(\d+차|마지막|추가|라스트)\s*티켓\s*오픈/)?.[1]??'',vendor,images:input.images??[],officialLinks:input.officialLinks??[]};
 }
 export function applyAnnouncements(announcements,previous,notices,manual=[]) {
  const openings=new Map(previous.map(o=>[o.id,{...o}]));const cast=new Map(notices.map(n=>[n.id,n]));

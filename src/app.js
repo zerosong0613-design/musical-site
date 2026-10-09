@@ -1,3 +1,4 @@
+import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261009-1';
 import { actorMatch } from './actor-search.js?v=20261009-1';
 import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
 import { mountCasting } from './casting.js?v=20261009-5';
@@ -149,7 +150,7 @@ function openingItems(list) {
         ${o.performanceFrom && o.performanceTo ? `<span class="excerpt">판매 공연기간: ${esc(dot(o.performanceFrom))} ~ ${esc(dot(o.performanceTo))}</span>` : ''}
         ${schedule ? `<a class="link" href="${esc(schedule)}">${o.performanceFrom ? '해당 기간 캐스팅 보기' : '캐스팅 보기'}</a>` : ''}
         ${o.exclusive ? '<em class="tag">단독</em>' : ''}${o.presale ? '<em class="tag">선예매</em>' : ''}
-        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">공지 원문</a>` : ''}
+        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">${sourceLinkLabel(url)}</a>` : ''}
       </div>
     </li>`;
   }).join('')}</ol>`;
@@ -167,6 +168,7 @@ function eventNotice(e) {
 }
 
 function noticeItems(list) {
+  list=list.filter(n=>!n.announcementId||!n.source?.startsWith('네이버')||!isProductPage(n.url));
   return `<ol class="openings">${list.map(n => {
     const k = new Date(new Date(n.at).getTime() + 9 * 3600e3);
     const show = data.shows.find(s => s.id === n.mt20id);
@@ -179,8 +181,8 @@ function noticeItems(list) {
         <span class="muted">${esc(n.source)}</span>
         ${n.lines
           ? `<span class="excerpt">${n.lines.slice(0, 6).map(esc).join('<br>')}${n.lines.length > 6 ? `<br>외 ${n.lines.length - 6}건` : ''}</span>`
-          : `<span class="excerpt">${esc(n.excerpt)}…</span>`}
-        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">공지 원문</a>` : ''}
+          : `<span class="excerpt">${esc(cleanMarkupText(n.excerpt))}…</span>`}
+        ${url ? `<a class="link" href="${esc(url)}" target="_blank" rel="noopener">${sourceLinkLabel(url)}</a>` : ''}
       </div>
     </li>`;
   }).join('')}</ol>`;

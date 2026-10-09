@@ -1,4 +1,5 @@
 import {searchNaver,searchSources,searchCandidate} from './lib/naver-news.mjs';
+import {isProductPage} from '../src/source-content.js';
 import { isEligibleShow } from '../src/show-filter.js';
 // 공지 하나를 예매오픈/캐스팅 양쪽으로 분배한다. 비공식 글은 원문 발견·검토용이다.
 import {readFile,writeFile} from 'node:fs/promises';
@@ -32,11 +33,14 @@ async function get(url,headers={}) {
  if(!r.ok)throw Error(`HTTP ${r.status}`);return r;
 }
 async function page(url,input={}) {
+ // 상품 상세의 메뉴·취소 규정은 공지가 아니다. 기존 확인된 오픈 정보는 유지한다.
+ if(isProductPage(url)){cache[url]={checkedAt:today,status:'product_page'};return;}
  if(visited.has(url)||pageCount>=maxPages)return;visited.add(url);pageCount++;
  try {
   const r=await get(url);const html=await r.text();if(isBlocked(html))throw Error('접근 제한');
   // 리디렉션 최종 주소도 공식 도메인인지 검사한다.
   const final=r.url||url;
+  if(isProductPage(final)){cache[url]={checkedAt:today,status:'product_page'};return;}
   let section=html;
   if(/ticketlink\.co\.kr/.test(new URL(final).hostname)&&/\/help\/notice\/\d+/.test(new URL(final).pathname)) {
    section=html.match(/<dd[^>]+class=["']list_cont["'][^>]*>([\s\S]*?)<\/dd>/i)?.[1]??html;
@@ -101,12 +105,16 @@ if(!process.env.ANNOUNCEMENT_TARGET_ID&&process.env.NAVER_CLIENT_ID&&process.env
  // 공식 사이트를 먼저 확인해 전체 페이지 상한 안에서 원출처를 우선한다.
  const ordered=[...candidates.values()].sort((a,b)=>Number(officialUrl(b.url,config))-Number(officialUrl(a.url,config)));
  for(const candidate of ordered) {
+  if(isProductPage(candidate.url))continue;
   if(!officialUrl(candidate.url,config))register(candidate);
   await page(candidate.url,candidate);
  }
 }else for(const source of Object.values(searchSources))statuses.push({source,status:'not_configured'});
+// 이전 버전이 일반 상품페이지에서 잘못 만든 캐스팅 공지를 공개하지 않는다.
+const rejected=new Set();
+for(const a of records.values())if(isProductPage(a.url)&&a.hasCasting&&a.source?.startsWith('네이버')){a.status='product_page';a.hasCasting=false;a.hasSchedule=false;a.excerpt='';rejected.add(a.id);}
 const announcements=[...records.values()].slice(-500);
-const result=applyAnnouncements(announcements,openings,notices,await read('data/openings.manual.json',[]));
+const result=applyAnnouncements(announcements,openings,notices.filter(n=>!rejected.has(n.announcementId)),await read('data/openings.manual.json',[]));
 // 기존 예매처 공급원이 이후 갱신해도 이 단계가 메타데이터/스케줄 연결을 복원한다.
 const cutoff=new Date(Date.now()+9*3600e3-7*86400e3).toISOString().slice(0,16).replace('T',' ');
 await save('data/announcements.json',announcements);

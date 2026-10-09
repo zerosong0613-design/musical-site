@@ -23,7 +23,7 @@ test('모바일 상세 링크가 작품 번호를 보존하며 PC·다른 도메
 });
 const body='스위니토드 1차 티켓오픈 일반예매 : 2026년 10월 13일(화) 오전 11시 1차 티켓오픈 공연기간 : 2026년 12월 4일(금) ~ 2026년 12월 20일(일) 캐스팅 스케줄 안내';
 test('한 공지에서 오픈 시각/판매 기간과 캐스팅 공지를 각각 반영하고 재수집 중복 제거',()=>{
- const a=makeAnnouncement({url:'https://nol.yanolja.com/ticket/products/26014509',text:body,source:'NOL 티켓'},show);
+ const a=makeAnnouncement({url:'https://www.ticketlink.co.kr/help/notice/66160',text:body,source:'티켓링크'},show);
  assert.equal(a.status,'verified');assert.equal(a.hasSchedule,true);
  assert.deepEqual(a.openings,[{at:'2026-10-13 11:00',presale:false}]);assert.equal(a.performanceFrom,'2026-12-04');assert.equal(a.performanceTo,'2026-12-20');
  const first=applyAnnouncements([a],[],[]);const second=applyAnnouncements([a],first.openings,first.notices);
@@ -48,7 +48,7 @@ test('같은 제목 지방공연/이전 시즌 혼동 방지',()=>{
  assert.equal(matchShow('빨래 캐스팅 공개',shows),null);assert.equal(matchShow('빨래 하남 캐스팅 공개',shows).id,'PF2');
 });
 test('선예매/일반예매·예매처 구분 및 수동 내용 보호',()=>{
- const a=makeAnnouncement({url:'https://nol.yanolja.com/ticket/products/26014509',text:body},show);
+ const a=makeAnnouncement({url:'https://nol.yanolja.com/ticket/products/26014509',text:body,verified:true},show);
  const original={id:'nol-26014509',mt20id:show.id,at:'2026-10-13 11:00',vendor:'NOL 티켓',title:'원래 제목',url:a.url};
  const combined=applyAnnouncements([a],[original],[]);assert.equal(combined.openings.length,1);assert.equal(combined.openings[0].id,original.id);
  const manual={...original,title:'수동 확인',performanceFrom:'2026-12-05'};
