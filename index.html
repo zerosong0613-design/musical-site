@@ -10,11 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="src/luno-theme.css">
-<link rel="stylesheet" href="src/style.css?v=20261009-3">
+<link rel="stylesheet" href="src/style.css?v=20261009-4">
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="#/">뮤지컬 모아보기</a>
+  <div class="brand-row">
+    <a class="brand" href="#/">뮤지컬 모아보기</a>
+    <time id="today-basis" class="today-basis" title="한국 시간 기준"></time>
+  </div>
   <nav>
     <a href="#/" data-nav="shows">작품</a>
     <a href="#/notices" data-nav="notices">캐스팅 공지</a>
@@ -27,7 +30,7 @@
   <p>캐스팅은 제작사 공지 기준이며 사정에 따라 바뀔 수 있습니다. 예매 전 예매처에서 다시 확인하세요.</p>
   <p id="updated"></p>
 </footer>
-<script type="module" src="src/app.js?v=20261009-6"></script>
+<script type="module" src="src/app.js?v=20261009-7"></script>
 </body>
 </html>
 
