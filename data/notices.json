@@ -3,12 +3,23 @@
   "id": "announcement-a6e2fef68258d2b052e8",
   "mt20id": "PF299346",
   "title": "뮤지컬 〈렛미플라이〉 뮤지컬 일정 및 예매 | NOL(야놀자)",
-  "at": "2026-10-09T07:04:43.187Z",
+  "at": "2026-10-09T09:47:51.928Z",
   "url": "https://nol.yanolja.com/ticket/products/26012259",
   "source": "NOL 티켓",
   "kind": "change",
   "excerpt": "캐스팅 상품상세 가격 할인정보 이용안내 취소 및 환불규정 장소 리뷰 일반 예매 <time dateTime=\"2026-10-14T14:00:00.000+09:00\" class=\"textStyle_body.14.bold c_semantic.brand.ma",
   "announcementId": "announcement-a6e2fef68258d2b052e8"
+ },
+ {
+  "id": "announcement-6d7ee62491239867fdb8",
+  "mt20id": "PF299169",
+  "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 뮤지컬 일정 및 예매 | NOL(야놀자)",
+  "at": "2026-10-09T09:47:45.691Z",
+  "url": "https://nol.yanolja.com/ticket/products/26012145",
+  "source": "NOL 티켓",
+  "kind": "change",
+  "excerpt": "캐스팅 상품상세 가격 할인정보 이용안내 취소 및 환불규정 장소 리뷰 일반 예매 <time dateTime=\"2026-10-13T16:00:00.000+09:00\" class=\"textStyle_body.14.bold c_semantic.brand.ma",
+  "announcementId": "announcement-6d7ee62491239867fdb8"
  },
  {
   "id": "announcement-ad4346871f18813b080b",
@@ -20,17 +31,6 @@
   "kind": "roster",
   "excerpt": "캐스팅] * CAST 게스트 | 최재웅 선한국 이진혁 김찬종 임예진 호스트ᅵ정민 온주완 이율 이종석 이지연 코러스 | 김한결 마이삭 한비 최민경 박민주 * CREATIVE TEAM 총괄프로듀서 이헌재ᅵ작/작사 이사랑ᅵ작곡 리카Cᅵ연출 김달중 안무감독 ",
   "announcementId": "announcement-ad4346871f18813b080b"
- },
- {
-  "id": "announcement-6d7ee62491239867fdb8",
-  "mt20id": "PF299169",
-  "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 뮤지컬 일정 및 예매 | NOL(야놀자)",
-  "at": "2026-10-09T07:04:36.771Z",
-  "url": "https://nol.yanolja.com/ticket/products/26012145",
-  "source": "NOL 티켓",
-  "kind": "change",
-  "excerpt": "캐스팅 상품상세 가격 할인정보 이용안내 취소 및 환불규정 장소 리뷰 일반 예매 <time dateTime=\"2026-10-13T16:00:00.000+09:00\" class=\"textStyle_body.14.bold c_semantic.brand.ma",
-  "announcementId": "announcement-6d7ee62491239867fdb8"
  },
  {
   "id": "announcement-a0df739959ee5137c6ae",

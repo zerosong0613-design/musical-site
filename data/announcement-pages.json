@@ -7,7 +7,7 @@
  "https://nol.yanolja.com/ticket/products/26014509": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "855f75a47547744f16866d40228575cba179306479952b6f81aaaffe7a7d5438"
+  "contentHash": "3ec32aaafb52fe94bdcf9267659a3e4bac9fcc1b8dcc6795b4ed5aa7e081d000"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1": {
   "checkedAt": "2026-10-09",
@@ -42,7 +42,7 @@
  "https://nol.yanolja.com/ticket/products/26012145": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "37001649be093b0da9035808d45397a64e1ff84f268392a647f9df466adab912"
+  "contentHash": "df8014a3066945416932f7736208fd19ca78e70781f234cbce26cf0cb9f2f910"
  },
  "https://www.ticketlink.co.kr/help/notice/66128": {
   "checkedAt": "2026-10-09",
@@ -52,7 +52,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "dadb34178a1af20325e35d59dbaf37e5ec265e4a7076fd90b2476eccc72d911c"
+  "contentHash": "585ac547d08a6af3990663e156e92815c86df2489cf30eac94edcae55b1d4f5c"
  },
  "https://www.ticketlink.co.kr/help/notice/66134": {
   "checkedAt": "2026-10-09",
@@ -62,27 +62,27 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "ac5059f719e897a269277dd4c9aa7a856873ab68463f4e6fbd177b150c39419d"
+  "contentHash": "bb28c6b79d6a76c225485d50ccaee576b96f72c308a8ec599d2d576630381bcc"
  },
  "https://nol.yanolja.com/ticket/products/26012259": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "0e65cf4452abc6ddfa25751752313f1c6b7a5d4a4a476355f05e6ce06c756744"
+  "contentHash": "333dc425eb9f9e440db509b85172bb96bf257b1f9a8de4f284c31172071a3ab2"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "da43f57f2360f48cea9844e174843134b2743a953d8136e3818457a2fc6fda3f"
+  "contentHash": "1c3872c58e82b1b6a95cb24b2298840fd4f24b46ee4539be2124247cf2c40bb0"
  },
  "https://nol.yanolja.com/ticket/products/26011553": {
   "checkedAt": "2026-10-09",
   "status": "verified",
-  "contentHash": "ca558d23593d3994a429eb61688143c87a4573478363a33477812ce4e171f25c"
+  "contentHash": "632b9619dd07a3500e949f2fe621e7cc27ce351e4553844cdbf525c1d64a4c8a"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658": {
   "checkedAt": "2026-10-09",
   "status": "review_needed",
-  "contentHash": "4592d9530b53894d82a231f02dd1fd470fd2fb22bdf8810219d372d85b23cdfd"
+  "contentHash": "15666a06986cc2e2a02374da77916c7c403b48328aa173b1493e4deea1151cd0"
  },
  "https://www.ticketlink.co.kr/help/notice/66160": {
   "checkedAt": "2026-10-09",
@@ -93,5 +93,60 @@
   "checkedAt": "2026-10-09",
   "status": "review_needed",
   "contentHash": "2e59c847f617a2b7d816aaa40bb7283331472d31e26b476ae27023fb1f1cce62"
+ },
+ "https://www.nbntv.co.kr/news/articleView.html?idxno=4025856": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "0aae4a32806b433048f9b269215e7bc17ad8335592882d312d7237b0374d421b"
+ },
+ "https://www.topstarnews.net/news/articleView.html?idxno=16241957": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "e93575b100a2e5b05495c6f2423227caadc8f72591585ea63a2557ebb7802ad7"
+ },
+ "https://www.slist.kr/news/articleView.html?idxno=772032": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "f558ef98853a571b523e502bba061366f62d3f5d5284e9b532312abe16a4aeca"
+ },
+ "https://www.topstarnews.net/news/articleView.html?idxno=16241725": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "1454d0c34a5d82c8c0211132209737b1f959e2c35f2fe148fa37dc3fdc7540e0"
+ },
+ "https://www.mhns.co.kr/news/articleView.html?idxno=763263": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "860605637899e69ff52a561572d2b4c145f99d0810ae56abc551227584a33d04"
+ },
+ "https://www.bntnews.co.kr/article/view/bnt202610080178": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "716c393e0242db1c3d2d5127849b2b1bb81c280687cdea4be35f174ecc52026a"
+ },
+ "https://sports.donga.com/life/article/all/20261008/134807139/1": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "8f42044223f7345495abb7b0fe40f096cde1bd6b2ad6ad62f424abb81d80113a"
+ },
+ "https://www.sportsseoul.com/news/read/1640179?ref=naver": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "43d321fe7f1a3f9c8276e7157297e252226bf666a9c863e7cf0565905b737076"
+ },
+ "https://www.xportsnews.com/article/2205050": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "413fb6850d7aa3e2ec2f9b7135dada9d15bc3b86d94cc55793523446dc607ba8"
+ },
+ "https://www.womennews.co.kr/news/articleView.html?idxno=283005": {
+  "checkedAt": "2026-10-09",
+  "status": "review_needed",
+  "contentHash": "5127af55a9bee02fcb10583e3be15468ed64cd64fded8fb0308224dcc157dffa"
+ },
+ "https://ent.sbs.co.kr/news/article.do?article_id=E10010322949&plink=ORI&cooper=NAVER": {
+  "checkedAt": "2026-10-09",
+  "status": "fetch_failed",
+  "error": "HTTP 403"
  }
 }
