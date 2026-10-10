@@ -1,3 +1,5 @@
+import {matchesTitleVenue} from './show-search.js?v=20261010-1';
+import {validPeriod,overlapsPeriod,periodSessions,showFilterLink} from './date-filter.js?v=20261010-1';
 import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261009-2';
 import { actorMatch } from './actor-search.js?v=20261009-1';
 import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
@@ -32,7 +34,7 @@ async function getJSON(path, fallback) {
 }
 
 const data = { shows: [], casting: new Map(), castingFiles: new Map(), openings: [], notices: [] };
-const view = { tab: 'now', largeOnly: readLargeOnly(storage), actor: '', actorLoading: false };
+const view = { tab: 'now', largeOnly: readLargeOnly(storage), query: '', actor: '', actorLoading: false, from: '', to: '', periodOpen: false, periodLoading: false };
 const actorFailures = new Set();
 async function loadActorSchedules() {
   const ids = data.shows.filter(s => s.to >= today() && isEligibleShow(s) && data.casting.has(s.id) && !data.castingFiles.has(s.id)).map(s => s.id);
@@ -74,7 +76,7 @@ function renderList() {
   const t = today();
   const matches = new Map();
   const pool = data.shows.filter(s => {
-    if (s.to < t || !isEligibleShow(s, view.largeOnly ? 500 : 300)) return false;
+    if (!matchesTitleVenue(s,view.query) || !overlapsPeriod(s,view.from,view.to) || s.to < t || !isEligibleShow(s, view.largeOnly ? 500 : 300)) return false;
     const match = actorMatch(s, data.castingFiles.get(s.id), view.actor);
     matches.set(s.id, match);
     return match.matched;
@@ -82,17 +84,30 @@ function renderList() {
   const now = favoritesFirst(pool.filter(s => s.from <= t), favorites, (a, b) => a.to.localeCompare(b.to));
   const soon = favoritesFirst(pool.filter(s => s.from > t), favorites, (a, b) => a.from.localeCompare(b.from));
   // 배우 검색은 탭에 갇히지 않고 공연 중·예정 작품을 함께 찾는다.
-  const list = view.actor ? [...now, ...soon] : view.tab === 'now' ? now : soon;
+  const list = view.actor || view.from || view.query ? [...now, ...soon] : view.tab === 'now' ? now : soon;
 
   app.innerHTML = `
-    <form class="actor-search" aria-label="배우 출연 작품 검색">
+    <form class="actor-search" aria-label="공연 극장 배우 검색">
+      <input type="search" name="query" aria-label="공연명 또는 극장명" placeholder="공연명·극장명으로 검색" maxlength="100" value="${esc(view.query)}">
       <input type="search" name="actor" aria-label="배우 이름" placeholder="배우 이름으로 출연 작품 찾기" maxlength="80" value="${esc(view.actor)}">
       <button type="submit">검색</button>
       ${view.actor ? '<button type="button" data-actor-clear>해제</button>' : ''}
+      ${view.query ? '<button type="button" data-query-clear>작품 검색 해제</button>' : ''}
     </form>
     ${view.actor ? `<p class="note actor-help">현재 수집한 수도권·300석 이상 작품의 출연진과 캐스팅표에서 검색합니다. 결과가 없어도 출연작이 없다는 뜻은 아닙니다.${actorFailures.size ? ' 일부 캐스팅표를 불러오지 못해 결과가 누락될 수 있습니다.' : ''}</p>` : ''}
+    <div class="period-filter">
+      <button type="button" class="period-toggle" data-period-toggle aria-expanded="${view.periodOpen}" aria-controls="period-form">기간 선택</button>
+      ${view.from ? `<button type="button" class="period-chip" data-period-clear aria-label="선택 기간 해제">${dot(view.from)} ~ ${dot(view.to)} ×</button>` : ''}
+      <form id="period-form" class="period-form" ${view.periodOpen ? '' : 'hidden'} aria-label="공연 기간 선택">
+        <label>시작일 <input type="date" name="from" aria-label="시작일" min="${t}" value="${view.from || t}" required></label>
+        <span aria-hidden="true">~</span>
+        <label>종료일 <input type="date" name="to" aria-label="종료일" min="${t}" value="${view.to || view.from || t}" required></label>
+        <button type="submit">적용</button>
+      </form>
+    </div>
+    ${view.from ? `<p class="note period-help" role="status">선택 기간과 공연기간이 겹치는 작품 ${list.length}편 · 공연 중 ${now.length} · 예정 ${soon.length}${view.periodLoading ? ' · 회차 확인 중…' : ''}<br>공연기간 기준으로 조회합니다. 표시된 회차는 확보한 캐스팅표 기준이며 휴연일·미공개 회차는 예매처에서 확인해 주세요.${actorFailures.size ? ' 일부 표를 불러오지 못했습니다.' : ''}</p>` : ''}
     <div class="bar">
-      ${view.actor ? `<p class="actor-summary" role="status">${esc(view.actor)} 출연 작품 <strong>${list.length}</strong>편 <small>공연 중 ${now.length} · 예정 ${soon.length}</small>${view.actorLoading ? ' · 확인 중…' : ''}</p>` : `<div class="tabs" role="tablist">
+      ${view.actor ? `<p class="actor-summary" role="status">${esc(view.actor)} 출연 작품 <strong>${list.length}</strong>편 <small>공연 중 ${now.length} · 예정 ${soon.length}</small>${view.actorLoading ? ' · 확인 중…' : ''}</p>` : view.query ? `<p class="actor-summary" role="status">${esc(view.query)} 검색 결과 <strong>${list.length}</strong>편 <small>공연 중 ${now.length} · 예정 ${soon.length}</small></p>` : view.from ? '<span class="period-summary">기간 조회 결과</span>' : `<div class="tabs" role="tablist">
         <button role="tab" data-tab="now" aria-selected="${view.tab === 'now'}">공연 중 <small>${now.length}</small></button>
         <button role="tab" data-tab="soon" aria-selected="${view.tab === 'soon'}">예정 <small>${soon.length}</small></button>
       </div>`}
@@ -100,19 +115,34 @@ function renderList() {
       <span class="note scope-note">서울·경기·인천 · ${view.largeOnly ? '500' : '300'}석 이상 · 어린이 공연 제외</span>
     </div>
     ${list.length ? `<ul class="cards">${list.map(s => `
-      <li><a class="card" href="#/show/${esc(s.id)}${view.actor ? '?actor=' + encodeURIComponent(view.actor) : ''}">
+      <li><a class="card" href="${esc(showFilterLink(s.id,view.actor,view.from,view.to))}">
         ${poster(s, true)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
           <p>${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}</p>
           <p class="muted">${esc(s.venue)}</p>
-          ${view.actor ? `<span class="badge">${matches.get(s.id).count ? '남은 출연 ' + matches.get(s.id).count + '회차' : matches.get(s.id).hasSchedule ? '확보한 표에 남은 출연 회차 없음' : '출연진 확인 · 회차 미확보'}</span>` : data.casting.has(s.id) ? '<span class="badge">캐스팅 검색</span>' : ''}
+          ${view.from ? `<span class="badge">${view.periodLoading ? '회차 확인 중…' : periodSessions(data.castingFiles.get(s.id),view.from,view.to,view.actor)===null ? '공연기간 기준 · 회차 미확보' : '선택 기간 확보된 ' + (view.actor ? '출연 ' : '') + periodSessions(data.castingFiles.get(s.id),view.from,view.to,view.actor) + '회차'}</span>` : ''}
+          ${!view.from && view.actor ? `<span class="badge">${matches.get(s.id).count ? '남은 출연 ' + matches.get(s.id).count + '회차' : matches.get(s.id).hasSchedule ? '확보한 표에 남은 출연 회차 없음' : '출연진 확인 · 회차 미확보'}</span>` : !view.from && data.casting.has(s.id) ? '<span class="badge">캐스팅 검색</span>' : ''}
         </div>
       </a></li>`).join('')}</ul>` : `<p class="empty">${view.actorLoading ? '캐스팅표를 확인하는 중입니다…' : view.actor ? '확보한 정보에서 일치하는 배우를 찾지 못했습니다. 배우 이름 전체를 입력해 주세요.' : '해당하는 작품이 없습니다.'}</p>`}`;
 
+  app.querySelector('[data-period-toggle]').addEventListener('click',()=>{view.periodOpen=!view.periodOpen;renderList();});
+  app.querySelector('[data-period-clear]')?.addEventListener('click',()=>{view.from='';view.to='';view.periodLoading=false;view.periodOpen=false;renderList();});
+  app.querySelector('#period-form').addEventListener('submit',async e=>{
+    e.preventDefault();const form=e.currentTarget,values=new FormData(form);
+    const from=values.get('from'),to=values.get('to');
+    form.elements.to.setCustomValidity(validPeriod(from,to)?'':'종료일은 시작일 이후로 선택해 주세요.');
+    if(!form.reportValidity())return;
+    view.from=from;view.to=to;view.periodOpen=false;view.periodLoading=true;renderList();
+    await loadActorSchedules();
+    if(view.from!==from||view.to!==to)return;
+    view.periodLoading=false;if(!location.hash||location.hash==='#/')renderList();
+  });
+  app.querySelector('#period-form').addEventListener('input',e=>e.currentTarget.elements.to.setCustomValidity(''));
   app.querySelector('.actor-search').addEventListener('submit', async e => {
     e.preventDefault();
     const actor = new FormData(e.currentTarget).get('actor').trim();
+    view.query = new FormData(e.currentTarget).get('query').trim();
     view.actor = actor; view.actorLoading = !!actor;
     renderList();
     if (!actor) return;
@@ -122,6 +152,7 @@ function renderList() {
     if (!location.hash || location.hash === '#/') renderList();
   });
   app.querySelector('[data-actor-clear]')?.addEventListener('click', () => { view.actor = ''; view.actorLoading = false; renderList(); });
+  app.querySelector('[data-query-clear]')?.addEventListener('click',()=>{view.query='';renderList();});
   app.querySelector('[data-large-only]').addEventListener('change', e => {
     view.largeOnly = e.currentTarget.checked;
     saveLargeOnly(storage, view.largeOnly);

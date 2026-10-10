@@ -165,3 +165,18 @@ footer p { margin: 2px 0; }
 .actor-help { margin-bottom: 16px; }
 .actor-summary { margin: 0; padding-bottom: 10px; font-size: .95rem; }
 .actor-summary small { color: var(--muted); font-size: .75rem; margin-left: 8px; }
+
+/* 기간 선택은 배우 검색 아래에 작게 펼친다. */
+.actor-search{flex-wrap:wrap}
+.actor-search input[name="query"]{flex-basis:100%}
+.period-filter{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0 14px}
+.period-toggle,.period-chip,.period-form button{font:inherit;cursor:pointer;border:1px solid var(--line,#ddd);border-radius:6px;background:transparent;color:inherit;padding:6px 10px}
+.period-chip{color:var(--accent,#276c79);font-size:.9rem}
+.period-form{flex-basis:100%;display:flex;align-items:flex-end;gap:10px;flex-wrap:wrap;padding-top:6px}
+.period-form[hidden]{display:none}
+.period-form label{display:flex;flex-direction:column;gap:4px;font-size:.85rem}
+.period-form input{font:inherit;font-size:16px;min-width:0;border:1px solid var(--line,#ddd);border-radius:6px;padding:6px;background:transparent;color:inherit}
+.period-form button{align-self:flex-end}
+.period-help{font-size:.85rem;margin:0 0 12px}
+.period-summary{font-weight:700}
+@media(max-width:420px){.period-form{gap:6px}.period-form label{flex:1;min-width:0}.period-form input{width:100%;box-sizing:border-box}.period-chip{font-size:.8rem}}
