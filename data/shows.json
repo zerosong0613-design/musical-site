@@ -1,6 +1,15 @@
 {
- "generatedAt": "2026-10-08T11:53:24Z",
+ "generatedAt": "2026-10-10T00:42:09.511Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
+ "criteria": {
+  "regions": [
+   "11",
+   "41",
+   "28"
+  ],
+  "minSeats": 300,
+  "excludeChildren": true
+ },
  "shows": [
   {
    "id": "PF173894",
@@ -10,8 +19,14 @@
    "openrun": true,
    "venue": "에이치씨어터 (익스트림씨어터 2관)",
    "venueId": "FC001804",
+   "hallId": "FC001804-01",
    "seats": 180,
    "large": false,
+   "child": "N",
+   "cast": "하준석, 장원준, 조계영, 이경호, 최종훈, 이연승, 김동근 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF173894_202604130300118120.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF173894_260413_145942.gif",
    "state": "공연중",
@@ -75,8 +90,14 @@
    "openrun": true,
    "venue": "명동난타극장 (명동난타극장)",
    "venueId": "FC000580",
+   "hallId": "FC000580-01",
    "seats": 386,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF235543_250407_1055111.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF235543_251014_140238.gif",
    "state": "공연중",
@@ -112,8 +133,14 @@
    "openrun": true,
    "venue": "명륜아트홀 (명륜아트홀)",
    "venueId": "FC003682",
+   "hallId": "FC003682-01",
    "seats": 119,
    "large": false,
+   "child": "N",
+   "cast": "임미영, 이나영, 서태경, 김지혜, 김성호, 박상하, 박민규 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF229985_240819_0322151.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF229985_240819_152304.jpg",
    "state": "공연중",
@@ -161,8 +188,14 @@
    "openrun": true,
    "venue": "대학로 무하아트센터 (대학로 무하아트센터)",
    "venueId": "FC003868",
+   "hallId": "FC003868-01",
    "seats": 164,
    "large": false,
+   "child": "N",
+   "cast": "조연진, 서영, 박다영, 윤슬, 표혜미, 이효주, 임재혁 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF236674_202602110314389900.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF236674_250602_133202.gif",
    "state": "공연중",
@@ -198,8 +231,14 @@
    "openrun": true,
    "venue": "경향아트힐 (1관)",
    "venueId": "FC000198",
+   "hallId": "FC000198-04",
    "seats": 292,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF237479_202610081053020250.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF237479_260518_151643.gif",
    "state": "공연중",
@@ -263,8 +302,14 @@
    "openrun": true,
    "venue": "홍대난타극장(구. 뮤직쇼웨딩 전용관) (홍대난타극장(구. 뮤직쇼웨딩 전용관))",
    "venueId": "FC000090",
+   "hallId": "FC000090-01",
    "seats": 323,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF236349_202508050234058770.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF236349_251016_133538.gif",
    "state": "공연중",
@@ -300,8 +345,14 @@
    "openrun": true,
    "venue": "NH아트홀 (NH아트홀)",
    "venueId": "FC000576",
+   "hallId": "FC000576-01",
    "seats": 406,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF242666_202608100219440700.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF242666_260810_141710.gif",
    "state": "공연중",
@@ -345,8 +396,14 @@
    "openrun": true,
    "venue": "명보아트홀 (가온홀 (B3F) )",
    "venueId": "FC000883",
+   "hallId": "FC000883-03",
    "seats": 333,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF247938_202608190217597270.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF247938_240829_104022.gif",
    "state": "공연중",
@@ -398,8 +455,14 @@
    "openrun": true,
    "venue": "TOUCH FIVE 전용관 (TOUCH FIVE 전용관)",
    "venueId": "FC004129",
-   "seats": null,
+   "hallId": "FC004129-01",
+   "seats": 0,
    "large": false,
+   "child": "N",
+   "cast": "강청광, 김사홍, 정윤호, 김성길, 김준석 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF251017_202607061044037560.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF251017_260706_104403.gif",
    "state": "공연중",
@@ -439,8 +502,14 @@
    "openrun": true,
    "venue": "JTN 아트홀(구. 대학로예술마당) (1관)",
    "venueId": "FC000139",
+   "hallId": "FC000139-02",
    "seats": 228,
    "large": false,
+   "child": "N",
+   "cast": "정승환, 이채원, 권도윤, 지인규, 이신주, 정의혁, 천지",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF259779_202507070118146400.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF259779_260223_160526.gif",
    "state": "공연중",
@@ -492,8 +561,14 @@
    "openrun": true,
    "venue": "더 서울라이티움 (갤러리아포레) (G층 전용관)",
    "venueId": "FC002012",
+   "hallId": "FC002012-01",
    "seats": 800,
    "large": true,
+   "child": "N",
+   "cast": "김종민, 한민성, 남충화, 오진욱, 김종훈, 김준형, 장노아 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF272938_202609080238533430.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF272938_260506_110502.gif",
    "state": "공연중",
@@ -519,13 +594,7 @@
     }
    ],
    "registeredAt": "2025-08-29 11:11:21",
-   "updatedAt": "2026-10-06 16:39:29",
-   "hallId": "FC002012-01",
-   "child": "N",
-   "cast": "김종민, 한민성, 남충화, 오진욱, 김종훈, 김준형, 장노아 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF272938_202609080238533430.jpg"
-   ]
+   "updatedAt": "2026-10-06 16:39:29"
   },
   {
    "id": "PF276055",
@@ -535,8 +604,14 @@
    "openrun": false,
    "venue": "스타스테이지 (스타스테이지)",
    "venueId": "FC003274",
+   "hallId": "FC003274-01",
    "seats": 204,
    "large": false,
+   "child": "N",
+   "cast": "정철호, 한훈, 박휘범, 강태우, 김영돈, 김상엽, 임성목 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF276055_202601290127171820.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF276055_251014_105639.jpg",
    "state": "공연중",
@@ -592,8 +667,14 @@
    "openrun": true,
    "venue": "명보아트홀 (와일드와일드 전용관)",
    "venueId": "FC000883",
+   "hallId": "FC000883-05",
    "seats": 294,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF264855_202605110211593500.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF264855_250514_105144.gif",
    "state": "공연중",
@@ -625,8 +706,17 @@
    "openrun": true,
    "venue": "스폿라이트 (스폿라이트)",
    "venueId": "FC004537",
+   "hallId": "FC004537-01",
    "seats": 100,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF273014_202607020434521660.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF273014_202607020434521891.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF273014_202607020434521942.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF273014_202607020434521993.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF273014_260702_163452.gif",
    "state": "공연중",
@@ -670,8 +760,14 @@
    "openrun": true,
    "venue": "틴틴홀 (틴틴홀)",
    "venueId": "FC000806",
+   "hallId": "FC000806-01",
    "seats": 244,
    "large": false,
+   "child": "N",
+   "cast": "남도윤, 김도현, 염승윤, 김도휘, 이정원, 구나영, 강수지 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF286497_202603060539308060.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF286497_260306_173930.gif",
    "state": "공연중",
@@ -735,8 +831,15 @@
    "openrun": false,
    "venue": "광야아트센터 (광야아트센터)",
    "venueId": "FC002226",
+   "hallId": "FC002226-01",
    "seats": 216,
    "large": false,
+   "child": "N",
+   "cast": "홍금단, 이재경, 박효정, 최예림, 이하은, 김소리, 장선아 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF285591_202604030427243810.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF285591_202604030428571390.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF285591_260403_162724.jpg",
    "state": "공연중",
@@ -768,8 +871,14 @@
    "openrun": true,
    "venue": "명륜아트홀 (명륜아트홀)",
    "venueId": "FC003682",
+   "hallId": "FC003682-01",
    "seats": 119,
    "large": false,
+   "child": "N",
+   "cast": "봉경복, 김성호, 김가슬, 김호수, 서하임, 김태영",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF285983_202609220254496620.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF285983_260227_135825.gif",
    "state": "공연중",
@@ -809,8 +918,15 @@
    "openrun": false,
    "venue": "극장 온 (ON) (구.CJ아지트) (공연장)",
    "venueId": "FC000098",
+   "hallId": "FC000098-01",
    "seats": 190,
    "large": false,
+   "child": "N",
+   "cast": "김무호, 안현석, 박희수, 신동해, 신석수, 서도윤, 박혜원 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF290797_202605071127142661.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF290797_202605071127142600.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF290797_260507_112714.jpg",
    "state": "공연중",
@@ -854,8 +970,14 @@
    "openrun": false,
    "venue": "유니플렉스 (2관(중극장))",
    "venueId": "FC001233",
+   "hallId": "FC001233-02",
    "seats": 269,
    "large": false,
+   "child": "N",
+   "cast": "기영수, 오주언, 민하늘, 이진우, 정형석, 류찬열, 서나영 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF291533_202605150309272070.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291533_260515_150927.gif",
    "state": "공연중",
@@ -883,8 +1005,14 @@
    "openrun": false,
    "venue": "레드루즈씨어터 (레드루즈씨어터)",
    "venueId": "FC004812",
+   "hallId": "FC004812-01",
    "seats": 40,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294961_202607100254064930.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294961_260630_134910.gif",
    "state": "공연중",
@@ -916,8 +1044,15 @@
    "openrun": false,
    "venue": "롯데시네마 [도곡]  (7관)",
    "venueId": "FC004761",
+   "hallId": "FC004761-01",
    "seats": 302,
    "large": false,
+   "child": "N",
+   "cast": "심수호, 도정연, 박상준, 이후림, 최하람, 한현구, 남가현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292469_202605280254456821.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292469_202605280254456710.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292469_260528_145445.jpg",
    "state": "공연중",
@@ -953,8 +1088,14 @@
    "openrun": false,
    "venue": "LG아트센터 서울 (LG SIGNATURE 홀)",
    "venueId": "FC003045",
+   "hallId": "FC003045-01",
    "seats": 1335,
    "large": true,
+   "child": "N",
+   "cast": "신성록, 김준수, 전동석, 고은성, 조정은, 박지연, 김환희 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF291461_202606290503051280.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291461_260515_111114.png",
    "state": "공연중",
@@ -992,13 +1133,7 @@
     }
    ],
    "registeredAt": "2026-05-15 10:55:10",
-   "updatedAt": "2026-07-02 14:04:16",
-   "hallId": "FC003045-01",
-   "child": "N",
-   "cast": "신성록, 김준수, 전동석, 고은성, 조정은, 박지연, 김환희 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF291461_202606290503051280.jpg"
-   ]
+   "updatedAt": "2026-07-02 14:04:16"
   },
   {
    "id": "PF294696",
@@ -1008,8 +1143,15 @@
    "openrun": false,
    "venue": "디너씨어터 (디너씨어터 (B1) )",
    "venueId": "FC004164",
-   "seats": null,
+   "hallId": "FC004164-01",
+   "seats": 0,
    "large": false,
+   "child": "N",
+   "cast": "한새봄, 이도나, 유주화, 윤희상, 김례욱, 박승현, 박남건",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294696_202606260118344531.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294696_202606260118344230.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294696_260626_131834.png",
    "state": "공연중",
@@ -1037,8 +1179,14 @@
    "openrun": true,
    "venue": "블랙박스 1357 (블랙박스 1357(B1))",
    "venueId": "FC004947",
-   "seats": null,
+   "hallId": "FC004947-01",
+   "seats": 0,
    "large": false,
+   "child": "N",
+   "cast": "김찬우, 온지환, 김지수, 박건우, 강다희, 전소하, 권오현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295172_202610011105349090.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295172_260702_145427.gif",
    "state": "공연중",
@@ -1070,8 +1218,15 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 3관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-03",
    "seats": 211,
    "large": false,
+   "child": "N",
+   "cast": "성태준, 조성윤, 유승현, 강찬, 신주협, 박좌헌",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF293269_202608130137502950.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF293269_202608130137503031.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF293269_260610_130851.jpg",
    "state": "공연중",
@@ -1111,8 +1266,16 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 1관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-01",
    "seats": 352,
    "large": false,
+   "child": "N",
+   "cast": "최석진, 한상훈, 황순종, 박정원, 이한솔, 강병훈, 김도현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294163_202606190241429702.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294163_202606190241429601.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294163_202606190241429560.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294163_260619_144142.gif",
    "state": "공연중",
@@ -1148,8 +1311,14 @@
    "openrun": false,
    "venue": "GS아트센터 (GS아트센터)",
    "venueId": "FC004267",
+   "hallId": "FC004267-01",
    "seats": 1211,
    "large": true,
+   "child": "N",
+   "cast": "손승연, 김수하, 박지원, 박혜나, 최현선, 정영주, 김영주 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF291886_202605200322508370.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291886_260520_152250.gif",
    "state": "공연중",
@@ -1187,13 +1356,7 @@
     }
    ],
    "registeredAt": "2026-05-20 15:22:51",
-   "updatedAt": "2026-09-02 10:28:28",
-   "hallId": "FC004267-01",
-   "child": "N",
-   "cast": "손승연, 김수하, 박지원, 박혜나, 최현선, 정영주, 김영주 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF291886_202605200322508370.jpg"
-   ]
+   "updatedAt": "2026-09-02 10:28:28"
   },
   {
    "id": "PF294747",
@@ -1203,8 +1366,15 @@
    "openrun": false,
    "venue": "티오엠씨어터(구. 문화공간필링) (2관)",
    "venueId": "FC000382",
+   "hallId": "FC000382-02",
    "seats": 220,
    "large": false,
+   "child": "N",
+   "cast": "임예진, 성민재, 박소현, 김수, 송영미, 김단이, 김이담 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294747_202606291051490151.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294747_202606291051489760.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294747_260629_105148.gif",
    "state": "공연중",
@@ -1240,8 +1410,14 @@
    "openrun": false,
    "venue": "충무아트센터 (대극장)",
    "venueId": "FC000014",
+   "hallId": "FC000014-02",
    "seats": 1250,
    "large": true,
+   "child": "N",
+   "cast": "박강현, 임규형, 나현우, 김선영, 신영숙, 조민호, 김수호 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292306_202605271106480601.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292306_260527_110648.gif",
    "state": "공연중",
@@ -1275,13 +1451,7 @@
     }
    ],
    "registeredAt": "2026-05-27 11:06:48",
-   "updatedAt": "2026-10-07 13:14:59",
-   "hallId": "FC000014-02",
-   "child": "N",
-   "cast": "박강현, 임규형, 나현우, 김선영, 신영숙, 조민호, 김수호 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292306_202605271106480601.jpg"
-   ]
+   "updatedAt": "2026-10-07 13:14:59"
   },
   {
    "id": "PF297031",
@@ -1291,8 +1461,14 @@
    "openrun": false,
    "venue": "K-POP STAGE (구. 윤형빈소극장 [홍대] ) (K-POP STAGE (구. 윤형빈소극장 [홍대] ) )",
    "venueId": "FC001624",
+   "hallId": "FC001624-01",
    "seats": 147,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297031_202607270230057900.gif"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297031_260727_143005.gif",
    "state": "공연중",
@@ -1324,8 +1500,15 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 2관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-02",
    "seats": 211,
    "large": false,
+   "child": "N",
+   "cast": "황민수, 선한국, 김찬종, 임태현, 박정혁, 김재한",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294425_202606230102513562.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294425_202606230102513361.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294425_260623_130251.jpg",
    "state": "공연중",
@@ -1369,8 +1552,14 @@
    "openrun": false,
    "venue": "광림아트센터 (BBCH홀)",
    "venueId": "FC001370",
+   "hallId": "FC001370-02",
    "seats": 998,
    "large": true,
+   "child": "N",
+   "cast": "최동욱, 장동우, 강승식, 임세준, 유영재, 여창구, 김유권 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296312_202607201116032540.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296312_260720_111603.jpg",
    "state": "공연중",
@@ -1404,13 +1593,7 @@
     }
    ],
    "registeredAt": "2026-07-20 11:16:03",
-   "updatedAt": "2026-08-27 11:24:49",
-   "hallId": "FC001370-02",
-   "child": "N",
-   "cast": "최동욱, 장동우, 강승식, 임세준, 유영재, 여창구, 김유권 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296312_202607201116032540.jpg"
-   ]
+   "updatedAt": "2026-08-27 11:24:49"
   },
   {
    "id": "PF296139",
@@ -1420,8 +1603,14 @@
    "openrun": false,
    "venue": "유니플렉스 (3관(소극장))",
    "venueId": "FC001233",
+   "hallId": "FC001233-03",
    "seats": 181,
    "large": false,
+   "child": "N",
+   "cast": "임강성, 김랑연, 정지은, 김대현, 장보람, 박슬기, 조현우 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296139_202607151259040690.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296139_260715_125904.gif",
    "state": "공연중",
@@ -1469,8 +1658,16 @@
    "openrun": false,
    "venue": "샤롯데씨어터 (샤롯데씨어터)",
    "venueId": "FC000012",
+   "hallId": "FC000012-01",
    "seats": 1230,
    "large": true,
+   "child": "N",
+   "cast": "정선아, 정유지, 민경아, 박진주, 홍금비, 최지혜, 차윤해 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559450.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559701.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559852.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF292160_260601_111455.gif",
    "state": "공연중",
@@ -1504,15 +1701,7 @@
     }
    ],
    "registeredAt": "2026-05-26 11:45:01",
-   "updatedAt": "2026-09-08 14:02:25",
-   "hallId": "FC000012-01",
-   "child": "N",
-   "cast": "정선아, 정유지, 민경아, 박진주, 홍금비, 최지혜, 차윤해 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559450.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559701.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF292160_202606011114559852.jpg"
-   ]
+   "updatedAt": "2026-09-08 14:02:25"
   },
   {
    "id": "PF295611",
@@ -1522,8 +1711,15 @@
    "openrun": false,
    "venue": "충무아트센터 (중극장 블랙)",
    "venueId": "FC000014",
+   "hallId": "FC000014-03",
    "seats": 320,
    "large": false,
+   "child": "N",
+   "cast": "최은영, 조소은, 김소율, 현석준, 윤은오, 김리현, 박란주 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295611_202610011142154040.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295611_202610011142154271.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295611_260708_133621.gif",
    "state": "공연중",
@@ -1567,8 +1763,14 @@
    "openrun": true,
    "venue": "씨어터조이 (구. 마당세실극장) (씨어터조이 (구. 마당세실극장) )",
    "venueId": "FC000419",
+   "hallId": "FC000419-01",
    "seats": 100,
    "large": false,
+   "child": "N",
+   "cast": "조수원, 채경선, 최기섭, 하승철, 이경섭, 최진영",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296265_202607160202114220.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296265_260716_140211.jpg",
    "state": "공연중",
@@ -1596,8 +1798,14 @@
    "openrun": false,
    "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
    "venueId": "FC000031",
+   "hallId": "FC000031-01",
    "seats": 1766,
    "large": true,
+   "child": "N",
+   "cast": "이지연, 이지혜, 이지수, 정기열, 서경수, 고은성, 박은태 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294946_202606301244388130.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294946_260701_134627.gif",
    "state": "공연중",
@@ -1619,13 +1827,7 @@
     }
    ],
    "registeredAt": "2026-06-30 12:44:39",
-   "updatedAt": "2026-07-03 11:15:38",
-   "hallId": "FC000031-01",
-   "child": "N",
-   "cast": "이지연, 이지혜, 이지수, 정기열, 서경수, 고은성, 박은태 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294946_202606301244388130.jpg"
-   ]
+   "updatedAt": "2026-07-03 11:15:38"
   },
   {
    "id": "PF296319",
@@ -1635,8 +1837,14 @@
    "openrun": false,
    "venue": "링크더스페이스(LINK THE SPACE) (1관)",
    "venueId": "FC004779",
+   "hallId": "FC004779-01",
    "seats": 280,
    "large": false,
+   "child": "N",
+   "cast": "박새힘, 박주혁, 정지우, 반정모, 조영화, 이세헌, 임찬민 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296319_202607201130544800.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296319_260720_113054.jpg",
    "state": "공연중",
@@ -1688,8 +1896,14 @@
    "openrun": false,
    "venue": "굿씨어터 (굿씨어터)",
    "venueId": "FC001240",
+   "hallId": "FC001240-01",
    "seats": 320,
    "large": false,
+   "child": "N",
+   "cast": "추혁진, 이태환, 서우빈, 최재명, 원혁, 이윤하, 지수연 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297157_202610010224469790.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_261001_142446.gif",
    "state": "공연중",
@@ -1721,8 +1935,15 @@
    "openrun": false,
    "venue": "디큐브링크아트센터 (디큐브씨어터)",
    "venueId": "FC000011",
+   "hallId": "FC000011-01",
    "seats": 1242,
    "large": true,
+   "child": "N",
+   "cast": "손준호, 이석훈, 정용훈, 차지연, 서은광, 류승수, 민선예 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295552_202607081034363101.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295552_202607081034362380.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295552_260708_103436.gif",
    "state": "공연중",
@@ -1752,14 +1973,7 @@
     }
    ],
    "registeredAt": "2026-07-08 10:34:36",
-   "updatedAt": "2026-09-08 11:18:29",
-   "hallId": "FC000011-01",
-   "child": "N",
-   "cast": "손준호, 이석훈, 정용훈, 차지연, 서은광, 류승수, 민선예 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295552_202607081034363101.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295552_202607081034362380.jpg"
-   ]
+   "updatedAt": "2026-09-08 11:18:29"
   },
   {
    "id": "PF298032",
@@ -1769,8 +1983,14 @@
    "openrun": false,
    "venue": "NOL 서경스퀘어(구. 서경대학교 공연예술센터) (스콘2관)",
    "venueId": "FC001877",
+   "hallId": "FC001877-02",
    "seats": 264,
    "large": false,
+   "child": "N",
+   "cast": "조풍래, 손유동, 심수호, 최석진, 박두호, 김기택",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298032_202608101105321570.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298032_260810_110532.gif",
    "state": "공연중",
@@ -1814,8 +2034,14 @@
    "openrun": false,
    "venue": "링크아트센터 (페이코홀)",
    "venueId": "FC003244",
+   "hallId": "FC003244-01",
    "seats": 470,
    "large": false,
+   "child": "N",
+   "cast": "김종구, 주민진, 홍승안, 최수진, 김려원, 이정화, 최재웅 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298497_202608141009585250.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298497_260814_100958.jpg",
    "state": "공연중",
@@ -1855,8 +2081,14 @@
    "openrun": false,
    "venue": "대학로 자유극장 (자유문화발전소) (대학로 자유극장 (자유문화발전소) )",
    "venueId": "FC000785",
+   "hallId": "FC000785-01",
    "seats": 233,
    "large": false,
+   "child": "N",
+   "cast": "박규원, 변희상, 김지온, 양지원, 김경록, 곽민수",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298171_202608111026275720.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298171_260811_102627.gif",
    "state": "공연중",
@@ -1896,8 +2128,14 @@
    "openrun": false,
    "venue": "티오엠씨어터(구. 문화공간필링) (1관)",
    "venueId": "FC000382",
+   "hallId": "FC000382-01",
    "seats": 335,
    "large": false,
+   "child": "N",
+   "cast": "신의정, 주다온, 선유하, 김초하, 곽나윤, 표바하, 한보라 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297712_202608051104109900.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297712_260805_110410.jpg",
    "state": "공연중",
@@ -1941,8 +2179,14 @@
    "openrun": false,
    "venue": "NOL 서경스퀘어(구. 서경대학교 공연예술센터) (스콘1관)",
    "venueId": "FC001877",
+   "hallId": "FC001877-03",
    "seats": 440,
    "large": false,
+   "child": "N",
+   "cast": "김정민, 김도빈, 조풍래, 문경초, 최호승, 황민수, 이종석 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296148_202609010207585290.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296148_260715_132702.gif",
    "state": "공연중",
@@ -1994,8 +2238,14 @@
    "openrun": false,
    "venue": "홍익대 대학로 아트센터 (대극장)",
    "venueId": "FC001208",
+   "hallId": "FC001208-01",
    "seats": 702,
    "large": true,
+   "child": "N",
+   "cast": "강필석, 최재웅, 김경수, 송원근, 고훈정, 손동운, 김재범 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297912_202608071047178450.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297912_260810_105436.gif",
    "state": "공연중",
@@ -2033,13 +2283,7 @@
     }
    ],
    "registeredAt": "2026-08-07 10:47:18",
-   "updatedAt": "2026-09-16 10:27:59",
-   "hallId": "FC001208-01",
-   "child": "N",
-   "cast": "강필석, 최재웅, 김경수, 송원근, 고훈정, 손동운, 김재범 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297912_202608071047178450.jpg"
-   ]
+   "updatedAt": "2026-09-16 10:27:59"
   },
   {
    "id": "PF298593",
@@ -2049,8 +2293,14 @@
    "openrun": false,
    "venue": "예스24아트원(구.대학로아트원씨어터) (1관)",
    "venueId": "FC000833",
+   "hallId": "FC000833-01",
    "seats": 393,
    "large": false,
+   "child": "N",
+   "cast": "김도빈, 최호승, 이진혁, 이지연, 정재환, 정우연, 박좌헌 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298593_202608140414384130.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298593_260814_161438.jpg",
    "state": "공연중",
@@ -2102,8 +2352,15 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 4관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-04",
    "seats": 205,
    "large": false,
+   "child": "N",
+   "cast": "이회택, 윤서빈, 이동욱, 황두현, 최민우",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298596_202608140437427001.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298596_202608140437426950.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298596_260814_163742.jpg",
    "state": "공연중",
@@ -2143,8 +2400,14 @@
    "openrun": false,
    "venue": "플러스씨어터(구. 컬처스페이스 엔유) (플러스씨어터(구. 컬처스페이스 엔유))",
    "venueId": "FC001459",
+   "hallId": "FC001459-01",
    "seats": 314,
    "large": false,
+   "child": "N",
+   "cast": "전혜주, 이아진, 김단이, 정욱진, 이진우, 류찬열, 이동수 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298163_202608111010483010.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298163_260811_101048.gif",
    "state": "공연중",
@@ -2188,8 +2451,14 @@
    "openrun": false,
    "venue": "NOL 씨어터 대학로 (구. 대학로뮤지컬센터) (우리투자증권홀(구.중극장))",
    "venueId": "FC001213",
+   "hallId": "FC001213-02",
    "seats": 490,
    "large": false,
+   "child": "N",
+   "cast": "이충주, 김지철, 임준혁, 신은총, 손진욱, 정찬영, 강윤석 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296104_202607151045106300.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296104_260715_104510.gif",
    "state": "공연중",
@@ -2221,8 +2490,14 @@
    "openrun": false,
    "venue": "KT&G 상상마당 대치아트홀 (KT&G 상상마당 대치아트홀)",
    "venueId": "FC000052",
+   "hallId": "FC000052-01",
    "seats": 422,
    "large": false,
+   "child": "N",
+   "cast": "오승윤, 김태호, 홍주찬, 박진우, 이시강, 조이현, 조은샘 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298801_202608191048072870.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298801_260819_104807.gif",
    "state": "공연중",
@@ -2258,8 +2533,14 @@
    "openrun": false,
    "venue": "제이원 씨어터 (구. 서완소극장, 구. 씨어터고리) (제이원 씨어터 (구. 서완소극장, 구. 씨어터고리) )",
    "venueId": "FC001201",
+   "hallId": "FC001201-01",
    "seats": 98,
    "large": false,
+   "child": "N",
+   "cast": "이정은, 김재선, 김광래, 정연희, 김슬기",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300823_202609140143028140.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300823_260914_134302.gif",
    "state": "공연중",
@@ -2295,8 +2576,15 @@
    "openrun": false,
    "venue": "국립정동극장 (국립정동극장)",
    "venueId": "FC000006",
+   "hallId": "FC000006-01",
    "seats": 326,
    "large": false,
+   "child": "N",
+   "cast": "백은혜, 정연, 정운선, 이지숙, 고철순, 김대웅, 김리현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298792_202608190355553690.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298792_202608190356208940.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298792_260819_103024.gif",
    "state": "공연중",
@@ -2332,8 +2620,14 @@
    "openrun": false,
    "venue": "예스24 스테이지(구. DCF대명문화공장) (1관)",
    "venueId": "FC001236",
+   "hallId": "FC001236-01",
    "seats": 406,
    "large": false,
+   "child": "N",
+   "cast": "주민진, 안재영, 유현석, 김바다, 유태율, 홍기범, 장재웅 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297794_202608070121179690.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297794_260805_153337.gif",
    "state": "공연중",
@@ -2373,8 +2667,14 @@
    "openrun": false,
    "venue": "브릭스씨어터 (구. 콘텐츠 그라운드) (브릭스씨어터 (구. 콘텐츠 그라운드))",
    "venueId": "FC001199",
+   "hallId": "FC001199-01",
    "seats": 202,
    "large": false,
+   "child": "N",
+   "cast": "김한결, 오승현, 전해주, 박한들, 김보미, 서원",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300366_202609081051009920.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300366_260908_105100.png",
    "state": "공연중",
@@ -2406,8 +2706,15 @@
    "openrun": false,
    "venue": "이화여자대학교 삼성홀 (이화여자대학교 삼성홀)",
    "venueId": "FC001799",
+   "hallId": "FC001799-01",
    "seats": 702,
    "large": true,
+   "child": "N",
+   "cast": "문태유, 조병규, 백인태, 조환지, 임강성, 강정우, 정아인 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298880_202608190241478040.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298880_202608190245378730.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298880_260819_144147.jpg",
    "state": "공연중",
@@ -2433,14 +2740,7 @@
     }
    ],
    "registeredAt": "2026-08-19 14:41:48",
-   "updatedAt": "2026-10-01 14:00:23",
-   "hallId": "FC001799-01",
-   "child": "N",
-   "cast": "문태유, 조병규, 백인태, 조환지, 임강성, 강정우, 정아인 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298880_202608190241478040.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298880_202608190245378730.jpg"
-   ]
+   "updatedAt": "2026-10-01 14:00:23"
   },
   {
    "id": "PF302113",
@@ -2450,8 +2750,18 @@
    "openrun": false,
    "venue": "더 씨어터 (더 씨어터)",
    "venueId": "FC001249",
+   "hallId": "FC001249-01",
    "seats": 96,
    "large": false,
+   "child": "N",
+   "cast": "김지형, 권우진, 김익태, 손하은, 진희주, 최서연, 윤정호 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302113_202609300127433464.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302113_202609300127433303.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302113_202609300127433242.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302113_202609300127433201.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302113_202609300127433140.jpeg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302113_260930_132743.jpg",
    "state": "공연중",
@@ -2479,8 +2789,14 @@
    "openrun": false,
    "venue": "백암아트홀 (백암아트홀)",
    "venueId": "FC000062",
+   "hallId": "FC000062-01",
    "seats": 417,
    "large": false,
+   "child": "N",
+   "cast": "송유택, 현석준, 홍승안, 강연정, 강혜인, 전혜주, 정욱진 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299855_202609021007579890.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299855_260902_100757.png",
    "state": "공연중",
@@ -2524,8 +2840,14 @@
    "openrun": false,
    "venue": "꿈의숲아트센터 (퍼포먼스홀)",
    "venueId": "FC000567",
+   "hallId": "FC000567-01",
    "seats": 283,
    "large": false,
+   "child": "N",
+   "cast": "김단, 김예은, 남해현, 서승원, 서태경, 신예림, 우민서 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301185_202609170101267410.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301185_260917_125602.gif",
    "state": "공연중",
@@ -2573,8 +2895,15 @@
    "openrun": false,
    "venue": "국립정동극장 세실 (구.세실극장) (국립정동극장 세실 (구.세실극장))",
    "venueId": "FC001125",
+   "hallId": "FC001125-01",
    "seats": 234,
    "large": false,
+   "child": "N",
+   "cast": "이건희, 박근식, 김안젤라, 강수진, 이한수, 김의환",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300009_202609031043400150.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300009_202609031045091610.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300009_260903_104340.gif",
    "state": "공연중",
@@ -2610,8 +2939,14 @@
    "openrun": false,
    "venue": "유니플렉스 (1관(대극장))",
    "venueId": "FC001233",
+   "hallId": "FC001233-01",
    "seats": 599,
    "large": true,
+   "child": "N",
+   "cast": "김종구, 고상호, 김려원, 장보람, 박유덕, 이창용, 신수빈 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299169_202608241136430230.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299169_260824_113642.gif",
    "state": "공연중",
@@ -2645,13 +2980,7 @@
     }
    ],
    "registeredAt": "2026-08-24 11:36:43",
-   "updatedAt": "2026-09-30 14:16:37",
-   "hallId": "FC001233-01",
-   "child": "N",
-   "cast": "김종구, 고상호, 김려원, 장보람, 박유덕, 이창용, 신수빈 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299169_202608241136430230.jpg"
-   ]
+   "updatedAt": "2026-09-30 14:16:37"
   },
   {
    "id": "PF299346",
@@ -2661,8 +2990,15 @@
    "openrun": false,
    "venue": "두산아트센터 (연강홀)",
    "venueId": "FC000402",
+   "hallId": "FC000402-02",
    "seats": 620,
    "large": true,
+   "child": "N",
+   "cast": "안재욱, 이희준, 오의식, 이형훈, 배해선, 윤공주, 김지현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299346_202608250201072652.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299346_202608250201072361.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299346_260825_140107.jpg",
    "state": "공연중",
@@ -2700,14 +3036,7 @@
     }
    ],
    "registeredAt": "2026-08-25 14:01:07",
-   "updatedAt": "2026-10-08 13:05:42",
-   "hallId": "FC000402-02",
-   "child": "N",
-   "cast": "안재욱, 이희준, 오의식, 이형훈, 배해선, 윤공주, 김지현 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299346_202608250201072652.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299346_202608250201072361.jpg"
-   ]
+   "updatedAt": "2026-10-08 13:05:42"
   },
   {
    "id": "PF301985",
@@ -2717,11 +3046,17 @@
    "openrun": true,
    "venue": "뮤지컬펍 커튼콜 (뮤지컬펍 커튼콜)",
    "venueId": "FC004586",
+   "hallId": "FC004586-01",
    "seats": 30,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301985_202609290205168480.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301985_260929_140516.jpg",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 30,000원",
    "times": "금요일(23:00), 토요일(23:00)",
    "runtime": "40분",
@@ -2746,11 +3081,18 @@
    "openrun": false,
    "venue": "R&J씨어터(구. 연진아트홀) (R&J씨어터(구. 연진아트홀))",
    "venueId": "FC001142",
+   "hallId": "FC001142-01",
    "seats": 127,
    "large": false,
+   "child": "N",
+   "cast": "김규리, 조하영, 주재현, 김형진, 정진원, 함유범, 이시은 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300214_202609071050128281.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300214_202609071050127590.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300214_260907_105012.png",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 45,000원",
    "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,19:30)",
    "runtime": "1시간 50분",
@@ -2772,6 +3114,41 @@
    "updatedAt": "2026-09-17 11:20:43"
   },
   {
+   "id": "PF301937",
+   "title": "중구민을 위한 월요극장 12, 푸른 꽃",
+   "from": "2026-10-12",
+   "to": "2026-10-12",
+   "openrun": false,
+   "venue": "충무아트센터 (중극장 블랙)",
+   "venueId": "FC000014",
+   "hallId": "FC000014-03",
+   "seats": 320,
+   "large": false,
+   "child": "N",
+   "cast": "조소은, 이찬동, 박란주, 최호중, 김정연, 김대웅",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301937_202609291114172410.png"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301937_260929_111417.gif",
+   "state": "공연예정",
+   "prices": "전석 10,000원",
+   "times": "월요일(19:00)",
+   "runtime": "1시간 55분",
+   "age": "만 6세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013628"
+    }
+   ],
+   "registeredAt": "2026-09-29 11:14:17",
+   "updatedAt": "2026-09-29 15:00:00.178521"
+  },
+  {
    "id": "PF300598",
    "title": "수레바퀴 아래서 [대학로]",
    "from": "2026-10-13",
@@ -2779,8 +3156,14 @@
    "openrun": false,
    "venue": "SH아트홀 (SH아트홀)",
    "venueId": "FC001384",
+   "hallId": "FC001384-01",
    "seats": 260,
    "large": false,
+   "child": "N",
+   "cast": "송영미, 조영화, 한상훈, 황건우, 이서후, 정지혜, 김이진 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300598_202609100116016970.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300598_260910_131601.jpg",
    "state": "공연예정",
@@ -2805,6 +3188,76 @@
    "updatedAt": "2026-09-29 11:23:35"
   },
   {
+   "id": "PF299012",
+   "title": "제14회 GAF공연예술제, 고백 (Musical Love Confession)",
+   "from": "2026-10-14",
+   "to": "2026-10-14",
+   "openrun": false,
+   "venue": "구로창의아트홀 (구로창의아트홀)",
+   "venueId": "FC004310",
+   "hallId": "FC004310-01",
+   "seats": 208,
+   "large": false,
+   "child": "N",
+   "cast": "강석화, 김태호, 이홍섭, 서은교, 이하린, 김도희",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299012_202610070527260230.png"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299012_261007_172726.gif",
+   "state": "공연예정",
+   "prices": "전석 15,000원",
+   "times": "수요일(19:00)",
+   "runtime": "1시간 40분",
+   "age": "만 8세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012078"
+    }
+   ],
+   "registeredAt": "2026-08-21 10:13:06",
+   "updatedAt": "2026-10-07 18:00:00.088388"
+  },
+  {
+   "id": "PF302510",
+   "title": "달빛, 한스푼 [대학로]",
+   "from": "2026-10-16",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "광화문아트홀 (광화문아트홀)",
+   "venueId": "FC001177",
+   "hallId": "FC001177-01",
+   "seats": 340,
+   "large": false,
+   "child": "N",
+   "cast": "민광준, 허훈, 강다원, 이시은, 김은솔, 김소정, 유승민 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302510_202610060130481790.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302510_261006_133048.gif",
+   "state": "공연예정",
+   "prices": "전석 50,000원",
+   "times": "금요일 ~ 목요일(19:30), 토요일 ~ 일요일(14:00)",
+   "runtime": "1시간 20분",
+   "age": "만 11세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013928"
+    }
+   ],
+   "registeredAt": "2026-10-06 13:30:48",
+   "updatedAt": "2026-10-06 15:00:00.074715"
+  },
+  {
    "id": "PF300890",
    "title": "이상한 나라의 춘자씨 [서울 용산]",
    "from": "2026-10-16",
@@ -2812,8 +3265,16 @@
    "openrun": false,
    "venue": "더 줌 아트센터 (더 줌 아트센터)",
    "venueId": "FC001994",
+   "hallId": "FC001994-01",
    "seats": 128,
    "large": false,
+   "child": "N",
+   "cast": "전국향, 백현주, 윤성원, 박현철, 전민준, 강나리, 양나은",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425351332.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425350761.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425350620.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300890_260914_162535.gif",
    "state": "공연예정",
@@ -2834,6 +3295,115 @@
    "updatedAt": "2026-09-14 18:00:00.025371"
   },
   {
+   "id": "PF299250",
+   "title": "파랑새 [용인]",
+   "from": "2026-10-16",
+   "to": "2026-10-18",
+   "openrun": false,
+   "venue": "용인시평생학습관 (여성회관) (큰어울마당)",
+   "venueId": "FC002433",
+   "hallId": "FC002433-01",
+   "seats": 599,
+   "large": true,
+   "child": "N",
+   "cast": "조윤호, 안홍주, 정혜인, 한진만, 성미지, 김시준, 신동해 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299250_202608240307223860.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299250_260824_150722.gif",
+   "state": "공연예정",
+   "prices": "전석 20,000원",
+   "times": "금요일(11:00), 토요일 ~ 일요일(11:00,15:00)",
+   "runtime": "1시간 20분",
+   "age": "만 3세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012302"
+    }
+   ],
+   "registeredAt": "2026-08-24 15:07:22",
+   "updatedAt": "2026-08-24 18:00:00.113369"
+  },
+  {
+   "id": "PF299331",
+   "title": "HAC Choice, 만천명월 격쟁을 허하라 [화성]",
+   "from": "2026-10-17",
+   "to": "2026-10-17",
+   "openrun": false,
+   "venue": "화성예술의전당 (동탄아트홀)",
+   "venueId": "FC004725",
+   "hallId": "FC004725-01",
+   "seats": 1450,
+   "large": true,
+   "child": "N",
+   "cast": "임태희, 김의환, 이건희, 김민국, 추현종, 강아영, 신가인 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299331_202608250122389450.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299331_260825_132238.gif",
+   "state": "공연예정",
+   "prices": "R석 60,000원, S석 40,000원",
+   "times": "토요일(17:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14009"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012390"
+    }
+   ],
+   "registeredAt": "2026-08-25 13:22:39",
+   "updatedAt": "2026-09-22 10:30:56"
+  },
+  {
+   "id": "PF300703",
+   "title": "ONEPIECE (원피스)",
+   "from": "2026-10-17",
+   "to": "2026-10-17",
+   "openrun": false,
+   "venue": "노들섬 (라이브하우스)",
+   "venueId": "FC002122",
+   "hallId": "FC002122-02",
+   "seats": 456,
+   "large": false,
+   "child": "N",
+   "cast": "민우혁, 조형균, 김원빈, 방지숙",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300703_202609110154003380.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300703_260911_135400.gif",
+   "state": "공연예정",
+   "prices": "R석 150,000원, S석 120,000원",
+   "times": "토요일(14:00,18:30)",
+   "runtime": "2시간 15분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013068"
+    }
+   ],
+   "registeredAt": "2026-09-11 13:54:00",
+   "updatedAt": "2026-09-11 15:00:00.171731"
+  },
+  {
    "id": "PF301308",
    "title": "하트비트: 심폐소생일지 [대학로]",
    "from": "2026-10-20",
@@ -2841,8 +3411,14 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 3관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-03",
    "seats": 211,
    "large": false,
+   "child": "N",
+   "cast": "정의, 이한별, 김지혜, 최수진, 한재아, 이효은, 임기희 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301308_202609180149130200.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301308_260918_134912.jpg",
    "state": "공연예정",
@@ -2874,8 +3450,17 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 1관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-01",
    "seats": 352,
    "large": false,
+   "child": "N",
+   "cast": "김랑연, 이준형, 이승준, 박경호, 권익환, 정단비, 공현비 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304183303.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304183152.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304183001.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304182900.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302270_261001_150418.jpg",
    "state": "공연예정",
@@ -2896,6 +3481,116 @@
    "updatedAt": "2026-10-01 18:00:00.11532"
   },
   {
+   "id": "PF299509",
+   "title": "리: 바운드 축제, 1457, 소년 잠들다",
+   "from": "2026-10-22",
+   "to": "2026-10-22",
+   "openrun": false,
+   "venue": "서일대학교 배양관 (예다움홀)",
+   "venueId": "FC005043",
+   "hallId": "FC005043-01",
+   "seats": 0,
+   "large": false,
+   "child": "N",
+   "cast": "조배근, 주시진, 강지원, 황형석, 강미선, 신혜민, 권솔 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299509_202610081101359300.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299509_202608270132381560.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299509_260827_133238.gif",
+   "state": "공연예정",
+   "prices": "전석 20,000원",
+   "times": "목요일(14:00,19:30)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "극단 시와별",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14068"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012344"
+    }
+   ],
+   "registeredAt": "2026-08-27 13:32:38",
+   "updatedAt": "2026-10-08 15:00:00.092925"
+  },
+  {
+   "id": "PF300591",
+   "title": "왕세자 실종사건",
+   "from": "2026-10-22",
+   "to": "2026-10-22",
+   "openrun": false,
+   "venue": "강북문화예술회관 (강북소나무홀 (구.대공연장) )",
+   "venueId": "FC000032",
+   "hallId": "FC000032-01",
+   "seats": 668,
+   "large": true,
+   "child": "N",
+   "cast": "서광섭, 김도연, 김종헌, 박은선, 류다휘, 박우빈, 홍재호 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300591_202609101249542740.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300591_260910_124900.gif",
+   "state": "공연예정",
+   "prices": "1층석 50,000원, 2층석 30,000원",
+   "times": "목요일(19:30)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "극단 죽도록달린다",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013096"
+    }
+   ],
+   "registeredAt": "2026-09-10 12:49:00",
+   "updatedAt": "2026-09-10 15:00:00.08251"
+  },
+  {
+   "id": "PF301728",
+   "title": "제1022회 목요예술무대, 페이크북",
+   "from": "2026-10-22",
+   "to": "2026-10-22",
+   "openrun": false,
+   "venue": "강남씨어터 (강남씨어터)",
+   "venueId": "FC001619",
+   "hallId": "FC001619-01",
+   "seats": 232,
+   "large": false,
+   "child": "N",
+   "cast": "박다영, 최우성, 김아린, 장홍석, 박선영, 류형민, 홍민서",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301728_202609281054445290.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301728_260928_105444.gif",
+   "state": "공연예정",
+   "prices": "전석 10,000원",
+   "times": "목요일(19:00)",
+   "runtime": "1시간 15분",
+   "age": "만 6세 이상",
+   "producer": "(주)이지뮤지컬컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013834"
+    }
+   ],
+   "registeredAt": "2026-09-28 10:54:45",
+   "updatedAt": "2026-09-28 15:00:00.05876"
+  },
+  {
    "id": "PF301098",
    "title": "남벌 [서울 광진]",
    "from": "2026-10-23",
@@ -2903,8 +3598,16 @@
    "openrun": false,
    "venue": "티켓링크 1975 씨어터(구.능동 어린이회관) (티켓링크 1975 씨어터(구.무지개극장))",
    "venueId": "FC000156",
+   "hallId": "FC000156-01",
    "seats": 1010,
    "large": true,
+   "child": "N",
+   "cast": "오종혁, 선율, 박소은, 이재림, 김민철, 정시욱, 이종영 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160310000502.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599921.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599850.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301098_260916_150959.gif",
    "state": "공연예정",
@@ -2930,15 +3633,42 @@
     }
    ],
    "registeredAt": "2026-09-16 15:10:00",
-   "updatedAt": "2026-09-16 18:00:00.066507",
-   "hallId": "FC000156-01",
+   "updatedAt": "2026-09-16 18:00:00.066507"
+  },
+  {
+   "id": "PF302288",
+   "title": "사랑방 금요일 상상극장, 별주부전에 끼어든 인어공주 [인천 부평]",
+   "from": "2026-10-23",
+   "to": "2026-10-23",
+   "openrun": false,
+   "venue": "부평문화사랑방 (부평문화사랑방)",
+   "venueId": "FC001796",
+   "hallId": "FC001796-01",
+   "seats": 126,
+   "large": false,
    "child": "N",
-   "cast": "오종혁, 선율, 박소은, 이재림, 김민철, 정시욱, 이종영 등",
+   "cast": "",
    "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160310000502.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599921.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599850.jpg"
-   ]
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302288_202610021015384120.jpg"
+   ],
+   "area": "인천광역시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302288_261002_101538.gif",
+   "state": "공연예정",
+   "prices": "전석 10,000원",
+   "times": "금요일(19:00)",
+   "runtime": "1시간",
+   "age": "전체 관람가",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013842"
+    }
+   ],
+   "registeredAt": "2026-10-02 10:15:38",
+   "updatedAt": "2026-10-02 15:00:00.089503"
   },
   {
    "id": "PF301091",
@@ -2948,8 +3678,14 @@
    "openrun": false,
    "venue": "다케이씨어터 (구. 창조소극장)  (다케이씨어터 (구. 창조소극장) )",
    "venueId": "FC001636",
+   "hallId": "FC001636-01",
    "seats": 110,
    "large": false,
+   "child": "N",
+   "cast": "박진우, 은별, 권경외, 김예은, 하경찬, 이세은, 이상현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301091_202609160254170690.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301091_260916_145417.gif",
    "state": "공연예정",
@@ -2970,6 +3706,146 @@
    "updatedAt": "2026-09-16 15:00:00.096789"
   },
   {
+   "id": "PF302114",
+   "title": "땡큐포더던: 두번째 이야기",
+   "from": "2026-10-24",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "극장 봄 (봄소극장) (극장 봄)",
+   "venueId": "FC001331",
+   "hallId": "FC001331-01",
+   "seats": 55,
+   "large": false,
+   "child": "N",
+   "cast": "박석진, 박소정, 이미소",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302114_202609300129211020.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302114_260930_132921.jpg",
+   "state": "공연예정",
+   "prices": "전석 30,000원",
+   "times": "토요일(14:00,17:00), 일요일(15:00)",
+   "runtime": "1시간 40분",
+   "age": "만 14세 이상",
+   "producer": "네오엘컴퍼니, 창작집단 재미지수",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1565275"
+    }
+   ],
+   "registeredAt": "2026-09-30 13:29:21",
+   "updatedAt": "2026-09-30 15:00:00.099302"
+  },
+  {
+   "id": "PF300693",
+   "title": "민들레 피리 [오산]",
+   "from": "2026-10-24",
+   "to": "2026-10-24",
+   "openrun": false,
+   "venue": "오산문화예술회관 (대공연장)",
+   "venueId": "FC000145",
+   "hallId": "FC000145-01",
+   "seats": 800,
+   "large": true,
+   "child": "N",
+   "cast": "손유동, 임진섭",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300693_202609110126198890.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300693_260911_132619.gif",
+   "state": "공연예정",
+   "prices": "전석 40,000원",
+   "times": "토요일(18:30)",
+   "runtime": "1시간 40분",
+   "age": "만 8세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012975"
+    }
+   ],
+   "registeredAt": "2026-09-11 13:26:20",
+   "updatedAt": "2026-09-11 15:00:00.171731"
+  },
+  {
+   "id": "PF300639",
+   "title": "제17회 화성시 뮤지컬단 정기공연: 우리들의 온에어",
+   "from": "2026-10-24",
+   "to": "2026-10-25",
+   "openrun": false,
+   "venue": "SCN 아트홀 (소극장)",
+   "venueId": "FC003466",
+   "hallId": "FC003466-01",
+   "seats": 60,
+   "large": false,
+   "child": "N",
+   "cast": "김소율, 김지원, 박은서, 박은정, 송지아, 신유진, 이수아 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300639_202609100306341980.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300639_260910_150634.jpg",
+   "state": "공연예정",
+   "prices": "전석 5,000원",
+   "times": "토요일 ~ 일요일(17:00)",
+   "runtime": "1시간 20분",
+   "age": "전체 관람가",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1733766"
+    }
+   ],
+   "registeredAt": "2026-09-10 15:06:34",
+   "updatedAt": "2026-09-10 18:00:00.092124"
+  },
+  {
+   "id": "PF298358",
+   "title": "GUNPO MUSICAL STATION 59.9 (군포 뮤지컬 스테이션 59.9) : 한국뮤지컬 EP.4 확장",
+   "from": "2026-10-24",
+   "to": "2026-10-24",
+   "openrun": false,
+   "venue": "군포문화예술회관 (철쭉홀)",
+   "venueId": "FC001167",
+   "hallId": "FC001167-02",
+   "seats": 428,
+   "large": false,
+   "child": "N",
+   "cast": "김하준, 조성태, 도율희, 이현재, 안리나, 이홍섭",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298358_202608120251518660.png"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298358_260812_145151.gif",
+   "state": "공연예정",
+   "prices": "전석 40,000원",
+   "times": "토요일(18:00)",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "producer": "(재) 군포문화재단(군포문화예술회관)",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011067"
+    }
+   ],
+   "registeredAt": "2026-08-12 14:51:52",
+   "updatedAt": "2026-08-12 15:00:00.089288"
+  },
+  {
    "id": "PF301912",
    "title": "마제스티 [대학로]",
    "from": "2026-10-25",
@@ -2977,8 +3853,15 @@
    "openrun": false,
    "venue": "NOL 씨어터 대학로 (구. 대학로뮤지컬센터) (우리카드홀 )",
    "venueId": "FC001213",
+   "hallId": "FC001213-04",
    "seats": 935,
    "large": true,
+   "child": "N",
+   "cast": "엄기준, 박은석, 박정원, 김우석, 이정화, 허윤슬, 양승리 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301912_202609291012432461.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301912_202609291012432390.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301912_260929_101243.gif",
    "state": "공연예정",
@@ -3011,6 +3894,42 @@
    "updatedAt": "2026-10-02 11:35:04"
   },
   {
+   "id": "PF298294",
+   "title": "그날들 [이천]",
+   "from": "2026-10-31",
+   "to": "2026-11-01",
+   "openrun": false,
+   "venue": "이천아트홀 (대공연장)",
+   "venueId": "FC000824",
+   "hallId": "FC000824-01",
+   "seats": 1200,
+   "large": true,
+   "child": "N",
+   "cast": "김정현, 엄기준, 어남선, 박규원, 이정환, 윤시윤, 이지수 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298294_202608121043083751.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298294_202608121043083710.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298294_260812_104308.gif",
+   "state": "공연예정",
+   "prices": "R석 150,000원, S석 120,000원, A석 90,000원, B석 60,000원, C석 30,000원",
+   "times": "토요일(14:00,19:00), 일요일(14:00)",
+   "runtime": "2시간 45분",
+   "age": "만 7세 이상",
+   "producer": "(주) 위즈덤엔터테인먼트, (주)케이티지니뮤직",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011647"
+    }
+   ],
+   "registeredAt": "2026-08-12 10:43:08",
+   "updatedAt": "2026-08-12 15:00:00.089288"
+  },
+  {
    "id": "PF301634",
    "title": "정신병동에도 아침이 와요",
    "from": "2026-10-31",
@@ -3018,8 +3937,14 @@
    "openrun": false,
    "venue": "이화여자대학교 삼성홀 (이화여자대학교 삼성홀)",
    "venueId": "FC001799",
+   "hallId": "FC001799-01",
    "seats": 702,
    "large": true,
+   "child": "N",
+   "cast": "최태이, 유주연, 정동화, 염성연, 최민우, 조성태, 정혜은 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202609231039361090.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301634_260923_103936.jpg",
    "state": "공연예정",
@@ -3041,13 +3966,59 @@
     }
    ],
    "registeredAt": "2026-09-23 10:39:36",
-   "updatedAt": "2026-09-23 15:00:00.065979",
-   "hallId": "FC001799-01",
+   "updatedAt": "2026-09-23 15:00:00.065979"
+  },
+  {
+   "id": "PF300432",
+   "title": "치펜데일 라이브 인 서울",
+   "from": "2026-10-31",
+   "to": "2026-11-02",
+   "openrun": false,
+   "venue": "에스팩토리 (D동)",
+   "venueId": "FC001906",
+   "hallId": "FC001906-03",
+   "seats": 350,
+   "large": false,
    "child": "N",
-   "cast": "최태이, 유주연, 정동화, 염성연, 최민우, 조성태, 정혜은 등",
+   "cast": "",
    "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202609231039361090.png"
-   ]
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300432_202609091021532521.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300432_202609091021532240.png"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300432_260909_102600.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 160,000원, R석 140,000원",
+   "times": "월요일(19:30), 토요일(15:30,20:00), 일요일(14:30,19:30)",
+   "runtime": "1시간 40분",
+   "age": "만 19세 이상",
+   "producer": "",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65430"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1733348"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012554"
+    },
+    {
+     "name": "멜론티켓",
+     "url": "https://ticket.melon.com/performance/index.htm?prodId=213827"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/59937"
+    }
+   ],
+   "registeredAt": "2026-09-09 10:21:53",
+   "updatedAt": "2026-09-09 15:00:00.094955"
   },
   {
    "id": "PF302368",
@@ -3057,8 +4028,15 @@
    "openrun": false,
    "venue": "아트하우스 (아트하우스)",
    "venueId": "FC003224",
+   "hallId": "FC003224-01",
    "seats": 212,
    "large": false,
+   "child": "N",
+   "cast": "정지환, 지강혁, 조지환, 성보람, 김연수, 유민정, 박혜민 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302368_202610020205123621.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302368_202610020205123550.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302368_261002_140512.gif",
    "state": "공연예정",
@@ -3090,8 +4068,14 @@
    "openrun": false,
    "venue": "링크아트센터 (페이코홀)",
    "venueId": "FC003244",
+   "hallId": "FC003244-01",
    "seats": 470,
    "large": false,
+   "child": "N",
+   "cast": "최재웅, 선한국, 이진혁, 김찬종, 임예진, 정민, 온주완 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301746_202609281144071110.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301746_260928_114407.jpg",
    "state": "공연예정",
@@ -3123,8 +4107,15 @@
    "openrun": false,
    "venue": "링크아트센터드림 (드림 2관)",
    "venueId": "FC001528",
+   "hallId": "FC001528-02",
    "seats": 211,
    "large": false,
+   "child": "N",
+   "cast": "박규원, 신주협, 박준형, 박정모, 조은성, 김재한, 이동수 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301565_202609220132487420.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301565_202609220135413810.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301565_260922_133248.jpg",
    "state": "공연예정",
@@ -3156,8 +4147,15 @@
    "openrun": false,
    "venue": "스튜디오 블루 (스튜디오 블루)",
    "venueId": "FC002989",
+   "hallId": "FC002989-01",
    "seats": 180,
    "large": false,
+   "child": "N",
+   "cast": "김소년, 조수하, 윤채린, 김가람, 권무성, 윤장현, 서예빈 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294534_202606240126497301.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294534_202606240126497100.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294534_260624_132649.gif",
    "state": "공연예정",
@@ -3201,8 +4199,14 @@
    "openrun": false,
    "venue": "한성아트홀(구. 인켈아트홀) (2관)",
    "venueId": "FC000152",
+   "hallId": "FC000152-01",
    "seats": 160,
    "large": false,
+   "child": "N",
+   "cast": "최대철, 이주훈, 김성훈, 신예준, 손난희, 양나현, 예하나 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300790_202609141212065200.png"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300790_260914_121206.gif",
    "state": "공연예정",
@@ -3251,6 +4255,85 @@
    "updatedAt": "2026-10-08 11:16:17"
   },
   {
+   "id": "PF302770",
+   "title": "정약용 묵시록: 희망과 허망 사이, 붓으로 길을 열다 [남양주]",
+   "from": "2026-11-06",
+   "to": "2026-11-07",
+   "openrun": false,
+   "venue": "다산아트홀 (다산아트홀)",
+   "venueId": "FC001931",
+   "hallId": "FC001931-01",
+   "seats": 496,
+   "large": false,
+   "child": "N",
+   "cast": "이태훈, 최영규, 이현준, 이일섭, 진도희, 정재연, 안중현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302770_202610081019050050.png"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302770_261008_101904.png",
+   "state": "공연예정",
+   "prices": "1층석 30,000원, 2층석 20,000원",
+   "times": "금요일(19:00), 토요일(15:00,19:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "남양주문화재단",
+     "url": "http://nyjcf.moonhwain.net/rsvc/rsv_pm.html?b_id=nyjcf&p_idx=729"
+    }
+   ],
+   "registeredAt": "2026-10-08 10:19:05",
+   "updatedAt": "2026-10-08 15:00:00.092925"
+  },
+  {
+   "id": "PF298908",
+   "title": "팬레터 [성남]",
+   "from": "2026-11-07",
+   "to": "2026-11-08",
+   "openrun": false,
+   "venue": "성남아트센터 (오페라하우스)",
+   "venueId": "FC000016",
+   "hallId": "FC000016-02",
+   "seats": 1804,
+   "large": true,
+   "child": "N",
+   "cast": "김경수, 이규형, 김재범, 이승원, 윤소호, 홍기범, 이봄소리 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298908_202608201039109301.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298908_202608201039109250.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298908_260820_103910.gif",
+   "state": "공연예정",
+   "prices": "R석 110,000원, S석 99,000원, A석 77,000원, B석 66,000원",
+   "times": "토요일 ~ 일요일(14:00,19:00)",
+   "runtime": "2시간 40분",
+   "age": "만 13세 이상",
+   "producer": "라이브(주)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65014"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1719908"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011738"
+    }
+   ],
+   "registeredAt": "2026-08-20 10:39:11",
+   "updatedAt": "2026-08-20 15:00:00.079918"
+  },
+  {
    "id": "PF300941",
    "title": "사춘기 [대학로]",
    "from": "2026-11-09",
@@ -3258,8 +4341,14 @@
    "openrun": false,
    "venue": "예그린씨어터 (예그린씨어터)",
    "venueId": "FC001212",
+   "hallId": "FC001212-01",
    "seats": 202,
    "large": false,
+   "child": "N",
+   "cast": "임찬민, 이서영, 송영미, 전하영, 김이담, 이승준, 김시유 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300941_202609151043516480.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300941_260915_104351.gif",
    "state": "공연예정",
@@ -3295,8 +4384,15 @@
    "openrun": false,
    "venue": "광림아트센터 (BBCH홀)",
    "venueId": "FC001370",
+   "hallId": "FC001370-02",
    "seats": 998,
    "large": true,
+   "child": "N",
+   "cast": "정기열, 신성록, 고은성, 백형훈, 진태화, 노윤, 이선민 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300974_202609170314116220.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300974_202609170314116561.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300974_260915_132402.gif",
    "state": "공연예정",
@@ -3330,14 +4426,51 @@
     }
    ],
    "registeredAt": "2026-09-15 13:24:02",
-   "updatedAt": "2026-09-17 15:15:05",
-   "hallId": "FC001370-02",
+   "updatedAt": "2026-09-17 15:15:05"
+  },
+  {
+   "id": "PF294046",
+   "title": "빨래 [하남]",
+   "from": "2026-11-13",
+   "to": "2026-11-15",
+   "openrun": false,
+   "venue": "하남문화예술회관 (검단홀(대극장))",
+   "venueId": "FC000095",
+   "hallId": "FC000095-01",
+   "seats": 911,
+   "large": true,
    "child": "N",
-   "cast": "정기열, 신성록, 고은성, 백형훈, 진태화, 노윤, 이선민 등",
+   "cast": "",
    "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300974_202609170314116220.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300974_202609170314116561.jpg"
-   ]
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294046_202606180311011631.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294046_202606180311011280.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294046_260618_151101.gif",
+   "state": "공연예정",
+   "prices": "R석 77,000원, S석 55,000원",
+   "times": "금요일(19:30), 토요일(14:00,18:30), 일요일(14:00)",
+   "runtime": "2시간 45분",
+   "age": "만 13세 이상",
+   "producer": "(주)씨에이치수박",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/63891"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1677472"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008450"
+    }
+   ],
+   "registeredAt": "2026-06-18 15:11:01",
+   "updatedAt": "2026-06-19 15:22:03"
   },
   {
    "id": "PF302037",
@@ -3347,8 +4480,14 @@
    "openrun": true,
    "venue": "명륜아트홀 (명륜아트홀)",
    "venueId": "FC003682",
+   "hallId": "FC003682-01",
    "seats": 119,
    "large": false,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302037_202609290435334560.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302037_260929_163533.gif",
    "state": "공연예정",
@@ -3377,6 +4516,54 @@
    "updatedAt": "2026-10-08 11:31:42"
   },
   {
+   "id": "PF298550",
+   "title": "팬레터 [인천]",
+   "from": "2026-11-21",
+   "to": "2026-11-22",
+   "openrun": false,
+   "venue": "인천문화예술회관 (대공연장)",
+   "venueId": "FC000013",
+   "hallId": "FC000013-02",
+   "seats": 1310,
+   "large": true,
+   "child": "N",
+   "cast": "김경수, 이규형, 김종구, 문태유, 윤소호, 김히어라, 강혜인 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298550_202608140142304880.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298550_202608140144232510.jpg"
+   ],
+   "area": "인천광역시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298550_260814_134230.gif",
+   "state": "공연예정",
+   "prices": "R석 110,000원, S석 99,000원, A석 77,000원, B석 66,000원",
+   "times": "토요일 ~ 일요일(14:00,19:00)",
+   "runtime": "2시간 40분",
+   "age": "만 13세 이상",
+   "producer": "라이브(주)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/64942"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1716914"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011840"
+    },
+    {
+     "name": "인천문화예술회관",
+     "url": "https://www.incheon.go.kr/art/ART010101/view?resveProgrmSeCode=C&resveGroupSn=5&progrmSn=10922"
+    }
+   ],
+   "registeredAt": "2026-08-14 13:42:31",
+   "updatedAt": "2026-08-14 15:00:00.090568"
+  },
+  {
    "id": "PF302516",
    "title": "레베카 [서울 중구]",
    "from": "2026-11-24",
@@ -3384,8 +4571,14 @@
    "openrun": false,
    "venue": "충무아트센터 (대극장)",
    "venueId": "FC000014",
+   "hallId": "FC000014-02",
    "seats": 1250,
    "large": true,
+   "child": "N",
+   "cast": "김우형, 김호경, 박성혁, 신영숙, 옥주현, 이아름솔, 김다혜 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302516_202610060145411910.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302516_261006_134804.jpg",
    "state": "공연예정",
@@ -3403,13 +4596,7 @@
     }
    ],
    "registeredAt": "2026-10-06 13:45:41",
-   "updatedAt": "2026-10-08 10:35:14",
-   "hallId": "FC000014-02",
-   "child": "N",
-   "cast": "김우형, 김호경, 박성혁, 신영숙, 옥주현, 이아름솔, 김다혜 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302516_202610060145411910.jpg"
-   ]
+   "updatedAt": "2026-10-08 10:35:14"
   },
   {
    "id": "PF302748",
@@ -3419,8 +4606,14 @@
    "openrun": false,
    "venue": "브이씨어터 (브이씨어터)",
    "venueId": "FC004208",
-   "seats": null,
+   "hallId": "FC004208-01",
+   "seats": 0,
    "large": false,
+   "child": "N",
+   "cast": "손채현, 이대현, 최정윤, 한재원, 권현빈, 오세아, 이소혜",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302748_202610070313308490.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302748_261007_151330.jpg",
    "state": "공연예정",
@@ -3441,6 +4634,41 @@
    "updatedAt": "2026-10-07 18:00:00.088388"
   },
   {
+   "id": "PF302016",
+   "title": "썸데이 [안성]",
+   "from": "2026-11-27",
+   "to": "2026-11-28",
+   "openrun": false,
+   "venue": "안성맞춤아트홀 (소공연장)",
+   "venueId": "FC001812",
+   "hallId": "FC001812-02",
+   "seats": 303,
+   "large": false,
+   "child": "N",
+   "cast": "서찬양, 추연성, 최현희, 정휘욱, 허윤",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302016_202609290317342210.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302016_260929_151734.gif",
+   "state": "공연예정",
+   "prices": "전석 30,000원",
+   "times": "금요일(10:30,14:00,19:30), 토요일(14:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "사회적협동조합 무하",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013791"
+    }
+   ],
+   "registeredAt": "2026-09-29 15:17:34",
+   "updatedAt": "2026-09-29 18:00:00.063448"
+  },
+  {
    "id": "PF282162",
    "title": "서울시뮤지컬단, 크리스마스 캐럴",
    "from": "2026-12-02",
@@ -3448,8 +4676,14 @@
    "openrun": false,
    "venue": "세종문화회관 (세종M씨어터)",
    "venueId": "FC000020",
+   "hallId": "FC000020-03",
    "seats": 609,
    "large": true,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF282162_202601091117319180.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF282162_251224_140222.png",
    "state": "공연예정",
@@ -3487,13 +4721,7 @@
     }
    ],
    "registeredAt": "2025-12-24 14:02:23",
-   "updatedAt": "2026-02-25 17:46:06",
-   "hallId": "FC000020-03",
-   "child": "N",
-   "cast": "",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF282162_202601091117319180.jpg"
-   ]
+   "updatedAt": "2026-02-25 17:46:06"
   },
   {
    "id": "PF302677",
@@ -3503,8 +4731,14 @@
    "openrun": false,
    "venue": "GS아트센터 (GS아트센터)",
    "venueId": "FC004267",
+   "hallId": "FC004267-01",
    "seats": 1211,
    "large": true,
+   "child": "N",
+   "cast": "황정민, 정성화, 정상훈, 박혜나, 장은아, 이지훈, 김다현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302677_202610071137596230.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302677_261007_113759.jpg",
    "state": "공연예정",
@@ -3530,13 +4764,7 @@
     }
    ],
    "registeredAt": "2026-10-07 11:38:00",
-   "updatedAt": "2026-10-07 15:00:00.086823",
-   "hallId": "FC004267-01",
-   "child": "N",
-   "cast": "황정민, 정성화, 정상훈, 박혜나, 장은아, 이지훈, 김다현 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302677_202610071137596230.jpg"
-   ]
+   "updatedAt": "2026-10-07 15:00:00.086823"
   },
   {
    "id": "PF302015",
@@ -3546,8 +4774,14 @@
    "openrun": false,
    "venue": "LG아트센터 서울 (LG SIGNATURE 홀)",
    "venueId": "FC003045",
+   "hallId": "FC003045-01",
    "seats": 1335,
    "large": true,
+   "child": "N",
+   "cast": "최정원, 윤공주, 이지연, 박은혜, 황미영, 김수하, 박건형 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302015_202609290314311720.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302015_260929_151431.gif",
    "state": "공연예정",
@@ -3581,13 +4815,7 @@
     }
    ],
    "registeredAt": "2026-09-29 15:14:31",
-   "updatedAt": "2026-10-06 18:00:16",
-   "hallId": "FC003045-01",
-   "child": "N",
-   "cast": "최정원, 윤공주, 이지연, 박은혜, 황미영, 김수하, 박건형 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302015_202609290314311720.jpg"
-   ]
+   "updatedAt": "2026-10-06 18:00:16"
   },
   {
    "id": "PF302399",
@@ -3597,8 +4825,15 @@
    "openrun": false,
    "venue": "한국콘텐츠진흥원 CKL스테이지 (한국콘텐츠진흥원 CKL스테이지)",
    "venueId": "FC001428",
+   "hallId": "FC001428-01",
    "seats": 190,
    "large": false,
+   "child": "N",
+   "cast": "신예준, 박태준, 오승희, 조윤슬, 손슬기, 이한울, 박형준 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302399_202610020259079161.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302399_202610020259078900.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302399_261002_145907.gif",
    "state": "공연예정",
@@ -3626,8 +4861,16 @@
    "openrun": false,
    "venue": "홍익대 대학로 아트센터 (대극장)",
    "venueId": "FC001208",
+   "hallId": "FC001208-01",
    "seats": 702,
    "large": true,
+   "child": "N",
+   "cast": "손승연, 장보람, 김지우, 배수정, 이보람, 한재아, 김지선 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534772.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534691.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534650.jpg"
+   ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302744_261007_145953.jpg",
    "state": "공연예정",
@@ -3649,376 +4892,14 @@
     }
    ],
    "registeredAt": "2026-10-07 14:59:53",
-   "updatedAt": "2026-10-07 18:00:00.088388",
-   "hallId": "FC001208-01",
-   "child": "N",
-   "cast": "손승연, 장보람, 김지우, 배수정, 이보람, 한재아, 김지선 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534772.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534691.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302744_202610070259534650.jpg"
-   ]
-  },
-  {
-   "id": "PF302842",
-   "title": "오페라의 유령 40주년 스페셜 시즌",
-   "from": "2026-12-22",
-   "to": "2027-02-28",
-   "openrun": false,
-   "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
-   "venueId": "FC000031",
-   "seats": 1766,
-   "large": true,
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302842_261008_143949.jpg",
-   "state": "공연예정",
-   "prices": "VIP석 190,000원, R석 160,000원, S석 130,000원, A석 90,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
-   "runtime": "2시간 30분",
-   "age": "만 7세 이상",
-   "producer": "LW ENTERTAINMENT (구. The Really Useful Group(RUG), 에스앤코(S&CO)",
-   "license": true,
-   "creative": false,
-   "links": [
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79473"
-    }
-   ],
-   "registeredAt": "2026-10-08 14:39:50",
-   "updatedAt": "2026-10-08 15:00:00.092925",
-   "hallId": "FC000031-01",
-   "child": "N",
-   "cast": "최재림, 전동석, 박강현, 이해원, 최선호, 송원근, 김성식 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302842_202610080239496681.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302842_202610080239496640.jpg"
-   ]
-  },
-  {
-   "id": "PF302792",
-   "title": "Sounds of Autumn",
-   "to": "2026-11-10",
-   "venue": "롯데콘서트홀 (롯데콘서트홀)",
-   "venueId": "FC001513",
-   "hallId": "FC001513-01",
-   "seats": 2036,
-   "large": false,
-   "child": "N",
-   "cast": "칼린 수 팍, 최재림, 정선아, 신효범 등",
-   "times": "화요일(19:30)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302792_202610081122167680.jpg"
-   ],
-   "links": [
-    {
-     "name": "롯데콘서트홀",
-     "url": "https://www.lotteconcerthall.com/product/performance/261225"
-    }
-   ],
-   "from": "2026-11-10",
-   "poster": "",
-   "openrun": false,
-   "area": "서울특별시",
-   "excluded": true
-  },
-  {
-   "id": "PF300591",
-   "title": "왕세자 실종사건",
-   "to": "2026-10-22",
-   "venue": "강북문화예술회관 (강북소나무홀 (구.대공연장) )",
-   "venueId": "FC000032",
-   "hallId": "FC000032-01",
-   "seats": 668,
-   "large": true,
-   "child": "N",
-   "cast": "서광섭, 김도연, 김종헌, 박은선, 류다휘, 박우빈, 홍재호 등",
-   "times": "목요일(19:30)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300591_202609101249542740.jpg"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013096"
-    }
-   ],
-   "from": "2026-10-22",
-   "poster": "",
-   "openrun": false,
-   "area": "서울특별시"
-  },
-  {
-   "id": "PF301888",
-   "title": "뮤지컬 스토리 콘서트 [시흥]",
-   "to": "2026-10-18",
-   "venue": "시흥아트센터  (대공연장)",
-   "venueId": "FC005066",
-   "hallId": "FC005066-01",
-   "seats": 710,
-   "large": false,
-   "child": "N",
-   "cast": "이현재, 김하준, 조성태, 이홍섭, 도율희, 안현아, 황민수 등",
-   "times": "일요일(15:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301888_202609280513585570.jpg"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013488"
-    }
-   ],
-   "from": "2026-10-18",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도",
-   "excluded": true
-  },
-  {
-   "id": "PF301272",
-   "title": "3DIVA CONCERT [의정부]",
-   "to": "2026-12-19",
-   "venue": "의정부예술의전당 (대극장)",
-   "venueId": "FC000019",
-   "hallId": "FC000019-01",
-   "seats": 1025,
-   "large": false,
-   "child": "N",
-   "cast": "신영숙, 차지연, 정선아",
-   "times": "토요일(15:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301272_202609181128456470.png"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012986"
-    }
-   ],
-   "from": "2026-12-19",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도",
-   "excluded": true
-  },
-  {
-   "id": "PF300693",
-   "title": "민들레 피리 [오산]",
-   "to": "2026-10-24",
-   "venue": "오산문화예술회관 (대공연장)",
-   "venueId": "FC000145",
-   "hallId": "FC000145-01",
-   "seats": 800,
-   "large": true,
-   "child": "N",
-   "cast": "손유동, 임진섭",
-   "times": "토요일(18:30)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300693_202609110126198890.jpg"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012975"
-    }
-   ],
-   "from": "2026-10-24",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF299684",
-   "title": "빨래 [수원]",
-   "to": "2026-12-27",
-   "venue": "경기아트센터(구. 경기도문화의전당) (대극장)",
-   "venueId": "FC000017",
-   "hallId": "FC000017-03",
-   "seats": 1544,
-   "large": true,
-   "child": "N",
-   "cast": "",
-   "times": "금요일(14:00,18:30), 토요일 ~ 일요일(14:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299684_202608311112307750.jpg"
-   ],
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/65247"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1726972"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012526"
-    }
-   ],
-   "from": "2026-12-25",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF299331",
-   "title": "HAC Choice, 만천명월 격쟁을 허하라 [화성]",
-   "to": "2026-10-17",
-   "venue": "화성예술의전당 (동탄아트홀)",
-   "venueId": "FC004725",
-   "hallId": "FC004725-01",
-   "seats": 1450,
-   "large": true,
-   "child": "N",
-   "cast": "임태희, 김의환, 이건희, 김민국, 추현종, 강아영, 신가인 등",
-   "times": "토요일(17:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299331_202608250122389450.jpg"
-   ],
-   "links": [
-    {
-     "name": "나눔티켓",
-     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=14009"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012390"
-    }
-   ],
-   "from": "2026-10-17",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF299250",
-   "title": "파랑새 [용인]",
-   "to": "2026-10-18",
-   "venue": "용인시평생학습관 (여성회관) (큰어울마당)",
-   "venueId": "FC002433",
-   "hallId": "FC002433-01",
-   "seats": 599,
-   "large": true,
-   "child": "N",
-   "cast": "조윤호, 안홍주, 정혜인, 한진만, 성미지, 김시준, 신동해 등",
-   "times": "금요일(11:00), 토요일 ~ 일요일(11:00,15:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299250_202608240307223860.jpg"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012302"
-    }
-   ],
-   "from": "2026-10-16",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF298908",
-   "title": "팬레터 [성남]",
-   "to": "2026-11-08",
-   "venue": "성남아트센터 (오페라하우스)",
-   "venueId": "FC000016",
-   "hallId": "FC000016-02",
-   "seats": 1804,
-   "large": true,
-   "child": "N",
-   "cast": "김경수, 이규형, 김재범, 이승원, 윤소호, 홍기범, 이봄소리 등",
-   "times": "토요일 ~ 일요일(14:00,19:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298908_202608201039109301.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298908_202608201039109250.jpg"
-   ],
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/65014"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1719908"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011738"
-    }
-   ],
-   "from": "2026-11-07",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF298294",
-   "title": "그날들 [이천]",
-   "to": "2026-11-01",
-   "venue": "이천아트홀 (대공연장)",
-   "venueId": "FC000824",
-   "hallId": "FC000824-01",
-   "seats": 1200,
-   "large": true,
-   "child": "N",
-   "cast": "김정현, 엄기준, 어남선, 박규원, 이정환, 윤시윤, 이지수 등",
-   "times": "토요일(14:00,19:00), 일요일(14:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298294_202608121043083751.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298294_202608121043083710.jpg"
-   ],
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011647"
-    }
-   ],
-   "from": "2026-10-31",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
-  },
-  {
-   "id": "PF294046",
-   "title": "빨래 [하남]",
-   "to": "2026-11-15",
-   "venue": "하남문화예술회관 (검단홀(대극장))",
-   "venueId": "FC000095",
-   "hallId": "FC000095-01",
-   "seats": 911,
-   "large": true,
-   "child": "N",
-   "cast": "",
-   "times": "금요일(19:30), 토요일(14:00,18:30), 일요일(14:00)",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294046_202606180311011631.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294046_202606180311011280.jpg"
-   ],
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/63891"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1677472"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008450"
-    }
-   ],
-   "from": "2026-11-13",
-   "poster": "",
-   "openrun": false,
-   "area": "경기도"
+   "updatedAt": "2026-10-07 18:00:00.088388"
   },
   {
    "id": "PF301439",
    "title": "광화문연가 [인천]",
+   "from": "2026-12-19",
    "to": "2026-12-20",
+   "openrun": false,
    "venue": "인천문화예술회관 (대공연장)",
    "venueId": "FC000013",
    "hallId": "FC000013-02",
@@ -4026,12 +4907,21 @@
    "large": true,
    "child": "N",
    "cast": "손준호, 이석훈, 정용훈, 차지연, 서은광, 류승주, 문진아 등",
-   "times": "토요일 ~ 일요일(14:00,18:30)",
    "images": [
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301439_202609210236435312.jpg",
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301439_202609210236434741.jpg",
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301439_202609210236434430.jpg"
    ],
+   "area": "인천광역시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301439_260921_143643.gif",
+   "state": "공연예정",
+   "prices": "VIP석 158,000원, R석 138,000원, S석 110,000원, A석 88,000원",
+   "times": "토요일 ~ 일요일(14:00,18:30)",
+   "runtime": "2시간 35분",
+   "age": "만 8세 이상",
+   "producer": "(주)CJ ENM",
+   "license": false,
+   "creative": true,
    "links": [
     {
      "name": "NHN티켓링크",
@@ -4050,58 +4940,127 @@
      "url": "http://incheon9.moonhwain.net/rsvc/rsv_pm.html?b_id=incheon&p_idx=997"
     }
    ],
-   "from": "2026-12-19",
-   "poster": "",
-   "openrun": false,
-   "area": "인천광역시"
+   "registeredAt": "2026-09-21 14:36:44",
+   "updatedAt": "2026-09-21 18:00:00.116607"
   },
   {
-   "id": "PF298550",
-   "title": "팬레터 [인천]",
-   "to": "2026-11-22",
-   "venue": "인천문화예술회관 (대공연장)",
-   "venueId": "FC000013",
-   "hallId": "FC000013-02",
-   "seats": 1310,
+   "id": "PF302842",
+   "title": "오페라의 유령 40주년 스페셜 시즌",
+   "from": "2026-12-22",
+   "to": "2027-02-28",
+   "openrun": false,
+   "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
+   "venueId": "FC000031",
+   "hallId": "FC000031-01",
+   "seats": 1766,
    "large": true,
    "child": "N",
-   "cast": "김경수, 이규형, 김종구, 문태유, 윤소호, 김히어라, 강혜인 등",
-   "times": "토요일 ~ 일요일(14:00,19:00)",
+   "cast": "최재림, 전동석, 박강현, 이해원, 최선호, 송원근, 김성식 등",
    "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298550_202608140142304880.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298550_202608140144232510.jpg"
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302842_202610080239496681.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302842_202610080239496640.jpg"
    ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302842_261008_143949.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 190,000원, R석 160,000원, S석 130,000원, A석 90,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
+   "runtime": "2시간 30분",
+   "age": "만 7세 이상",
+   "producer": "LW ENTERTAINMENT (구. The Really Useful Group(RUG), 에스앤코(S&CO)",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79473"
+    }
+   ],
+   "registeredAt": "2026-10-08 14:39:50",
+   "updatedAt": "2026-10-08 15:00:00.092925"
+  },
+  {
+   "id": "PF299684",
+   "title": "빨래 [수원]",
+   "from": "2026-12-25",
+   "to": "2026-12-27",
+   "openrun": false,
+   "venue": "경기아트센터(구. 경기도문화의전당) (대극장)",
+   "venueId": "FC000017",
+   "hallId": "FC000017-03",
+   "seats": 1544,
+   "large": true,
+   "child": "N",
+   "cast": "",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299684_202608311112307750.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299684_260831_111230.gif",
+   "state": "공연예정",
+   "prices": "R석 77,000원, S석 55,000원, 만원의 행복석  10,000원",
+   "times": "금요일(14:00,18:30), 토요일 ~ 일요일(14:00)",
+   "runtime": "2시간 45분",
+   "age": "만 14세 이상",
+   "producer": "(주)씨에이치수박",
+   "license": false,
+   "creative": true,
    "links": [
     {
      "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/64942"
+     "url": "http://www.ticketlink.co.kr/product/65247"
     },
     {
      "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1716914"
+     "url": "https://booking.naver.com/booking/12/bizes/1726972"
     },
     {
      "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011840"
-    },
-    {
-     "name": "인천문화예술회관",
-     "url": "https://www.incheon.go.kr/art/ART010101/view?resveProgrmSeCode=C&resveGroupSn=5&progrmSn=10922"
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012526"
     }
    ],
-   "from": "2026-11-21",
-   "poster": "",
+   "registeredAt": "2026-08-31 11:12:31",
+   "updatedAt": "2026-08-31 15:00:00.113972"
+  },
+  {
+   "id": "PF301001",
+   "title": "광화문 연가 [수원]",
+   "from": "2027-01-02",
+   "to": "2027-01-03",
    "openrun": false,
-   "area": "인천광역시"
+   "venue": "경기아트센터(구. 경기도문화의전당) (대극장)",
+   "venueId": "FC000017",
+   "hallId": "FC000017-03",
+   "seats": 1544,
+   "large": true,
+   "child": "N",
+   "cast": "손준호, 정용훈, 이석훈, 차지연, 류승주, 문진아, 박세미 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301001_202609150237272731.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301001_202609150237272590.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301001_260915_143727.gif",
+   "state": "공연예정",
+   "prices": "VIP석 158,000원, R석 138,000원, S석 110,000원, A석 77,000원",
+   "times": "토요일 ~ 일요일(14:00,18:30)",
+   "runtime": "2시간 35분",
+   "age": "만 8세 이상",
+   "producer": "(주)CJ ENM",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65609"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013007"
+    }
+   ],
+   "registeredAt": "2026-09-15 14:37:27",
+   "updatedAt": "2026-09-15 15:00:00.072101"
   }
- ],
- "criteria": {
-  "regions": [
-   "11",
-   "41",
-   "28"
-  ],
-  "minSeats": 300,
-  "excludeChildren": true
- }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-09T16:46:21.628Z",
+ "checkedAt": "2026-10-10T00:46:36.676Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
@@ -81,13 +81,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 10
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 24
+   "matches": 25
   },
   {
    "source": "네이버 웹문서",
