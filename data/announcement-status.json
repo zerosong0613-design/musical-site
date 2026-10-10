@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-10T06:37:10.003Z",
+ "checkedAt": "2026-10-10T13:13:31.298Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
@@ -54,14 +54,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127508&page=1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127505&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -81,19 +73,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 24
+   "matches": 22
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -159,6 +151,14 @@
   },
   {
    "url": "https://www.xportsnews.com/article/2205050",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.womennews.co.kr/news/articleView.html?idxno=283005",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010322949&plink=ORI&cooper=NAVER",
    "status": "review_needed"
   }
  ]
