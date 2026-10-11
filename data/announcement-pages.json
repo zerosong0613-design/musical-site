@@ -50,7 +50,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641": {
   "checkedAt": "2026-10-11",
   "status": "verified",
-  "contentHash": "02b27031747c6c23364f48d96a01a9055afc858821660849ab45682a2125ea4f"
+  "contentHash": "a7a8598efc1adb11bb3325c8c0ab07128f952425a477deb07542469fa626f7dd"
  },
  "https://www.ticketlink.co.kr/help/notice/66134": {
   "checkedAt": "2026-10-11",
@@ -60,7 +60,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655": {
   "checkedAt": "2026-10-11",
   "status": "verified",
-  "contentHash": "629556bfd029912077eb7fe513b47ddd4aadefed2e2eec64437a390542190d79"
+  "contentHash": "34c1856c268fbf6fb405e76425dd5c28d80a014b335abbc891890f3748d05c48"
  },
  "https://nol.yanolja.com/ticket/products/26012259": {
   "checkedAt": "2026-10-11",
@@ -69,7 +69,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645": {
   "checkedAt": "2026-10-11",
   "status": "verified",
-  "contentHash": "93ee2eed94574305b42dc7f7b65b03046e4dffc18f15f374caffa7dc2f2a0185"
+  "contentHash": "ce78ceb83ee971ed6a0e6f9ed0bb12d83da8a060c664e2ea987cbe9d5a8397f9"
  },
  "https://nol.yanolja.com/ticket/products/26011553": {
   "checkedAt": "2026-10-11",
@@ -78,7 +78,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "d783d99b49db82447a9a01aafdce7281560839ba1cd2eb3cc18fc91183059fd0"
+  "contentHash": "c66a6da6008645a7bc9900281322387cf3ef44fdf6f79bad2febd5d9cc8f8fd4"
  },
  "https://www.ticketlink.co.kr/help/notice/66160": {
   "checkedAt": "2026-10-11",
@@ -93,27 +93,27 @@
  "https://www.nbntv.co.kr/news/articleView.html?idxno=4025856": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "52aa3b9b32b2924be053de5e2125190c9fa635b09f3916ccc646aa3cfb720817"
+  "contentHash": "5aaba699c6eb4de203f9dab2fabcd4ed7f3446e2ed8a35fb54408845841fe17c"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16241957": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "c1b37e43158eab4410bff7b9dcb88989627c1928339450982e1c9eccf1d7cb37"
+  "contentHash": "0ac57574f1cf48d3b659edd536e450cddc01f7c012d3553ebde7394dfac18581"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772032": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "108552a03f8496194fdecc7b3dd0bc389ac9bf806cb97928935eb7d063a9b19e"
+  "contentHash": "8040dcaf5dfe5e6b7c963a0e89c8b270709d684f63fcbe6ccb3b7a07647723eb"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16241725": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "659816005454c95577fe4706492f69885dab9bf3b62be1d11f9f57c2f1e44beb"
+  "contentHash": "41496c8bdb047a56426c34f50b39e21dc3028883bcf9f8822ae93ceb2718ef3a"
  },
  "https://www.mhns.co.kr/news/articleView.html?idxno=763263": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "aa8cd0bc52ae22e1c621494fecc744ead8bd083b0cba2e0fa52aa7aed3d172c3"
+  "contentHash": "4396ef5de150252613681c225fa87b6ebec85ba2a1fb3325947cb5e1032f7043"
  },
  "https://www.bntnews.co.kr/article/view/bnt202610080178": {
   "checkedAt": "2026-10-11",
@@ -123,22 +123,22 @@
  "https://sports.donga.com/life/article/all/20261008/134807139/1": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "d0c431ba436786942cda8afb6268ef0c33a63a278f0e134d773ebcffd6f0475d"
+  "contentHash": "af66ee54c9ceec91cd315441190b5e14bc5b545c68bd260988491d4c270dc9f9"
  },
  "https://www.sportsseoul.com/news/read/1640179?ref=naver": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "237a953641a093e3640f34cea717388e5f62f757182f0e3076554cdae304252d"
+  "contentHash": "dba16970f063c93e961bc1c574e3b6ebfc55d7dd14b8396e2f1a9028beff6779"
  },
  "https://www.xportsnews.com/article/2205050": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "bfbeeb06410389212f111723b344cbf5cf62f7fb7e81eddb116fd85ef1d06995"
+  "contentHash": "07e38b728c4adec1a3dd952c1b102f8950c8dfafaf75b18e76ec5df4b45df4b6"
  },
  "https://www.womennews.co.kr/news/articleView.html?idxno=283005": {
   "checkedAt": "2026-10-11",
   "status": "review_needed",
-  "contentHash": "33e8fd0ebe7ae7ed281835a16e7ece7d058529574fa75aff3cad8d72fb1cddbe"
+  "contentHash": "2487c59667b19af6df42f972ee0339dcafc23484d4681a56362583108ca50e3d"
  },
  "https://ent.sbs.co.kr/news/article.do?article_id=E10010322949&plink=ORI&cooper=NAVER": {
   "checkedAt": "2026-10-11",
