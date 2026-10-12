@@ -197,6 +197,21 @@
   ]
  },
  {
+  "id": "yes24-18661",
+  "at": "2026-10-13 16:00",
+  "title": "뮤지컬 [소크라테스 패러독스] 3차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "3차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18661",
+  "mt20id": "PF296148",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-d58149723a3a1b2b1704"
+  ]
+ },
+ {
   "id": "yes24-18658",
   "at": "2026-10-14 12:00",
   "title": "뮤지컬 [마하고니] 2차 티켓오픈 안내",
@@ -297,6 +312,51 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66173",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18668",
+  "at": "2026-10-16 11:00",
+  "title": "뮤지컬 [두 도시 이야기] 2차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18668",
+  "mt20id": "PF300974",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-702ffaeb32ee95cefabb"
+  ]
+ },
+ {
+  "id": "melon-13028",
+  "at": "2026-10-16 11:00",
+  "title": "뮤지컬 〈두 도시 이야기〉 2차 티켓 오픈 안내",
+  "vendor": "멜론티켓",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
+  "mt20id": "PF300974",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-766a09fe661ef676a04d"
+  ]
+ },
+ {
+  "id": "nol-26013098",
+  "at": "2026-10-16 11:00",
+  "title": "뮤지컬 〈두 도시 이야기〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26013098",
+  "mt20id": "PF300974",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-3f528caf57c058c76345"
+  ]
  },
  {
   "id": "nol-26014511",
