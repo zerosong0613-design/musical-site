@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-12T16:24:37.538Z",
+ "checkedAt": "2026-10-13T02:34:09.295Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
@@ -23,7 +23,7 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
-   "status": "review_needed"
+   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66160",
@@ -58,10 +58,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127537&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -69,7 +65,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 15
   },
   {
    "source": "네이버 뉴스",
@@ -81,13 +77,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 23
+   "matches": 20
   },
   {
    "source": "네이버 웹문서",
@@ -106,11 +102,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65605",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65605",
    "status": "verified"
   },
   {
@@ -126,39 +122,39 @@
    "status": "verified"
   },
   {
+   "url": "http://www.joynews24.com/view/2014328",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://isplus.com/article/view/isp202610130059",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245261",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085",
+   "status": "review_needed"
+  },
+  {
+   "url": "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=772859",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245170",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4025856",
    "status": "review_needed"
   },
   {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241957",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=772032",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241725",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=763263",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610080178",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://sports.donga.com/life/article/all/20261008/134807139/1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.sportsseoul.com/news/read/1640179?ref=naver",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.xportsnews.com/article/2205050",
    "status": "review_needed"
   }
  ]
