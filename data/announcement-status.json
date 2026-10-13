@@ -1,26 +1,6 @@
 {
- "checkedAt": "2026-10-13T07:17:56.242Z",
+ "checkedAt": "2026-10-13T17:18:45.148Z",
  "sources": [
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66135",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66152",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66128",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18661",
-   "status": "review_needed"
-  },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
    "status": "verified"
@@ -51,15 +31,11 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127546&page=1",
-   "status": "review_needed"
+   "status": "verified"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "checked"
+   "status": "no_matching_posts"
   },
   {
    "source": "네이버 뉴스",
@@ -77,7 +53,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 12
   },
   {
    "source": "네이버 블로그",
@@ -89,7 +65,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
@@ -98,15 +74,15 @@
    "matches": 15
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/65605",
    "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
    "status": "verified"
   },
   {
@@ -124,6 +100,18 @@
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65831",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3720459",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.tvreport.co.kr/star/article/1082755/",
+   "status": "review_needed"
   },
   {
    "url": "https://www.nc.press/news/articleView.html?idxno=628417",
@@ -155,6 +143,18 @@
   },
   {
    "url": "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085",
+   "status": "review_needed"
+  },
+  {
+   "url": "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=772859",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245170",
    "status": "review_needed"
   }
  ]
