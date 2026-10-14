@@ -1,26 +1,6 @@
 {
- "checkedAt": "2026-10-14T12:37:24.299Z",
+ "checkedAt": "2026-10-14T17:44:58.252Z",
  "sources": [
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66160",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66134",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18655",
-   "status": "verified"
-  },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66187",
    "status": "verified"
@@ -53,7 +33,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
@@ -82,11 +62,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
@@ -155,6 +135,26 @@
   },
   {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245170",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241957",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241343",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/godmiracle7/224442029171",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/sblee52/224440758034",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/lovestalog/224441871875",
    "status": "review_needed"
   }
  ]
