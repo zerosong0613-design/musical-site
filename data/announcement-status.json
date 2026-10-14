@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-14T05:43:41.975Z",
+ "checkedAt": "2026-10-14T12:37:24.299Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
@@ -31,7 +31,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
@@ -53,7 +53,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
@@ -90,11 +90,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://nol.yanolja.com/ticket/genre/musical",
    "status": "verified"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/genre/musical",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {

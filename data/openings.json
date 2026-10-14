@@ -394,5 +394,16 @@
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18681",
   "mt20id": null
+ },
+ {
+  "id": "nol-26014988",
+  "at": "2026-10-20 15:00",
+  "title": "뮤지컬 〈앨런 튜링〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26014988",
+  "mt20id": null
  }
 ]
