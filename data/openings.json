@@ -1,16 +1,5 @@
 [
  {
-  "id": "yes24-18620",
-  "at": "2026-10-07 14:00",
-  "title": "뮤지컬 [곤 투모로우] 10주년 기념 공연 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18620",
-  "mt20id": "PF297912"
- },
- {
   "id": "yes24-18651",
   "at": "2026-10-08 11:00",
   "title": "[안양] 2026 크리스마스 뮤지컬 [스크루지아저씨의 크리스마스캐롤] 티켓오픈 안내",
@@ -246,6 +235,17 @@
   ]
  },
  {
+  "id": "yes24-18680",
+  "at": "2026-10-14 14:00",
+  "title": "뮤지컬 [우리가 사랑을 쓰던 날] 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18680",
+  "mt20id": null
+ },
+ {
   "id": "nol-26012259",
   "at": "2026-10-14 14:00",
   "title": "뮤지컬 〈렛미플라이〉 티켓오픈",
@@ -371,6 +371,28 @@
   "exclusive": false,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26014511",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66209",
+  "at": "2026-10-19 16:00",
+  "title": "뮤지컬 <애프터 나인> 쇼케이스 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66209",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18681",
+  "at": "2026-10-20 15:00",
+  "title": "뮤지컬 [앨런 튜링] 프리뷰 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18681",
   "mt20id": null
  }
 ]
