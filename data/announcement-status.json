@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-15T17:34:13.637Z",
+ "checkedAt": "2026-10-15T23:45:02.823Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18668",
@@ -21,31 +21,31 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 14
+   "matches": 7
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 3
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 14
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
@@ -82,43 +82,11 @@
    "status": "verified"
   },
   {
-   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12455",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3720459",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.tvreport.co.kr/star/article/1082755/",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.nc.press/news/articleView.html?idxno=628417",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610130237",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=763934",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=773029",
-   "status": "review_needed"
-  },
-  {
    "url": "http://www.joynews24.com/view/2014328",
    "status": "review_needed"
   },
   {
    "url": "https://isplus.com/article/view/isp202610130059",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16245261",
    "status": "review_needed"
   },
   {
@@ -138,10 +106,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241957",
-   "status": "review_needed"
-  },
-  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241343",
    "status": "review_needed"
   },
@@ -154,7 +118,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/curtaincallnote/224443102135",
+   "url": "https://blog.naver.com/blackfox__/224441750474",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/cosmomodel86/224441685836",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/sorok_life/224441957150",
    "status": "review_needed"
   }
  ]
