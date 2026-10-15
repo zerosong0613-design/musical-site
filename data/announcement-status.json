@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-15T05:29:13.392Z",
+ "checkedAt": "2026-10-15T12:24:06.604Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66187",
@@ -37,13 +37,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 19
+   "matches": 16
   },
   {
    "source": "네이버 웹문서",
