@@ -1,49 +1,5 @@
 [
  {
-  "id": "yes24-18651",
-  "at": "2026-10-08 11:00",
-  "title": "[안양] 2026 크리스마스 뮤지컬 [스크루지아저씨의 크리스마스캐롤] 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18651",
-  "mt20id": null
- },
- {
-  "id": "yes24-18609",
-  "at": "2026-10-08 11:00",
-  "title": "뮤지컬 [잔혹동화 생존기] 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18609",
-  "mt20id": "PF297712"
- },
- {
-  "id": "yes24-18631",
-  "at": "2026-10-08 13:00",
-  "title": "2026 뮤지컬 <미드나잇 : 앤틀러스> 혜공 전관 - 그래이공 DAY 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18631",
-  "mt20id": "PF299169"
- },
- {
-  "id": "yes24-18581",
-  "at": "2026-10-08 14:00",
-  "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-첫 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18581",
-  "mt20id": "PF302842"
- },
- {
   "id": "nol-26014529",
   "at": "2026-10-12 14:00",
   "title": "뮤지컬 〈플릭스!〉 (Musical FLIX!) 스페셜 초연 티켓오픈",
@@ -329,7 +285,8 @@
   "mt20id": "PF300974",
   "auto": "announcement",
   "announcementIds": [
-   "announcement-702ffaeb32ee95cefabb"
+   "announcement-702ffaeb32ee95cefabb",
+   "announcement-195c40d336a6bea2d7f1"
   ]
  },
  {
@@ -405,5 +362,31 @@
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26014988",
   "mt20id": null
+ },
+ {
+  "id": "ticketlink-66216",
+  "at": "2026-10-21 11:00",
+  "title": "뮤지컬 <닥터 두리틀> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66216",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66215",
+  "at": "2026-10-22 13:00",
+  "title": "[피처링 트랙_58] 뮤지컬 <아나키스트> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66215",
+  "mt20id": "PF298593",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-cf970ffb0dfd1e701cb8"
+  ]
  }
 ]
