@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T23:40:30.392Z",
+ "generatedAt": "2026-10-16T23:25:58.831Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -179,6 +179,69 @@
    ],
    "registeredAt": "2023-11-15 10:13:26",
    "updatedAt": "2026-07-31 10:29:13"
+  },
+  {
+   "id": "PF233263",
+   "title": "인사이드 미",
+   "from": "2024-01-03",
+   "to": "2026-10-31",
+   "openrun": true,
+   "venue": "JTN 아트홀(구. 대학로예술마당) (2관)",
+   "venueId": "FC000139",
+   "hallId": "FC000139-01",
+   "seats": 210,
+   "large": false,
+   "child": "N",
+   "cast": "강수지, 정연우, 임시안, 이진성, 이승준, 서태웅, 김승후 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF233263_202604230135348870.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF233263_240102_124103.jpg",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "수요일 ~ 금요일(19:00,19:30), 토요일(14:00,15:00,17:00,18:00), 일요일(12:00,15:00), HOL(15:00,19:00)",
+   "runtime": "1시간 50분",
+   "age": "만 8세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/48985"
+    },
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=&p_new=&start2=0&page_no2=1&p_idx=12818"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1090865"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=23018498"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD27169"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Perf/48206"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78460"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/?number=5384"
+    }
+   ],
+   "registeredAt": "2024-01-02 12:41:03",
+   "updatedAt": "2026-10-16 15:38:41"
   },
   {
    "id": "PF236674",
@@ -604,7 +667,7 @@
    "id": "PF276055",
    "title": "헝키쇼 (HUNKY SHOW)",
    "from": "2025-04-25",
-   "to": "2026-10-31",
+   "to": "2026-11-29",
    "openrun": false,
    "venue": "스타스테이지 (스타스테이지)",
    "venueId": "FC003274",
@@ -661,7 +724,7 @@
     }
    ],
    "registeredAt": "2025-10-14 10:56:39",
-   "updatedAt": "2026-09-11 15:45:25"
+   "updatedAt": "2026-10-16 17:19:29"
   },
   {
    "id": "PF264855",
@@ -1625,7 +1688,7 @@
    "id": "PF296265",
    "title": "옹알스 [대학로]",
    "from": "2026-08-15",
-   "to": "2026-10-31",
+   "to": "2026-11-08",
    "openrun": true,
    "venue": "씨어터조이 (구. 마당세실극장) (씨어터조이 (구. 마당세실극장) )",
    "venueId": "FC000419",
@@ -1654,7 +1717,7 @@
     }
    ],
    "registeredAt": "2026-07-16 14:02:11",
-   "updatedAt": "2026-09-17 12:56:57"
+   "updatedAt": "2026-10-16 14:36:41"
   },
   {
    "id": "PF294946",
@@ -3016,7 +3079,7 @@
    ],
    "area": "경기도",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299331_260825_132238.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "R석 60,000원, S석 40,000원",
    "times": "토요일(17:00)",
    "runtime": "1시간 40분",
@@ -3055,7 +3118,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300703_260911_135400.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "R석 150,000원, S석 120,000원",
    "times": "토요일(14:00,18:30)",
    "runtime": "2시간 15분",
@@ -3762,14 +3825,17 @@
    "child": "N",
    "cast": "최태이, 유주연, 정동화, 염성연, 최민우, 조성태, 정혜은 등",
    "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202609231039361090.png"
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202610161043414860.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202610161043415001.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202610161043415142.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301634_202610161043415303.jpg"
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301634_260923_103936.jpg",
    "state": "공연예정",
    "prices": "VIP석 120,000원, R석 90,000원",
    "times": "화요일 ~ 금요일(19:30), 토요일(14:00,18:30), 일요일(15:00)",
-   "runtime": "2시간 30분",
+   "runtime": "2시간 45분",
    "age": "만 13세 이상",
    "producer": "(주)에이엠컬쳐(AMCULTURE)",
    "license": false,
@@ -3789,7 +3855,7 @@
     }
    ],
    "registeredAt": "2026-09-23 10:39:36",
-   "updatedAt": "2026-10-15 10:19:10"
+   "updatedAt": "2026-10-16 10:44:57"
   },
   {
    "id": "PF300432",
@@ -4418,6 +4484,47 @@
    "updatedAt": "2026-10-13 15:00:00.058353"
   },
   {
+   "id": "PF303594",
+   "title": "브로큰 넘버스 (BROKEN NUMBERS)",
+   "from": "2026-11-18",
+   "to": "2027-02-07",
+   "openrun": false,
+   "venue": "링크더스페이스(LINK THE SPACE) (1관)",
+   "venueId": "FC004779",
+   "hallId": "FC004779-01",
+   "seats": 280,
+   "large": false,
+   "child": "N",
+   "cast": "박영빈, 박주혁, 류찬열, 김현기, 김준식, 노혜성, 문진아 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303594_202610160147454342.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303594_202610160147454221.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303594_202610160147454100.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303594_261016_134745.jpg",
+   "state": "공연예정",
+   "prices": "기억석 66,000원, 기록석 55,000원, 존재석 44,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 7세 이상",
+   "producer": "낭만바리케이트",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66282"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1756533"
+    }
+   ],
+   "registeredAt": "2026-10-16 13:47:45",
+   "updatedAt": "2026-10-16 15:00:00.152684"
+  },
+  {
    "id": "PF302037",
    "title": "바울: 사랑으로 걷다 [대학로]",
    "from": "2026-11-19",
@@ -4472,7 +4579,7 @@
    "seats": 526,
    "large": true,
    "child": "N",
-   "cast": "김종구, 송정식, 최수진, 최연우, 김려원, 정민, 원형훈 등",
+   "cast": "김종구, 온주완, 최수진, 최연우, 김려원, 정민, 원태민 등",
    "images": [
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303276_202610141116322520.png"
    ],
@@ -4493,7 +4600,7 @@
     }
    ],
    "registeredAt": "2026-10-14 11:16:32",
-   "updatedAt": "2026-10-14 15:00:00.129791"
+   "updatedAt": "2026-10-16 16:55:53"
   },
   {
    "id": "PF298550",
@@ -4791,6 +4898,45 @@
    ],
    "registeredAt": "2026-10-12 17:12:02",
    "updatedAt": "2026-10-13 15:00:00.058353"
+  },
+  {
+   "id": "PF303612",
+   "title": "오지게 재밌는 가시나들 [안산]",
+   "from": "2026-12-04",
+   "to": "2026-12-05",
+   "openrun": false,
+   "venue": "안산문화예술의전당 (달맞이극장)",
+   "venueId": "FC000018",
+   "hallId": "FC000018-02",
+   "seats": 716,
+   "large": true,
+   "child": "N",
+   "cast": "구옥분, 박채원, 김미려, 강하나, 강정우, 신진경",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303612_202610160217574430.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303612_261016_141757.jpg",
+   "state": "공연예정",
+   "prices": "R석 60,000원, S석 50,000원, A석 40,000원",
+   "times": "금요일(19:30), 토요일(15:00)",
+   "runtime": "1시간 20분",
+   "age": "만 7세 이상",
+   "producer": "라이브(주)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1744463"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60351"
+    }
+   ],
+   "registeredAt": "2026-10-16 14:17:57",
+   "updatedAt": "2026-10-16 15:00:00.152684"
   },
   {
    "id": "PF302015",
