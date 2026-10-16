@@ -213,13 +213,12 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18668": {
   "checkedAt": "2026-10-16",
   "status": "verified",
-  "contentHash": "1a28ecce3aa46eef635734556aa6caf8dcc7eab864071c9c270d6ab4f1d4b366"
+  "contentHash": "cf9cf1de3328c3e9e19ea9e7c14063ac463c0b3947ce6bce7934f232c80cf6de"
  },
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13028": {
   "checkedAt": "2026-10-16",
-  "status": "fetch_failed",
-  "contentHash": "8b4e2e5d5b285b5b4edeb3d1c9e25a57171cc8ea5376bb9e1b5f4b0536419d7d",
-  "error": "HTTP 423"
+  "status": "verified",
+  "contentHash": "8843b30d7c3e48daf4787eb7ea467204f93bb0fdd11e4f7891601637645a4e56"
  },
  "https://nol.yanolja.com/ticket/products/26013098": {
   "checkedAt": "2026-10-16",
@@ -233,12 +232,12 @@
  "http://www.joynews24.com/view/2014328": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "7dfb99dc16a3228df56c51f42257eda4426a873fb842755d54eebdc388776437"
+  "contentHash": "4448098854f80c8d6c51c0d7747c79d6b88bf10b3820694fb0f8d9366d090d64"
  },
  "https://isplus.com/article/view/isp202610130059": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "37d159dafa66bf22a25a44a3c70797ef9e484b05c26f058d6286e3ab5872156b"
+  "contentHash": "01100d7c550c6b14035c878652989279f06382f56ea0286b73c90ba3d4846e4f"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245261": {
   "checkedAt": "2026-10-16",
@@ -248,22 +247,22 @@
  "https://www.newsen.com/news_view.php?uid=202610130945526710": {
   "checkedAt": "2026-10-16",
   "status": "not_relevant",
-  "contentHash": "ad79efc06adcaefe23177097bffe3e5f1377c0c5afed307bc40084cfbf4e20d9"
+  "contentHash": "0de516f52ac1dbf7f93a873363e5de24539f766c79e9ab9be627735b8c7d162d"
  },
  "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "0097ae941177375f67c9565406a3e0b2119e07520d6a1ff0e675c7566dcf0a08"
+  "contentHash": "e90922e79f1ec1726ccb99aefba579c93ecc93cf50040cf5a0ec506100b4251c"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "c1ddcdba839f1bfea7c13ee0cdb6959e2032c0ae5361797fa46e13d1ee9c2366"
+  "contentHash": "23d3749e66caade450366e36955591c396d16c41c6e10ef909e4485d3c42ffc1"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772859": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "234f33c81fcb5f3af6904455787dd11e0c0ac99d87b0b29d572594f4fdb620ef"
+  "contentHash": "867c1ae6490e76e43533609669b41d2d6e1b3c08e6f137dbeef11b433df4ba66"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245170": {
   "checkedAt": "2026-10-16",
@@ -313,7 +312,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16241343": {
   "checkedAt": "2026-10-16",
   "status": "review_needed",
-  "contentHash": "bf61f9f1044ede6c1d30421219848c27a60cfcda6a50447af6e6c3deff2e3d21"
+  "contentHash": "39a386a73b876df88022dd27f89ea2e75d143f9306faba64c9e201ec5c4ff997"
  },
  "https://blog.naver.com/godmiracle7/224442029171": {
   "checkedAt": "2026-10-15",
@@ -353,7 +352,7 @@
  "https://ticket.yes24.com/Notice": {
   "checkedAt": "2026-10-16",
   "status": "verified",
-  "contentHash": "691b13dd20c9e0ce83855c80662b2c992b7c49c856812c44c73c259ac5dd2f4b"
+  "contentHash": "45a91f3612b670a2299840eaa333e9008bd9c55e85183b28804f4315a2e3ea81"
  },
  "https://blog.naver.com/musiiiical/224443206779": {
   "checkedAt": "2026-10-16",
@@ -444,5 +443,15 @@
   "checkedAt": "2026-10-16",
   "status": "not_relevant",
   "contentHash": "768fdde3849810363f1d4b77d35bc59f444d926d4c7d8a9177c1497caa984d29"
+ },
+ "https://blog.naver.com/todaysolsol/224443803437": {
+  "checkedAt": "2026-10-16",
+  "status": "review_needed",
+  "contentHash": "8c4973f001c32355755b7a9b0f363cc23866a0fe77bcf8aa8bcd1734bc11af94"
+ },
+ "https://blog.naver.com/cjdthflmk11/224443789076": {
+  "checkedAt": "2026-10-16",
+  "status": "not_relevant",
+  "contentHash": "b7105d83b5ec9e57c13589dc457d17765d987f1ee53ab750ce72171bab52546a"
  }
 }
