@@ -1,14 +1,6 @@
 {
- "checkedAt": "2026-10-16T12:03:53.229Z",
+ "checkedAt": "2026-10-16T17:09:14.497Z",
  "sources": [
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18668",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
-   "status": "verified"
-  },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66234",
    "status": "verified"
@@ -37,7 +29,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
@@ -49,17 +41,13 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
    "matches": 14
-  },
-  {
-   "url": "https://ticket.yes24.com/Notice",
-   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65605",
@@ -127,6 +115,14 @@
   },
   {
    "url": "https://blog.naver.com/sorok_life/224441957150",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.lgart.com/community/ko/notice/162922",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.lgart.com/community/ko/notice/173149",
    "status": "review_needed"
   }
  ]
