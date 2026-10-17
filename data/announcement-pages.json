@@ -232,12 +232,12 @@
  "http://www.joynews24.com/view/2014328": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "babb0a571896ce99d4d676839ce60869f52bd0769d4d5f277690f3da8d733aa0"
+  "contentHash": "57b836209698af0361c394ea3d747ad327da44824f78ae469958d7fc5d27273c"
  },
  "https://isplus.com/article/view/isp202610130059": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "73b7755367923f47ef1485f7325ada1b5e1c853a4a6791de7ba0bb8b400a94b5"
+  "contentHash": "f54b557169ff5ace6da1adb8babbaf9a22c7725ab643c3565bacf929cc8b718b"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245261": {
   "checkedAt": "2026-10-16",
@@ -247,22 +247,22 @@
  "https://www.newsen.com/news_view.php?uid=202610130945526710": {
   "checkedAt": "2026-10-17",
   "status": "not_relevant",
-  "contentHash": "1cc2c50156d6cd0f2883d0367917811e1ee76e5a5eb39386034fe08d8791256b"
+  "contentHash": "f9406ecf0fe81fa2d0d50b3cea91b22c66307c19bf516a3dc3e39b042deb69d8"
  },
  "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "df8c6c3c8857aa4a7634403cd03a826fbc8b046f91347877f1e49d69855549df"
+  "contentHash": "85734fff3b9f377f6444fcb65f1d9c1e3ad5f16b0c9740248f3e775e2a84f09c"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "b7b3667ed8c67f84794a7cd905bf6153801e3583892d7567662347c663ef2d21"
+  "contentHash": "38860954fedc0bec90abc021ff6c023850b3b3689aa83f1e480e0b12aa9abca5"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772859": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "0521995209446afa4282d8db61014a1078c5338956a35f4a03ed0fb6177af061"
+  "contentHash": "f21538857b25851906cbe7ec756e1100550795291f5f615e53bc0a4206a9aaf7"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245170": {
   "checkedAt": "2026-10-16",
@@ -312,7 +312,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16241343": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "5c4d1ee8cdabda5fdce8be507147de20dc55923b3c84fd81fd3ce6b7a2a983e6"
+  "contentHash": "08ff187456e4f6ff6ff097d17ea795777731775dec0aa4aa2385e61296f97a17"
  },
  "https://blog.naver.com/godmiracle7/224442029171": {
   "checkedAt": "2026-10-15",
@@ -462,16 +462,36 @@
  "https://www.lgart.com/community/ko/notice/162922": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "5df27d1c196274dc211de68026e3e5f3bc4b8df20750e252db3ec5dece87b66a"
+  "contentHash": "34d5971e1dd47839f4f53d928999159ec9ddfb57adbcdae5d2ab66518b72a18c"
  },
  "https://www.lgart.com/community/ko/notice/173149": {
   "checkedAt": "2026-10-17",
   "status": "review_needed",
-  "contentHash": "abfbb16076feca061ef019b89ab1784a2a43dc56614aeec43a6210b1f192e2a1"
+  "contentHash": "a72421a3408fd23ea33b1822f92dbfe2a217fc54c0e9c074e5993989ea41b3ba"
  },
  "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80": {
   "checkedAt": "2026-10-17",
   "status": "fetch_failed",
   "error": "HTTP 403"
+ },
+ "https://blog.naver.com/jeonghwp97/224444564513": {
+  "checkedAt": "2026-10-17",
+  "status": "not_relevant",
+  "contentHash": "7aa4f71f9c0cf448ed35415a8b72ecf2bca144abde54bc9e7962f88f7b02641d"
+ },
+ "https://blog.naver.com/syeon_unni/224444554712": {
+  "checkedAt": "2026-10-17",
+  "status": "not_relevant",
+  "contentHash": "1e2c201f1d44840443c235b886f453d8cbf29261bb3b8a1fd7f1542cac5fc7f4"
+ },
+ "https://blog.naver.com/1sannusu119/224442388874": {
+  "checkedAt": "2026-10-17",
+  "status": "review_needed",
+  "contentHash": "651e40f400c35a6a02128e03d787d40b4d5f5885170aa0366b0ed5e927956985"
+ },
+ "https://blog.naver.com/mid_sunset/224444656918": {
+  "checkedAt": "2026-10-17",
+  "status": "not_relevant",
+  "contentHash": "0cfc94a2227ffe7ed5956ebd1442c118d63f29d320fae16af1fd44cfb913c516"
  }
 }
