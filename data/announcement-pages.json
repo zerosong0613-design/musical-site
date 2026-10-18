@@ -232,12 +232,12 @@
  "http://www.joynews24.com/view/2014328": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "3d97ebd7c1c76cd6f330d237cb83c7b52454cb82f072c6793f1eb6fed3468138"
+  "contentHash": "423508f8f19cb62b7797f94adb21e988a6508d3dadacae2f9a1fc8c81b7fbb3c"
  },
  "https://isplus.com/article/view/isp202610130059": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "132f46c252964c5169003a1f06dfbc3dc8392733c6daa3c8c01eb99476b99c3d"
+  "contentHash": "f3fb8f38a8e14f566396b3bd553a53e9bd021414c4fe18c9cb046be1c55047bd"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245261": {
   "checkedAt": "2026-10-16",
@@ -247,22 +247,22 @@
  "https://www.newsen.com/news_view.php?uid=202610130945526710": {
   "checkedAt": "2026-10-18",
   "status": "not_relevant",
-  "contentHash": "153311bd13519f047a18e89464c18636c6eb8c11f5486767860b5f939e278b54"
+  "contentHash": "ea1ee7f6931a5ce307e04c67937f31d6692a72bc1eafdd09da7441c78d2d5fe0"
  },
  "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "e27b89e565666a798d6674552dca26269fb0140b08a9bc54ee3ca292b57ea276"
+  "contentHash": "8790eaa15d69777c571688c24d6e1ca5d3e1048822c37c6b88a639c3ec3f66e1"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "5366074545314117ffe3efa3f7b5d296105de0a149899236e862b2a75f94c175"
+  "contentHash": "36786682be5b6139812978bd5b9f0722f1ba9d57e68d9f01a6d4c868689fead3"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772859": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "9892de25f69943a4aa9759401367f82acf21e4270ba559ab74245a79551092f0"
+  "contentHash": "200821610661e9b6bcae209cf296a0c1c74afb17f753b73e7d9b1f5557c37c21"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245170": {
   "checkedAt": "2026-10-16",
@@ -312,7 +312,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16241343": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "cf88c1a31b2f38352b5c7eb318574d7f06e329ebec193fa8ec92f862f41c6290"
+  "contentHash": "b325384bdde4df77a19841ca2a8f793c85c640fea66aea49eb016b99e33e3f6d"
  },
  "https://blog.naver.com/godmiracle7/224442029171": {
   "checkedAt": "2026-10-15",
@@ -462,7 +462,7 @@
  "https://www.lgart.com/community/ko/notice/162922": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "03166f364c9cec93d76524ff155c68fc10774e71e9be4d6e58589e3b33f9df8d"
+  "contentHash": "46916bb5dab4dce3f420ae4b883d860cc83082c5901983982b8e8e3eed55460b"
  },
  "https://www.lgart.com/community/ko/notice/173149": {
   "checkedAt": "2026-10-17",
@@ -470,7 +470,7 @@
   "contentHash": "88227b39ddb4c0370a9bb4329ac58662d870a4fec6ac9f6f15a5a0e9fc16ed0c"
  },
  "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80": {
-  "checkedAt": "2026-10-17",
+  "checkedAt": "2026-10-18",
   "status": "fetch_failed",
   "error": "HTTP 403"
  },
