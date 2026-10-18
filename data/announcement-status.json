@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-18T11:55:20.478Z",
+ "checkedAt": "2026-10-18T16:19:26.072Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66234",
@@ -23,35 +23,31 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 1
+   "matches": 0
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
+   "status": "checked",
+   "matches": 4
+  },
+  {
+   "source": "네이버 웹문서",
+   "query": "뮤지컬 티켓 오픈",
    "status": "checked",
    "matches": 7
   },
   {
    "source": "네이버 웹문서",
-   "query": "뮤지컬 티켓 오픈",
-   "status": "checked",
-   "matches": 10
-  },
-  {
-   "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 15
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/65605",
-   "status": "verified"
+   "matches": 13
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -66,11 +62,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
@@ -98,11 +94,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16241343",
+   "url": "https://blog.naver.com/nomad2per/224445760738",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/nomad2per/224445760738",
+   "url": "https://blog.naver.com/nomad2per/224445759486",
    "status": "review_needed"
   },
   {
@@ -110,19 +106,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/hejvandaag/224445604341",
-   "status": "review_needed"
-  },
-  {
    "url": "https://blog.naver.com/curtaincallnote/224444784087",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.lgart.com/community/ko/notice/162922",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.lgart.com/community/ko/notice/173149",
    "status": "review_needed"
   },
   {
@@ -130,7 +114,15 @@
    "status": "fetch_failed"
   },
   {
-   "url": "https://leaplis.com/dracula14/409361",
+   "url": "https://leaplis.com/elisabeth22/778359",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16181254",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16206266",
    "status": "review_needed"
   }
  ]
