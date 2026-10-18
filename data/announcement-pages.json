@@ -232,12 +232,12 @@
  "http://www.joynews24.com/view/2014328": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "423508f8f19cb62b7797f94adb21e988a6508d3dadacae2f9a1fc8c81b7fbb3c"
+  "contentHash": "15886a3dc5af2fc12819528a748692d7c946d79330f52f830b8d02f1189ebd75"
  },
  "https://isplus.com/article/view/isp202610130059": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "f3fb8f38a8e14f566396b3bd553a53e9bd021414c4fe18c9cb046be1c55047bd"
+  "contentHash": "93a63937d9da0b5150762630f358f5a7fa76e3570eb7c83d44ac23c42894c53f"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245261": {
   "checkedAt": "2026-10-16",
@@ -247,22 +247,22 @@
  "https://www.newsen.com/news_view.php?uid=202610130945526710": {
   "checkedAt": "2026-10-18",
   "status": "not_relevant",
-  "contentHash": "ea1ee7f6931a5ce307e04c67937f31d6692a72bc1eafdd09da7441c78d2d5fe0"
+  "contentHash": "f4beda9ce0b451daee37690ad8f9d0d32d0d7438613572342202c89c396efac0"
  },
  "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "8790eaa15d69777c571688c24d6e1ca5d3e1048822c37c6b88a639c3ec3f66e1"
+  "contentHash": "492d79ac9a92dec42c33f138f972c079e28540df4f588d8069b622ef04ba79a8"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "36786682be5b6139812978bd5b9f0722f1ba9d57e68d9f01a6d4c868689fead3"
+  "contentHash": "a20d11b20f32760e0d4cd9413ea80e1431a0bec8bbe5de5b490e40ff2c9cb7c8"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772859": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "200821610661e9b6bcae209cf296a0c1c74afb17f753b73e7d9b1f5557c37c21"
+  "contentHash": "22535eea5313e7762406a42c70259242a7c72da3c9c872c7e808df0192694f1b"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245170": {
   "checkedAt": "2026-10-16",
@@ -312,7 +312,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16241343": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "b325384bdde4df77a19841ca2a8f793c85c640fea66aea49eb016b99e33e3f6d"
+  "contentHash": "51f6f6744bff0052842a524fc8a35f2dd76c96253985b18d9f549462eeda9104"
  },
  "https://blog.naver.com/godmiracle7/224442029171": {
   "checkedAt": "2026-10-15",
@@ -462,12 +462,12 @@
  "https://www.lgart.com/community/ko/notice/162922": {
   "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "46916bb5dab4dce3f420ae4b883d860cc83082c5901983982b8e8e3eed55460b"
+  "contentHash": "3fc8374d5437823b18857a1a7a599e9db6d95dbcacc2f46b9a8bccdaf5538aef"
  },
  "https://www.lgart.com/community/ko/notice/173149": {
-  "checkedAt": "2026-10-17",
+  "checkedAt": "2026-10-18",
   "status": "review_needed",
-  "contentHash": "88227b39ddb4c0370a9bb4329ac58662d870a4fec6ac9f6f15a5a0e9fc16ed0c"
+  "contentHash": "5c04e2ee3daea3a43566563825c76ebe070e52bb9e4fc5c5790bfe2fceb79993"
  },
  "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80": {
   "checkedAt": "2026-10-18",
@@ -518,5 +518,25 @@
   "checkedAt": "2026-10-18",
   "status": "review_needed",
   "contentHash": "dc2370b45821397170263eb30e7b610017a9957b7648d4e780c94c3359e82f00"
+ },
+ "https://blog.naver.com/nomad2per/224445760738": {
+  "checkedAt": "2026-10-18",
+  "status": "review_needed",
+  "contentHash": "7f6a59dbbd9fec5dfbe564746689b7bacaee9db2f47c8ccc067bf5fd89760571"
+ },
+ "https://blog.naver.com/story-83/224445552082": {
+  "checkedAt": "2026-10-18",
+  "status": "review_needed",
+  "contentHash": "151d23444c7774b4ecaf4101fef43b7cd1f8237d33d8c929dcf51bf815cd1ada"
+ },
+ "https://blog.naver.com/hejvandaag/224445604341": {
+  "checkedAt": "2026-10-18",
+  "status": "review_needed",
+  "contentHash": "1e932beaaa1377e400dd89756597b1f3c2178421887e99a21fee8cec6bcad105"
+ },
+ "https://leaplis.com/dracula14/409361": {
+  "checkedAt": "2026-10-18",
+  "status": "review_needed",
+  "contentHash": "fb0c126e11daba9557a3ace0f8fbe88e5615689471f68e308a670fa0bd4e3463"
  }
 }
