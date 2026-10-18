@@ -232,12 +232,12 @@
  "http://www.joynews24.com/view/2014328": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "0c01eb77c8a6b250c31cef9604eb4a08cf3ee8c21559c14df311d07bea38ddca"
+  "contentHash": "b80c13777da97a7f93f5a5c6d5d8564f406852c431e692c4536f746cc0a83a8a"
  },
  "https://isplus.com/article/view/isp202610130059": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "0c0372983bd912f7bc793c95b91bd56ecef152f983c1136091b516966206ef8f"
+  "contentHash": "11ee9149ee9d2b289579ec34750e480f86a7128a3040fc553e039dcaeedfce32"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245261": {
   "checkedAt": "2026-10-16",
@@ -247,22 +247,22 @@
  "https://www.newsen.com/news_view.php?uid=202610130945526710": {
   "checkedAt": "2026-10-19",
   "status": "not_relevant",
-  "contentHash": "44288dbd689668904afb7ccf29a1cff726797e2fb8a69f51f45e691f670244f2"
+  "contentHash": "6a0821a4c9f02a4e220fe5b05b5206bbd221836067dec8ac165b0d7fdd3db383"
  },
  "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "d950479732bff412a40d5ee5dbcfeec23f01a9e4f8fba58170477922d565bc51"
+  "contentHash": "a90b7298945c236a2165817f3cb7b47488950840e925a0faf4fdae4a552eebc6"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "e058916c2bc56616bb1e68c8d07c70d0eb890fc23101b98dad341a3d7083b5ed"
+  "contentHash": "544458ac125c6f4681497b9e38552ab2ceacc22982e01c3a8381c69d1df1022e"
  },
  "https://www.slist.kr/news/articleView.html?idxno=772859": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "1b4e1d45ef11d59ad1cae9af87df9372f6987d0fcb7df4c3c94880d2f65470f1"
+  "contentHash": "761398916f6070489a4bd866da7de79eddf5360be0cf3dcdc6a80258690db450"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16245170": {
   "checkedAt": "2026-10-16",
@@ -572,16 +572,21 @@
  "https://leaplis.com/elisabeth22/778359": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "f6c34ca5249d1be8d16b44c41450ef2a8c1899da6bd1307c52dfeceeabddebbb"
+  "contentHash": "4b906b7fc31966072d1926abd1482b00b238e63a27c52da5241186a220fccd5d"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16181254": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "18380443dcd4a571f040f7c3ef37484e26cc2ad4a9ff21e8581f2d2f3a6ed3d1"
+  "contentHash": "e3b6c289bbdb17b0602f2d7502d1b95a454d2d39cfa1f9bb8a3ee2c7e2b00019"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16206266": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "5b39e5d9055c17eb47ee26607cdc5cef552d5852c5575463bb27e54f7d95b1ce"
+  "contentHash": "c0ba4f72a4eec36ed2ae854d4be8cf8499888d78d1635bba577cf6a66f688c7f"
+ },
+ "https://blog.naver.com/rbngpw/224445120177": {
+  "checkedAt": "2026-10-19",
+  "status": "review_needed",
+  "contentHash": "286b3640224f4a24178770d3cb5e33dc118c14e3c52c5894d1b5ca3bddb587af"
  }
 }
