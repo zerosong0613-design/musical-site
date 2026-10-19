@@ -1,27 +1,5 @@
 [
  {
-  "id": "nol-26014529",
-  "at": "2026-10-12 14:00",
-  "title": "뮤지컬 〈플릭스!〉 (Musical FLIX!) 스페셜 초연 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014529",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66144",
-  "at": "2026-10-12 14:00",
-  "title": "뮤지컬 < 플릭스! > ( Musical FLIX! ) 스페셜 초연 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66144",
-  "mt20id": null
- },
- {
   "id": "yes24-18645",
   "at": "2026-10-13 11:00",
   "title": "뮤지컬 [연의 편지] 마지막 티켓오픈 안내",
@@ -479,6 +457,47 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-cf970ffb0dfd1e701cb8"
+  ]
+ },
+ {
+  "id": "ticketlink-66239",
+  "at": "2026-10-26 14:00",
+  "title": "뮤지컬 <더 퍼스트 에디션> 낭독공연 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66239",
+  "mt20id": null
+ },
+ {
+  "id": "nol-26013993",
+  "at": "2026-10-28 11:00",
+  "title": "뮤지컬 〈레베카〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26013993",
+  "mt20id": "PF302516",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-8b1f82082db4e026c938"
+  ]
+ },
+ {
+  "id": "yes24-18708",
+  "at": "2026-10-29 14:00",
+  "title": "뮤지컬 <겨울왕국> 한국 초연 - 12월 연말공연 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
+  "mt20id": "PF292160",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-de307cfa2a5a47555e78"
   ]
  }
 ]

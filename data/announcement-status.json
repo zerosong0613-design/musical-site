@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-18T22:59:19.747Z",
+ "checkedAt": "2026-10-19T05:36:12.266Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66234",
@@ -10,14 +10,26 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127674&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "no_matching_posts"
+   "status": "checked"
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 4
   },
   {
    "source": "네이버 뉴스",
@@ -29,13 +41,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 4
+   "matches": 6
   },
   {
    "source": "네이버 웹문서",
@@ -74,31 +86,31 @@
    "status": "verified"
   },
   {
-   "url": "http://www.joynews24.com/view/2014328",
+   "url": "https://www.sportsworldi.com/newsView/20261019508937",
    "status": "review_needed"
   },
   {
-   "url": "https://isplus.com/article/view/isp202610130059",
+   "url": "http://www.beyondpost.co.kr/view.php?ud=202610190855389866d3244b4fed_30",
    "status": "review_needed"
   },
   {
-   "url": "https://www.starnewskorea.com/star/2026/10/13/2026101307491818085",
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16250991",
    "status": "review_needed"
   },
   {
-   "url": "http://www.beyondpost.co.kr/view.php?ud=202610130735399504d3244b4fed_30",
+   "url": "https://www.slist.kr/news/articleView.html?idxno=774441",
    "status": "review_needed"
   },
   {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=772859",
+   "url": "https://blog.naver.com/musiiiical/224446491007",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/rbngpw/224445120177",
+   "url": "https://blog.naver.com/jekyll9207/224446326304",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/nomad2per/224445760738",
+   "url": "https://blog.naver.com/yamyamjin_/224446265349",
    "status": "review_needed"
   },
   {
