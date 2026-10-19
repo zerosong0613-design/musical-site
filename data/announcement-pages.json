@@ -572,17 +572,17 @@
  "https://leaplis.com/elisabeth22/778359": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "c06e00d9e34600cfb7b36409655ea3b6082dc93bcdf780a0f0fa5cbaca2b974f"
+  "contentHash": "526552e692fe573b65a8fcce0f0e0dbf832be593d7231f1275cc1b989e8d894a"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16181254": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "28e7704e35cfc431f67f0091fa8cb980a8d4f2b315d17c91de75ff50af6807ff"
+  "contentHash": "4865ce0c7efeaebef6e3791aa03b4b916b5d1bbec334298d9d36127a9a781d57"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16206266": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "eb8ea0c342dc16e15000711b1f2cbcdd22bfad3847c28f0468e6bcd61060bb69"
+  "contentHash": "f99a034e17150717dad77b85afb4da3ead8bccc66dd7601950d648df529dc64e"
  },
  "https://blog.naver.com/rbngpw/224445120177": {
   "checkedAt": "2026-10-19",
@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "27e4b4255a1617f04cdf323a35d4ad9668092e41541ac0313df4547c5faa3dc2"
+  "contentHash": "c89698e8a57f8b07d6e57f1d0bff5de3f08c67ac3c9fbb0f9f0f143bd2d1a9f3"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-19",
@@ -611,22 +611,22 @@
  "https://www.sportsworldi.com/newsView/20261019508937": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "052e648af12b430a5a995a196e7d4a4d9bead0012f39a1edc6d6332a0faefbd8"
+  "contentHash": "ce2af37dd7df3fa40a83876e12c0a05cee4922984530dc24726e187452b85920"
  },
  "http://www.beyondpost.co.kr/view.php?ud=202610190855389866d3244b4fed_30": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "67d1cc1d824459874f3579c2562da35bff9d43381cf150916ca7ec063f9d41bd"
+  "contentHash": "a46365b0425073c8738c3f27d31f04f17f58191dd85a1be2afcd98ac0f1b90a6"
  },
  "https://www.topstarnews.net/news/articleView.html?idxno=16250991": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "28ec5c32ee5747ad6339eeae31b5c36a59524eeb93a2a50cbb2318e78eaa7a00"
+  "contentHash": "4147751595566b6ae968b590d2a1f230835df328f9392e63482e17845dd0ac5f"
  },
  "https://www.slist.kr/news/articleView.html?idxno=774441": {
   "checkedAt": "2026-10-19",
   "status": "review_needed",
-  "contentHash": "38dec74747557375bfa50eb5b50e9eebc26215d6ffda74fc6ba62cbf87105ff7"
+  "contentHash": "17c693d3726f987dc40d515a86c7b9f84349379b565e097d142a13d038e7b2df"
  },
  "https://blog.naver.com/musiiiical/224446491007": {
   "checkedAt": "2026-10-19",
@@ -652,5 +652,40 @@
   "checkedAt": "2026-10-19",
   "status": "not_relevant",
   "contentHash": "fb5881a1a73f8b0299803da7a7d6f68e0aabd022a2abd063d34566336eb12b47"
+ },
+ "https://blog.naver.com/story-83/224446952324": {
+  "checkedAt": "2026-10-19",
+  "status": "review_needed",
+  "contentHash": "e2dd8d5dd78ef237753fe218be650123edac37ba778fef5956eb617e006ac3d1"
+ },
+ "https://blog.naver.com/jinjin103/224447060737": {
+  "checkedAt": "2026-10-19",
+  "status": "not_relevant",
+  "contentHash": "9abb21267fcfdf07eae6540a60ae83c4facf0ad85c795c3a96b4209787b1e72e"
+ },
+ "https://blog.naver.com/sinae0985/224446765832": {
+  "checkedAt": "2026-10-19",
+  "status": "review_needed",
+  "contentHash": "49a360fb4b401efb0a079d555ad93644a8908fde0cc1c1c2f8841b376a6730cc"
+ },
+ "https://blog.naver.com/ulsanmobileno1/224446625024": {
+  "checkedAt": "2026-10-19",
+  "status": "not_relevant",
+  "contentHash": "d1b9d66e9ba17f7fe287c2c333a235cfbf0ce554909f89f45aa4448eb0ea6e08"
+ },
+ "https://blog.naver.com/dave_1987/224446960505": {
+  "checkedAt": "2026-10-19",
+  "status": "review_needed",
+  "contentHash": "d1355c0aa8d101e62f107c3088cb27356aec2577ff6d81559a871e8e14007339"
+ },
+ "https://blog.naver.com/macblood/224443874473": {
+  "checkedAt": "2026-10-19",
+  "status": "not_relevant",
+  "contentHash": "bd503fd96181f98b9b680796df9c637777b8e0424f5de3ce4698338a34d417d8"
+ },
+ "https://blog.naver.com/mncmuzik/224446600079": {
+  "checkedAt": "2026-10-19",
+  "status": "not_relevant",
+  "contentHash": "59250af3273b9d1f998331bfe192f4959c1638f9300f4cd7c4b1475f66d7234c"
  }
 }
