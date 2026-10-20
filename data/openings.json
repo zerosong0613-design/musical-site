@@ -1,50 +1,5 @@
 [
  {
-  "id": "nol-26012145",
-  "at": "2026-10-13 16:00",
-  "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26012145",
-  "mt20id": "PF299169",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-6d7ee62491239867fdb8"
-  ]
- },
- {
-  "id": "ticketlink-66128",
-  "at": "2026-10-13 16:00",
-  "title": "2026 뮤지컬 <미드나잇 : 앤틀러스> 마지막 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66128",
-  "mt20id": "PF299169",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-4aa6001953d399bfc2fc"
-  ]
- },
- {
-  "id": "yes24-18661",
-  "at": "2026-10-13 16:00",
-  "title": "뮤지컬 [소크라테스 패러독스] 3차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18661",
-  "mt20id": "PF296148",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-d58149723a3a1b2b1704"
-  ]
- },
- {
   "id": "yes24-18658",
   "at": "2026-10-14 12:00",
   "title": "뮤지컬 [마하고니] 2차 티켓오픈 안내",
@@ -423,6 +378,21 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66256",
   "mt20id": null
+ },
+ {
+  "id": "ticketlink-66261",
+  "at": "2026-10-27 15:00",
+  "title": "뮤지컬 < V 에버 애프터 > 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66261",
+  "mt20id": "PF302270",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-9defe45d8d462dee7adb"
+  ]
  },
  {
   "id": "melon-13079",

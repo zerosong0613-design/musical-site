@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-20T05:37:57.505Z",
+ "checkedAt": "2026-10-20T12:29:43.143Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66234",
@@ -10,8 +10,12 @@
    "status": "verified"
   },
   {
+   "url": "https://www.ticketlink.co.kr/help/notice/66261",
+   "status": "verified"
+  },
+  {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
@@ -45,7 +49,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
@@ -63,7 +67,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 13
+   "matches": 12
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -98,11 +102,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3726448",
+   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
    "status": "review_needed"
   },
   {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3726448",
    "status": "review_needed"
   },
   {
@@ -114,11 +118,11 @@
    "status": "review_needed"
   },
   {
-   "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
+   "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
    "status": "review_needed"
   },
   {
-   "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
+   "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
    "status": "review_needed"
   },
   {
@@ -135,18 +139,6 @@
   },
   {
    "url": "https://www.slist.kr/news/articleView.html?idxno=774441",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/sofeman21/224447445671",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/iamkim61/224447556440",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/blackpinkinseoul/224447416917",
    "status": "review_needed"
   }
  ]
