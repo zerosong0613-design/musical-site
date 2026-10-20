@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-20T00:14:46.405Z",
+ "checkedAt": "2026-10-20T05:37:57.505Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66234",
@@ -11,7 +11,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
@@ -33,7 +33,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 13
   },
   {
    "source": "네이버 뉴스",
@@ -45,13 +45,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 7
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
@@ -63,7 +63,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 13
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -90,11 +90,35 @@
    "status": "verified"
   },
   {
-   "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
+   "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666584",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496793",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3726448",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.inthenews.co.kr/news/article.html?no=93245",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=765009",
    "status": "review_needed"
   },
   {
    "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
    "status": "review_needed"
   },
   {
@@ -114,32 +138,16 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/story-83/224446952324",
+   "url": "https://blog.naver.com/sofeman21/224447445671",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/lubli_on/224446449797",
+   "url": "https://blog.naver.com/iamkim61/224447556440",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/withinnews/224447002770",
+   "url": "https://blog.naver.com/blackpinkinseoul/224447416917",
    "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/dave_1987/224446960505",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/musiiiical/224446491007",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/yamyamjin_/224446265349",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80",
-   "status": "fetch_failed"
   }
  ]
 }

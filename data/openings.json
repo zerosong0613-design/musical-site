@@ -1,84 +1,5 @@
 [
  {
-  "id": "yes24-18645",
-  "at": "2026-10-13 11:00",
-  "title": "뮤지컬 [연의 편지] 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18645",
-  "mt20id": "PF298163",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-436acb34079f04571781"
-  ]
- },
- {
-  "id": "nol-26011553",
-  "at": "2026-10-13 11:00",
-  "title": "뮤지컬 〈연의 편지〉 마지막 티켓 오픈",
-  "vendor": "NOL 티켓",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26011553",
-  "mt20id": "PF298163",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a0df739959ee5137c6ae"
-  ]
- },
- {
-  "id": "ticketlink-66135",
-  "at": "2026-10-13 11:00",
-  "title": "뮤지컬 스위니토드( SWEENEY TODD ) - 10주년 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66135",
-  "mt20id": "PFX2026SWEENEY",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-3567ea3d9a960793de97"
-  ],
-  "performanceFrom": "2026-12-04",
-  "performanceTo": "2026-12-20"
- },
- {
-  "id": "nol-26014509",
-  "at": "2026-10-13 11:00",
-  "title": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년 1차 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014509",
-  "mt20id": "PFX2026SWEENEY",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-6bc0032494a31f488d3d"
-  ],
-  "performanceFrom": "2026-12-04",
-  "performanceTo": "2026-12-20"
- },
- {
-  "id": "ticketlink-66152",
-  "at": "2026-10-13 14:00",
-  "title": "[피처링 트랙_59] 뮤지컬 <곤 투모로우> 10주년 기념 공연 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66152",
-  "mt20id": "PF297912",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a85cf1f2b17927a0a7aa"
-  ]
- },
- {
   "id": "nol-26012145",
   "at": "2026-10-13 16:00",
   "title": "2026 뮤지컬 〈미드나잇 : 앤틀러스〉 티켓오픈",
@@ -434,6 +355,17 @@
   ]
  },
  {
+  "id": "ticketlink-66260",
+  "at": "2026-10-21 14:00",
+  "title": "DSAC 지역예술 협력 프로그램 뮤지컬 <붕어빵> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66260",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66238",
   "at": "2026-10-21 15:00",
   "title": "<아기상어 쿵짝쿵짝 뮤지컬 in 영등포> 1차 티켓오픈 안내",
@@ -460,6 +392,17 @@
   ]
  },
  {
+  "id": "yes24-18713",
+  "at": "2026-10-26 14:00",
+  "title": "뮤지컬 [인간실격 : 사양 편] 프리뷰 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18713",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66239",
   "at": "2026-10-26 14:00",
   "title": "뮤지컬 <더 퍼스트 에디션> 낭독공연 티켓오픈 안내",
@@ -468,6 +411,17 @@
   "exclusive": true,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66239",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66256",
+  "at": "2026-10-26 14:00",
+  "title": "뮤지컬 <인간실격 : 사양 편> 프리뷰 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66256",
   "mt20id": null
  },
  {
