@@ -471,6 +471,21 @@
   "mt20id": null
  },
  {
+  "id": "melon-13079",
+  "at": "2026-10-28 11:00",
+  "title": "뮤지컬 〈레베카〉 2차 티켓 오픈 안내",
+  "vendor": "멜론티켓",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
+  "mt20id": "PF302516",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-5100906d4063f30ac259"
+  ]
+ },
+ {
   "id": "nol-26013993",
   "at": "2026-10-28 11:00",
   "title": "뮤지컬 〈레베카〉 티켓오픈",
