@@ -1,91 +1,5 @@
 [
  {
-  "id": "yes24-18658",
-  "at": "2026-10-14 12:00",
-  "title": "뮤지컬 [마하고니] 2차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18658",
-  "mt20id": "PF301746",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-76d761f7d33ece05282c"
-  ]
- },
- {
-  "id": "ticketlink-66160",
-  "at": "2026-10-14 12:00",
-  "title": "뮤지컬 <마하고니> 2차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66160",
-  "mt20id": "PF301746",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-ad4346871f18813b080b"
-  ]
- },
- {
-  "id": "yes24-18641",
-  "at": "2026-10-14 14:00",
-  "title": "뮤지컬 [렛미플라이] 3차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18641",
-  "mt20id": "PF299346",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-34ccaebed529c43a21eb"
-  ]
- },
- {
-  "id": "yes24-18680",
-  "at": "2026-10-14 14:00",
-  "title": "뮤지컬 [우리가 사랑을 쓰던 날] 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18680",
-  "mt20id": null
- },
- {
-  "id": "nol-26012259",
-  "at": "2026-10-14 14:00",
-  "title": "뮤지컬 〈렛미플라이〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26012259",
-  "mt20id": "PF299346",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a6e2fef68258d2b052e8"
-  ]
- },
- {
-  "id": "ticketlink-66134",
-  "at": "2026-10-14 14:00",
-  "title": "뮤지컬 <렛미플라이> 3차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66134",
-  "mt20id": "PF299346",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-3c8c2da6a409a4efc07d"
-  ]
- },
- {
   "id": "yes24-18655",
   "at": "2026-10-14 15:00",
   "title": "뮤지컬 [엘리자벳] - YES24DAY 티켓오픈 안내",
@@ -438,5 +352,16 @@
   "announcementIds": [
    "announcement-de307cfa2a5a47555e78"
   ]
+ },
+ {
+  "id": "ticketlink-66279",
+  "at": "2026-11-03 10:00",
+  "title": "베베핀 뮤지컬 <두근두근 새친구> - 상주 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66279",
+  "mt20id": null
  }
 ]
