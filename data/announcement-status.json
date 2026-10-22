@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-21T17:50:22.267Z",
+ "checkedAt": "2026-10-22T00:01:52.328Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66215",
@@ -11,7 +11,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
