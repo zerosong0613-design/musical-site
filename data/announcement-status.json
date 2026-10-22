@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-22T00:01:52.328Z",
+ "checkedAt": "2026-10-22T05:40:30.572Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66215",
@@ -15,6 +15,10 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127696&page=1",
    "status": "review_needed"
   },
   {
@@ -37,7 +41,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 14
+   "matches": 12
   },
   {
    "source": "네이버 뉴스",
@@ -49,13 +53,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 13
+   "matches": 15
   },
   {
    "source": "네이버 웹문서",
@@ -88,6 +92,14 @@
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
+  },
+  {
+   "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.dailian.co.kr/news/view/1704491/?sc=Naver",
+   "status": "review_needed"
   },
   {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252934",
@@ -126,23 +138,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.sportsworldi.com/newsView/20261019508937",
+   "url": "https://blog.naver.com/letsgolife/224450094551",
    "status": "review_needed"
   },
   {
-   "url": "http://www.beyondpost.co.kr/view.php?ud=202610190855389866d3244b4fed_30",
+   "url": "https://blog.naver.com/ouwang11/224450054838",
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16250991",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=774441",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/smog6666/224449482323",
+   "url": "https://blog.naver.com/leee1114/224450010154",
    "status": "review_needed"
   }
  ]
