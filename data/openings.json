@@ -1,31 +1,5 @@
 [
  {
-  "id": "ticketlink-66187",
-  "at": "2026-10-15 15:00",
-  "title": "[피처링 트랙_57]​ 뮤지컬 <잔혹동화 생존기> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66187",
-  "mt20id": "PF297712",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-ca7d055e5c8577b925e1"
-  ]
- },
- {
-  "id": "ticketlink-66173",
-  "at": "2026-10-15 15:00",
-  "title": "뮤지컬 <브로큰 넘버스> 프리뷰, 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66173",
-  "mt20id": null
- },
- {
   "id": "yes24-18668",
   "at": "2026-10-16 11:00",
   "title": "뮤지컬 [두 도시 이야기] 2차 티켓오픈 안내",
