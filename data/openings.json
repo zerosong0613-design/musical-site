@@ -1,16 +1,5 @@
 [
  {
-  "id": "nol-26014511",
-  "at": "2026-10-16 15:00",
-  "title": "뮤지컬 〈여신님이 보고 계셔〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014511",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66226",
   "at": "2026-10-19 10:00",
   "title": "뮤지컬 <살인자ㅇ난감> 쇼케이스 티켓오픈 안내",
@@ -264,6 +253,28 @@
   "announcementIds": [
    "announcement-de307cfa2a5a47555e78"
   ]
+ },
+ {
+  "id": "yes24-18740",
+  "at": "2026-10-29 16:00",
+  "title": "뮤지컬 [윌리엄과 윌리엄의 윌리엄들] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18740",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66310",
+  "at": "2026-10-29 16:00",
+  "title": "뮤지컬 <윌리엄과 윌리엄의 윌리엄들> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66310",
+  "mt20id": null
  },
  {
   "id": "yes24-18737",

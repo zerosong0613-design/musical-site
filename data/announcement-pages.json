@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "e839620bc155f70adaff18ffb46b6d31a790e4b1646de1b24b7840ae417235dd"
+  "contentHash": "005314d75f64e9dc08e47c67127c43824cd40235c403a22692c2ecdeae116271"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-23",
@@ -690,9 +690,8 @@
  },
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13079": {
   "checkedAt": "2026-10-23",
-  "status": "fetch_failed",
-  "contentHash": "be6826ca9eff059c97e5c5e5f7cf45c7411e65071fca4984b68681ba3c20beee",
-  "error": "HTTP 423"
+  "status": "verified",
+  "contentHash": "35102fa16d985c5f86afeb761e5e09296d9310ce1bfaa974fe78e2097ad7ae89"
  },
  "https://www.smarttoday.co.kr/ko-kr/articles/112902": {
   "checkedAt": "2026-10-23",
@@ -722,27 +721,27 @@
  "https://www.kfenews.co.kr/news/articleView.html?idxno=666584": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "a9a9c40c7298aaf07703eafab91f488e79e0024017eb86ea3a466adf03bc3588"
+  "contentHash": "b06bced831458e2ea5e5b275f0170ed1d70e1258bdb7c5d23172607b44b5a286"
  },
  "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496793": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "4e974bc380d47fd2a5573faa57d86d4241415f72e66b4fd183d17049506e5543"
+  "contentHash": "c6046bf6f0dcff44e6fb0fd3fd39d5e01ed591b76e7242f7ec304cd60bf7a754"
  },
  "https://www.news1.kr/industry/distribution/6325439": {
   "checkedAt": "2026-10-23",
   "status": "not_relevant",
-  "contentHash": "b11b9d34c64b1d0d6fe348fc47a7401d6f59bea556f861599898150b4b0140ea"
+  "contentHash": "65e8a3870464e9158c46c437f87da009505d6b62873d4caa70103fdec91b0c8e"
  },
  "https://www.gukjenews.com/news/articleView.html?idxno=3726448": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "d62497862e7994a23364f745c055bec5be5cdb6ca7bcd416602027e47e997a20"
+  "contentHash": "429a48552e11d7d4e8354028d14cb07340b6aad0cb19b2ace269c1a8540bfcb6"
  },
  "https://www.bntnews.co.kr/article/view/bnt202610200117": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "972b730ecd1ea1a0f64e2340fd373b26556dd1d66da7f166f74214014c96314c"
+  "contentHash": "abfed4c8a48d87e4c17f3288f4ff2fe0b6b47d25e3e20176c53a27293c3bdca4"
  },
  "https://www.inthenews.co.kr/news/article.html?no=93245": {
   "checkedAt": "2026-10-23",
@@ -807,7 +806,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16252934": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "7ef0990e0e5e05e475b1787ba197721c3ebfff937423b97aa56e0ed33d5f89df"
+  "contentHash": "e06801080c2b8f88a64fba6cc0ba6c9180e8c8638db2fd9dc6541ee88ff56535"
  },
  "https://blog.naver.com/miinn8/224448354642": {
   "checkedAt": "2026-10-21",
@@ -907,12 +906,12 @@
  "https://www.kgnews.co.kr/news/article.html?no=916240": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "74a8cd6c8a673856b544a7ce023387592246df5d8fec13d2dc9d006c262da08d"
+  "contentHash": "87ad03e8bdf69aa3157747fad2c37caa0175a662b1e30c6fafb18df8704c1956"
  },
  "https://www.dailian.co.kr/news/view/1704491/?sc=Naver": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "bcabb59550a6dfb377c3d01bc0947df189e828d0d9f1d5701107d56816211c40"
+  "contentHash": "4496f2f298b11d1898b48db326592bc670e0244b20f384bd9788eca632f3f957"
  },
  "https://blog.naver.com/letsgolife/224450094551": {
   "checkedAt": "2026-10-22",
@@ -972,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-23",
   "status": "review_needed",
-  "contentHash": "cdc67d79b02790c2c8b19adc1664f6345651b91c9b0fd9b9ca671e39a1f7ac86"
+  "contentHash": "267b8f2c014492294fda1b4b99a2627dfffc501c79778076cd79c5e1801de353"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-23",
@@ -1013,5 +1012,20 @@
   "checkedAt": "2026-10-23",
   "status": "review_needed",
   "contentHash": "637a35fb29a782e7f0240111bb73dacf1d2e14a56633930245d12ab6c6e6a8a1"
+ },
+ "https://blog.naver.com/lily_curtaincall/224451643159": {
+  "checkedAt": "2026-10-23",
+  "status": "review_needed",
+  "contentHash": "c8b8929be9957a32a26d3e947cf285766a25f3a650ea464909229220b10c09b6"
+ },
+ "https://blog.naver.com/lily_curtaincall/224451625350": {
+  "checkedAt": "2026-10-23",
+  "status": "review_needed",
+  "contentHash": "7a17a137706b0a4352d0405ad99a166ba23bd4132b3fb5964d992c0e91275f72"
+ },
+ "https://blog.naver.com/biseulee_is/224451620026": {
+  "checkedAt": "2026-10-23",
+  "status": "review_needed",
+  "contentHash": "4f2076a6dbf3921d35cfd19db5c56ef22d7ae2687f7fdd2e616a792c4100f36d"
  }
 }
