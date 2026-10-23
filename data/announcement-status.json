@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-22T17:50:19.028Z",
+ "checkedAt": "2026-10-23T00:04:02.484Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -55,7 +55,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 15
+   "matches": 17
   },
   {
    "source": "네이버 웹문서",
@@ -95,7 +95,7 @@
   },
   {
    "url": "https://www.dailian.co.kr/news/view/1704491/?sc=Naver",
-   "status": "fetch_failed"
+   "status": "review_needed"
   },
   {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252934",
@@ -126,11 +126,15 @@
    "status": "review_needed"
   },
   {
+   "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
    "status": "review_needed"
   },
   {
-   "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
+   "url": "https://blog.naver.com/u_and_i1/224448280729",
    "status": "review_needed"
   },
   {
@@ -143,10 +147,6 @@
   },
   {
    "url": "https://blog.naver.com/dailypik/224450524749",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/goodseatview/224450509243",
    "status": "review_needed"
   }
  ]
