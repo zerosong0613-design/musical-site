@@ -1,51 +1,5 @@
 [
  {
-  "id": "yes24-18668",
-  "at": "2026-10-16 11:00",
-  "title": "뮤지컬 [두 도시 이야기] 2차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18668",
-  "mt20id": "PF300974",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-702ffaeb32ee95cefabb",
-   "announcement-195c40d336a6bea2d7f1"
-  ]
- },
- {
-  "id": "melon-13028",
-  "at": "2026-10-16 11:00",
-  "title": "뮤지컬 〈두 도시 이야기〉 2차 티켓 오픈 안내",
-  "vendor": "멜론티켓",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
-  "mt20id": "PF300974",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-766a09fe661ef676a04d"
-  ]
- },
- {
-  "id": "nol-26013098",
-  "at": "2026-10-16 11:00",
-  "title": "뮤지컬 〈두 도시 이야기〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26013098",
-  "mt20id": "PF300974",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-3f528caf57c058c76345"
-  ]
- },
- {
   "id": "nol-26014511",
   "at": "2026-10-16 15:00",
   "title": "뮤지컬 〈여신님이 보고 계셔〉 티켓오픈",
@@ -309,6 +263,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-de307cfa2a5a47555e78"
+  ]
+ },
+ {
+  "id": "yes24-18737",
+  "at": "2026-10-30 16:00",
+  "title": "뮤지컬 [엠. 버터플라이] 마지막 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737",
+  "mt20id": "PF297794",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-1bf3b0055588fed74d34"
   ]
  },
  {

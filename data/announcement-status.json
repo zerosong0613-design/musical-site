@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-23T00:04:02.484Z",
+ "checkedAt": "2026-10-23T05:40:05.309Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -7,10 +7,22 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127706&page=1",
    "status": "review_needed"
   },
   {
@@ -37,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 12
+   "matches": 9
   },
   {
    "source": "네이버 뉴스",
@@ -49,13 +61,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 17
+   "matches": 18
   },
   {
    "source": "네이버 웹문서",
@@ -67,7 +79,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 13
+   "matches": 14
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -122,31 +134,27 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.mhns.co.kr/news/articleView.html?idxno=765009",
+   "url": "https://blog.naver.com/hodaengbt/224451253626",
    "status": "review_needed"
   },
   {
-   "url": "http://www.newsdream.kr/news/articleView.html?idxno=120339",
+   "url": "https://blog.naver.com/welllog_daily/224450618953",
    "status": "review_needed"
   },
   {
-   "url": "https://www.smarttoday.co.kr/ko-kr/articles/112902",
+   "url": "https://blog.naver.com/yamyamjin_/224451137976",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/u_and_i1/224448280729",
+   "url": "https://blog.naver.com/jekyll9207/224451129949",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/goodseatview/224450558703",
+   "url": "https://blog.naver.com/serese82/224451106150",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/onlylove0908/224450553061",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/dailypik/224450524749",
+   "url": "https://blog.naver.com/yeppies/224451104128",
    "status": "review_needed"
   }
  ]
