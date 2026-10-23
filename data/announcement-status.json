@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-23T12:21:19.923Z",
+ "checkedAt": "2026-10-23T17:39:47.307Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -49,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 8
+   "matches": 7
   },
   {
    "source": "네이버 뉴스",
@@ -61,7 +61,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
@@ -94,11 +94,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
@@ -126,7 +126,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
+   "url": "https://blog.naver.com/todaybaekseo/224451759674",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/goinging96/224451680230",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/goinging96/224451668687",
    "status": "review_needed"
   },
   {
@@ -143,18 +151,6 @@
   },
   {
    "url": "https://blog.naver.com/hodaengbt/224451253626",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/welllog_daily/224450618953",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/yamyamjin_/224451137976",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/jekyll9207/224451129949",
    "status": "review_needed"
   }
  ]
