@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-24",
   "status": "review_needed",
-  "contentHash": "5136e25dd7aec99023129dd3b19c628a4f4b374836f60470e3670eb13335665b"
+  "contentHash": "37dd177f636367a1c119b1671b49522b2978093bfb08f2da59fb81a7790eb3f8"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-24",
@@ -691,7 +691,7 @@
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13079": {
   "checkedAt": "2026-10-24",
   "status": "verified",
-  "contentHash": "21c765854e5422169bb4775732c0b9d0b2db278864d540e40089bef2b36d9e04"
+  "contentHash": "bf8653c7bbfb6d0ac23b134ca7aae3eb7e427cc353a3bf723f6b56a5a9405142"
  },
  "https://www.smarttoday.co.kr/ko-kr/articles/112902": {
   "checkedAt": "2026-10-23",
@@ -905,14 +905,13 @@
  },
  "https://www.kgnews.co.kr/news/article.html?no=916240": {
   "checkedAt": "2026-10-24",
-  "status": "fetch_failed",
-  "contentHash": "b6fb3ae3c4fed3847d557e74fe65a7bae3c5ad78b4963051724796e3bf4a9520",
-  "error": "fetch failed"
+  "status": "review_needed",
+  "contentHash": "41fab1e6d5e3980dd0f5d3c47336291f402873c8c5896b5a224b5ff80f7aea6d"
  },
  "https://www.dailian.co.kr/news/view/1704491/?sc=Naver": {
   "checkedAt": "2026-10-24",
   "status": "review_needed",
-  "contentHash": "f8a33a0e8303599d23f7e2a3d09611dbaa5e60571c6e1472803c2fff7dae02c5"
+  "contentHash": "4b31e9ad045dcbd8e61b61b9fd9ec26fdd9370e7e9c66c40f7ad2fee4d8f925c"
  },
  "https://blog.naver.com/letsgolife/224450094551": {
   "checkedAt": "2026-10-22",
@@ -972,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-24",
   "status": "review_needed",
-  "contentHash": "96edccaaeaac9a084713b2f22dc34ba7274da162b24025c83c484a7bf869bee0"
+  "contentHash": "a3f344e7c374e166e9f4e62aa1e4fad8d75efec095de9430e0ff4a01d2818a78"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-24",
@@ -1078,5 +1077,35 @@
   "checkedAt": "2026-10-24",
   "status": "review_needed",
   "contentHash": "dafed29ca6031615a8105587e9d72dd1d21507fb4b39f963a8c77b02c7b26675"
+ },
+ "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40777": {
+  "checkedAt": "2026-10-24",
+  "status": "fetch_failed",
+  "error": "fetch failed"
+ },
+ "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769": {
+  "checkedAt": "2026-10-24",
+  "status": "fetch_failed",
+  "error": "fetch failed"
+ },
+ "https://blog.naver.com/hsham1031/224452442072": {
+  "checkedAt": "2026-10-24",
+  "status": "review_needed",
+  "contentHash": "c81cc9f24dc1b2f5853560c14f7f44d76716f13663349a3ed0981b74b9aa5a6f"
+ },
+ "https://blog.naver.com/letsgolife/224452405558": {
+  "checkedAt": "2026-10-24",
+  "status": "review_needed",
+  "contentHash": "673421fa142fc47d2411737c0a923c13c29e948d7c2a2bccf4d4a8ebab41ee4d"
+ },
+ "https://blog.naver.com/golden-compass/224452399934": {
+  "checkedAt": "2026-10-24",
+  "status": "review_needed",
+  "contentHash": "f4c6dc05307702f62a8ff018ecccd893babb7753535692c272e4c927c02f2c8a"
+ },
+ "https://blog.naver.com/eunhye_hi/224452302826": {
+  "checkedAt": "2026-10-24",
+  "status": "not_relevant",
+  "contentHash": "0386f79c688d7d4d922fd14ea12fb6dc340ceb226c5d09a6643e380a54cf4344"
  }
 }

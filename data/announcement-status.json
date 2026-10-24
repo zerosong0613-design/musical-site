@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-24T05:18:39.129Z",
+ "checkedAt": "2026-10-24T11:48:39.636Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -49,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 4
   },
   {
    "source": "네이버 뉴스",
@@ -61,7 +61,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
@@ -86,11 +86,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "url": "https://www.ticketlink.co.kr/help/notice/65890",
    "status": "verified"
   },
   {
@@ -106,27 +106,31 @@
    "status": "verified"
   },
   {
-   "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
+   "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40777",
    "status": "fetch_failed"
+  },
+  {
+   "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769",
+   "status": "fetch_failed"
+  },
+  {
+   "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
+   "status": "review_needed"
   },
   {
    "url": "https://www.dailian.co.kr/news/view/1704491/?sc=Naver",
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252934",
+   "url": "https://blog.naver.com/hsham1031/224452442072",
    "status": "review_needed"
   },
   {
-   "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=666584",
+   "url": "https://blog.naver.com/letsgolife/224452405558",
    "status": "review_needed"
   },
   {
-   "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496793",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
+   "url": "https://blog.naver.com/golden-compass/224452399934",
    "status": "review_needed"
   },
   {
@@ -143,10 +147,6 @@
   },
   {
    "url": "https://blog.naver.com/uniqueuni/224451992719",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/lily_curtaincall/224451643159",
    "status": "review_needed"
   }
  ]
