@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-23T23:55:42.968Z",
+ "checkedAt": "2026-10-24T05:18:39.129Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -61,13 +61,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 18
+   "matches": 19
   },
   {
    "source": "네이버 웹문서",
@@ -79,7 +79,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 13
+   "matches": 14
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -94,11 +94,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
@@ -107,7 +107,7 @@
   },
   {
    "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
-   "status": "review_needed"
+   "status": "fetch_failed"
   },
   {
    "url": "https://www.dailian.co.kr/news/view/1704491/?sc=Naver",
@@ -126,31 +126,27 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3726448",
+   "url": "https://www.bntnews.co.kr/article/view/bnt202610200117",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/todaybaekseo/224451759674",
+   "url": "https://blog.naver.com/travelgoto/224452052468",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/goinging96/224451680230",
+   "url": "https://blog.naver.com/where_gganii/224452094853",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/goinging96/224451668687",
+   "url": "https://blog.naver.com/jazzahj/224452087443",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/uniqueuni/224451992719",
    "status": "review_needed"
   },
   {
    "url": "https://blog.naver.com/lily_curtaincall/224451643159",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/lily_curtaincall/224451625350",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/biseulee_is/224451620026",
    "status": "review_needed"
   }
  ]
