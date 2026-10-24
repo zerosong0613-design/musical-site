@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-23T17:39:47.307Z",
+ "checkedAt": "2026-10-23T23:55:42.968Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -73,24 +73,24 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 15
+   "matches": 13
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "url": "https://www.ticketlink.co.kr/help/notice/65890",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
    "status": "verified"
   },
   {
@@ -99,6 +99,10 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65502",
    "status": "verified"
   },
   {
@@ -147,10 +151,6 @@
   },
   {
    "url": "https://blog.naver.com/biseulee_is/224451620026",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/hodaengbt/224451253626",
    "status": "review_needed"
   }
  ]
