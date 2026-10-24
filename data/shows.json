@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T23:51:33.923Z",
+ "generatedAt": "2026-10-24T23:05:26.100Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -2915,41 +2915,6 @@
    "updatedAt": "2026-09-30 15:00:00.099302"
   },
   {
-   "id": "PF300693",
-   "title": "민들레 피리 [오산]",
-   "from": "2026-10-24",
-   "to": "2026-10-24",
-   "openrun": false,
-   "venue": "오산문화예술회관 (대공연장)",
-   "venueId": "FC000145",
-   "hallId": "FC000145-01",
-   "seats": 800,
-   "large": true,
-   "child": "N",
-   "cast": "손유동, 임진섭",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300693_202609110126198890.jpg"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300693_260911_132619.gif",
-   "state": "공연중",
-   "prices": "전석 40,000원",
-   "times": "토요일(18:30)",
-   "runtime": "1시간 40분",
-   "age": "만 8세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012975"
-    }
-   ],
-   "registeredAt": "2026-09-11 13:26:20",
-   "updatedAt": "2026-09-11 15:00:00.171731"
-  },
-  {
    "id": "PF300639",
    "title": "제17회 화성시 뮤지컬단 정기공연: 우리들의 온에어",
    "from": "2026-10-24",
@@ -2985,41 +2950,6 @@
    "updatedAt": "2026-09-10 18:00:00.092124"
   },
   {
-   "id": "PF298358",
-   "title": "GUNPO MUSICAL STATION 59.9 (군포 뮤지컬 스테이션 59.9) : 한국뮤지컬 EP.4 확장",
-   "from": "2026-10-24",
-   "to": "2026-10-24",
-   "openrun": false,
-   "venue": "군포문화예술회관 (철쭉홀)",
-   "venueId": "FC001167",
-   "hallId": "FC001167-02",
-   "seats": 428,
-   "large": false,
-   "child": "N",
-   "cast": "김하준, 조성태, 도율희, 이현재, 안리나, 이홍섭",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298358_202608120251518660.png"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298358_260812_145151.gif",
-   "state": "공연중",
-   "prices": "전석 40,000원",
-   "times": "토요일(18:00)",
-   "runtime": "1시간 20분",
-   "age": "만 7세 이상",
-   "producer": "(재) 군포문화재단(군포문화예술회관)",
-   "license": false,
-   "creative": false,
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011067"
-    }
-   ],
-   "registeredAt": "2026-08-12 14:51:52",
-   "updatedAt": "2026-08-12 15:00:00.089288"
-  },
-  {
    "id": "PF301912",
    "title": "마제스티 [대학로]",
    "from": "2026-10-25",
@@ -3038,7 +2968,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301912_260929_101243.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "VIP석 120,000원, R석 90,000원, S석 60,000원",
    "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00)",
    "runtime": "2시간 40분",
