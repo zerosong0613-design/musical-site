@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T23:05:26.100Z",
+ "generatedAt": "2026-10-25T23:10:18.519Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -1284,97 +1284,6 @@
    "updatedAt": "2026-10-07 13:14:59"
   },
   {
-   "id": "PF297031",
-   "title": "TOO HOT SHOW (투핫쇼)",
-   "from": "2026-08-01",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "K-POP STAGE (구. 윤형빈소극장 [홍대] ) (K-POP STAGE (구. 윤형빈소극장 [홍대] ) )",
-   "venueId": "FC001624",
-   "hallId": "FC001624-01",
-   "seats": 147,
-   "large": false,
-   "child": "N",
-   "cast": "",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297031_202607270230057900.gif"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297031_260727_143005.gif",
-   "state": "공연중",
-   "prices": "루비 플러스석 150,000원, 루비석 120,000원, 에메랄드석 100,000원, 사파이어석 80,000원",
-   "times": "토요일 ~ 일요일(20:00), HOL(20:00)",
-   "runtime": "1시간",
-   "age": "만 19세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/5/bizes/1706672"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010839"
-    }
-   ],
-   "registeredAt": "2026-07-27 14:30:06",
-   "updatedAt": "2026-09-28 11:03:03"
-  },
-  {
-   "id": "PF294425",
-   "title": "사칠",
-   "from": "2026-08-04",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "링크아트센터드림 (드림 2관)",
-   "venueId": "FC001528",
-   "hallId": "FC001528-02",
-   "seats": 211,
-   "large": false,
-   "child": "N",
-   "cast": "황민수, 선한국, 김찬종, 임태현, 박정혁, 김재한",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294425_202606230102513562.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294425_202606230102513361.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294425_260623_130251.jpg",
-   "state": "공연중",
-   "prices": "전석 66,000원",
-   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
-   "runtime": "1시간 40분",
-   "age": "만 13세 이상",
-   "producer": "(주)네오, 극단 좋은사람",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/64013"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1351667"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/58949"
-    },
-    {
-     "name": "코스타(Coaster)",
-     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1785464320"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7347"
-    }
-   ],
-   "registeredAt": "2026-06-23 13:02:51",
-   "updatedAt": "2026-09-28 17:32:33"
-  },
-  {
    "id": "PF296139",
    "title": "미드나잇: 액터뮤지션 THE CHOICE [대학로]",
    "from": "2026-08-11",
@@ -1485,58 +1394,6 @@
    ],
    "registeredAt": "2026-05-26 11:45:01",
    "updatedAt": "2026-10-23 13:10:51"
-  },
-  {
-   "id": "PF295611",
-   "title": "푸른 꽃",
-   "from": "2026-08-13",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "충무아트센터 (중극장 블랙)",
-   "venueId": "FC000014",
-   "hallId": "FC000014-03",
-   "seats": 320,
-   "large": false,
-   "child": "N",
-   "cast": "최은영, 조소은, 김소율, 현석준, 윤은오, 김리현, 박란주 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295611_202610011142154040.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295611_202610011142154271.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295611_260708_133621.gif",
-   "state": "공연중",
-   "prices": "R석 75,000원, S석 60,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
-   "runtime": "1시간 50분",
-   "age": "만 6세 이상",
-   "producer": "네버엔딩플레이(N.E.P Contents)",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/64269"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1704911"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009616"
-    },
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79404"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7314"
-    }
-   ],
-   "registeredAt": "2026-07-08 13:36:22",
-   "updatedAt": "2026-10-13 09:44:00"
   },
   {
    "id": "PF296265",
@@ -1680,45 +1537,6 @@
    "updatedAt": "2026-10-13 09:48:38"
   },
   {
-   "id": "PF297157",
-   "title": "카페인 [대학로]",
-   "from": "2026-08-20",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "굿씨어터 (굿씨어터)",
-   "venueId": "FC001240",
-   "hallId": "FC001240-01",
-   "seats": 320,
-   "large": false,
-   "child": "N",
-   "cast": "추혁진, 이태환, 서우빈, 최재명, 원혁, 이윤하, 지수연 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF297157_202610010224469790.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_261001_142446.gif",
-   "state": "공연중",
-   "prices": "R석 77,000원, S석 66,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:00), HOL(14:00,18:00)",
-   "runtime": "1시간 40분",
-   "age": "만 8세 이상",
-   "producer": "(주) 피알컴퍼니",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010929"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7338"
-    }
-   ],
-   "registeredAt": "2026-07-29 10:06:42",
-   "updatedAt": "2026-10-01 14:24:47"
-  },
-  {
    "id": "PF295552",
    "title": "광화문연가 [서울]",
    "from": "2026-09-06",
@@ -1815,53 +1633,6 @@
    ],
    "registeredAt": "2026-08-10 11:05:32",
    "updatedAt": "2026-09-29 10:28:02"
-  },
-  {
-   "id": "PF298497",
-   "title": "사의찬미 2ND STAGE [대학로]",
-   "from": "2026-09-08",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "링크아트센터 (페이코홀)",
-   "venueId": "FC003244",
-   "hallId": "FC003244-01",
-   "seats": 470,
-   "large": false,
-   "child": "N",
-   "cast": "김종구, 주민진, 홍승안, 최수진, 김려원, 이정화, 최재웅 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298497_202608141009585250.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298497_260814_100958.jpg",
-   "state": "공연중",
-   "prices": "R석 77,000원, S석 66,000원, A석 55,000원",
-   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
-   "runtime": "1시간 50분",
-   "age": "만 12세 이상",
-   "producer": "(주)네오프로덕션",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/64914"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/59718"
-    },
-    {
-     "name": "코스타(Coaster)",
-     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1787287315"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7431"
-    }
-   ],
-   "registeredAt": "2026-08-14 10:09:59",
-   "updatedAt": "2026-10-01 11:37:13"
   },
   {
    "id": "PF298171",
@@ -2233,49 +2004,6 @@
    "updatedAt": "2026-10-23 10:52:25"
   },
   {
-   "id": "PF298801",
-   "title": "브람스 [서울]",
-   "from": "2026-09-19",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "KT&G 상상마당 대치아트홀 (KT&G 상상마당 대치아트홀)",
-   "venueId": "FC000052",
-   "hallId": "FC000052-01",
-   "seats": 422,
-   "large": false,
-   "child": "N",
-   "cast": "오승윤, 김태호, 홍주찬, 박진우, 이시강, 조이현, 조은샘 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298801_202608191048072870.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298801_260819_104807.gif",
-   "state": "공연중",
-   "prices": "VIP석 77,000원, R석 66,000원, S석 55,000원",
-   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
-   "runtime": "1시간 40분",
-   "age": "만 12세 이상",
-   "producer": "피에이치이엔엠(PH E&M)",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1720694"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012097"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/59755"
-    }
-   ],
-   "registeredAt": "2026-08-19 10:48:07",
-   "updatedAt": "2026-08-21 11:08:12"
-  },
-  {
    "id": "PF298792",
    "title": "섬: 1933~2019",
    "from": "2026-09-22",
@@ -2603,46 +2331,6 @@
    "updatedAt": "2026-10-14 10:34:35"
   },
   {
-   "id": "PF300214",
-   "title": "카페 론리 Cafe Lonely [대학로]",
-   "from": "2026-10-10",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "R&J씨어터(구. 연진아트홀) (R&J씨어터(구. 연진아트홀))",
-   "venueId": "FC001142",
-   "hallId": "FC001142-01",
-   "seats": 127,
-   "large": false,
-   "child": "N",
-   "cast": "김규리, 조하영, 주재현, 김형진, 정진원, 함유범, 이시은 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300214_202609071050128281.png",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300214_202609071050127590.png"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300214_260907_105012.png",
-   "state": "공연중",
-   "prices": "전석 45,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,19:30)",
-   "runtime": "1시간 50분",
-   "age": "만 9세 이상",
-   "producer": "극단 아침달",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1696105"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013296"
-    }
-   ],
-   "registeredAt": "2026-09-07 10:50:13",
-   "updatedAt": "2026-09-17 11:20:43"
-  },
-  {
    "id": "PF300598",
    "title": "수레바퀴 아래서 [대학로]",
    "from": "2026-10-13",
@@ -2878,76 +2566,6 @@
    ],
    "registeredAt": "2026-09-16 14:54:17",
    "updatedAt": "2026-09-16 15:00:00.096789"
-  },
-  {
-   "id": "PF302114",
-   "title": "땡큐포더던: 두번째 이야기",
-   "from": "2026-10-24",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "극장 봄 (봄소극장) (극장 봄)",
-   "venueId": "FC001331",
-   "hallId": "FC001331-01",
-   "seats": 55,
-   "large": false,
-   "child": "N",
-   "cast": "박석진, 박소정, 이미소",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302114_202609300129211020.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302114_260930_132921.jpg",
-   "state": "공연중",
-   "prices": "전석 30,000원",
-   "times": "토요일(14:00,17:00), 일요일(15:00)",
-   "runtime": "1시간 40분",
-   "age": "만 14세 이상",
-   "producer": "네오엘컴퍼니, 창작집단 재미지수",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1565275"
-    }
-   ],
-   "registeredAt": "2026-09-30 13:29:21",
-   "updatedAt": "2026-09-30 15:00:00.099302"
-  },
-  {
-   "id": "PF300639",
-   "title": "제17회 화성시 뮤지컬단 정기공연: 우리들의 온에어",
-   "from": "2026-10-24",
-   "to": "2026-10-25",
-   "openrun": false,
-   "venue": "SCN 아트홀 (소극장)",
-   "venueId": "FC003466",
-   "hallId": "FC003466-01",
-   "seats": 60,
-   "large": false,
-   "child": "N",
-   "cast": "김소율, 김지원, 박은서, 박은정, 송지아, 신유진, 이수아 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300639_202609100306341980.jpg"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300639_260910_150634.jpg",
-   "state": "공연중",
-   "prices": "전석 5,000원",
-   "times": "토요일 ~ 일요일(17:00)",
-   "runtime": "1시간 20분",
-   "age": "전체 관람가",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1733766"
-    }
-   ],
-   "registeredAt": "2026-09-10 15:06:34",
-   "updatedAt": "2026-09-10 18:00:00.092124"
   },
   {
    "id": "PF301912",
