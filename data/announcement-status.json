@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-24T23:09:26.175Z",
+ "checkedAt": "2026-10-25T05:35:05.383Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -67,7 +67,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 17
+   "matches": 14
   },
   {
    "source": "네이버 웹문서",
@@ -114,6 +114,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://blog.naver.com/black_jel/224452878501",
+   "status": "review_needed"
+  },
+  {
    "url": "https://blog.naver.com/lastlook24/224452646637",
    "status": "review_needed"
   },
@@ -122,19 +126,11 @@
    "status": "review_needed"
   },
   {
+   "url": "https://blog.naver.com/travelgoto/224452060278",
+   "status": "review_needed"
+  },
+  {
    "url": "https://blog.naver.com/hsham1031/224452442072",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/travelgoto/224452052468",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/jazzahj/224452087443",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/uniqueuni/224451992719",
    "status": "review_needed"
   }
  ]
