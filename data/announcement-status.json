@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-25T05:35:05.383Z",
+ "checkedAt": "2026-10-25T12:18:02.693Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -7,7 +7,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
@@ -38,10 +38,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127674&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -61,7 +57,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
@@ -73,7 +69,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -102,8 +98,16 @@
    "status": "verified"
   },
   {
+   "url": "https://www.ticketlink.co.kr/help/notice/65502",
+   "status": "verified"
+  },
+  {
+   "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40777",
+   "status": "fetch_failed"
+  },
+  {
    "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769",
-   "status": "review_needed"
+   "status": "fetch_failed"
   },
   {
    "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
@@ -114,19 +118,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/black_jel/224452878501",
+   "url": "https://blog.naver.com/travelgoto/224452060278",
    "status": "review_needed"
   },
   {
    "url": "https://blog.naver.com/lastlook24/224452646637",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/giodi227/224452527963",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/travelgoto/224452060278",
    "status": "review_needed"
   },
   {
