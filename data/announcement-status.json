@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-26T05:42:42.978Z",
+ "checkedAt": "2026-10-26T13:48:36.641Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -7,7 +7,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708",
@@ -19,6 +19,10 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127734&page=1",
    "status": "review_needed"
   },
   {
@@ -45,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 8
+   "matches": 9
   },
   {
    "source": "네이버 뉴스",
@@ -57,19 +61,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 12
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 17
+   "matches": 19
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 8
+   "matches": 9
   },
   {
    "source": "네이버 웹문서",
@@ -90,16 +94,24 @@
    "status": "verified"
   },
   {
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "status": "verified"
+  },
+  {
    "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://nol.yanolja.com/ticket/genre/musical",
    "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65502",
    "status": "verified"
+  },
+  {
+   "url": "https://www.edaily.co.kr/News/Read?newsId=04559206645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "status": "review_needed"
   },
   {
    "url": "https://sports.donga.com/life/article/all/20261026/134908361/1",
@@ -118,8 +130,12 @@
    "status": "review_needed"
   },
   {
+   "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40777",
+   "status": "fetch_failed"
+  },
+  {
    "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769",
-   "status": "review_needed"
+   "status": "fetch_failed"
   },
   {
    "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
@@ -130,15 +146,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/rukacia/224454104683",
+   "url": "https://blog.naver.com/goodseatview/224454601346",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/ksu4718/224447052760",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/mapmapoo/224452726472",
+   "url": "https://blog.naver.com/chsh1216/224454549706",
    "status": "review_needed"
   }
  ]
