@@ -1,11 +1,11 @@
-import {matchesTitleVenue} from './show-search.js?v=20261010-1';
-import {validPeriod,overlapsPeriod,periodSessions,showFilterLink} from './date-filter.js?v=20261010-1';
-import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261009-2';
-import { actorMatch } from './actor-search.js?v=20261009-1';
-import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261009-2';
-import { mountCasting } from './casting.js?v=20261009-5';
-import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261009-4';
-import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261009-1';
+import {matchesTitleVenue} from './show-search.js?v=20261027-1';
+import {validPeriod,overlapsPeriod,periodSessions,showFilterLink} from './date-filter.js?v=20261027-1';
+import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261027-1';
+import { actorMatch } from './actor-search.js?v=20261027-1';
+import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261027-1';
+import { mountCasting } from './casting.js?v=20261027-1';
+import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261027-1';
+import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261027-1';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
 let favoritesSaved = true;
@@ -40,7 +40,7 @@ async function loadActorSchedules() {
   const ids = data.shows.filter(s => s.to >= today() && isEligibleShow(s) && data.casting.has(s.id) && !data.castingFiles.has(s.id)).map(s => s.id);
   for (let start = 0; start < ids.length; start += 4) {
     await Promise.all(ids.slice(start, start + 4).map(async id => {
-      const casting = data.castingFiles.get(id) || await getJSON(`data/casting/${id}.json`, null);
+      const casting = data.castingFiles.get(id) || await getJSON(`/data/casting/${id}.json`, null);
       data.castingFiles.set(id, casting);
       if (!casting) actorFailures.add(id);
     }));
@@ -49,14 +49,14 @@ async function loadActorSchedules() {
 
 async function load() {
   const [file, castingIndex, auto, manual, notices, events, manualShows, posters] = await Promise.all([
-    getJSON('data/shows.json'),
-    getJSON('data/casting/index.json', []),
-    getJSON('data/openings.json', []),
-    getJSON('data/openings.manual.json', []),
-    getJSON('data/notices.json', []),
-    getJSON('data/casting/events.json', []),
-    getJSON('data/shows.manual.json', []),
-    getJSON('data/posters.json', {}),
+    getJSON('/data/shows.json'),
+    getJSON('/data/casting/index.json', []),
+    getJSON('/data/openings.json', []),
+    getJSON('/data/openings.manual.json', []),
+    getJSON('/data/notices.json', []),
+    getJSON('/data/casting/events.json', []),
+    getJSON('/data/shows.manual.json', []),
+    getJSON('/data/posters.json', {}),
   ]);
   // KOPIS에 아직 없는 작품은 직접 넣은 목록(shows.manual.json)으로 보여 주고, KOPIS에 같은 제목이 올라오면 그쪽을 쓴다.
   const letters = s => s.replace(/[^\p{L}\p{N}]/gu, '');
@@ -136,7 +136,7 @@ function renderList() {
     view.from=from;view.to=to;view.periodOpen=false;view.periodLoading=true;renderList();
     await loadActorSchedules();
     if(view.from!==from||view.to!==to)return;
-    view.periodLoading=false;if(!location.hash||location.hash==='#/')renderList();
+    view.periodLoading=false;if(location.pathname==='/')renderList();
   });
   app.querySelector('#period-form').addEventListener('input',e=>e.currentTarget.elements.to.setCustomValidity(''));
   app.querySelector('.actor-search').addEventListener('submit', async e => {
@@ -149,7 +149,7 @@ function renderList() {
     await loadActorSchedules();
     if (view.actor !== actor) return;
     view.actorLoading = false;
-    if (!location.hash || location.hash === '#/') renderList();
+    if (location.pathname === '/') renderList();
   });
   app.querySelector('[data-actor-clear]')?.addEventListener('click', () => { view.actor = ''; view.actorLoading = false; renderList(); });
   app.querySelector('[data-query-clear]')?.addEventListener('click',()=>{view.query='';renderList();});
@@ -176,7 +176,7 @@ function openingItems(list) {
     return `<li class="${at < now ? 'past' : ''}">
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span> <span class="time">${esc(o.at.slice(11))}</span></div>
       <div class="what">
-        <strong>${show ? `<a href="#/show/${esc(show.id)}">${esc(o.title)}</a>` : esc(o.title)}</strong>
+        <strong>${show ? `<a href="/show/${esc(show.id)}">${esc(o.title)}</a>` : esc(o.title)}</strong>
         <span class="muted">${[o.vendor, o.round].filter(Boolean).map(esc).join(' · ')}</span>
         ${o.performanceFrom && o.performanceTo ? `<span class="excerpt">판매 공연기간: ${esc(dot(o.performanceFrom))} ~ ${esc(dot(o.performanceTo))}</span>` : ''}
         ${schedule ? `<a class="link" href="${esc(schedule)}">${o.performanceFrom ? '해당 기간 캐스팅 보기' : '캐스팅 보기'}</a>` : ''}
@@ -208,7 +208,7 @@ function noticeItems(list) {
       <div class="when"><b>${k.getUTCMonth() + 1}/${k.getUTCDate()}</b> <span class="day d${k.getUTCDay()}">${DAYS[k.getUTCDay()]}</span></div>
       <div class="what">
         <em class="tag">${n.kind === 'change' ? '변경' : n.kind === 'roster' ? '출연진' : '스케줄'}</em>
-        ${show ? `<strong><a href="#/show/${esc(show.id)}">${esc(show.title)}</a></strong>` : n.title ? `<strong>${esc(n.title)}</strong>` : ''}
+        ${show ? `<strong><a href="/show/${esc(show.id)}">${esc(show.title)}</a></strong>` : n.title ? `<strong>${esc(n.title)}</strong>` : ''}
         <span class="muted">${esc(n.source)}</span>
         ${n.lines
           ? `<span class="excerpt">${n.lines.slice(0, 6).map(esc).join('<br>')}${n.lines.length > 6 ? `<br>외 ${n.lines.length - 6}건` : ''}</span>`
@@ -226,9 +226,10 @@ function renderNotices() {
 }
 
 async function renderShow(id, range = {}) {
-  const currentHash = location.hash;
+  const currentPage = location.pathname + location.search;
   const s = data.shows.find(x => x.id === id);
-  if (!s) { app.innerHTML = '<p class="empty">작품을 찾을 수 없습니다. <a href="#/">목록으로</a></p>'; return; }
+  if (!s) { app.innerHTML = '<p class="empty">작품을 찾을 수 없습니다. <a href="/">목록으로</a></p>'; return; }
+  document.title = `${s.title} 캐스팅 스케줄·티켓 오픈 | 뮤지컬 모아보기`;
   const rows = [
     ['기간', `${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}`],
     ['공연장', s.venue + (s.seats ? ` · ${s.seats.toLocaleString()}석` : '')],
@@ -239,7 +240,7 @@ async function renderShow(id, range = {}) {
   const notices = data.notices.filter(n => n.mt20id === s.id);
 
   app.innerHTML = `
-    <a class="back" href="#/">← 작품 목록</a>
+    <a class="back" href="/">← 작품 목록</a>
     <section class="detail">
       ${poster(s)}
       <div>
@@ -265,9 +266,9 @@ async function renderShow(id, range = {}) {
   const box = app.querySelector('#casting');
   if (!data.casting.has(id)) { box.innerHTML = '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>'; return; }
   box.innerHTML = '<p class="empty">불러오는 중…</p>';
-  const casting = await getJSON(`data/casting/${id}.json`, null);
+  const casting = await getJSON(`/data/casting/${id}.json`, null);
   if (!casting) { box.innerHTML = '<p class="empty">캐스팅 표를 불러오지 못했습니다.</p>'; return; }
-  if (location.hash === currentHash) { box.innerHTML = ''; mountCasting(box, casting, s, range); }
+  if (location.pathname + location.search === currentPage) { box.innerHTML = ''; mountCasting(box, casting, s, range); }
 }
 
 function renderOpenings() {
@@ -276,25 +277,42 @@ function renderOpenings() {
   app.innerHTML = `<h1>티켓 오픈 일정</h1>${list.length ? openingItems(list) : '<p class="empty">등록된 오픈 일정이 없습니다.</p>'}`;
 }
 
+const TITLES = { shows: '뮤지컬 모아보기 · 수도권 뮤지컬 캐스팅 스케줄·티켓 오픈', notices: '뮤지컬 캐스팅 공지 | 뮤지컬 모아보기', openings: '뮤지컬 티켓 오픈 일정 | 뮤지컬 모아보기' };
+
 function route() {
   const basis = document.querySelector('#today-basis');
   const date = today();
   basis.dateTime = date;
   basis.textContent = `오늘 기준 ${dot(date)}`;
-  const hash = location.hash || '#/';
-  const show = hash.match(/^#\/show\/(\w+)(?:\?([^#]*))?$/);
-  const nav = { '#/openings': 'openings', '#/notices': 'notices' }[hash] ?? 'shows';
+  const path = location.pathname.replace(/\/+$/, '') || '/';
+  const show = path.match(/^\/show\/(\w+)$/);
+  const nav = { '/openings': 'openings', '/notices': 'notices' }[path] ?? 'shows';
   document.querySelectorAll('[data-nav]').forEach(a => a.toggleAttribute('aria-current', a.dataset.nav === nav));
+  document.title = TITLES[nav];
   window.scrollTo(0, 0);
-  if (show) { const params = new URLSearchParams(show[2] ?? ''); renderShow(show[1], {from: params.get('from'), to: params.get('to'), actor: params.get('actor')}); }
-  else if (hash === '#/openings') renderOpenings();
-  else if (hash === '#/notices') renderNotices();
+  if (show) { const params = new URLSearchParams(location.search); renderShow(show[1], {from: params.get('from'), to: params.get('to'), actor: params.get('actor')}); }
+  else if (path === '/openings') renderOpenings();
+  else if (path === '/notices') renderNotices();
   else renderList();
 }
 
+// 예전 주소(#/show/PF…)로 들어와도 같은 화면을 실제 경로로 보여 준다.
+if (location.hash.startsWith('#/')) history.replaceState(null, '', location.hash.slice(1));
+
+// 사이트 안 링크는 새로고침 없이 화면만 바꾼다. 새 탭·외부 링크·파일은 브라우저에 맡긴다.
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href]');
+  if (!a || a.target || a.hasAttribute('download') || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+  const url = new URL(a.href, location.href);
+  if (url.origin !== location.origin || /\.\w+$/.test(url.pathname)) return;
+  e.preventDefault();
+  if (url.pathname + url.search !== location.pathname + location.search) history.pushState(null, '', url.pathname + url.search);
+  route();
+});
+
 try {
   await load();
-  window.addEventListener('hashchange', route);
+  window.addEventListener('popstate', route);
   route();
 } catch {
   app.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.</p>';

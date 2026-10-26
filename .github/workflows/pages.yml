@@ -1,10 +1,9 @@
 name: deploy-pages
+# 사이트는 Vercel(musical-moa.vercel.app)로 옮겼다. 예전 GitHub Pages 주소는 새 주소로 넘겨 주는 한 장짜리 페이지만 남긴다.
 on:
   push:
     branches: [main]
-  workflow_run: # 자동 수집이 데이터를 커밋한 뒤에도 다시 배포한다
-    workflows: [daily-data, casting-notices]
-    types: [completed]
+    paths: [pages-redirect/**, .github/workflows/pages.yml]
   workflow_dispatch:
 
 permissions:
@@ -24,11 +23,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: pages-redirect
       - id: deployment
         uses: actions/deploy-pages@v4

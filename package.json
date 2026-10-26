@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "preview": "node scripts/build-site.mjs && SERVE_DIR=dist node scripts/serve.mjs",
     "dev": "node scripts/serve.mjs",
     "fetch": "node scripts/fetch-kopis.mjs",
     "casting": "node scripts/import-casting.mjs",

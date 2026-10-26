@@ -1,6 +1,6 @@
-import { initialActorPicks, sameActor } from './actor-search.js?v=20261009-1';
+import { initialActorPicks, sameActor } from './actor-search.js?v=20261027-1';
 // 캐스팅 조합 검색: 배역마다 한 명씩 골라, 모두 함께 서는 회차만 남긴다.
-import { mobileVendorUrl } from './announcement-links.js?v=20261009-4';
+import { mobileVendorUrl } from './announcement-links.js?v=20261027-1';
 const DAYS = ['일', '월', '화', '수', '목', '금', '토'];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 

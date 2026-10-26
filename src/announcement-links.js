@@ -19,6 +19,6 @@ export function castingLink(opening,index) {
  const c=index.get(opening.mt20id);if(!c)return null;
  const from=opening.performanceFrom,to=opening.performanceTo;
  if(from&&to&&(c.to<from||c.from>to))return null;
- return `#/show/${opening.mt20id}${from&&to?'?from='+from+'&to='+to:''}`;
+ return `/show/${opening.mt20id}${from&&to?'?from='+from+'&to='+to:''}`;
 }
 

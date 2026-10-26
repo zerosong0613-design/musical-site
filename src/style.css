@@ -59,8 +59,8 @@ footer p { margin: 2px 0; }
 
 .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 28px 18px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 .card { display: block; text-decoration: none; }
-.card h2 { font-size: .95rem; line-height: 1.35; margin: 10px 0 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.card:hover h2 { text-decoration: underline; text-underline-offset: 3px; }
+.card h2, .card h3 { font-size: .95rem; line-height: 1.35; margin: 10px 0 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card:hover h2, .card:hover h3 { text-decoration: underline; text-underline-offset: 3px; }
 .card p { margin: 0; font-size: .8rem; color: var(--muted); }
 .card p.muted { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .poster { position: relative; aspect-ratio: 3 / 4; border-radius: var(--r-sm); overflow: hidden; background: var(--soft); border: 1px solid var(--line); }
@@ -180,3 +180,8 @@ footer p { margin: 2px 0; }
 .period-help{font-size:.85rem;margin:0 0 12px}
 .period-summary{font-weight:700}
 @media(max-width:420px){.period-form{gap:6px}.period-form label{flex:1;min-width:0}.period-form input{width:100%;box-sizing:border-box}.period-chip{font-size:.8rem}}
+
+/* 미리 만든 작품 페이지의 배역별 출연 요약 */
+.role-summary { display: grid; grid-template-columns: 6em 1fr; gap: 6px 12px; margin: 0 0 20px; font-size: .9rem; }
+.role-summary dt { color: var(--muted); }
+.role-summary dd { margin: 0; }

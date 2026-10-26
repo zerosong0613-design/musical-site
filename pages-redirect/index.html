@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>뮤지컬 모아보기 · 새 주소로 이동합니다</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://musical-moa.vercel.app/">
+<script>
+  // 예전 주소(…/musical-site/#/show/PF…)를 새 주소의 같은 화면으로 옮긴다.
+  var NEW = 'https://musical-moa.vercel.app';
+  var h = location.hash;
+  location.replace(NEW + (h.indexOf('#/') === 0 ? h.slice(1) : '/'));
+</script>
+<meta http-equiv="refresh" content="0; url=https://musical-moa.vercel.app/">
+</head>
+<body>
+<p>뮤지컬 모아보기가 새 주소로 옮겼습니다: <a href="https://musical-moa.vercel.app/">musical-moa.vercel.app</a></p>
+</body>
+</html>

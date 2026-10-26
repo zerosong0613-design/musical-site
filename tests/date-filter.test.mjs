@@ -20,5 +20,5 @@ test('선택기간의 확보된 회차를 배우와 교차하고 지난 회차�
 test('상세 링크에 기간과 배우 선택을 함께 전달한다',()=>{
  const q=new URLSearchParams(showFilterLink('PF1','조승우','2026-10-10','2026-10-11').split('?')[1]);
  assert.equal(q.get('actor'),'조승우');assert.equal(q.get('from'),'2026-10-10');assert.equal(q.get('to'),'2026-10-11');
- assert.equal(showFilterLink('PF1'),'#/show/PF1');
+ assert.equal(showFilterLink('PF1'),'/show/PF1');
 });

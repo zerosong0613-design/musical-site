@@ -60,7 +60,7 @@ test('나중에 캐스팅표가 생기면 기간 링크가 생기고 실제 회�
  const o={mt20id:show.id,performanceFrom:'2026-12-04',performanceTo:'2026-12-20'};
  assert.equal(castingLink(o,new Map()),null);
  const index=new Map([[show.id,{from:'2026-12-04',to:'2026-12-20'}]]);
- assert.equal(castingLink(o,index),'#/show/PFX2026SWEENEY?from=2026-12-04&to=2026-12-20');
+ assert.equal(castingLink(o,index),'/show/PFX2026SWEENEY?from=2026-12-04&to=2026-12-20');
  assert.equal(castingLink({...o,performanceFrom:'2027-01-01',performanceTo:'2027-01-31'},index),null);
  const rows=['2026-12-03','2026-12-04','2026-12-20','2026-12-21'].map(date=>({date,time:'19:30',cast:['조승우']}));
  assert.equal(filterShows(rows,{includePast:true,from:o.performanceFrom,to:o.performanceTo,days:new Set(),pick:[null]},0).length,2);

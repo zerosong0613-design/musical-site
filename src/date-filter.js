@@ -13,5 +13,5 @@ export function periodSessions(casting,from,to,actor='',now=Date.now()) {
 export function showFilterLink(id,actor='',from='',to='') {
  const q=new URLSearchParams();if(actor)q.set('actor',actor);
  if(validPeriod(from,to)){q.set('from',from);q.set('to',to);}
- return '#/show/'+id+(q.size?'?'+q:'');
+ return '/show/'+id+(q.size?'?'+q:'');
 }
