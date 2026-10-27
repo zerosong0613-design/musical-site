@@ -1,5 +1,16 @@
 [
  {
+  "id": "announcement-ffbeb6486e64df2f8b4d",
+  "mt20id": "PF301912",
+  "title": "뮤지컬 티켓오픈 안내",
+  "at": "2026-10-27T18:31:13.090Z",
+  "url": "https://www.ticketlink.co.kr/help/notice/66028",
+  "source": "네이버 웹문서",
+  "kind": "roster",
+  "excerpt": "캐스팅] 노턴 l 엄기준 박재윤 아서 l 박정원 김우석 마르타 l 이정화 허윤슬 오닐 l 양승리 우재하 모리스 l 이승현 이경욱 완헤이 l 강하나 허순미 페이옌 l 홍산하 랜슬롯 l 송상훈 김효성 가웨인 l 박채원 모드레드 l 강성진 갤러해드 l 김수",
+  "announcementId": "announcement-ffbeb6486e64df2f8b4d"
+ },
+ {
   "id": "announcement-511a0b8ab65eeefb2ab7",
   "mt20id": "PF303043",
   "title": "뮤지컬 스위니토드( SWEENEY TODD ) – 10주년 2차 티켓오픈 안내 | 티켓링크",
@@ -31,17 +42,6 @@
   "kind": "roster",
   "excerpt": "캐스팅] - 드라큘라 : 신성록 김준수 전동석 고은성 - 미나 머레이 : 조정은 박지연 김환희 - 에이브러햄 반 헬싱 : 강태을 임정모 - 조나단 하커 : 진태화 임현준 - 루시 웨스텐라 : 이예은 이아름솔 - 렌필드 : 지원선 조성린 - 잭 스워드 ",
   "announcementId": "announcement-185e93ceab08eddc2faf"
- },
- {
-  "id": "announcement-ffbeb6486e64df2f8b4d",
-  "mt20id": "PF301912",
-  "title": "뮤지컬 티켓오픈 안내",
-  "at": "2026-10-09T09:59:37.304Z",
-  "url": "https://www.ticketlink.co.kr/help/notice/66028",
-  "source": "네이버 웹문서",
-  "kind": "roster",
-  "excerpt": "캐스팅] 노턴 l 엄기준 박재윤 아서 l 박정원 김우석 마르타 l 이정화 허윤슬 오닐 l 양승리 우재하 모리스 l 이승현 이경욱 완헤이 l 강하나 허순미 페이옌 l 홍산하 랜슬롯 l 송상훈 김효성 가웨인 l 박채원 모드레드 l 강성진 갤러해드 l 김수",
-  "announcementId": "announcement-ffbeb6486e64df2f8b4d"
  },
  {
   "id": "announcement-ad4346871f18813b080b",
