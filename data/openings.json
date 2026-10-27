@@ -1,27 +1,5 @@
 [
  {
-  "id": "yes24-18681",
-  "at": "2026-10-20 15:00",
-  "title": "뮤지컬 [앨런 튜링] 프리뷰 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18681",
-  "mt20id": "PF304068"
- },
- {
-  "id": "nol-26014988",
-  "at": "2026-10-20 15:00",
-  "title": "뮤지컬 〈앨런 튜링〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014988",
-  "mt20id": null
- },
- {
   "id": "nol-26015064",
   "at": "2026-10-21 11:00",
   "title": "뮤지컬 〈닥터 두리틀〉 티켓오픈",
@@ -239,6 +217,43 @@
   "announcementIds": [
    "announcement-cdc1884b4f8260613dbf"
   ]
+ },
+ {
+  "id": "yes24-18758",
+  "at": "2026-10-30 14:00",
+  "title": "뮤지컬 [소크라테스 패러독스] 마지막 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758",
+  "mt20id": "PF296148",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-62c9dc38a6d2345882af"
+  ]
+ },
+ {
+  "id": "ticketlink-66336",
+  "at": "2026-10-30 15:00",
+  "title": "2026 뮤지컬 <피장파장의 오류> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66336",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18756",
+  "at": "2026-10-30 15:00",
+  "title": "2026 뮤지컬 <피장파장의 오류> 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18756",
+  "mt20id": null
  },
  {
   "id": "yes24-18737",

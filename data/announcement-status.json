@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-27T05:52:44.521Z",
+ "checkedAt": "2026-10-27T12:55:33.939Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -22,6 +22,10 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758",
+   "status": "review_needed"
+  },
+  {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737",
    "status": "review_needed"
   },
@@ -31,6 +35,10 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1",
    "status": "review_needed"
   },
   {
@@ -65,7 +73,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 2
   },
   {
    "source": "네이버 뉴스",
@@ -77,19 +85,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 21
+   "matches": 16
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -118,10 +126,6 @@
    "status": "verified"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/genre/musical",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/65502",
    "status": "verified"
   },
@@ -134,23 +138,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.etoday.co.kr/news/view/2639892",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202610260114",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=776327",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/curtaincallnote/224455402689",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/kyhdragon1212/224455388471",
+   "url": "https://blog.naver.com/trendmemory/224454852482",
    "status": "review_needed"
   }
  ]
