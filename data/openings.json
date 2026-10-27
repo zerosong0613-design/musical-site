@@ -1,49 +1,5 @@
 [
  {
-  "id": "nol-26015075",
-  "at": "2026-10-20 10:00",
-  "title": "뮤지컬 집사TV 시즌 2 part.2 : 〈대저택 끝 없는 문〉 - 인천 부평 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26015075",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66223",
-  "at": "2026-10-20 10:00",
-  "title": "뮤지컬 집사TV 시즌 2 part.2 : <대저택 끝 없는 문> - 인천 부평​ 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66223",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66222",
-  "at": "2026-10-20 10:00",
-  "title": "베베핀 뮤지컬 <두근두근 새친구> - 화성​ 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66222",
-  "mt20id": null
- },
- {
-  "id": "nol-26014912",
-  "at": "2026-10-20 14:00",
-  "title": "제물포구문화체육센터 뮤지컬 〈쉐도우〉 - 인천 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014912",
-  "mt20id": null
- },
- {
   "id": "yes24-18681",
   "at": "2026-10-20 15:00",
   "title": "뮤지컬 [앨런 튜링] 프리뷰 티켓오픈 안내",
@@ -255,6 +211,36 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18749",
+  "at": "2026-10-30 13:00",
+  "title": "뮤지컬 [아나키스트] 마지막 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749",
+  "mt20id": "PF298593",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a6b2f2976a2f9241f855"
+  ]
+ },
+ {
+  "id": "ticketlink-66328",
+  "at": "2026-10-30 13:00",
+  "title": "뮤지컬 <아나키스트> 마지막 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66328",
+  "mt20id": "PF298593",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-cdc1884b4f8260613dbf"
+  ]
+ },
+ {
   "id": "yes24-18737",
   "at": "2026-10-30 16:00",
   "title": "뮤지컬 [엠. 버터플라이] 마지막 티켓오픈 안내",
@@ -281,6 +267,23 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66333",
+  "at": "2026-11-03 14:00",
+  "title": "뮤지컬 스위니토드( SWEENEY TODD ) – 10주년 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66333",
+  "mt20id": "PF303043",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-511a0b8ab65eeefb2ab7"
+  ],
+  "performanceFrom": "2026-12-22",
+  "performanceTo": "2027-01-17"
+ },
+ {
   "id": "yes24-18742",
   "at": "2026-11-04 14:00",
   "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-2차 티켓오픈 안내",
@@ -294,5 +297,38 @@
   "announcementIds": [
    "announcement-fe054f7d97acac6f7559"
   ]
+ },
+ {
+  "id": "ticketlink-66331",
+  "at": "2026-11-05 14:00",
+  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66331",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18752",
+  "at": "2026-11-05 14:00",
+  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18752",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18753",
+  "at": "2026-11-11 15:00",
+  "title": "뮤지컬 [해밀턴] 내한공연-서울 프리미어 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18753",
+  "mt20id": null
  }
 ]

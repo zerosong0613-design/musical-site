@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-27T00:26:20.549Z",
+ "checkedAt": "2026-10-27T05:52:44.521Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66261",
@@ -14,11 +14,27 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66328",
+   "status": "verified"
+  },
+  {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737",
    "status": "review_needed"
   },
   {
+   "url": "https://www.ticketlink.co.kr/help/notice/66333",
+   "status": "verified"
+  },
+  {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127740&page=1",
    "status": "review_needed"
   },
   {
@@ -49,7 +65,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 6
   },
   {
    "source": "네이버 뉴스",
@@ -130,19 +146,11 @@
    "status": "review_needed"
   },
   {
-   "url": "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769",
+   "url": "https://blog.naver.com/curtaincallnote/224455402689",
    "status": "review_needed"
   },
   {
-   "url": "https://www.kgnews.co.kr/news/article.html?no=916240",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.dailian.co.kr/news/view/1704491/?sc=Naver",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/eggnoglatte/224454723556",
+   "url": "https://blog.naver.com/kyhdragon1212/224455388471",
    "status": "review_needed"
   }
  ]

@@ -272,7 +272,7 @@
  "https://nol.yanolja.com/ticket/genre/musical": {
   "checkedAt": "2026-10-27",
   "status": "verified",
-  "contentHash": "07cf8331574c1cc23071103f78288cee8eccbf735bf3df73f49f63eb9f47d778"
+  "contentHash": "8fc4c744af3d82e8a214e45c55bc0764b8befcdbb698771136a5420deadf136e"
  },
  "https://www.nc.press/news/articleView.html?idxno=628417": {
   "checkedAt": "2026-10-16",
@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-27",
   "status": "verified",
-  "contentHash": "075376fcae9818d01f6ab904a7552870781fb80b9f66d3caf7b596e97ea5bb90"
+  "contentHash": "06dc2898e35f3cc531de281b6c8985bfa55c548c7c293e5cd5e623e515e4be52"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-26",
@@ -691,7 +691,7 @@
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13079": {
   "checkedAt": "2026-10-27",
   "status": "verified",
-  "contentHash": "70c1669237c491357d04666b0bea4258777af1c87c731d868e90f552836a73af"
+  "contentHash": "4335908c672c84f616fabf5a38e8eb3bd41f1a4df3fa2d77c926885b29aceaa7"
  },
  "https://www.smarttoday.co.kr/ko-kr/articles/112902": {
   "checkedAt": "2026-10-23",
@@ -971,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "2f34c1d41201ea7ad0883f9fd2742a310f9ce5b59fd723d64eaaa8d74024cd58"
+  "contentHash": "61c3b033451b5060a4d5c5b08533c5b5cc5878dde4e12710a2edc5084f4c2f77"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-27",
@@ -1081,7 +1081,7 @@
  "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40777": {
   "checkedAt": "2026-10-27",
   "status": "not_relevant",
-  "contentHash": "a43f25ab93a141ffdf6edf184eee08f07df229c79c6e1f87df2934ad316faa91"
+  "contentHash": "af4cd40b5829e8696f82d7571804d04af8af5a8222ab583a6925fb565e6c62f7"
  },
  "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40769": {
   "checkedAt": "2026-10-27",
@@ -1231,27 +1231,27 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "a09f4c49f61f60323ce7d54c5f7faf6445f5cabef626a6d716aa957a23ab9f0f"
+  "contentHash": "b89be19899ba30579f2f7559bac3c8d747c07843603bac62f9c697c922bbaf66"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "866cfbc7278b66ab82dfdec5c5434287ff95a5c7524eb4d21ef9688647033966"
+  "contentHash": "901449eb48936f28629ee4b1cfb6e1f400680551c6b77fa1f0c97b83297e3525"
  },
  "https://www.etoday.co.kr/news/view/2639892": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "c259259a6713271d83b81ccf9c57a115b05428249c922af359bf2a547c386a15"
+  "contentHash": "0ffbff832c4316fcf84470b366f29dd560073124cc2639d4aeda05245a198059"
  },
  "https://www.bntnews.co.kr/article/view/bnt202610260114": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "1d834e437b90b458de365806cba25e6f3c23e0367a67c35b08af419b4c59ea04"
+  "contentHash": "01919d070f80815f01af02eed3e4ccf14b5260cb0b9aaf1517fbb0fffad9489a"
  },
  "https://www.slist.kr/news/articleView.html?idxno=776327": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "05621d243e554515a5789a51f5842c4a53f81f391b11f4fd34e3e1782e1592c5"
+  "contentHash": "81b5778cdec2f59a916ed36379bb0e4495de9ffdcf1e8c8230fc4dc88d4b44e1"
  },
  "https://blog.naver.com/white0dream/224454123569": {
   "checkedAt": "2026-10-26",
@@ -1296,7 +1296,7 @@
  "https://www.edaily.co.kr/News/Read?newsId=04559206645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article": {
   "checkedAt": "2026-10-27",
   "status": "review_needed",
-  "contentHash": "7bf65e75b980e8197000f988bb13293d365d1d4e5c2b35bfb36ce20ca3e0fd0e"
+  "contentHash": "5ef1431b930b008e67ba35f45c5da74da43350176d5530c86d5c23bf7ab52a1f"
  },
  "https://blog.naver.com/ggul_osori/224454617879": {
   "checkedAt": "2026-10-26",
@@ -1337,5 +1337,40 @@
   "checkedAt": "2026-10-27",
   "status": "review_needed",
   "contentHash": "0e5c0e13e4ad40771fd7017c4032bbc7036654fe3ee630d2a766cd3c07082e28"
+ },
+ "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749": {
+  "checkedAt": "2026-10-27",
+  "status": "review_needed",
+  "contentHash": "90dfa3884e75252b2b1ff17568d6084cb42bd8d9253067ccb9908f9cfcdfea3f"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66328": {
+  "checkedAt": "2026-10-27",
+  "status": "verified",
+  "contentHash": "5606d9206e3703df07112de0424844a03889b7b26aecf2707e666334389dfc4d"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66333": {
+  "checkedAt": "2026-10-27",
+  "status": "verified",
+  "contentHash": "49d4443efe8e766269ab24c678981968f511921875a281767da40bcc9f7dc80e"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127740&page=1": {
+  "checkedAt": "2026-10-27",
+  "status": "review_needed",
+  "contentHash": "62bc937e41a3cc67718286cd1cbac49c8d15d4bea7b8a8a881a0a180ee5cb34f"
+ },
+ "https://blog.naver.com/curtaincallnote/224455402689": {
+  "checkedAt": "2026-10-27",
+  "status": "review_needed",
+  "contentHash": "7a8cfa10861d4c9f6abff82c245b45469969dd77ae9db97f3418e803fa8559b5"
+ },
+ "https://blog.naver.com/kyhdragon1212/224455388471": {
+  "checkedAt": "2026-10-27",
+  "status": "review_needed",
+  "contentHash": "bb21f945c82d8f5fffe29cea8bc06e1e9cbadea07599f41387d7059c91b58a57"
+ },
+ "https://blog.naver.com/seainthesky_/224455320309": {
+  "checkedAt": "2026-10-27",
+  "status": "not_relevant",
+  "contentHash": "e09c8f0d1c4c28e4fbf5b39a76de5ea5be6c84dd5d84bed1be85696052ef6bc3"
  }
 }
