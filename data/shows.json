@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T23:10:18.519Z",
+ "generatedAt": "2026-10-27T00:22:18.463Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -2442,12 +2442,16 @@
      "url": "https://booking.naver.com/booking/12/bizes/1740390"
     },
     {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD31167"
+    },
+    {
      "name": "타임티켓",
      "url": "https://timeticket.co.kr/product/7476"
     }
    ],
    "registeredAt": "2026-09-18 13:49:13",
-   "updatedAt": "2026-10-21 15:59:10"
+   "updatedAt": "2026-10-26 15:35:04"
   },
   {
    "id": "PF302270",
@@ -2461,7 +2465,7 @@
    "seats": 352,
    "large": false,
    "child": "N",
-   "cast": "김랑연, 이준형, 이승준, 박경호, 권익환, 정단비, 공현비 등",
+   "cast": "랑연, 이준우, 이승준, 박경호, 권태하, 정단비, 공현비 등",
    "images": [
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304183303.jpg",
     "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302270_202610010304183152.png",
@@ -2485,7 +2489,7 @@
     }
    ],
    "registeredAt": "2026-10-01 15:04:18",
-   "updatedAt": "2026-10-01 18:00:00.11532"
+   "updatedAt": "2026-10-26 10:14:12"
   },
   {
    "id": "PF301098",
@@ -2527,10 +2531,14 @@
     {
      "name": "놀유니버스",
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012901"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79507"
     }
    ],
    "registeredAt": "2026-09-16 15:10:00",
-   "updatedAt": "2026-09-16 18:00:00.066507"
+   "updatedAt": "2026-10-26 11:31:33"
   },
   {
    "id": "PF301091",
@@ -3206,6 +3214,41 @@
    "updatedAt": "2026-10-21 18:00:00.114794"
   },
   {
+   "id": "PF304520",
+   "title": "잔해 [대학로]",
+   "from": "2026-11-07",
+   "to": "2026-11-08",
+   "openrun": false,
+   "venue": "창작공간 BBB (창작공간 BBB)",
+   "venueId": "FC004998",
+   "hallId": "FC004998-01",
+   "seats": 70,
+   "large": false,
+   "child": "N",
+   "cast": "노경민, 박주희, 백찬혁, 신수민, 이유미, 장현우",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304520_202610260425060430.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304520_261026_162506.png",
+   "state": "공연예정",
+   "prices": "전석 20,000원",
+   "times": "토요일 ~ 일요일(15:00,19:00)",
+   "runtime": "1시간 10분",
+   "age": "전체 관람가",
+   "producer": "창작집단 수연(水緣) (구. 극단 물:길)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1758105"
+    }
+   ],
+   "registeredAt": "2026-10-26 16:25:06",
+   "updatedAt": "2026-10-26 18:00:00.096362"
+  },
+  {
    "id": "PF303749",
    "title": "제7회 서울연극25페스티벌, 나에게 묻는다, 순환의 노래",
    "from": "2026-11-07",
@@ -3825,6 +3868,42 @@
    ],
    "registeredAt": "2026-08-14 13:42:31",
    "updatedAt": "2026-10-15 11:26:35"
+  },
+  {
+   "id": "PF304443",
+   "title": "금희악기점",
+   "from": "2026-11-23",
+   "to": "2026-11-23",
+   "openrun": false,
+   "venue": "일지아트홀 (일지아트홀)",
+   "venueId": "FC000226",
+   "hallId": "FC000226-01",
+   "seats": 240,
+   "large": false,
+   "child": "N",
+   "cast": "황민수, 임예진, 박선영, 문경초, 전하영, 김보근, 황성환 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304443_202610260129271031.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304443_202610260129270980.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304443_261026_132927.jpg",
+   "state": "공연예정",
+   "prices": "전석 20,000원",
+   "times": "월요일(20:00)",
+   "runtime": "1시간 30분",
+   "age": "만 12세 이상",
+   "producer": "캔즈",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1757484"
+    }
+   ],
+   "registeredAt": "2026-10-26 13:29:27",
+   "updatedAt": "2026-10-26 15:00:00.133774"
   },
   {
    "id": "PF302516",
@@ -4455,12 +4534,20 @@
    "creative": true,
    "links": [
     {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015017"
+    },
+    {
+     "name": "엔티켓",
+     "url": "https://www.enticket.com:469/pfm/sub01_view.html?p_idx=4467"
+    },
+    {
      "name": "인천문화예술회관",
      "url": "http://incheon9.moonhwain.net/rsvc/rsv_pm.html?b_id=incheon&p_idx=1008"
     }
    ],
    "registeredAt": "2026-10-23 11:02:06",
-   "updatedAt": "2026-10-23 15:00:00.235211"
+   "updatedAt": "2026-10-26 10:58:12"
   },
   {
    "id": "PF302399",

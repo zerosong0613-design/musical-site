@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-10-27",
   "shows": {
     "PF272938": {
       "title": "더 맨 얼라이브: 초이스",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25014107",
@@ -30,7 +30,7 @@
     },
     "PF292160": {
       "title": "겨울왕국 [서울]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "https://tickets.interpark.com/goods/26007416",
@@ -131,10 +131,10 @@
           "contentType": "image/gif"
         },
         {
-          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/8/25/202608251051446d5f58217f014930ad7c267aa42aba98.jpg",
+          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/26/20261026090427f57eeb96f270409b8cc449f26340c5c1.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79228",
-          "sha256": "39d1071e76004a175ddd2ec27467b7c3fd1b6f45afd8c1328469b781b1d12a8e",
-          "changed": false,
+          "sha256": "84a7ca9f696eba59e000d6e5405e9eae915f860b34ddd2c6bad6ba28c162e066",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
@@ -699,7 +699,7 @@
     },
     "PF301912": {
       "title": "마제스티 [대학로]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853",
@@ -721,6 +721,13 @@
           "sha256": "4aa279550fb0688c21a9d8d70e8b7e10db769be345817cbea1c9f98dce251ffc",
           "changed": false,
           "contentType": "image/gif"
+        },
+        {
+          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026102519582355.jpg",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853",
+          "sha256": "41431a96a13635e8fe367248acbae021b4f6b6b48c864f4cfb1d714ec3237925",
+          "changed": true,
+          "contentType": "image/jpeg"
         },
         {
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026092809515229.jpg",
@@ -793,13 +800,6 @@
           "contentType": "image/gif"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26013853-02.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853",
-          "sha256": "3224777dc6dafc18776f8ec8140052a903699e664a9314f0e465432e5f7d0401",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
           "url": "https://image.toast.com/aaaaab/ticketlink/TKL_1/mj_open_0923.jpg",
           "pageUrl": "https://www.ticketlink.co.kr/help/notice/66028",
           "sha256": "bd3e2a2f7ef77e2727dcb2cbd1f3d2c1ae3f4168c39f596e4b5fb0d4b5d1276c",
@@ -811,14 +811,14 @@
     },
     "PF301634": {
       "title": "정신병동에도 아침이 와요",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF300974": {
       "title": "두 도시 이야기",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013098",
@@ -830,10 +830,6 @@
         },
         {
           "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13028",
-          "status": "images_found"
-        },
-        {
-          "url": "https://nol.yanolja.com/ticket/genre/musical",
           "status": "images_found"
         },
         {
@@ -934,90 +930,6 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://image6.yanolja.com/cx-ydm/fcNl1zSinK2y1TUk?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "d5e9ab3b243424e3c23c0ba1c5ae27e46935101b0af5106bdd4ed91224bc6662",
-          "changed": false,
-          "contentType": "image/png"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/euraR6VEivWE5FU7?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "118060b0b086a399fde783d6e679b89f280e83ba4292dbafb893c502f41ff9ad",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/2V75SNS14WgfYgeo?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "24e5a01e5c3c533ebec48dc69b1bb5761b55a46ebb348584fb387e173dccffbd",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/q0UQWu1XWZmFkZbU?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "5cd61ad83fde629ee2fdc0df6fc6a13f7e10733cfca2d510a1183df763dcbd5c",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/2oSj6BtR4jsFE4vZ?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "015cb8889d930f87f0a16e6e070abbbd1e8d9b7cfff18fba8e2902ed6dd1b84c",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/AlYeEmE8S1HMRYKF?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "46162aff804126bffa9241fbf4e78cc261ec165f55753dffc94eab7ab6e3b931",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/EqAblEYtZGqwPTQR?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "cccfa2b9ba3cd128797b0bd4377deb22b2e46ce7353d14b2e95b7999e1bf3b2a",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/q4Vg2mI26MYOHeBH?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "d063fb3f980f62fac1fbe771bc08a8c482f7b9cf2df1f9890abcf64dd92a8e0c",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/7pxO6KIgOhkVzbDf?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "7692bab99e2f057b36c649e93f825f556b458d3cd13eb8ed12fda32b07bb95d5",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/ozlSjxFEC8VDd3SW?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "caee8501d52653ccb36606f1eac727b9a74bd7fec21d0a88829d80cf2c3dd0ea",
-          "changed": false,
-          "contentType": "image/png"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/p8NxQ5xHSnySuNBy?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "ba3399b3c971255d21474300c70d116bd01de53c9002d9b66cde8cc5d491662f",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://image6.yanolja.com/cx-ydm/DTK3sMRdBOEUvjl2?type=resize&width=480&quality=100",
-          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
-          "sha256": "5650f12b86965f2490528ac91c02e435793494f1cef35ff510b3f67a352c9dd2",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
           "url": "https://tkfile.yes24.com/img/ajax/loader.gif",
           "pageUrl": "https://ticket.yes24.com/Notice",
           "sha256": "a8a65bafc3aa795e8c9c75c8d88abfbebf4c0a8c9d05fdbb4854bef3ac93a328",
@@ -1106,10 +1018,14 @@
     },
     "PF302516": {
       "title": "레베카 [서울]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013993",
+          "status": "images_found"
+        },
+        {
+          "url": "https://nol.yanolja.com/ticket/genre/musical",
           "status": "images_found"
         },
         {
@@ -1124,13 +1040,6 @@
           "sha256": "03c72637231225eae9d2ac46c4a383ff9c2b4b6eb23aadcff06287480bb6f276",
           "changed": false,
           "contentType": "image/gif"
-        },
-        {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026102212080722.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013993",
-          "sha256": "215e6c828a77c1f597f95a2d1f52d6f378281ba701297a0a9a1c80d6fdfd72d7",
-          "changed": false,
-          "contentType": "image/jpeg"
         },
         {
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100213500400.jpg",
@@ -1203,6 +1112,97 @@
           "contentType": "image/gif"
         },
         {
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26013993-03.jpg",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013993",
+          "sha256": "97ce2b9a418a0ae10d9943246c5340f6b6712841b54cde7d0c997aa903a0376f",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/2V75SNS14WgfYgeo?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "24e5a01e5c3c533ebec48dc69b1bb5761b55a46ebb348584fb387e173dccffbd",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/mW3TiIuCGr2gufLx?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "5f1d1385edfe8f8dbdff9ed08f6719cfbb8f4539ac19966402f50a29e4887bd8",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/DTK3sMRdBOEUvjl2?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "5650f12b86965f2490528ac91c02e435793494f1cef35ff510b3f67a352c9dd2",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/AlYeEmE8S1HMRYKF?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "46162aff804126bffa9241fbf4e78cc261ec165f55753dffc94eab7ab6e3b931",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/fcNl1zSinK2y1TUk?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "d5e9ab3b243424e3c23c0ba1c5ae27e46935101b0af5106bdd4ed91224bc6662",
+          "changed": true,
+          "contentType": "image/png"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/EqAblEYtZGqwPTQR?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "cccfa2b9ba3cd128797b0bd4377deb22b2e46ce7353d14b2e95b7999e1bf3b2a",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/ozlSjxFEC8VDd3SW?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "caee8501d52653ccb36606f1eac727b9a74bd7fec21d0a88829d80cf2c3dd0ea",
+          "changed": true,
+          "contentType": "image/png"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/s9ctWndel7ab18CV?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "8c936065479ef488da511c217a5463f4e77f6ec8cacd245fd9f75074a0f3f74e",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/p8NxQ5xHSnySuNBy?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "ba3399b3c971255d21474300c70d116bd01de53c9002d9b66cde8cc5d491662f",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/konPHy2FZKCAbgta?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "440f24791744e16fde38f6f98931f6d9b975d1c4e7d869abe2dab079baa410df",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/oWuJmr6IWsXauprj?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "7bf28e786023d13d8b4cbed31f8f0b74f50ef7381a3504683c4081a4d644b51b",
+          "changed": true,
+          "contentType": "image/png"
+        },
+        {
+          "url": "https://image6.yanolja.com/cx-ydm/7pxO6KIgOhkVzbDf?type=resize&width=480&quality=100",
+          "pageUrl": "https://nol.yanolja.com/ticket/genre/musical",
+          "sha256": "7692bab99e2f057b36c649e93f825f556b458d3cd13eb8ed12fda32b07bb95d5",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
           "url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610161433074081e848-8fe9-4ffd-a65d-c04b3cc329fe.jpg/melon/resize/130x184/strip/true",
           "pageUrl": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
           "sha256": "b9234624594e54369d2efd26dd5ebb278683ca811fe7bea4b6e1380ed770a21e",
@@ -1214,7 +1214,7 @@
     },
     "PF282162": {
       "title": "서울시뮤지컬단, 크리스마스 캐럴",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004481",
@@ -1333,7 +1333,7 @@
     },
     "PF302677": {
       "title": "미세스 다웃파이어 [서울]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014015",
@@ -1430,7 +1430,7 @@
     },
     "PF302744": {
       "title": "식스 더 뮤지컬 (SIX THE MUSICAL)",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60484",
@@ -1496,7 +1496,7 @@
     },
     "PF299684": {
       "title": "빨래 [수원]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012526",
@@ -1612,7 +1612,7 @@
     },
     "PF298294": {
       "title": "그날들 [이천]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011647",
@@ -1660,7 +1660,7 @@
     },
     "PF294046": {
       "title": "빨래 [하남]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008450",
@@ -1715,7 +1715,7 @@
     },
     "PF301439": {
       "title": "광화문연가 [인천]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013050",
@@ -1812,14 +1812,10 @@
     },
     "PFX2026SWEENEY": {
       "title": "스위니토드",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "https://nol.yanolja.com/ticket/products/26014509",
-          "status": "images_found"
-        },
-        {
-          "url": "https://www.ticketlink.co.kr/help/notice/66135",
           "status": "images_found"
         }
       ],
@@ -1839,39 +1835,81 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26014509-01.jpg",
+          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026101212445945.jpg",
           "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
-          "sha256": "52cc20d8162e84115dd696f1b93f7d7597fe4fe688230576866dd50c6cc18f72",
-          "changed": false,
+          "sha256": "ee6362938cb6ba98db4a2b9273f099a54921856a506990858f623efd7538ab7d",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26014509-02.jpg",
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_364_01.j253.gif",
           "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
-          "sha256": "91ef22f405caa59280bce7f96dc2b1e54188453c28a5fe910bc02873034b9cec",
-          "changed": false,
+          "sha256": "1973cf1110a03d0028c14944f3ea9d864ef840c0c7ecc231f720397dba210a5a",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_348_011.349.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "b4d84a5999b0c0b656eda5fbee5a82608f85b6de1be8e7ead650a1fee1bb23a9",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/08/09/0400040809_10771_02502.916.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "f61e7afad158cffbd9dbb3566430f32f111c9be742cf6d9a7871a66d98ec98e9",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_3438_013654.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "51a57894d042c83a6df52df6b6ddec6d3ed7652b43aa74b7ca096f35aab1be0b",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_3583_012.229.jpg",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "c283a697cd77c0b6cbf79336f54bef54d6cef29eba469515f3c1722694b80db1",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100814542542.jpg",
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/10/03/0400041003_20681_02130.gif",
           "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
-          "sha256": "d1c4bf47d5cfb62b84d9969839e58ab6a7c2b4d468fea96b8cfd3c90389a5697",
-          "changed": false,
-          "contentType": "image/jpeg"
+          "sha256": "78a23f2c5433a0451d7717b83ab126c3429425f6383e4b31541b250c718c861c",
+          "changed": true,
+          "contentType": "image/gif"
         },
         {
-          "url": "https://image.toast.com/aaaaab/ticketlink/TKL_5/26-27SWT_open_1007.jpg",
-          "pageUrl": "https://www.ticketlink.co.kr/help/notice/66135",
-          "sha256": "653bff39ea65a08519bcc1b2ba3b13b9fb19854c8220d22ce2f39fadfb21884d",
-          "changed": false,
-          "contentType": "image/jpeg"
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_49_011.j735.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "7119609d221560c537b3903a949a16f6964ffc9cc68a0d3813d50d438e978e43",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_2280_011019.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "8608fd65df59aefd369819c17978ae8cc1f6df1f1713d4e6969a15e1780bb378",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_1967_011922.613.gif",
+          "pageUrl": "https://nol.yanolja.com/ticket/products/26014509",
+          "sha256": "c1150436e1a5d495cbe652b730fc66fc233f7e96791cb94eaea1973071493366",
+          "changed": true,
+          "contentType": "image/gif"
         }
       ],
       "status": "images_need_extraction"
     },
     "PF235543": {
       "title": "난타 [명동]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22006637",
@@ -1954,7 +1992,7 @@
     },
     "PF236349": {
       "title": "난타 [홍대]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=23012005",
@@ -2030,7 +2068,7 @@
     },
     "PF242666": {
       "title": "페인터즈 [서대문전용관]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25005146",
@@ -2085,7 +2123,7 @@
     },
     "PF247938": {
       "title": "점프 JUMP",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=24015236",
@@ -2364,7 +2402,7 @@
     },
     "PF291886": {
       "title": "헬스키친",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007169",
@@ -2391,13 +2429,6 @@
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/5/2026051810185709.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007169",
           "sha256": "c206842926eb7344562dd59daef0550613a8239247c3eb77ec5d607e757927f9",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026102017553546.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007169",
-          "sha256": "e09c2433806108a845865e49e042f48550f1837551c0295fd0a3b7768511d66c",
           "changed": false,
           "contentType": "image/jpeg"
         },
@@ -2465,6 +2496,13 @@
           "contentType": "image/jpeg"
         },
         {
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26007169-17.jpg",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007169",
+          "sha256": "6da328c256e29c133228864c1b2d6a236758dd38f82b529f2b1865f893e60115",
+          "changed": true,
+          "contentType": "image/jpeg"
+        },
+        {
           "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/9/3/20260903040159b24cf7551cb44f2a83a8fb983333b8e1.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219",
           "sha256": "af4f21570ddd08ecf102f42900f4205cd2626794dcb1c88d4397b7b5f44a53ac",
@@ -2472,17 +2510,17 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/21/202610210853232c2aca394df5408db0cdea6a5fa444b2.jpg",
+          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/26/202610261022356e2e9f27319b427ebd95e04c0e0ad42f.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219",
-          "sha256": "c36d0eb1be5b98d24730ed7779673d0424404b57e8f7797dd7411b847178017a",
-          "changed": false,
+          "sha256": "f0d0195a27bba3ac2a95e0e80951e668f555688af765a89418fbeff3a0ae7366",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/7/2026100712350863cc6806d583433bb0d69541cd8bc171.jpg",
+          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/26/202610260919432e7ca169a4454b6ea7bf7c1c11779b05.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79219",
-          "sha256": "1ffa8d0965af89c43c3f39a9ff6e6091a02e9eb575cb147defc37de4d7ecbbd9",
-          "changed": false,
+          "sha256": "722c73a9d509a5ed7f21ecac7413b858c0b0aa5915f925f8c0a7dd9a290445b0",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
@@ -2518,7 +2556,7 @@
     },
     "PF292306": {
       "title": "디어 에반 핸슨 (Musical Dear Evan Hansen) [서울]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007442",
@@ -2633,13 +2671,6 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/10/1/20261001095948370381520d9244a990cde0cbe4fcb717.jpg",
-          "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79229",
-          "sha256": "d8f307be0cb55e13b086523864b14bfd3cf485f018eb886f688881818f4e2fd8",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
           "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/9/9/202609090859438e42f820bf0c4b29b2cb969f016fb387.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79229",
           "sha256": "24d78048ea90d766afde017fd44d07f7180c15840100a26026e641c0ee8733d8",
@@ -2741,7 +2772,7 @@
     },
     "PF296148": {
       "title": "소크라테스 패러독스",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010086",
@@ -2772,10 +2803,10 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026101911011294.jpg",
+          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026102316042155.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010086",
-          "sha256": "54a2035e333142a11d535cbab9f177e5eaa010efe55cefc6ab048878472ad506",
-          "changed": false,
+          "sha256": "7c384f07e4caee405fed0d645a5b4bcb127a059ea83b499d71ae79d6da26daf7",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
@@ -2860,7 +2891,7 @@
     },
     "PF298163": {
       "title": "연의 편지 [대학로]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
@@ -2887,13 +2918,6 @@
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/9/2026091009235429.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
           "sha256": "99b37ae7d1706f72162bcc62e811a741a2068f0e69805809cbb427dd49e0ac21",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100111313245.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
-          "sha256": "e385c1db773f1f00801a01700bb2556138a488276e82fbe841dffe5f6ccf49aa",
           "changed": false,
           "contentType": "image/jpeg"
         },
@@ -2959,13 +2983,20 @@
           "sha256": "e1ba5fc361c55a5722985b3afa82a3b7043015e077d408c9b930215a83810a61",
           "changed": false,
           "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/19/08/0400041908_45155_02.gif",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
+          "sha256": "6f457cab20b3393a6b463eea2c7d733f08e7fb4efc44e2b49869605aa80cf9b8",
+          "changed": true,
+          "contentType": "image/gif"
         }
       ],
       "status": "images_need_extraction"
     },
     "PF296104": {
       "title": "콰이어 오브 맨 [대학로]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009193",
@@ -3163,7 +3194,7 @@
     },
     "PF298792": {
       "title": "섬: 1933~2019",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011828",
@@ -3260,7 +3291,7 @@
     },
     "PF297794": {
       "title": "엠. 버터플라이",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
@@ -3283,20 +3314,13 @@
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026102519551986.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
           "sha256": "1581f5a6125a34e4c12682b7dee2aaa698d394d6a6120a2081ede61f07ce6858",
-          "changed": true,
+          "changed": false,
           "contentType": "image/jpeg"
         },
         {
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/8/2026080516053458.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
           "sha256": "b1decc831630fcccd7c655807217a7097e45624bd6b4f2106b24effd5e7adc76",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026100817154840.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
-          "sha256": "b8a3a529c84e57cc78a1407e819f0521a51afaa3db3512a1cd5f0b1f2bf0555f",
           "changed": false,
           "contentType": "image/jpeg"
         },
@@ -3354,6 +3378,13 @@
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
           "sha256": "093f4d0d44fcee788aa8d3335bd7cb70e208912a23adedfe98766922dc64ba8c",
           "changed": false,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/21/08/0400042108_48250_02.936.gif",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
+          "sha256": "3f4df87dc564843835116a953ec2a16e82d49c8918e2bcce8194933456baca2b",
+          "changed": true,
           "contentType": "image/gif"
         }
       ],
@@ -3615,14 +3646,14 @@
     },
     "PF302770": {
       "title": "정약용 묵시록: 희망과 허망 사이, 붓으로 길을 열다 [남양주]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF302016": {
       "title": "썸데이 [안성]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013791",
@@ -3649,7 +3680,7 @@
     },
     "PF302842": {
       "title": "오페라의 유령 40주년 스페셜 시즌",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013995",
@@ -3796,7 +3827,7 @@
     },
     "PF301001": {
       "title": "광화문 연가 [수원]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013007",
@@ -3893,7 +3924,7 @@
     },
     "PF303268": {
       "title": "80일의 끝에서 낭독공연",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014255",
@@ -3990,7 +4021,7 @@
     },
     "PF303276": {
       "title": "사의찬미 [서울 영등포]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013816",
@@ -4038,7 +4069,7 @@
     },
     "PF303043": {
       "title": "스위니토드 (SWEENEY TODD)",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014509",
@@ -4135,7 +4166,7 @@
     },
     "PF303193": {
       "title": "오지게 재밌는 가시나들 [과천]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014505",
@@ -4162,7 +4193,7 @@
     },
     "PF303612": {
       "title": "오지게 재밌는 가시나들 [안산]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60351",
@@ -4174,14 +4205,14 @@
     },
     "PF303878": {
       "title": "애프터 나인 쇼케이스",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF295981": {
       "title": "서울예술단, 백범",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "https://nol.yanolja.com/ticket/products/26013711",
@@ -4226,7 +4257,7 @@
     },
     "PF303673": {
       "title": "여신님이 보고 계셔 [대학로]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014511",
@@ -4327,7 +4358,7 @@
     },
     "PF303912": {
       "title": "쉐도우 [인천]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014912",
@@ -4389,14 +4420,34 @@
     },
     "PF304258": {
       "title": "청소년을 위한 공연축제 Ⅱ, 페이크북 [인천]",
-      "checkedAt": "2026-10-26",
-      "pages": [],
-      "images": [],
-      "status": "no_sources"
+      "checkedAt": "2026-10-27",
+      "pages": [
+        {
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015017",
+          "status": "images_found"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://ticketimage.interpark.com/Play/image/large/26/26015017_p.gif",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015017",
+          "sha256": "f7d9d42f7e7573db82f45678806179b8e90704c6ea3a239550ed6ba59d744be8",
+          "changed": true,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26015017-02.jpg",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015017",
+          "sha256": "349b457f5b3b69e9465d3f5682504a42996e33243ba9c43b9a17beee79c29842",
+          "changed": true,
+          "contentType": "image/jpeg"
+        }
+      ],
+      "status": "images_need_extraction"
     },
     "PF304068": {
       "title": "앨런 튜링 [대학로]",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014988",
