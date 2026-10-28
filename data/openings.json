@@ -1,64 +1,5 @@
 [
  {
-  "id": "nol-26015064",
-  "at": "2026-10-21 11:00",
-  "title": "뮤지컬 〈닥터 두리틀〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26015064",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66216",
-  "at": "2026-10-21 11:00",
-  "title": "뮤지컬 <닥터 두리틀> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66216",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66234",
-  "at": "2026-10-21 14:00",
-  "title": "[링크스페셜데이_Page 13] 뮤지컬 <렛미플라이> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66234",
-  "mt20id": "PF299346",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-b9ba47c9b65466416536"
-  ]
- },
- {
-  "id": "ticketlink-66260",
-  "at": "2026-10-21 14:00",
-  "title": "DSAC 지역예술 협력 프로그램 뮤지컬 <붕어빵> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66260",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66238",
-  "at": "2026-10-21 15:00",
-  "title": "<아기상어 쿵짝쿵짝 뮤지컬 in 영등포> 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66238",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66215",
   "at": "2026-10-22 13:00",
   "title": "[피처링 트랙_58] 뮤지컬 <아나키스트> 티켓오픈 안내",
@@ -323,6 +264,43 @@
   "announcementIds": [
    "announcement-fe054f7d97acac6f7559"
   ]
+ },
+ {
+  "id": "ticketlink-66350",
+  "at": "2026-11-05 14:00",
+  "title": "뮤지컬 <시카고> 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66350",
+  "mt20id": "PF302015",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-0f76db504152e1f0ddbe"
+  ]
+ },
+ {
+  "id": "ticketlink-66352",
+  "at": "2026-11-05 14:00",
+  "title": "뮤지컬 <풍월주> 프리뷰 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66352",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18760",
+  "at": "2026-11-05 14:00",
+  "title": "뮤지컬 <풍월주> 프리뷰 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18760",
+  "mt20id": null
  },
  {
   "id": "ticketlink-66331",
