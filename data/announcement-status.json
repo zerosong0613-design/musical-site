@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-27T18:31:30.765Z",
+ "checkedAt": "2026-10-28T00:30:03.723Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
@@ -34,6 +34,14 @@
    "status": "review_needed"
   },
   {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127751&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127750&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1",
    "status": "review_needed"
   },
@@ -54,10 +62,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127696&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -71,13 +75,13 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 0
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
@@ -110,11 +114,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
@@ -122,7 +126,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.edaily.co.kr/News/Read?newsId=04559206645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259972",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/topstarnews/224456081445",
    "status": "review_needed"
   },
   {
@@ -131,10 +139,6 @@
   },
   {
    "url": "https://blog.naver.com/trendmemory/224454852482",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/ksu4718/224447054533",
    "status": "review_needed"
   }
  ]

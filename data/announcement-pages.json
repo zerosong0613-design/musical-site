@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-28",
   "status": "verified",
-  "contentHash": "18a479c9a9d74b47b18c0239f346c0319a66c65cbddbc81e3fffbc00f50be6d1"
+  "contentHash": "17588189127fb1019c21acde6bf77491bfb47dd11d2a3606c62203a72fd4f3b7"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-26",
@@ -972,7 +972,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "856fd9f5f398be04ccc81ce25c5a5ad998f69a1565f9f2387e9c978e4353691f"
+  "contentHash": "d2008a5cd436ccf41006feab5a5fed4d4ec4dcccc487a8425347664782da67c4"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-28",
@@ -1232,7 +1232,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "745cffbc39fe52afe8b29cd2b46ea5be13562e599dbe360349dbf518a33f8f99"
+  "contentHash": "363a7b7b8672659f95f6683cc207eec89637433e835eb3a5b4b2acd0e70b68e7"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1342,7 +1342,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "333b01a0e50d6cebabde08495cdae00f45ae04247d9b1729dc08be19a2dd0a13"
+  "contentHash": "08c99fa6f757212239e5fef35396c3a77f0aa2f865eca53b637239c1f575f485"
  },
  "https://www.ticketlink.co.kr/help/notice/66328": {
   "checkedAt": "2026-10-28",
@@ -1377,7 +1377,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "67eda90a28918bd27ec2243e9ba679fb18ed73dd3a62d3de79124ff4c53931a7"
+  "contentHash": "93f03b95d15769dae4cc8a2764b2eb556a0b0d52348c7eb40be55716884cfab4"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1": {
   "checkedAt": "2026-10-28",
@@ -1433,5 +1433,30 @@
   "checkedAt": "2026-10-28",
   "status": "review_needed",
   "contentHash": "01f43a5dfb88cae7aa69e30687410b5b6819a05a4a12a2a40f5566202f617ccb"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127751&page=1": {
+  "checkedAt": "2026-10-28",
+  "status": "review_needed",
+  "contentHash": "d6305e37fc69dc738e486f2936c0cb2eb11f092825bdb38cf92d0b2ff282edfd"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127750&page=1": {
+  "checkedAt": "2026-10-28",
+  "status": "review_needed",
+  "contentHash": "ae79131e5f36d53b52969224392d64603e222cf40efe1e58bc3ca777417bf7fe"
+ },
+ "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
+  "checkedAt": "2026-10-28",
+  "status": "review_needed",
+  "contentHash": "5e69746f812f0229b85041d94df75fefadc945bf747604cfd501e63801c3e394"
+ },
+ "https://blog.naver.com/topstarnews/224456081445": {
+  "checkedAt": "2026-10-28",
+  "status": "review_needed",
+  "contentHash": "a8e8682937030217ca0a941683e823199ecbfb58d5666c9ea9211c38e267650f"
+ },
+ "https://blog.naver.com/happyak-/224456124902": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "76e172e247508d403e43a496f96ff1a9d5e9d059b5c662e94e0b72ea7cef5d25"
  }
 }

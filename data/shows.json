@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T00:22:18.463Z",
+ "generatedAt": "2026-10-28T00:26:20.209Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -1084,7 +1084,7 @@
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF291533_260515_150927.gif",
    "state": "공연중",
    "prices": "R석 77,000원, S석 55,000원, 시야제한석 20,000원",
-   "times": "수요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30)",
+   "times": "수요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(15:00)",
    "runtime": "2시간 45분",
    "age": "만 13세 이상",
    "producer": "(주)씨에이치수박",
@@ -1094,10 +1094,14 @@
     {
      "name": "놀유니버스",
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007159"
+    },
+    {
+     "name": "코스타(Coaster)",
+     "url": "https://ticket.co-star.kr/shop/item.php?it_id=1792664471"
     }
    ],
    "registeredAt": "2026-05-15 15:09:27",
-   "updatedAt": "2026-05-15 18:00:04.119171"
+   "updatedAt": "2026-10-27 13:38:48"
   },
   {
    "id": "PF294961",
@@ -1142,7 +1146,7 @@
    "id": "PF295172",
    "title": "늦은 봄날",
    "from": "2026-07-17",
-   "to": "2026-11-01",
+   "to": "2026-11-29",
    "openrun": true,
    "venue": "블랙박스 1357 (블랙박스 1357(B1))",
    "venueId": "FC004947",
@@ -1171,11 +1175,11 @@
     },
     {
      "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009078"
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014494"
     }
    ],
    "registeredAt": "2026-07-02 14:54:27",
-   "updatedAt": "2026-10-01 11:08:15"
+   "updatedAt": "2026-10-27 10:47:27"
   },
   {
    "id": "PF291886",
@@ -3652,6 +3656,41 @@
    "updatedAt": "2026-10-22 18:00:00.064361"
   },
   {
+   "id": "PF304620",
+   "title": "악극제, 작은 할머니 [성남]",
+   "from": "2026-11-14",
+   "to": "2026-11-14",
+   "openrun": false,
+   "venue": "성남아트센터 (앙상블씨어터)",
+   "venueId": "FC000016",
+   "hallId": "FC000016-03",
+   "seats": 378,
+   "large": false,
+   "child": "N",
+   "cast": "김영, 이주희, 강은주, 강준구, 김성언, 정영경, 이정희 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304620_202610270318027640.png"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304620_261027_151802.png",
+   "state": "공연예정",
+   "prices": "전석무료",
+   "times": "토요일(15:00)",
+   "runtime": "",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015033"
+    }
+   ],
+   "registeredAt": "2026-10-27 15:18:03",
+   "updatedAt": "2026-10-27 18:00:00.115388"
+  },
+  {
    "id": "PF303127",
    "title": "플릭스! (Musical FLIX!)",
    "from": "2026-11-17",
@@ -3904,6 +3943,41 @@
    ],
    "registeredAt": "2026-10-26 13:29:27",
    "updatedAt": "2026-10-26 15:00:00.133774"
+  },
+  {
+   "id": "PF304559",
+   "title": "더 퍼스트 에디션 낭독공연",
+   "from": "2026-11-23",
+   "to": "2026-11-23",
+   "openrun": false,
+   "venue": "성수아트홀(성수문화복지회관) (성수아트홀(성수문화복지회관))",
+   "venueId": "FC001173",
+   "hallId": "FC001173-01",
+   "seats": 352,
+   "large": false,
+   "child": "N",
+   "cast": "최민우, 고훈정, 최지혜, 홍륜희, 노희찬, 김우성, 김채은 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304559_202610271111215150.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304559_261027_111121.jpg",
+   "state": "공연예정",
+   "prices": "R석 20,000원, S석 15,000원",
+   "times": "월요일(19:00)",
+   "runtime": "2시간 30분",
+   "age": "만 11세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66448"
+    }
+   ],
+   "registeredAt": "2026-10-27 11:11:22",
+   "updatedAt": "2026-10-27 15:00:00.104381"
   },
   {
    "id": "PF302516",
@@ -4505,6 +4579,51 @@
    ],
    "registeredAt": "2026-10-13 14:10:55",
    "updatedAt": "2026-10-13 15:00:00.058353"
+  },
+  {
+   "id": "PF304574",
+   "title": "인간실격: 사양 편",
+   "from": "2026-12-11",
+   "to": "2027-03-07",
+   "openrun": false,
+   "venue": "예스24 스테이지(구. DCF대명문화공장) (3관(구. 수현재씨어터))",
+   "venueId": "FC001236",
+   "hallId": "FC001236-03",
+   "seats": 255,
+   "large": false,
+   "child": "N",
+   "cast": "안재영, 박정원, 정재환, 박수야, 김주연, 박세연, 강정우 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304574_202610270106402702.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304574_202610270106402391.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304574_202610270106402060.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304574_261027_130640.jpg",
+   "state": "공연예정",
+   "prices": "전석 66,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 14세 이상",
+   "producer": "(주) 아더스 이니티움 (Arthus Initium)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66527"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1764038"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60772"
+    }
+   ],
+   "registeredAt": "2026-10-27 13:06:40",
+   "updatedAt": "2026-10-27 15:00:00.104381"
   },
   {
    "id": "PF304258",
