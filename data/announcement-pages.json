@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-28",
   "status": "verified",
-  "contentHash": "b7a8811971b4427501e9c99be5e417cb0b6d8055cae14d6fa60bd69e7e440a82"
+  "contentHash": "e496a0ca7b7ad9eeea8e47ceb451cb421fb893bd6ca4a856b64a5dc5a47f95f2"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-26",
@@ -690,9 +690,8 @@
  },
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13079": {
   "checkedAt": "2026-10-28",
-  "status": "fetch_failed",
-  "contentHash": "0a023e9f99d7d4e2f9fbe4ba8cf0913806a02f555b4270bd831f02b50a9273f8",
-  "error": "HTTP 423"
+  "status": "verified",
+  "contentHash": "847b5de7b458f3f7b97b8df4020665bb8b60557e60ceda1bc23eacc4a1819366"
  },
  "https://www.smarttoday.co.kr/ko-kr/articles/112902": {
   "checkedAt": "2026-10-23",
@@ -972,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "678bd151b0986591de4419b2ff86c9477fb313c80802c38ad57abee1a582823a"
+  "contentHash": "80e7f63bc2b597310b93c0370f78ee31ec924b3980e81d2203c00d018bed49f7"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-28",
@@ -1232,7 +1231,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "fc6c120e02ebdb35f67a9009ea806914c5852e5dfb56acc1c921a4cfa5b8d991"
+  "contentHash": "ca6268ce3c7ce17efccda6554c5098ff111c4359bef55a367789408d7eb00f43"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1342,7 +1341,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "3d8f6b33916ee6015c1274f1c0345d2c43a735cf9309130610f069fc8e46807b"
+  "contentHash": "d782bfe276a9764ed919397af5c42bc97e547e2de22cb89e45a8e647a3ee1605"
  },
  "https://www.ticketlink.co.kr/help/notice/66328": {
   "checkedAt": "2026-10-28",
@@ -1377,7 +1376,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "09a63f69ddde03d7a1a49a7eebd4bf63851ab448e9e9892861866cc175315660"
+  "contentHash": "60c30cc270c938293b5ff0b986ec039d52c8e06aa7180c248c401c87dbc2dea4"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1": {
   "checkedAt": "2026-10-28",
@@ -1447,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-10-28",
   "status": "review_needed",
-  "contentHash": "a967962fc4ff327881a16fb17a78ebdf82250b9ce96f9fda708c16fa0de4ae22"
+  "contentHash": "e0dfb8b10bea020b7205eb26c6e82f1465d16a2836b7e40dfdf29c9c2ade8708"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1503,5 +1502,40 @@
   "checkedAt": "2026-10-28",
   "status": "not_relevant",
   "contentHash": "6ecb9ec0ad4e715252d4b3ec681be5c8cc989d2350355cbb499d4497a634c527"
+ },
+ "https://blog.naver.com/dears_91/224457003831": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "2bec8092f5fa050e971f6eb5b800534d24646907d54109a213f44d3d32d391c5"
+ },
+ "https://blog.naver.com/mkterran/224456421777": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "e83c568f3085749d71caa2e028e0a3d9e0a0f1048b4fc0d5097c74cf83777404"
+ },
+ "https://blog.naver.com/mkterran/224456420693": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "851d7141fa5e9270456caf5300cb64a8eec65f2c612e2eb1798f191316d9903b"
+ },
+ "https://blog.naver.com/pyeonam/224456531716": {
+  "checkedAt": "2026-10-28",
+  "status": "review_needed",
+  "contentHash": "b6428b613b17d350c62999355ae73551c0ec79748c46e90cea54e327d089a1ec"
+ },
+ "https://blog.naver.com/with_art_official/224456911678": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "454dbba26066576c340e3672a27b60916ec454fa052bc80ef8559127a4e5f337"
+ },
+ "https://blog.naver.com/xiaxia_861215/224457037114": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "ecea3a3de088af11c1651779752d053b52246774f07d4a78ef30bfd11399ccc2"
+ },
+ "https://blog.naver.com/new_dps_planning/224456870737": {
+  "checkedAt": "2026-10-28",
+  "status": "not_relevant",
+  "contentHash": "037479b986018f0ca5116d6407fbdee21a2825f522ffb5d3172a1ff2bd966b6e"
  }
 }
