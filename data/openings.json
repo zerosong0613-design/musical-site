@@ -1,20 +1,5 @@
 [
  {
-  "id": "ticketlink-66215",
-  "at": "2026-10-22 13:00",
-  "title": "[피처링 트랙_58] 뮤지컬 <아나키스트> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66215",
-  "mt20id": "PF298593",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-cf970ffb0dfd1e701cb8"
-  ]
- },
- {
   "id": "yes24-18713",
   "at": "2026-10-26 14:00",
   "title": "뮤지컬 [인간실격 : 사양 편] 프리뷰 티켓오픈 안내",
@@ -260,6 +245,21 @@
   ],
   "performanceFrom": "2026-12-22",
   "performanceTo": "2027-01-17"
+ },
+ {
+  "id": "ticketlink-66368",
+  "at": "2026-11-03 15:00",
+  "title": "뮤지컬 <이끼숲> 마지막 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "마지막",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66368",
+  "mt20id": "PF299855",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a0ba82250ede681b6dae"
+  ]
  },
  {
   "id": "yes24-18742",
