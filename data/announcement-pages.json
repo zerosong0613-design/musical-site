@@ -350,9 +350,9 @@
   "contentHash": "2cad9a465e14209692a5cdea514008e055d642ab1b0c117f5449ce230b6c8e4f"
  },
  "https://ticket.yes24.com/Notice": {
-  "checkedAt": "2026-10-16",
+  "checkedAt": "2026-10-29",
   "status": "verified",
-  "contentHash": "45a91f3612b670a2299840eaa333e9008bd9c55e85183b28804f4315a2e3ea81"
+  "contentHash": "4ec3543e1144bdd256ad22cec6f4b6fa3c8cfd875d16a9f5a9afc9142b8b8539"
  },
  "https://blog.naver.com/musiiiical/224443206779": {
   "checkedAt": "2026-10-18",
@@ -596,7 +596,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
   "checkedAt": "2026-10-29",
   "status": "verified",
-  "contentHash": "8bee9b50ae68f29cfe3944030973b8457085dfd024ddb70d612039c286757a17"
+  "contentHash": "777f3af8a976a0e407c3cb74ed8f0cd27a417350cb8dd68ab0ef5d7e00c232e3"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127677&page=1": {
   "checkedAt": "2026-10-26",
@@ -971,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-29",
   "status": "verified",
-  "contentHash": "3e4233a89889f805e64bd9b9b91e0c0ad26f43ac596209a4a5ac28faa7b8566d"
+  "contentHash": "763eedf9425b89c7252e73b150f89cc27548c5563a6ccc68d15a273f4eafe3d4"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-28",
@@ -1231,7 +1231,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-29",
   "status": "review_needed",
-  "contentHash": "b966691718759fd5e30106abdea064f6ee9ab757115ee26968268e60cfa6c604"
+  "contentHash": "187a2c6befc99526997cfeb5b9fee8242b09cb1fcc1e5590ba153cf5732d73d3"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1291,7 +1291,7 @@
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127734&page=1": {
   "checkedAt": "2026-10-29",
   "status": "review_needed",
-  "contentHash": "96796b3574e7f997db5270c0aa5eb534bab3160f23938460261aedc5a2678c65"
+  "contentHash": "dfcd8232fcae3cc599318a74538d1c356056c274af1b4e01ceb0e17b9308bad4"
  },
  "https://www.edaily.co.kr/News/Read?newsId=04559206645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article": {
   "checkedAt": "2026-10-28",
@@ -1341,7 +1341,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749": {
   "checkedAt": "2026-10-29",
   "status": "verified",
-  "contentHash": "d5d8f5d914fd9cb3d0a0d865216fe6a8a17222c58884d9cc5d10385858f362c7"
+  "contentHash": "81205add67ea3530898a3b53f4175d2859429abeff5340e76db3d2228b256b91"
  },
  "https://www.ticketlink.co.kr/help/notice/66328": {
   "checkedAt": "2026-10-29",
@@ -1376,7 +1376,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758": {
   "checkedAt": "2026-10-29",
   "status": "review_needed",
-  "contentHash": "229c12f87d34c4189e77227119e9a87499c1998f0c7af2634fe09f49dad71d5a"
+  "contentHash": "329d1ef330392e6c8eb54602ee105f25fc8fcd60e70ffb3d11bfa1abae9bfe75"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1": {
   "checkedAt": "2026-10-29",
@@ -1446,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-10-29",
   "status": "review_needed",
-  "contentHash": "bdff33495686b997a9c23a0ce549c72ac20527ee80e6e8775fe2f98d247dce85"
+  "contentHash": "d1d128ba9810e4ebcec7e493dc93428810bd6bc6763fa5c1f80be40278494032"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1581,7 +1581,7 @@
  "https://www.mydaily.co.kr/page/view/2026102914470331611": {
   "checkedAt": "2026-10-29",
   "status": "review_needed",
-  "contentHash": "d15fb70f13ac45d79bf3035cf9eb0b2a6e8cb063252a5ab0db7fdb94d5c94542"
+  "contentHash": "48f302249c58bb84a8e11a03de025d6eb11714ca3ac7427add2ad1279a9505f2"
  },
  "https://blog.naver.com/oa2020/224457882490": {
   "checkedAt": "2026-10-29",
@@ -1622,5 +1622,20 @@
   "checkedAt": "2026-10-29",
   "status": "review_needed",
   "contentHash": "20e0e20f5567cf85dbcf4b918367d3a762aba41234841bd93884763a1df9f5de"
+ },
+ "https://blog.naver.com/goodseatview/224458301978": {
+  "checkedAt": "2026-10-29",
+  "status": "review_needed",
+  "contentHash": "ffeecd0d6357187fed4179cdf4de702f8df135077dcc16de956b00ff77cf6dac"
+ },
+ "https://blog.naver.com/dears_91/224458049989": {
+  "checkedAt": "2026-10-29",
+  "status": "not_relevant",
+  "contentHash": "6f0bd73819ef6780377bbdb544105f90267aef819e3ebf391a884114c2940711"
+ },
+ "https://blog.naver.com/enternow_/224457934916": {
+  "checkedAt": "2026-10-29",
+  "status": "not_relevant",
+  "contentHash": "3aa5b2351446c0b39610b01eb36104eb1ba428c3d1545aeb9009bfc53bb396ba"
  }
 }
