@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-30T06:42:53.143Z",
+ "checkedAt": "2026-10-30T13:46:14.949Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749",
@@ -42,6 +42,10 @@
    "status": "verified"
   },
   {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127773&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127771&page=1",
    "status": "review_needed"
   },
@@ -70,10 +74,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127734&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -93,7 +93,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 3
   },
   {
    "source": "네이버 블로그",
@@ -105,7 +105,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -147,6 +147,10 @@
   },
   {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259972",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/kkachitong/224459533530",
    "status": "review_needed"
   }
  ]
