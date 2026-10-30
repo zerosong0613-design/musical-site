@@ -230,6 +230,17 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66375",
+  "at": "2026-11-03 10:00",
+  "title": "베베핀 뮤지컬 <두근두근 새친구> - 서울 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66375",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66333",
   "at": "2026-11-03 14:00",
   "title": "뮤지컬 스위니토드( SWEENEY TODD ) – 10주년 2차 티켓오픈 안내",
@@ -247,6 +258,17 @@
   "performanceTo": "2027-01-17"
  },
  {
+  "id": "ticketlink-66387",
+  "at": "2026-11-03 14:00",
+  "title": "뮤지컬 헬로카봇 〈카봇크루가 되어줘!〉 - 성남 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66387",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66368",
   "at": "2026-11-03 15:00",
   "title": "뮤지컬 <이끼숲> 마지막 티켓오픈 안내",
@@ -259,6 +281,36 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-a0ba82250ede681b6dae"
+  ]
+ },
+ {
+  "id": "yes24-18771",
+  "at": "2026-11-04 12:00",
+  "title": "뮤지컬 [렛미플라이] 4차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "4차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-bea433e4f1b37d1c2029"
+  ]
+ },
+ {
+  "id": "ticketlink-66384",
+  "at": "2026-11-04 12:00",
+  "title": "뮤지컬 <렛미플라이> 4차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "4차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66384",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-5b042bc7978c7de97629"
   ]
  },
  {
@@ -275,6 +327,17 @@
   "announcementIds": [
    "announcement-fe054f7d97acac6f7559"
   ]
+ },
+ {
+  "id": "yes24-18769",
+  "at": "2026-11-04 15:00",
+  "title": "뮤지컬 [아가사 AGATHA] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18769",
+  "mt20id": null
  },
  {
   "id": "ticketlink-66350",
@@ -333,6 +396,17 @@
   "exclusive": false,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18752",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66378",
+  "at": "2026-11-05 16:00",
+  "title": "뮤지컬 <우주보다 멀고 빛보다 가까운> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66378",
   "mt20id": null
  },
  {

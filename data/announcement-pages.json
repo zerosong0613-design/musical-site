@@ -270,9 +270,9 @@
   "contentHash": "eb5c1794bb56de7ba8581e3820014fe1d40d85c9be5177aaade3b54e63aa073d"
  },
  "https://nol.yanolja.com/ticket/genre/musical": {
-  "checkedAt": "2026-10-27",
+  "checkedAt": "2026-10-30",
   "status": "verified",
-  "contentHash": "8fc4c744af3d82e8a214e45c55bc0764b8befcdbb698771136a5420deadf136e"
+  "contentHash": "53e4373af05d5acca3f60b34a906fd04cf9a173be8cd64e9ea8b16fffc4d9142"
  },
  "https://www.nc.press/news/articleView.html?idxno=628417": {
   "checkedAt": "2026-10-16",
@@ -352,7 +352,7 @@
  "https://ticket.yes24.com/Notice": {
   "checkedAt": "2026-10-30",
   "status": "verified",
-  "contentHash": "9907ed9721b5ac79edbf53a61d44d1d6a800dd3f85bbebd5216e01006f32bc8a"
+  "contentHash": "944d351b22b4c929ec57d3e4ccbc84f8eecbde8465070a54ee776660109a6ec1"
  },
  "https://blog.naver.com/musiiiical/224443206779": {
   "checkedAt": "2026-10-18",
@@ -971,7 +971,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737": {
   "checkedAt": "2026-10-30",
   "status": "verified",
-  "contentHash": "9baca5f2d181d0d8f635a780ee89e0f748048be8f9811507318f553943be3913"
+  "contentHash": "93db5f98eb463a086545e6eb2bae6950bfe01a95c23625ec17151851a6f8d562"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127709&page=1": {
   "checkedAt": "2026-10-28",
@@ -1231,7 +1231,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-30",
   "status": "review_needed",
-  "contentHash": "1b2100228b9ce888126718221a12f7f85b0ecaa3bf63cbb71056cbf2d7f9e66b"
+  "contentHash": "679d511f6f690bece35c79165775aac82ff7e1b54803e05a5b787b30769845a1"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1341,7 +1341,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749": {
   "checkedAt": "2026-10-30",
   "status": "verified",
-  "contentHash": "48119a55a1065ed0da625b91ae4a1521669e04890c12b7269df3314c264f1d01"
+  "contentHash": "34dfaf110b1faec60c023d927cc25360941008edce1c6be8dc15f2e937b49b96"
  },
  "https://www.ticketlink.co.kr/help/notice/66328": {
   "checkedAt": "2026-10-30",
@@ -1356,7 +1356,7 @@
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127740&page=1": {
   "checkedAt": "2026-10-30",
   "status": "review_needed",
-  "contentHash": "62bc937e41a3cc67718286cd1cbac49c8d15d4bea7b8a8a881a0a180ee5cb34f"
+  "contentHash": "74682abe900223704f6a97d5b1688711b0ba8cb726899ed449e6399b4069d368"
  },
  "https://blog.naver.com/curtaincallnote/224455402689": {
   "checkedAt": "2026-10-27",
@@ -1375,8 +1375,8 @@
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758": {
   "checkedAt": "2026-10-30",
-  "status": "review_needed",
-  "contentHash": "233e43e9ebdca946def8bed5878b1b8f6ad0632e2e139ce1fa7dcbd192e8b813"
+  "status": "verified",
+  "contentHash": "3b9776e39639a01cbac8d4cc83c90db735a8faeeab20b71c9b9e6fbd0c27b6e2"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1": {
   "checkedAt": "2026-10-30",
@@ -1446,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-10-30",
   "status": "review_needed",
-  "contentHash": "60f12328666c56820e9a28a68b72f425c81b1698c78ab0537f50ce63fd9eabeb"
+  "contentHash": "5af21dc2646cd30b164d8ceb4776b026f6c128879acbe8327cd8c738bc4df3c2"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1581,7 +1581,7 @@
  "https://www.mydaily.co.kr/page/view/2026102914470331611": {
   "checkedAt": "2026-10-30",
   "status": "review_needed",
-  "contentHash": "fa72f144b27c79f1f9e58aa387f3bff5b6d6415442c2605af27a1acefa2514fc"
+  "contentHash": "a444356bea7f125903a8055fd6168007c0e1ef2e946060d2402f8ec2fc703393"
  },
  "https://blog.naver.com/oa2020/224457882490": {
   "checkedAt": "2026-10-29",
@@ -1677,5 +1677,35 @@
   "checkedAt": "2026-10-30",
   "status": "review_needed",
   "contentHash": "665e6287649fb6ebc7a16f166ae77e4fe69c995b68d5d97ee74f285eb0b6c541"
+ },
+ "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771": {
+  "checkedAt": "2026-10-30",
+  "status": "review_needed",
+  "contentHash": "bde015e45cbd2e475610e79783aa103c900bb3972cee19996e0a780827033b92"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66384": {
+  "checkedAt": "2026-10-30",
+  "status": "verified",
+  "contentHash": "4595cf7ca831741f56be5659fe4e0437a8ec9c22322d29c26c126af3f0dc0e11"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127771&page=1": {
+  "checkedAt": "2026-10-30",
+  "status": "review_needed",
+  "contentHash": "4f3fa0cc2ae0b40b722f46917e60f053e446c9255a623117855ec5262620dcf6"
+ },
+ "https://blog.naver.com/dnjfcjs63/224459119032": {
+  "checkedAt": "2026-10-30",
+  "status": "not_relevant",
+  "contentHash": "1809aa2a4762a86919334a905483acfa822272090f1d3bf7a0fdf4a0b9ed9dda"
+ },
+ "https://blog.naver.com/kmj636363/224459117128": {
+  "checkedAt": "2026-10-30",
+  "status": "not_relevant",
+  "contentHash": "f3957433990adcef5a5b477536181d6fca0d44ac3bfb60f267b2ef245013d926"
+ },
+ "https://blog.naver.com/projeckza/224459115255": {
+  "checkedAt": "2026-10-30",
+  "status": "not_relevant",
+  "contentHash": "307c1ad63b22ad90f4da8f6f753e83ce3955f8d9c5f579fcae5820182b0ff30c"
  }
 }
