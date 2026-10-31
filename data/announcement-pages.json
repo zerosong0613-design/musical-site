@@ -1231,7 +1231,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-10-31",
   "status": "review_needed",
-  "contentHash": "4f2e71ea093e3a0e4c7ff313761995e8cee20667bd58dd3d37171a83bdf8b808"
+  "contentHash": "cab3da9b720920d42e9b0cf2f75646f136e9351feaaec0ee492938a83906114b"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1446,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-10-31",
   "status": "review_needed",
-  "contentHash": "0b2bb8fbc19b9f949e0465b6960459b3b9abac80e10e115c390588ba48d61762"
+  "contentHash": "e1b700f85754955940493d2c058f45b03bfa56b2deb561978d24429d98dc3338"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1581,7 +1581,7 @@
  "https://www.mydaily.co.kr/page/view/2026102914470331611": {
   "checkedAt": "2026-10-31",
   "status": "review_needed",
-  "contentHash": "cbb8838d696d453a1b446c7714fd7bc01d829abfc555614172ae433f11ddd2f0"
+  "contentHash": "1cbbaf16ef2a2d679c4b2ba6f919d1050d59bd176ae004d7621386f4389b8604"
  },
  "https://blog.naver.com/oa2020/224457882490": {
   "checkedAt": "2026-10-29",
@@ -1681,7 +1681,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771": {
   "checkedAt": "2026-10-31",
   "status": "review_needed",
-  "contentHash": "cc74a2ec47cfe7276affbc34cc9ad88c540caf21bd2af31915e1782094091c9d"
+  "contentHash": "d6826f4aa3f9a19fe688dd4d79ba88104324968b2833b8113215c276ebafd708"
  },
  "https://www.ticketlink.co.kr/help/notice/66384": {
   "checkedAt": "2026-10-31",
@@ -1714,7 +1714,7 @@
   "contentHash": "a35af07e4211a7a60b107dcbed786a2531b24666bc2dc574610336271883cd12"
  },
  "https://blog.naver.com/kkachitong/224459533530": {
-  "checkedAt": "2026-10-30",
+  "checkedAt": "2026-10-31",
   "status": "review_needed",
   "contentHash": "73b789cad243fa6d24a7769f4a433764efc31f69d9afdf6f6edc1662579da725"
  },
@@ -1792,5 +1792,15 @@
   "checkedAt": "2026-10-31",
   "status": "not_relevant",
   "contentHash": "2b3013c8631595dd28d0c3607aa392f2e9e5c2cd4e9d9cea7b671500922d7522"
+ },
+ "https://blog.naver.com/hohomom0225/224460478155": {
+  "checkedAt": "2026-10-31",
+  "status": "review_needed",
+  "contentHash": "fb7ffb5b6556e5c5a862df6ab2e4050b13a1217e8ef4d7b8b6cee5b77bf374ef"
+ },
+ "https://blog.naver.com/benefit_note/224460093821": {
+  "checkedAt": "2026-10-31",
+  "status": "review_needed",
+  "contentHash": "7500b586e5dd67f77f04ad12ef9855fcec6e0c16b4b6633488878a234140cb28"
  }
 }
