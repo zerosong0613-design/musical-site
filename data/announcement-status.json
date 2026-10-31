@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-31T00:40:05.483Z",
+ "checkedAt": "2026-10-31T06:33:18.120Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66333",
@@ -77,25 +77,25 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 10
+   "matches": 11
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 8
+   "matches": 7
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 13
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -106,19 +106,15 @@
    "status": "verified"
   },
   {
-   "url": "https://nol.yanolja.com/ticket/genre/musical",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "url": "https://www.ticketlink.co.kr/help/notice/65890",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
@@ -134,11 +130,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/uniqueuni/224459417206",
+   "url": "https://blog.naver.com/yogocode/224459999168",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/komori26/224459812647",
+   "url": "https://blog.naver.com/uniqueuni/224459417206",
    "status": "review_needed"
   }
  ]
