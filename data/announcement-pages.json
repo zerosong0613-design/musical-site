@@ -1231,7 +1231,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-11-01",
   "status": "review_needed",
-  "contentHash": "23e451effe306f3ddec1ff40cc33ae85e3cdea78ef530adc2f7409c1629a7000"
+  "contentHash": "0fd9bed20a013b1ad4f3d36626c741e5c656dfdf57f08c329bb61023908ba974"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1446,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-11-01",
   "status": "review_needed",
-  "contentHash": "b2dfdbd444c9a5b53d6ff2f075e4f72e37d51990f2fbf28a592a11533a129663"
+  "contentHash": "6cb3fa9b695405afac4a11084c0685ef7ea71664bdb8ad37cb3241a7ec7d2279"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1581,7 +1581,7 @@
  "https://www.mydaily.co.kr/page/view/2026102914470331611": {
   "checkedAt": "2026-11-01",
   "status": "review_needed",
-  "contentHash": "d5ce197ae0c294fbaaf3a3734ed2673ce31826988c181f86c25e556a9eea5385"
+  "contentHash": "4e9a1b7678fad49164ee56cbdd5f267a1bbb1be8874323c71aaafa87e884c470"
  },
  "https://blog.naver.com/oa2020/224457882490": {
   "checkedAt": "2026-10-29",
@@ -1681,7 +1681,7 @@
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771": {
   "checkedAt": "2026-11-01",
   "status": "review_needed",
-  "contentHash": "faf1c580686e9edeba215568dda68ae07289bd04e22d1177b11d075d469ffc8e"
+  "contentHash": "50d8d0cf25dae5798de6b8d154ebac3f7303d16dd8d6b1e8eb466685bb4e7921"
  },
  "https://www.ticketlink.co.kr/help/notice/66384": {
   "checkedAt": "2026-11-01",
@@ -1812,5 +1812,20 @@
   "checkedAt": "2026-11-01",
   "status": "not_relevant",
   "contentHash": "0a50a2f624a49946be9f7c33833b29e59fc99b77ee5fbb5874d61e4927d0e26a"
+ },
+ "https://blog.naver.com/new_april_/224461154126": {
+  "checkedAt": "2026-11-01",
+  "status": "not_relevant",
+  "contentHash": "1094c3834251c306de17a1ef4d04bf5c575d5e5ccd0142b1f2357c53bae8118b"
+ },
+ "https://blog.naver.com/khai64/224461032469": {
+  "checkedAt": "2026-11-01",
+  "status": "not_relevant",
+  "contentHash": "32604425a0dcd75d6e5b443d6fedb931b8fafeee95cac5471e8d839db346836b"
+ },
+ "https://blog.naver.com/cjscjs0213/224460844670": {
+  "checkedAt": "2026-11-01",
+  "status": "not_relevant",
+  "contentHash": "7fb092d8b73922c4367fa2e0704acaa2ee3d9b9fd0ce5326ddb18d735cabb9b4"
  }
 }
