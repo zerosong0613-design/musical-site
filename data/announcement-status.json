@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-02T00:34:38.757Z",
+ "checkedAt": "2026-11-02T07:05:14.560Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66333",
@@ -11,7 +11,7 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
-   "status": "review_needed"
+   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66384",
@@ -19,11 +19,23 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742",
-   "status": "review_needed"
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66403",
+   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66350",
    "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66405",
+   "status": "verified"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1",
+   "status": "review_needed"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127773&page=1",
@@ -50,14 +62,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127741&page=1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127740&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -65,7 +69,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 1
+   "matches": 2
   },
   {
    "source": "네이버 뉴스",
@@ -77,13 +81,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 11
+   "matches": 9
   },
   {
    "source": "네이버 웹문서",
@@ -95,7 +99,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 14
+   "matches": 13
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -118,6 +122,10 @@
    "status": "verified"
   },
   {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739309",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.mydaily.co.kr/page/view/2026102914470331611",
    "status": "review_needed"
   },
@@ -126,15 +134,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/thsnlove/224460231809",
+   "url": "https://blog.naver.com/nextnote87/224461796140",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/booty1020/224461596508",
+   "url": "https://blog.naver.com/yeppies/224462012045",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/booty1020/224461584293",
+   "url": "https://blog.naver.com/ticket_info/224461960525",
    "status": "review_needed"
   },
   {

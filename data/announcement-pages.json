@@ -1230,8 +1230,8 @@
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742": {
   "checkedAt": "2026-11-02",
-  "status": "review_needed",
-  "contentHash": "f0a66bbf040fc4d2c55973c38978819d020cf9b084b03b4545009c606bfacad7"
+  "status": "verified",
+  "contentHash": "44645205c1b536802d15b1bb68ea0d6a16cad64496c1668d78f88052775e092d"
  },
  "https://sports.donga.com/life/article/all/20261026/134908361/1": {
   "checkedAt": "2026-10-27",
@@ -1446,7 +1446,7 @@
  "https://www.topstarnews.net/news/articleView.html?idxno=16259972": {
   "checkedAt": "2026-11-02",
   "status": "review_needed",
-  "contentHash": "af33cdd6f0a635a60f42b132c4908ec1fca47410216468e56de4e591617b0527"
+  "contentHash": "76d7eeefb5c135bf9665d760aae4bcdd0abc76902cb1fa82bad2cf09139fc58e"
  },
  "https://blog.naver.com/topstarnews/224456081445": {
   "checkedAt": "2026-10-28",
@@ -1581,7 +1581,7 @@
  "https://www.mydaily.co.kr/page/view/2026102914470331611": {
   "checkedAt": "2026-11-02",
   "status": "review_needed",
-  "contentHash": "f34186996b376865817169f5d4c0057d86533d2c6f611f1cc676ffb27608de11"
+  "contentHash": "d3b2ef6be4315532f7b8d73b5bc98b4da7b108960026afb8558958351e037ed5"
  },
  "https://blog.naver.com/oa2020/224457882490": {
   "checkedAt": "2026-10-29",
@@ -1680,8 +1680,8 @@
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771": {
   "checkedAt": "2026-11-02",
-  "status": "review_needed",
-  "contentHash": "dbdbcbff6132173c1aa49ed1dfe4fe4b22ea5a493ebc07b68fd40a4df093db95"
+  "status": "verified",
+  "contentHash": "ff3db550d617d31b7125471c207d3bd69ce16269929f791ffbb8056e993ba5e6"
  },
  "https://www.ticketlink.co.kr/help/notice/66384": {
   "checkedAt": "2026-11-02",
@@ -1691,7 +1691,7 @@
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127771&page=1": {
   "checkedAt": "2026-11-02",
   "status": "review_needed",
-  "contentHash": "4f3fa0cc2ae0b40b722f46917e60f053e446c9255a623117855ec5262620dcf6"
+  "contentHash": "681eca129c654fd88fc64b1cc38eec568d8c5896334ebbbc6160c721010c9c76"
  },
  "https://blog.naver.com/dnjfcjs63/224459119032": {
   "checkedAt": "2026-10-30",
@@ -1877,5 +1877,50 @@
   "checkedAt": "2026-11-02",
   "status": "review_needed",
   "contentHash": "29fdea4868336b21822aabce944daf5581423afff74ea169756c381c3f540a74"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66403": {
+  "checkedAt": "2026-11-02",
+  "status": "verified",
+  "contentHash": "2e5a3b2cfa3a2b6fb1263f6fc60777b740d95ca100f22fb5eafa3028029d710f"
+ },
+ "https://www.ticketlink.co.kr/help/notice/66405": {
+  "checkedAt": "2026-11-02",
+  "status": "verified",
+  "contentHash": "78ba51922ee9caf24ee46eb3f12cb3b4722c222d86bb69a860ed5cc552ed3cd4"
+ },
+ "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1": {
+  "checkedAt": "2026-11-02",
+  "status": "review_needed",
+  "contentHash": "7b8258971309675a9f925b20b6f2e09729092618821335cae09b4b28d38543d1"
+ },
+ "https://m.ticketlink.co.kr/help/notice/66403": {
+  "checkedAt": "2026-11-02",
+  "status": "not_relevant",
+  "contentHash": "b17579459598759ace41f0389b96748c8d1cf4486660295b3cd4eba2d1c9c0f3"
+ },
+ "https://www.gukjenews.com/news/articleView.html?idxno=3739309": {
+  "checkedAt": "2026-11-02",
+  "status": "review_needed",
+  "contentHash": "49be8b01c495752d57e38d3bbb9037fc28171eafa240c6e6d5babe6c17c47986"
+ },
+ "https://blog.naver.com/nextnote87/224461796140": {
+  "checkedAt": "2026-11-02",
+  "status": "review_needed",
+  "contentHash": "4bb8c2a185ae5398803021d1063d0adbde52889cd81fd6194491bedc592ac7ed"
+ },
+ "https://blog.naver.com/mkterran/224462172281": {
+  "checkedAt": "2026-11-02",
+  "status": "not_relevant",
+  "contentHash": "3c4d692438a6a25f4e8bdac8f9cec5199e8a4e804d62514300603d03a7774ae8"
+ },
+ "https://blog.naver.com/yeppies/224462012045": {
+  "checkedAt": "2026-11-02",
+  "status": "review_needed",
+  "contentHash": "a2ab29516dfc46d8e7cba57a6f6b6db2bc1ca34844dc6ecb81fb146a3d5d644f"
+ },
+ "https://blog.naver.com/ticket_info/224461960525": {
+  "checkedAt": "2026-11-02",
+  "status": "review_needed",
+  "contentHash": "f765b512b40c7d0b3ec5adc96b8f48d489e572a0b0e36608e409bb216bd84528"
  }
 }
