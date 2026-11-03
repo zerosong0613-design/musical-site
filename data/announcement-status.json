@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-03T02:54:14.408Z",
+ "checkedAt": "2026-11-03T07:28:27.473Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66333",
@@ -31,6 +31,10 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66405",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66419",
    "status": "verified"
   },
   {
@@ -81,13 +85,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 7
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -134,19 +138,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/musiiiical/224463217646",
+   "url": "https://blog.naver.com/serese82/224463610866",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/maereokee/224463200942",
+   "url": "https://blog.naver.com/miinn8/224463494646",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/irumi211/224463106411",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/yunseuljoy/224463018602",
+   "url": "https://blog.naver.com/hohomom0225/224463447519",
    "status": "review_needed"
   }
  ]
