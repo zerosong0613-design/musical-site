@@ -1,14 +1,6 @@
 {
- "checkedAt": "2026-11-03T07:28:27.473Z",
+ "checkedAt": "2026-11-03T17:28:46.877Z",
  "sources": [
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66333",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66368",
-   "status": "verified"
-  },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
    "status": "verified"
@@ -62,10 +54,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127750&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -85,13 +73,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 8
+   "matches": 6
   },
   {
    "source": "네이버 웹문서",
@@ -103,10 +91,14 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 14
+   "matches": 7
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/Notice",
    "status": "verified"
   },
   {
@@ -138,15 +130,27 @@
    "status": "review_needed"
   },
   {
+   "url": "https://blog.naver.com/boysoo507/224464038651",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/blackfox__/224463328614",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/lifesospatial/224463780917",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/jekyll9207/224463659267",
+   "status": "review_needed"
+  },
+  {
    "url": "https://blog.naver.com/serese82/224463610866",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/miinn8/224463494646",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/hohomom0225/224463447519",
+   "url": "https://blog.naver.com/musiiiical/224463217646",
    "status": "review_needed"
   }
  ]
