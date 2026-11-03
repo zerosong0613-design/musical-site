@@ -408,6 +408,39 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66417",
+  "at": "2026-11-06 11:00",
+  "title": "뮤지컬 <언더 문보우>프리뷰&1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66417",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66416",
+  "at": "2026-11-09 11:00",
+  "title": "뮤지컬 <얼음나무 숲> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66416",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18782",
+  "at": "2026-11-09 11:00",
+  "title": "뮤지컬 <얼음나무 숲> 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18782",
+  "mt20id": null
+ },
+ {
   "id": "yes24-18753",
   "at": "2026-11-11 15:00",
   "title": "뮤지컬 [해밀턴] 내한공연-서울 프리미어 티켓오픈 안내",
