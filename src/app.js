@@ -1,11 +1,11 @@
-import {matchesTitleVenue} from './show-search.js?v=20261027-1';
-import {validPeriod,overlapsPeriod,periodSessions,showFilterLink} from './date-filter.js?v=20261027-1';
-import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261027-1';
-import { actorMatch } from './actor-search.js?v=20261027-1';
-import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261027-1';
-import { mountCasting } from './casting.js?v=20261027-1';
-import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261027-1';
-import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261027-1';
+import {matchesTitleVenue} from './show-search.js?v=20261104-1';
+import {validPeriod,overlapsPeriod,periodSessions,showFilterLink} from './date-filter.js?v=20261104-1';
+import {cleanMarkupText,isProductPage,sourceLinkLabel} from './source-content.js?v=20261104-1';
+import { actorMatch } from './actor-search.js?v=20261104-1';
+import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v=20261104-1';
+import { mountCasting } from './casting.js?v=20261104-1';
+import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261104-1';
+import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261104-1';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
 let favoritesSaved = true;
@@ -69,8 +69,9 @@ async function load() {
   if (file.generatedAt) document.getElementById('updated').textContent = `작품 정보 갱신: ${new Date(file.generatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}`;
 }
 
-const poster = (s, showFavorite = false) => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${
-  safeUrl(s.poster) ? `<img src="${esc(s.poster)}" alt="" loading="lazy" onerror="this.remove()">` : ''}${showFavorite && favorites.has(s.id) ? '<span class="favorite-mark" role="img" aria-label="즐겨찾기">★</span>' : ''}</div>`;
+// 첫 화면에 바로 보이는 포스터(목록 앞 몇 장, 상세 포스터)는 늦게 불러오지 않는다.
+const poster = (s, showFavorite = false, eager = false) => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${
+  safeUrl(s.poster) ? `<img src="${esc(s.poster)}" alt="" ${eager === 'high' ? 'fetchpriority="high"' : eager ? '' : 'loading="lazy"'} onerror="this.remove()">` : ''}${showFavorite && favorites.has(s.id) ? '<span class="favorite-mark" role="img" aria-label="즐겨찾기">★</span>' : ''}</div>`;
 
 function renderList() {
   const t = today();
@@ -114,9 +115,9 @@ function renderList() {
       <label class="check large-filter"><input type="checkbox" data-large-only ${view.largeOnly ? 'checked' : ''}>대극장만 보기 <small>500석 이상</small></label>
       <span class="note scope-note">서울·경기·인천 · ${view.largeOnly ? '500' : '300'}석 이상 · 어린이 공연 제외</span>
     </div>
-    ${list.length ? `<ul class="cards">${list.map(s => `
+    ${list.length ? `<ul class="cards">${list.map((s, i) => `
       <li><a class="card" href="${esc(showFilterLink(s.id,view.actor,view.from,view.to))}">
-        ${poster(s, true)}
+        ${poster(s, true, i === 0 ? 'high' : i < 4)}
         <div class="info">
           <h2>${esc(s.title)}</h2>
           <p>${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}</p>
@@ -242,7 +243,7 @@ async function renderShow(id, range = {}) {
   app.innerHTML = `
     <a class="back" href="/">← 작품 목록</a>
     <section class="detail">
-      ${poster(s)}
+      ${poster(s, false, 'high')}
       <div>
         <h1>${esc(s.title)}</h1>
         ${favoriteButton(s)}
@@ -277,6 +278,7 @@ function renderOpenings() {
   app.innerHTML = `<h1>티켓 오픈 일정</h1>${list.length ? openingItems(list) : '<p class="empty">등록된 오픈 일정이 없습니다.</p>'}`;
 }
 
+const STATIC_PAGES = new Set(['/about']);
 const TITLES = { shows: '뮤지컬 모아보기 · 수도권 뮤지컬 캐스팅 스케줄·티켓 오픈', notices: '뮤지컬 캐스팅 공지 | 뮤지컬 모아보기', openings: '뮤지컬 티켓 오픈 일정 | 뮤지컬 모아보기' };
 
 function route() {
@@ -285,6 +287,8 @@ function route() {
   basis.dateTime = date;
   basis.textContent = `오늘 기준 ${dot(date)}`;
   const path = location.pathname.replace(/\/+$/, '') || '/';
+  // 소개 같은 글 페이지는 빌드 때 만든 HTML을 그대로 둔다. 뒤로가기로 돌아왔으면 다시 불러온다.
+  if (STATIC_PAGES.has(path)) { if (!app.querySelector('[data-static-page]')) location.reload(); return; }
   const show = path.match(/^\/show\/(\w+)$/);
   const nav = { '/openings': 'openings', '/notices': 'notices' }[path] ?? 'shows';
   document.querySelectorAll('[data-nav]').forEach(a => a.toggleAttribute('aria-current', a.dataset.nav === nav));
@@ -304,7 +308,7 @@ document.addEventListener('click', e => {
   const a = e.target.closest('a[href]');
   if (!a || a.target || a.hasAttribute('download') || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
   const url = new URL(a.href, location.href);
-  if (url.origin !== location.origin || /\.\w+$/.test(url.pathname)) return;
+  if (url.origin !== location.origin || /\.\w+$/.test(url.pathname) || STATIC_PAGES.has(url.pathname.replace(/\/+$/, ''))) return;
   e.preventDefault();
   if (url.pathname + url.search !== location.pathname + location.search) history.pushState(null, '', url.pathname + url.search);
   route();
