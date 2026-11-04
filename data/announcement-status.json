@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-03T17:28:46.877Z",
+ "checkedAt": "2026-11-04T01:12:37.747Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
@@ -28,6 +28,10 @@
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66419",
    "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18785",
+   "status": "review_needed"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1",
@@ -73,7 +77,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
@@ -91,18 +95,18 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 7
+   "matches": 6
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
   },
   {
-   "url": "https://ticket.yes24.com/Notice",
+   "url": "https://www.ticketlink.co.kr/help/notice/65890",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "url": "https://ticket.yes24.com/Notice",
    "status": "verified"
   },
   {
@@ -130,11 +134,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/boysoo507/224464038651",
+   "url": "https://blog.naver.com/dandi_0829/224464064300",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/blackfox__/224463328614",
+   "url": "https://blog.naver.com/boysoo507/224464038651",
    "status": "review_needed"
   },
   {
@@ -147,10 +151,6 @@
   },
   {
    "url": "https://blog.naver.com/serese82/224463610866",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/musiiiical/224463217646",
    "status": "review_needed"
   }
  ]

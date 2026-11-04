@@ -441,6 +441,21 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18785",
+  "at": "2026-11-10 14:00",
+  "title": "식스 더 뮤지컬(SIX THE MUSICAL) 2차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18785",
+  "mt20id": "PF302744",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-10f8161d434156182ba4"
+  ]
+ },
+ {
   "id": "yes24-18753",
   "at": "2026-11-11 15:00",
   "title": "뮤지컬 [해밀턴] 내한공연-서울 프리미어 티켓오픈 안내",
