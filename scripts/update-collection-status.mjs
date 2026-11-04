@@ -1,11 +1,12 @@
 import { isEligibleShow } from '../src/show-filter.js';
 import {readFile,writeFile} from 'node:fs/promises';
 import {classifyCollection} from './lib/collection-status.mjs';
+import { resolveShows } from '../src/manual-shows.js';
 const ROOT=new URL('../',import.meta.url);
 const read=(p,f)=>readFile(new URL(p,ROOT),'utf8').then(JSON.parse,()=>f);
 const config=await read('config.json',{}), main=(await read('data/shows.json',{})).shows??[],manual=await read('data/shows.manual.json',[]);
 const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
-const master=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))].filter(s=>isEligibleShow(s)&&s.to>=today);
+const master=resolveShows(main,manual,await read('data/show-aliases.json',{})).shows.filter(s=>isEligibleShow(s)&&s.to>=today);
 const images=(await read('data/casting/image-sources.json',{})).shows??{};
 const audits=(await read('data/casting/source-audit.json',{})).shows??{};
 const shows=[];

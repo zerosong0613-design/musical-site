@@ -6,6 +6,7 @@ import { isEligibleShow, readLargeOnly, saveLargeOnly } from './show-filter.js?v
 import { mountCasting } from './casting.js?v=20261104-1';
 import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261104-1';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261104-1';
+import { resolveShows, canonicalId } from './manual-shows.js?v=20261104-2';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
 let favoritesSaved = true;
@@ -33,14 +34,14 @@ async function getJSON(path, fallback) {
   }
 }
 
-const data = { shows: [], casting: new Map(), castingFiles: new Map(), openings: [], notices: [] };
+const data = { shows: [], casting: new Map(), castingFiles: new Map(), openings: [], notices: [], aliases: new Map() };
 const view = { tab: 'now', largeOnly: readLargeOnly(storage), query: '', actor: '', actorLoading: false, from: '', to: '', periodOpen: false, periodLoading: false };
 const actorFailures = new Set();
 async function loadActorSchedules() {
   const ids = data.shows.filter(s => s.to >= today() && isEligibleShow(s) && data.casting.has(s.id) && !data.castingFiles.has(s.id)).map(s => s.id);
   for (let start = 0; start < ids.length; start += 4) {
     await Promise.all(ids.slice(start, start + 4).map(async id => {
-      const casting = data.castingFiles.get(id) || await getJSON(`/data/casting/${id}.json`, null);
+      const casting = data.castingFiles.get(id) || await getJSON(`/data/casting/${data.casting.get(id)?.mt20id ?? id}.json`, null);
       data.castingFiles.set(id, casting);
       if (!casting) actorFailures.add(id);
     }));
@@ -48,7 +49,7 @@ async function loadActorSchedules() {
 }
 
 async function load() {
-  const [file, castingIndex, auto, manual, notices, events, manualShows, posters] = await Promise.all([
+  const [file, castingIndex, auto, manual, notices, events, manualShows, posters, knownAliases] = await Promise.all([
     getJSON('/data/shows.json'),
     getJSON('/data/casting/index.json', []),
     getJSON('/data/openings.json', []),
@@ -57,15 +58,23 @@ async function load() {
     getJSON('/data/casting/events.json', []),
     getJSON('/data/shows.manual.json', []),
     getJSON('/data/posters.json', {}),
+    getJSON('/data/show-aliases.json', {}),
   ]);
   // KOPIS에 아직 없는 작품은 직접 넣은 목록(shows.manual.json)으로 보여 주고, KOPIS에 같은 제목이 올라오면 그쪽을 쓴다.
-  const letters = s => s.replace(/[^\p{L}\p{N}]/gu, '');
-  const pending = manualShows.filter(m => !file.shows.some(s => letters(s.title).includes(letters(m.matchTitle ?? m.title))));
-  data.shows = [...file.shows, ...pending].map(s => ({...s, poster: s.poster || safeUrl(posters[s.id]?.url)}));
+  // 규칙은 빌드·수집 스크립트와 같은 manual-shows.js를 쓴다.
+  const { shows, aliases } = resolveShows(file.shows, manualShows, knownAliases);
+  data.aliases = new Map([...Object.entries(knownAliases), ...aliases].filter(([, to]) => shows.some(s => s.id === to)));
+  const withId = x => ({ ...x, mt20id: canonicalId(x.mt20id, data.aliases) });
+  data.shows = shows.map(s => ({...s, poster: s.poster || safeUrl(posters[s.id]?.url)}));
   // 제작사 공지와, 수집한 캐스팅 표의 변화(새 구간 공개·배우 변경)를 한 목록으로 합친다.
-  data.notices = [...notices.filter(n => n.kind !== 'opening'), ...events.map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
-  data.casting = new Map(castingIndex.map(c => [c.mt20id, c]));
-  data.openings = mergeOpenings(auto, manual);
+  data.notices = [...notices.filter(n => n.kind !== 'opening').map(withId), ...events.map(withId).map(eventNotice)].sort((a, b) => (b.at ?? '').localeCompare(a.at ?? ''));
+  // KOPIS 번호 파일을 먼저, 아직 옮겨지지 않은 임시 번호 파일은 KOPIS 번호로 찾게 한다.
+  data.casting = new Map();
+  for (const c of [...castingIndex].sort((a, b) => data.aliases.has(a.mt20id) - data.aliases.has(b.mt20id))) {
+    const id = canonicalId(c.mt20id, data.aliases);
+    if (!data.casting.has(id)) data.casting.set(id, c);
+  }
+  data.openings = mergeOpenings(auto.map(withId), manual.map(withId));
   if (file.generatedAt) document.getElementById('updated').textContent = `작품 정보 갱신: ${new Date(file.generatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}`;
 }
 
@@ -267,7 +276,7 @@ async function renderShow(id, range = {}) {
   const box = app.querySelector('#casting');
   if (!data.casting.has(id)) { box.innerHTML = '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>'; return; }
   box.innerHTML = '<p class="empty">불러오는 중…</p>';
-  const casting = await getJSON(`/data/casting/${id}.json`, null);
+  const casting = await getJSON(`/data/casting/${data.casting.get(id)?.mt20id ?? id}.json`, null);
   if (!casting) { box.innerHTML = '<p class="empty">캐스팅 표를 불러오지 못했습니다.</p>'; return; }
   if (location.pathname + location.search === currentPage) { box.innerHTML = ''; mountCasting(box, casting, s, range); }
 }
@@ -294,6 +303,7 @@ function route() {
   document.querySelectorAll('[data-nav]').forEach(a => a.toggleAttribute('aria-current', a.dataset.nav === nav));
   document.title = TITLES[nav];
   window.scrollTo(0, 0);
+  if (show && data.aliases.has(show[1])) { history.replaceState(null, '', `/show/${data.aliases.get(show[1])}${location.search}`); return route(); }
   if (show) { const params = new URLSearchParams(location.search); renderShow(show[1], {from: params.get('from'), to: params.get('to'), actor: params.get('actor')}); }
   else if (path === '/openings') renderOpenings();
   else if (path === '/notices') renderNotices();

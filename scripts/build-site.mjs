@@ -4,6 +4,7 @@
 import { readFile, writeFile, mkdir, rm, cp, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { isEligibleShow } from '../src/show-filter.js';
+import { resolveShows, canonicalId } from '../src/manual-shows.js';
 import { mergeOpenings, castingLink } from '../src/announcement-links.js';
 import { cleanMarkupText, isProductPage, sourceLinkLabel } from '../src/source-content.js';
 
@@ -38,16 +39,25 @@ const file = await read('data/shows.json');
 const manualShows = await read('data/shows.manual.json', []);
 const posters = await read('data/posters.json', {});
 const castingIndex = await read('data/casting/index.json', []);
-const openingsAll = mergeOpenings(await read('data/openings.json', []), await read('data/openings.manual.json', []));
-const noticesRaw = await read('data/notices.json', []);
-const events = await read('data/casting/events.json', []);
+const knownAliases = await read('data/show-aliases.json', {});
+const { shows: merged, aliases } = resolveShows(file.shows, manualShows, knownAliases);
+// 임시 번호로 남은 기록이 있어도 KOPIS 작품에 붙도록 번호를 맞춘다(매일 수집이 옮기기 전이라도).
+const withId = x => ({ ...x, mt20id: canonicalId(x.mt20id, aliases) });
+const openingsAll = mergeOpenings((await read('data/openings.json', [])).map(withId), (await read('data/openings.manual.json', [])).map(withId));
+const noticesRaw = (await read('data/notices.json', [])).map(withId);
+const events = (await read('data/casting/events.json', [])).map(withId);
 
-const letters = s => s.replace(/[^\p{L}\p{N}]/gu, '');
-const pending = manualShows.filter(m => !file.shows.some(s => letters(s.title).includes(letters(m.matchTitle ?? m.title))));
-const shows = [...file.shows, ...pending].map(s => ({ ...s, poster: safeUrl(s.poster) || safeUrl(posters[s.id]?.url) }));
-const castingMap = new Map(castingIndex.map(c => [c.mt20id, c]));
+const shows = merged.map(s => ({ ...s, poster: safeUrl(s.poster) || safeUrl(posters[s.id]?.url) }));
+// 캐스팅은 작품 번호로 찾는다. KOPIS 번호 파일이 있으면 그쪽을, 없으면 임시 번호 파일을 쓴다.
+const byKopisFirst = [...castingIndex].sort((a, b) => aliases.has(a.mt20id) - aliases.has(b.mt20id));
+const castingMap = new Map();
 const castingFiles = new Map();
-for (const c of castingIndex) castingFiles.set(c.mt20id, await read(`data/casting/${c.mt20id}.json`, null));
+for (const c of byKopisFirst) {
+  const id = canonicalId(c.mt20id, aliases);
+  if (castingMap.has(id)) continue;
+  castingMap.set(id, c);
+  castingFiles.set(id, await read(`data/casting/${c.mt20id}.json`, null));
+}
 
 function eventNotice(e) {
   if (e.kind === 'changed') return { ...e, kind: 'change', lines: e.changes.map(c => `${md(c.date)}(${dayOf(c.date)}) ${c.time} ${c.role} ${c.from} → ${c.to}`) };
@@ -322,6 +332,18 @@ await emit('about.html', page({
 // 4) 없는 주소: 앱이 "작품을 찾을 수 없습니다"를 보여 주되 검색엔진에는 올리지 않는다
 await emit('404.html', page({ path: '/404', title: `페이지를 찾을 수 없습니다 | ${SITE_NAME}`, description: '요청한 페이지가 없습니다.', noindex: true,
   body: '<p class="empty">페이지를 찾을 수 없습니다. 공연이 끝나 목록에서 빠졌을 수 있습니다. <a href="/">작품 목록으로</a></p>' }));
+
+// 4-1) 예전 임시 번호 주소(/show/PFX…)는 KOPIS 작품 페이지로 보낸다. 공유된 링크가 끊기지 않게 한다.
+for (const [from, to] of new Map([...Object.entries(knownAliases), ...aliases])) {
+  const target = shows.find(s => s.id === to);
+  if (!target || shows.some(s => s.id === from)) continue;
+  const url = SITE + showPath(to);
+  await emit(`show/${from}.html`, `<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>${esc(target.title)} | ${SITE_NAME}</title>
+<link rel="canonical" href="${esc(url)}"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=${esc(showPath(to))}">
+<script>location.replace(${JSON.stringify(showPath(to))} + location.search)</script></head>
+<body><a href="${esc(showPath(to))}">${esc(target.title)} 페이지로 이동</a></body></html>
+`);
+}
 
 // 5) 사이트맵 · robots · llms.txt
 const lastmod = s => [castingFiles.get(s.id)?.checkedAt, s.updatedAt?.slice(0, 10), s.registeredAt?.slice(0, 10)].filter(Boolean).sort().at(-1) ?? today;

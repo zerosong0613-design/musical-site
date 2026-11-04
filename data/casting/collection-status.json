@@ -532,9 +532,13 @@
       "mt20id": "PF303043",
       "title": "스위니토드 (SWEENEY TODD)",
       "checkedAt": "2026-11-04",
-      "status": "pending_extraction",
-      "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-04"
+      "status": "collected",
+      "label": "캐스팅 확보",
+      "from": "2026-12-04",
+      "to": "2026-12-20",
+      "rows": 23,
+      "dataCheckedAt": "2026-10-08",
+      "sourceIssues": []
     },
     {
       "mt20id": "PF303612",
@@ -647,18 +651,6 @@
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
       "sourceCheckedAt": "2026-11-04"
-    },
-    {
-      "mt20id": "PFX2026SWEENEY",
-      "title": "스위니토드",
-      "checkedAt": "2026-11-04",
-      "status": "collected",
-      "label": "캐스팅 확보",
-      "from": "2026-12-04",
-      "to": "2026-12-20",
-      "rows": 23,
-      "dataCheckedAt": "2026-10-08",
-      "sourceIssues": []
     }
   ],
   "excluded": [

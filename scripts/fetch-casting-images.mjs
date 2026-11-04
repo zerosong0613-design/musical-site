@@ -3,6 +3,7 @@ import { isEligibleShow } from '../src/show-filter.js';
 // 이미지 원본은 Actions artifact로 보관. 캐스팅 미확보를 성공으로 표시하지 않는다.
 import { readFile,writeFile,mkdir } from 'node:fs/promises';
 import { hash,extractImages,pageProblem,imageCollectionStatus } from './lib/source-images.mjs';
+import { resolveShows } from '../src/manual-shows.js';
 const ROOT=new URL('../',import.meta.url);
 const OUT=new URL('data/casting/image-sources.json',ROOT);
 await mkdir(new URL('data/casting/',ROOT),{recursive:true});
@@ -11,7 +12,7 @@ const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
 const config=JSON.parse(await readFile(new URL('config.json',ROOT),'utf8'));
 const main=JSON.parse(await readFile(new URL('data/shows.json',ROOT),'utf8')).shows;
 const manual=await readFile(new URL('data/shows.manual.json',ROOT),'utf8').then(JSON.parse,()=>[]);
-const master=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))];
+const master=resolveShows(main,manual,await readFile(new URL('data/show-aliases.json',ROOT),'utf8').then(JSON.parse,()=>({}))).shows;
 const announcements=await readFile(new URL('data/announcements.json',ROOT),'utf8').then(JSON.parse,()=>[]);
 const previous=await readFile(OUT,'utf8').then(JSON.parse,()=>({shows:{}}));
 const result={checkedAt:today,shows:{...previous.shows}};
