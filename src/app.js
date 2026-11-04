@@ -240,7 +240,8 @@ async function renderShow(id, range = {}) {
   const currentPage = location.pathname + location.search;
   const s = data.shows.find(x => x.id === id);
   if (!s) { app.innerHTML = '<p class="empty">작품을 찾을 수 없습니다. <a href="/">목록으로</a></p>'; return; }
-  document.title = `${s.title} 캐스팅 스케줄·티켓 오픈 | 뮤지컬 모아보기`;
+  // 빌드 페이지와 같은 제목: 캐스팅표가 있을 때만 캐스팅을 앞세운다.
+  document.title = `${s.title} ${data.casting.get(id)?.to >= today() ? '캐스팅 스케줄·티켓 오픈' : '공연 일정·티켓 오픈·출연진'} | 뮤지컬 모아보기`;
   const rows = [
     ['기간', `${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}`],
     ['공연장', s.venue + (s.seats ? ` · ${s.seats.toLocaleString()}석` : '')],

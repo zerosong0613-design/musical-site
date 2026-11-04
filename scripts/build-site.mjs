@@ -228,12 +228,21 @@ for (const s of shows) {
   }
 
   const roleNames = sum?.roles.map(r => r.role).slice(0, 6).join('·');
-  const description = clip([
-    `${s.title} 캐스팅 스케줄${sum?.upcoming.length ? `(남은 ${sum.upcoming.length}회차)` : ''}과 배우별 출연 회차.`,
+  // 표가 있을 때만 캐스팅을 앞세운다. 없는데 약속하면 검색으로 들어온 사람이 바로 나간다.
+  const hasCasting = Boolean(sum?.upcoming.length);
+  const castNames = String(s.cast ?? '').split(',').map(n => n.trim()).filter(n => n && n !== '등').slice(0, 4).join('·');
+  const description = clip((hasCasting ? [
+    `${s.title} 캐스팅 스케줄(남은 ${sum.upcoming.length}회차)과 배우별 출연 회차.`,
     `${period(s)}, ${s.venue}.`,
     roleNames ? `배역 ${roleNames}.` : '',
     '티켓 오픈 일정과 예매처 링크까지 한 번에.',
-  ].filter(Boolean).join(' '), 155);
+  ] : [
+    `${s.title} 공연 일정과 티켓 오픈, 예매처를 한 번에.`,
+    `${period(s)}, ${s.venue}.`,
+    castNames ? `출연 ${castNames}.` : '',
+    '회차별 캐스팅표는 공개되는 대로 모아 둡니다.',
+  ]).filter(Boolean).join(' '), 155);
+  const pageTitle = hasCasting ? `${s.title} 캐스팅 스케줄·티켓 오픈` : `${s.title} 공연 일정·티켓 오픈·출연진`;
 
   const performers = (sum?.actors.length ? sum.actors : String(s.cast ?? '').replace(/\s*등\s*$/, '').split(/\s*,\s*/).filter(Boolean)).slice(0, 40);
   const prices = priceNumbers(s);
@@ -261,7 +270,7 @@ for (const s of shows) {
 
   await emit(`show/${s.id}.html`, page({
     path: showPath(s.id),
-    title: `${s.title} 캐스팅 스케줄·티켓 오픈 | ${SITE_NAME}`,
+    title: `${pageTitle} | ${SITE_NAME}`,
     description, image: s.poster || undefined, ld: [event, crumbs],
     body: `<a class="back" href="/">← 작품 목록</a>
     <section class="detail">${posterBox(s, 'high')}<div>
