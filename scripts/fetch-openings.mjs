@@ -4,6 +4,7 @@ import { isEligibleShow } from '../src/show-filter.js';
 // KOPIS에 아직 등록되지 않은 작품도 티켓 오픈은 먼저 공지되므로, 작품을 못 맞춰도 목록에는 남긴다.
 // 한 곳이 실패해도 나머지는 반영하고, 실패한 곳의 기존 항목은 유지한다.
 import { readFile, writeFile } from 'node:fs/promises';
+import { resolveShows } from '../src/manual-shows.js';
 
 const ROOT = new URL('../', import.meta.url);
 const UA = 'Mozilla/5.0 (musical-site ticket-open check)';
@@ -96,7 +97,8 @@ const SOURCES = {
 
 const config = await readJSON('config.json', {});
 // KOPIS 등록 전이라 직접 넣어 둔 작품(shows.manual.json)도 함께 맞춰 본다.
-const shows = [...((await readJSON('data/shows.json', {})).shows ?? []), ...(await readJSON('data/shows.manual.json', []))];
+// KOPIS에 올라온 작품은 KOPIS 번호로만 맞춘다(manual-shows.js).
+const shows = resolveShows((await readJSON('data/shows.json', {})).shows ?? [], await readJSON('data/shows.manual.json', []), await readJSON('data/show-aliases.json', {})).shows;
 const previous = await readJSON('data/openings.json', []);
 
 // 수도권 밖 공연 공지는 제목의 지역 표기로 걸러낸다.

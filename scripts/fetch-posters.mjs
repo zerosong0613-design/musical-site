@@ -1,10 +1,11 @@
 import { isEligibleShow } from '../src/show-filter.js';
 import {readFile,writeFile} from 'node:fs/promises';
 import {posterPages,posterFromPage} from './lib/poster-source.mjs';
+import { resolveShows } from '../src/manual-shows.js';
 const ROOT=new URL('../',import.meta.url);
 const read=(p,f)=>readFile(new URL(p,ROOT),'utf8').then(JSON.parse,()=>f);
 const main=(await read('data/shows.json',{})).shows??[],manual=await read('data/shows.manual.json',[]);
-const shows=[...main,...manual.filter(s=>!main.some(x=>x.id===s.id))];
+const shows=resolveShows(main,manual,await read('data/show-aliases.json',{})).shows;
 const today=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
 const posters=await read('data/posters.json',{});
 for(const show of shows.filter(s=>isEligibleShow(s)&&s.to>=today&&!s.poster)) {

@@ -39,7 +39,7 @@ test('새 작업 환경에서 상세 이미지 자동 다운로드·상태 저�
  try {
   await mkdir(join(root,'scripts/lib'),{recursive:true});await mkdir(join(root,'data'),{recursive:true});
   await mkdir(join(root,'src'),{recursive:true});
-  for(const file of ['scripts/fetch-casting-images.mjs','scripts/lib/source-images.mjs','src/show-filter.js'])await copyFile(new URL('../'+file,import.meta.url),join(root,file));
+  for(const file of ['scripts/fetch-casting-images.mjs','scripts/lib/source-images.mjs','src/show-filter.js','src/manual-shows.js'])await copyFile(new URL('../'+file,import.meta.url),join(root,file));
   await writeFile(join(root,'config.json'),'{}');
   await writeFile(join(root,'data/shows.json'),JSON.stringify({shows:[{id:'PF123',title:'공연',to:'2099-01-31',seats:300,large:false,links:[{url:'https://ticket.clipservice.co.kr/detail'}]}]}));
   await writeFile(join(root,'mock.mjs'),`globalThis.setTimeout=(fn,ms)=>{queueMicrotask(fn);return 0;};globalThis.fetch=async url=>({ok:true,url,headers:{get:()=>url.endsWith('.jpg')?'image/jpeg':'text/html'},text:async()=>'<dl id="jsDetails"><img src="/cast.jpg"></dl>',arrayBuffer:async()=>new Uint8Array([1,2,3]).buffer});`);
