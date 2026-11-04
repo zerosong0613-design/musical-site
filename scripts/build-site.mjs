@@ -13,6 +13,8 @@ const SITE = (process.env.SITE_URL
   || (process.env.VERCEL_PROJECT_PRODUCTION_URL && `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`)
   || 'https://musical-moa.vercel.app').replace(/\/+$/, '');
 const SITE_NAME = '뮤지컬 모아보기';
+const OG_IMAGE = '/og.png'; // 포스터가 없는 페이지(목록·공지·소개)의 공유 이미지
+const OPERATOR = { name: 'AI하는 송송 변호사', email: 'aimejin@naver.com' };
 
 const DAYS = ['일', '월', '화', '수', '목', '금', '토'];
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -69,7 +71,9 @@ function castingSummary(casting) {
 }
 
 // ── 공통 조각 ──
-const posterBox = s => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${s.poster ? `<img src="${esc(s.poster)}" alt="${esc(s.title)} 포스터" loading="lazy">` : ''}</div>`;
+// 첫 화면에 보이는 포스터는 늦게 불러오지 않는다: 'high'는 가장 먼저, true는 바로, false는 스크롤할 때.
+const imgLoading = eager => (eager === 'high' ? ' fetchpriority="high"' : eager ? '' : ' loading="lazy"');
+const posterBox = (s, eager = false) => `<div class="poster" data-initial="${esc(s.title.slice(0, 1))}">${s.poster ? `<img src="${esc(s.poster)}" alt="${esc(s.title)} 포스터"${imgLoading(eager)}>` : ''}</div>`;
 
 function openingItems(list) {
   const now = Date.now();
@@ -119,7 +123,7 @@ const verification = Object.entries({ 'google-site-verification': config.siteVer
   .filter(([, v]) => v).map(([k, v]) => `<meta name="${k}" content="${esc(v)}">`).join('\n');
 const ldScript = data => `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
 
-function page({ path, title, description, body, ld = [], image, noindex = false }) {
+function page({ path, title, description, body, ld = [], image = SITE + OG_IMAGE, noindex = false }) {
   const url = SITE + path;
   const head = [
     noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${esc(url)}">`,
@@ -151,12 +155,13 @@ async function emit(relPath, html) {
 await rm(DIST, { recursive: true, force: true });
 await mkdir(DIST, { recursive: true });
 await cp(new URL('src/', ROOT), new URL('src/', DIST), { recursive: true });
+await cp(new URL('og.png', ROOT), new URL('og.png', DIST));
 await cp(new URL('data/', ROOT), new URL('data/', DIST), { recursive: true, filter: src => !/[\\/]data[\\/]casting[\\/]src([\\/]|$)/.test(src) });
 
 const listed = shows.filter(s => s.to >= today && isEligibleShow(s));
 const now = listed.filter(s => s.from <= today).sort((a, b) => a.to.localeCompare(b.to));
 const soon = listed.filter(s => s.from > today).sort((a, b) => a.from.localeCompare(b.from));
-const card = s => `<li><a class="card" href="${showPath(s.id)}">${posterBox(s)}<div class="info">
+const card = (s, i) => `<li><a class="card" href="${showPath(s.id)}">${posterBox(s, i === 0 ? 'high' : i < 4)}<div class="info">
   <h3>${esc(s.title)}</h3><p>${period(s)}</p><p class="muted">${esc(s.venue)}</p>
   ${castingMap.has(s.id) ? '<span class="badge">캐스팅 검색</span>' : ''}</div></a></li>`;
 
@@ -168,7 +173,7 @@ await emit('index.html', page({
   body: `<h1>수도권 뮤지컬 캐스팅 스케줄·티켓 오픈 모아보기</h1>
     <p class="note">서울·경기·인천 300석 이상 뮤지컬을 공연예술통합전산망(KOPIS)과 예매처 캐스팅표에서 매일 모읍니다. ${dot(today)} 기준 공연 중 ${now.length}편 · 예정 ${soon.length}편.</p>
     <h2>공연 중</h2><ul class="cards">${now.map(card).join('')}</ul>
-    <h2>공연 예정</h2><ul class="cards">${soon.map(card).join('')}</ul>`,
+    <h2>공연 예정</h2><ul class="cards">${soon.map(s => card(s, 99)).join('')}</ul>`,
   ld: [
     { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE + '/', inLanguage: 'ko',
       description: '수도권 300석 이상 뮤지컬의 캐스팅 스케줄, 배우 출연 회차, 티켓 오픈 일정 모음' },
@@ -243,9 +248,9 @@ for (const s of shows) {
   await emit(`show/${s.id}.html`, page({
     path: showPath(s.id),
     title: `${s.title} 캐스팅 스케줄·티켓 오픈 | ${SITE_NAME}`,
-    description, image: s.poster, ld: [event, crumbs],
+    description, image: s.poster || undefined, ld: [event, crumbs],
     body: `<a class="back" href="/">← 작품 목록</a>
-    <section class="detail">${posterBox(s)}<div>
+    <section class="detail">${posterBox(s, 'high')}<div>
       <h1>${esc(s.title)}</h1>
       <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
       <div class="links">${links.map(l => `<a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)} 예매</a>`).join('')}
@@ -274,18 +279,59 @@ await emit('openings.html', page({
   body: `<h1>티켓 오픈 일정</h1>${upcomingOpenings.length ? openingItems(upcomingOpenings) : '<p class="empty">등록된 오픈 일정이 없습니다.</p>'}`,
 }));
 
+// 소개: 누가, 어떤 자료로, 얼마나 자주 모으는지. 검색엔진과 방문자가 이 사이트를 믿을 근거를 한곳에 둔다.
+const castingCount = listed.filter(s => castingMap.has(s.id)).length;
+await emit('about.html', page({
+  path: '/about',
+  title: `뮤지컬 모아보기 소개 — 캐스팅 스케줄을 모으는 방법 | ${SITE_NAME}`,
+  description: '뮤지컬 모아보기가 수도권 뮤지컬의 공연 일정, 회차별 캐스팅, 티켓 오픈 일정을 어디서 어떻게 모으는지, 얼마나 자주 갱신하는지 설명합니다.',
+  ld: [
+    { '@context': 'https://schema.org', '@type': 'AboutPage', name: `${SITE_NAME} 소개`, url: SITE + '/about', inLanguage: 'ko',
+      isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE + '/' },
+      author: { '@type': 'Person', name: OPERATOR.name, email: `mailto:${OPERATOR.email}` } },
+    { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: SITE_NAME, item: SITE + '/' },
+      { '@type': 'ListItem', position: 2, name: '소개', item: SITE + '/about' },
+    ] },
+  ],
+  body: `<article class="about" data-static-page>
+    <h1>뮤지컬 모아보기 소개</h1>
+    <p class="note">뮤지컬 모아보기는 서울·경기·인천에서 공연 중이거나 공연 예정인 300석 이상 뮤지컬의 일정, 회차별 캐스팅, 티켓 오픈 일정을 한곳에 모아 보여 주는 사이트예요. ${dot(today)} 기준 ${listed.length}편을 싣고 있고, 그중 ${castingCount}편은 회차별 캐스팅표가 있어요.</p>
+
+    <h2>어떤 자료를 쓰나요</h2>
+    <p>공연 기간, 공연장, 좌석 수, 출연진, 가격, 예매처 링크는 (재)예술경영지원센터 공연예술통합전산망(KOPIS)에서 가져와요. 회차별 캐스팅은 예매처의 캐스팅표와 제작사 공지를 기준으로 하고, 작품마다 어디서 언제 확인했는지 캐스팅표 위에 적어 두어요.</p>
+
+    <h2>얼마나 자주 바뀌나요</h2>
+    <p>공연 정보와 캐스팅표, 티켓 오픈 일정은 매일 자동으로 다시 모아요. 예매처 캐스팅표가 전날과 달라지면 <a href="/notices">캐스팅 공지</a>에 새로 공개된 구간이나 바뀐 배우를 올려요.</p>
+
+    <h2>어떤 공연을 싣나요</h2>
+    <ul>
+      <li>서울·경기·인천 공연장에서 하는 뮤지컬 중 객석이 300석 이상인 공연만 목록에 올려요.</li>
+      <li>어린이 공연은 빼요.</li>
+      <li>KOPIS에 등록되지 않은 공연은 빠져 있을 수 있어요.</li>
+    </ul>
+
+    <h2>주의할 점</h2>
+    <p>캐스팅은 제작사 사정으로 바뀔 수 있어요. 예매하기 전에 예매처 안내를 다시 확인해 주세요. 즐겨찾기는 로그인 없이 이 기기의 브라우저에만 저장돼요.</p>
+
+    <h2>누가 만드나요</h2>
+    <p>${esc(OPERATOR.name)}가 만들고 운영해요. 잘못된 캐스팅이나 빠진 공연을 알려 주시거나 문의할 일이 있으면 메일 주세요. <a href="mailto:${esc(OPERATOR.email)}">${esc(OPERATOR.email)}</a></p>
+  </article>`,
+}));
+
 // 4) 없는 주소: 앱이 "작품을 찾을 수 없습니다"를 보여 주되 검색엔진에는 올리지 않는다
 await emit('404.html', page({ path: '/404', title: `페이지를 찾을 수 없습니다 | ${SITE_NAME}`, description: '요청한 페이지가 없습니다.', noindex: true,
   body: '<p class="empty">페이지를 찾을 수 없습니다. 공연이 끝나 목록에서 빠졌을 수 있습니다. <a href="/">작품 목록으로</a></p>' }));
 
 // 5) 사이트맵 · robots · llms.txt
 const lastmod = s => [castingFiles.get(s.id)?.checkedAt, s.updatedAt?.slice(0, 10), s.registeredAt?.slice(0, 10)].filter(Boolean).sort().at(-1) ?? today;
-const indexed = shows.filter(s => s.to >= today);
+// 목록에 올리는 작품만 싣는다. 기준(300석 이상 등)에서 빠진 작품 페이지는 공지·티켓 오픈 링크로만 닿게 둔다.
 const urls = [
   { loc: '/', lastmod: today, priority: '1.0' },
   { loc: '/openings', lastmod: today, priority: '0.8' },
   { loc: '/notices', lastmod: today, priority: '0.8' },
-  ...indexed.map(s => ({ loc: showPath(s.id), lastmod: lastmod(s), priority: isEligibleShow(s) ? '0.9' : '0.5' })),
+  { loc: '/about', lastmod: today, priority: '0.3' },
+  ...listed.map(s => ({ loc: showPath(s.id), lastmod: lastmod(s), priority: '0.9' })),
 ];
 await writeFile(new URL('sitemap.xml', DIST), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -301,6 +347,8 @@ await writeFile(new URL('llms.txt', DIST), `# ${SITE_NAME}
 - [작품 목록](${SITE}/): 공연 중·예정 뮤지컬
 - [티켓 오픈 일정](${SITE}/openings): 예매처별 오픈 일시
 - [캐스팅 공지](${SITE}/notices): 새로 공개된 스케줄과 배우 변경
+- [소개](${SITE}/about): 자료 출처, 갱신 방식, 싣는 공연 기준, 운영자
+- 운영: ${OPERATOR.name} (${OPERATOR.email})
 
 ## 작품별 캐스팅 스케줄
 ${listed.map(s => `- [${s.title}](${SITE}${showPath(s.id)}): ${period(s)}, ${s.venue}${castingMap.has(s.id) ? ', 회차별 캐스팅표 있음' : ''}`).join('\n')}
