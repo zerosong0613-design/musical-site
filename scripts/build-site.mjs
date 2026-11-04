@@ -5,6 +5,7 @@ import { readFile, writeFile, mkdir, rm, cp, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { isEligibleShow } from '../src/show-filter.js';
 import { resolveShows, canonicalId } from '../src/manual-shows.js';
+import { castingGap, castingGapHtml, naverCastingUrl } from '../src/casting-gap.js';
 import { mergeOpenings, castingLink } from '../src/announcement-links.js';
 import { cleanMarkupText, isProductPage, sourceLinkLabel } from '../src/source-content.js';
 
@@ -205,15 +206,18 @@ for (const s of shows) {
     ['공연장', s.venue + (s.seats ? ` · ${Number(s.seats).toLocaleString()}석` : '')],
     ['출연진', s.cast], ['공연 시간', s.times], ['가격', s.prices], ['러닝타임', s.runtime], ['관람 연령', s.age], ['제작', s.producer],
   ].filter(r => r[1]);
-  const naver = `https://search.naver.com/search.naver?query=${encodeURIComponent(`뮤지컬 ${s.title} 캐스팅 일정`)}`;
+  const naver = naverCastingUrl(s);
+  // 표가 없거나 일부 구간만 있으면 네이버 캐스팅 일정으로 안내한다(긁어 오지 않고 링크만).
+  const gapHtml = castingGapHtml(s, castingGap(s, casting, today), esc);
 
-  let castingHtml = '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>';
+  let castingHtml = gapHtml || '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>';
   if (sum) {
     const { upcoming, roles } = sum;
     castingHtml = `
       <p>${upcoming.length
         ? `${esc(s.title)} 캐스팅표는 ${esc(dot(upcoming[0].date))}부터 ${esc(dot(upcoming.at(-1).date))}까지 남은 ${upcoming.length}회차가 공개되어 있습니다.`
         : `${esc(s.title)}의 공개된 캐스팅 회차는 모두 지났습니다.`} (${esc(casting.source)} · ${esc(casting.checkedAt)} 확인)</p>
+      ${gapHtml}
       ${upcoming.length ? `<h3>배역별 출연 배우</h3>
       <dl class="role-summary">${roles.map(r => `<dt>${esc(r.role)}</dt><dd>${r.actors.map(([n, c]) => `${esc(n)} ${c}회`).join(', ')}</dd>`).join('')}</dl>
       <h3>회차별 캐스팅</h3>
@@ -224,12 +228,21 @@ for (const s of shows) {
   }
 
   const roleNames = sum?.roles.map(r => r.role).slice(0, 6).join('·');
-  const description = clip([
-    `${s.title} 캐스팅 스케줄${sum?.upcoming.length ? `(남은 ${sum.upcoming.length}회차)` : ''}과 배우별 출연 회차.`,
+  // 표가 있을 때만 캐스팅을 앞세운다. 없는데 약속하면 검색으로 들어온 사람이 바로 나간다.
+  const hasCasting = Boolean(sum?.upcoming.length);
+  const castNames = String(s.cast ?? '').split(',').map(n => n.trim()).filter(n => n && n !== '등').slice(0, 4).join('·');
+  const description = clip((hasCasting ? [
+    `${s.title} 캐스팅 스케줄(남은 ${sum.upcoming.length}회차)과 배우별 출연 회차.`,
     `${period(s)}, ${s.venue}.`,
     roleNames ? `배역 ${roleNames}.` : '',
     '티켓 오픈 일정과 예매처 링크까지 한 번에.',
-  ].filter(Boolean).join(' '), 155);
+  ] : [
+    `${s.title} 공연 일정과 티켓 오픈, 예매처를 한 번에.`,
+    `${period(s)}, ${s.venue}.`,
+    castNames ? `출연 ${castNames}.` : '',
+    '회차별 캐스팅표는 공개되는 대로 모아 둡니다.',
+  ]).filter(Boolean).join(' '), 155);
+  const pageTitle = hasCasting ? `${s.title} 캐스팅 스케줄·티켓 오픈` : `${s.title} 공연 일정·티켓 오픈·출연진`;
 
   const performers = (sum?.actors.length ? sum.actors : String(s.cast ?? '').replace(/\s*등\s*$/, '').split(/\s*,\s*/).filter(Boolean)).slice(0, 40);
   const prices = priceNumbers(s);
@@ -257,7 +270,7 @@ for (const s of shows) {
 
   await emit(`show/${s.id}.html`, page({
     path: showPath(s.id),
-    title: `${s.title} 캐스팅 스케줄·티켓 오픈 | ${SITE_NAME}`,
+    title: `${pageTitle} | ${SITE_NAME}`,
     description, image: s.poster || undefined, ld: [event, crumbs],
     body: `<a class="back" href="/">← 작품 목록</a>
     <section class="detail">${posterBox(s, 'high')}<div>

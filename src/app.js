@@ -7,6 +7,7 @@ import { mountCasting } from './casting.js?v=20261104-1';
 import { mergeOpenings, castingLink, mobileVendorUrl } from './announcement-links.js?v=20261104-1';
 import { readFavorites, saveFavorites, favoritesFirst } from './favorites.js?v=20261104-1';
 import { resolveShows, canonicalId } from './manual-shows.js?v=20261104-2';
+import { castingGap, castingGapHtml, naverCastingUrl } from './casting-gap.js?v=20261104-3';
 let storage; try { storage = window.localStorage; } catch {}
 const favorites = readFavorites(storage);
 let favoritesSaved = true;
@@ -239,13 +240,14 @@ async function renderShow(id, range = {}) {
   const currentPage = location.pathname + location.search;
   const s = data.shows.find(x => x.id === id);
   if (!s) { app.innerHTML = '<p class="empty">작품을 찾을 수 없습니다. <a href="/">목록으로</a></p>'; return; }
-  document.title = `${s.title} 캐스팅 스케줄·티켓 오픈 | 뮤지컬 모아보기`;
+  // 빌드 페이지와 같은 제목: 캐스팅표가 있을 때만 캐스팅을 앞세운다.
+  document.title = `${s.title} ${data.casting.get(id)?.to >= today() ? '캐스팅 스케줄·티켓 오픈' : '공연 일정·티켓 오픈·출연진'} | 뮤지컬 모아보기`;
   const rows = [
     ['기간', `${dot(s.from)} ~ ${s.openrun ? '오픈런' : dot(s.to)}`],
     ['공연장', s.venue + (s.seats ? ` · ${s.seats.toLocaleString()}석` : '')],
     ['출연진', s.cast], ['공연 시간', s.times], ['가격', s.prices], ['러닝타임', s.runtime], ['관람 연령', s.age], ['제작', s.producer],
   ].filter(r => r[1]);
-  const naver = `https://search.naver.com/search.naver?query=${encodeURIComponent(`뮤지컬 ${s.title} 캐스팅 일정`)}`;
+  const naver = naverCastingUrl(s);
   const openings = data.openings.filter(o => o.mt20id === s.id);
   const notices = data.notices.filter(n => n.mt20id === s.id);
 
@@ -274,11 +276,17 @@ async function renderShow(id, range = {}) {
     button.textContent = favorites.has(id) ? '★ 즐겨찾기' : '☆ 즐겨찾기';
   });
   const box = app.querySelector('#casting');
-  if (!data.casting.has(id)) { box.innerHTML = '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>'; return; }
+  // 표가 없거나 일부 구간만 있으면 네이버 캐스팅 일정으로 안내한다(긁어 오지 않고 링크만).
+  if (!data.casting.has(id)) { box.innerHTML = castingGapHtml(s, castingGap(s, null, today()), esc) || '<p class="empty">아직 등록된 캐스팅 표가 없습니다.</p>'; return; }
   box.innerHTML = '<p class="empty">불러오는 중…</p>';
   const casting = await getJSON(`/data/casting/${data.casting.get(id)?.mt20id ?? id}.json`, null);
   if (!casting) { box.innerHTML = '<p class="empty">캐스팅 표를 불러오지 못했습니다.</p>'; return; }
-  if (location.pathname + location.search === currentPage) { box.innerHTML = ''; mountCasting(box, casting, s, range); }
+  if (location.pathname + location.search === currentPage) {
+    box.innerHTML = '';
+    box.parentElement.querySelector(':scope > .casting-gap')?.remove();
+    box.insertAdjacentHTML('beforebegin', castingGapHtml(s, castingGap(s, casting, today()), esc));
+    mountCasting(box, casting, s, range);
+  }
 }
 
 function renderOpenings() {

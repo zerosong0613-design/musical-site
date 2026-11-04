@@ -185,3 +185,10 @@ footer p { margin: 2px 0; }
 .role-summary { display: grid; grid-template-columns: 6em 1fr; gap: 6px 12px; margin: 0 0 20px; font-size: .9rem; }
 .role-summary dt { color: var(--muted); }
 .role-summary dd { margin: 0; }
+
+/* 캐스팅표가 비었거나 일부만 있을 때 네이버 캐스팅 일정으로 안내 */
+.casting-gap { display: flex; align-items: center; justify-content: space-between; gap: 10px 16px; flex-wrap: wrap; margin: 4px 0 18px; padding: 14px 16px; border: 1px solid var(--line); border-left: 3px solid var(--fill); border-radius: var(--r-sm); background: var(--soft); }
+.casting-gap p { margin: 0; flex: 1 1 260px; font-size: .88rem; }
+.casting-gap .btn { white-space: nowrap; }
+.casting-gap-partial { padding: 10px 14px; }
+.casting-gap-partial p { font-size: .82rem; color: var(--muted); }
