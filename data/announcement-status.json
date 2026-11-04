@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-04T01:12:37.747Z",
+ "checkedAt": "2026-11-04T07:10:04.525Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
@@ -14,15 +14,15 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66403",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/66350",
    "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66405",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66403",
    "status": "verified"
   },
   {
@@ -50,14 +50,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127752&page=1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127751&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -65,25 +57,25 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 4
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 1
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 1
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 6
+   "matches": 7
   },
   {
    "source": "네이버 웹문서",
@@ -95,7 +87,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 6
+   "matches": 4
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -122,6 +114,14 @@
    "status": "verified"
   },
   {
+   "url": "https://www.bntnews.co.kr/article/view/bnt202611040216",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267834",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739309",
    "status": "review_needed"
   },
@@ -130,27 +130,19 @@
    "status": "review_needed"
   },
   {
+   "url": "https://isplus.com/article/view/isp202611040101",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16259972",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/dandi_0829/224464064300",
+   "url": "https://blog.naver.com/mapmapoo/224463128101",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/boysoo507/224464038651",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/lifesospatial/224463780917",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/jekyll9207/224463659267",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/serese82/224463610866",
+   "url": "https://blog.naver.com/yumyumblog-/224464674459",
    "status": "review_needed"
   }
  ]

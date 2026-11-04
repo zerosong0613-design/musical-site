@@ -1,35 +1,5 @@
 [
  {
-  "id": "melon-13079",
-  "at": "2026-10-28 11:00",
-  "title": "뮤지컬 〈레베카〉 2차 티켓 오픈 안내",
-  "vendor": "멜론티켓",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13079",
-  "mt20id": "PF302516",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-5100906d4063f30ac259"
-  ]
- },
- {
-  "id": "nol-26013993",
-  "at": "2026-10-28 11:00",
-  "title": "뮤지컬 〈레베카〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26013993",
-  "mt20id": "PF302516",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-8b1f82082db4e026c938"
-  ]
- },
- {
   "id": "yes24-18708",
   "at": "2026-10-29 14:00",
   "title": "뮤지컬 <겨울왕국> 한국 초연 - 12월 연말공연 티켓오픈 안내",
@@ -293,21 +263,6 @@
   ]
  },
  {
-  "id": "ticketlink-66403",
-  "at": "2026-11-05 14:00",
-  "title": "[링크스페셜데이_Page 14] 뮤지컬 <레베카> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66403",
-  "mt20id": "PF302516",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-b28d5b7e85bc0c78ce51"
-  ]
- },
- {
   "id": "ticketlink-66350",
   "at": "2026-11-05 14:00",
   "title": "뮤지컬 <시카고> 2차 티켓오픈 안내",
@@ -379,6 +334,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-831a14f3dcf878a54d14"
+  ]
+ },
+ {
+  "id": "ticketlink-66403",
+  "at": "2026-11-05 16:00",
+  "title": "[오픈시간변경] [단독판매] [링크스페셜데이_Page 14] 뮤지컬 <레베카> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66403",
+  "mt20id": "PF302516",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-b28d5b7e85bc0c78ce51"
   ]
  },
  {
