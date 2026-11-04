@@ -1,18 +1,6 @@
 {
- "checkedAt": "2026-11-04T07:10:04.525Z",
+ "checkedAt": "2026-11-04T17:42:09.380Z",
  "sources": [
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18771",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66384",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18742",
-   "status": "verified"
-  },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66350",
    "status": "verified"
@@ -57,25 +45,25 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 5
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 2
+   "matches": 3
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 7
+   "matches": 16
   },
   {
    "source": "네이버 웹문서",
@@ -87,7 +75,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 4
+   "matches": 5
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -99,7 +87,7 @@
   },
   {
    "url": "https://ticket.yes24.com/Notice",
-   "status": "verified"
+   "status": "review_needed"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65990",
@@ -122,6 +110,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266745",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739309",
    "status": "review_needed"
   },
@@ -138,11 +130,19 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/mapmapoo/224463128101",
+   "url": "https://blog.naver.com/onlylove0908/224465268835",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/yumyumblog-/224464674459",
+   "url": "https://blog.naver.com/boysoo507/224465183526",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/boragyou/224465040687",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/sexy0416/224465117954",
    "status": "review_needed"
   }
  ]
