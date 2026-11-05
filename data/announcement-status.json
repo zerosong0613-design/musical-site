@@ -1,16 +1,8 @@
 {
- "checkedAt": "2026-11-05T07:38:42.660Z",
+ "checkedAt": "2026-11-05T17:49:22.164Z",
  "sources": [
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66350",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66405",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66403",
+   "url": "https://www.ticketlink.co.kr/help/notice/66457",
    "status": "verified"
   },
   {
@@ -34,14 +26,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127773&page=1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127771&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "checked"
   },
@@ -61,13 +45,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -79,7 +63,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 4
+   "matches": 3
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -134,20 +118,24 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/653864/224466019448",
+   "url": "https://blog.naver.com/golden-compass/224466630907",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/rudskadl79/224463770536",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/hsbclara/224465884334",
+   "url": "https://blog.naver.com/dandi_0829/224466564441",
    "status": "review_needed"
   },
   {
    "url": "https://blog.naver.com/nakuproject/224465798339",
    "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/zzangminari/224464713249",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80",
+   "status": "fetch_failed"
   }
  ]
 }

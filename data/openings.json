@@ -348,6 +348,21 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66457",
+  "at": "2026-11-06 16:00",
+  "title": "뮤지컬 <시카고> 추가 회차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66457",
+  "mt20id": "PF302015",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-4ea49e55d35e5555d120"
+  ]
+ },
+ {
   "id": "ticketlink-66419",
   "at": "2026-11-09 11:00",
   "title": "뮤지컬 <닥터 두리틀> 티켓오픈 안내",
