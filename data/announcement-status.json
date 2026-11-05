@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05T01:28:15.232Z",
+ "checkedAt": "2026-11-05T07:38:42.660Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66350",
@@ -22,6 +22,14 @@
    "status": "review_needed"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18799",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66453",
+   "status": "verified"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1",
    "status": "review_needed"
   },
@@ -31,10 +39,6 @@
   },
   {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127771&page=1",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127769&page=1",
    "status": "review_needed"
   },
   {
@@ -57,19 +61,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 9
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 13
+   "matches": 12
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 6
   },
   {
    "source": "네이버 웹문서",
@@ -95,6 +99,10 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65676",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65502",
    "status": "verified"
   },
   {
@@ -126,15 +134,19 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/ouwang11/224464554118",
+   "url": "https://blog.naver.com/653864/224466019448",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/happywonderland/224465590753",
+   "url": "https://blog.naver.com/rudskadl79/224463770536",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/new_issue/224465500338",
+   "url": "https://blog.naver.com/hsbclara/224465884334",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/nakuproject/224465798339",
    "status": "review_needed"
   }
  ]
