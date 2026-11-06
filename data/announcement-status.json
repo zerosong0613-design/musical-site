@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05T17:49:22.164Z",
+ "checkedAt": "2026-11-06T01:33:10.768Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66457",
@@ -33,7 +33,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 6
   },
   {
    "source": "네이버 뉴스",
@@ -45,7 +45,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
@@ -74,11 +74,11 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/65990",
+   "url": "https://www.ticketlink.co.kr/help/notice/66028",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "url": "https://www.ticketlink.co.kr/help/notice/65990",
    "status": "verified"
   },
   {
@@ -106,6 +106,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://www.gosiweek.com/article/1065594557650239",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.mydaily.co.kr/page/view/2026102914470331611",
    "status": "review_needed"
   },
@@ -118,7 +122,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/golden-compass/224466630907",
+   "url": "https://blog.naver.com/1st_restart/224466620653",
    "status": "review_needed"
   },
   {
@@ -132,10 +136,6 @@
   {
    "url": "https://blog.naver.com/zzangminari/224464713249",
    "status": "review_needed"
-  },
-  {
-   "url": "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80",
-   "status": "fetch_failed"
   }
  ]
 }
