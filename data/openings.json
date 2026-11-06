@@ -1,98 +1,5 @@
 [
  {
-  "id": "ticketlink-66347",
-  "at": "2026-10-30 11:00",
-  "title": "뮤지컬 <소금빌레> 리딩 쇼케이스 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66347",
-  "mt20id": null
- },
- {
-  "id": "yes24-18749",
-  "at": "2026-10-30 13:00",
-  "title": "뮤지컬 [아나키스트] 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18749",
-  "mt20id": "PF298593",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a6b2f2976a2f9241f855"
-  ]
- },
- {
-  "id": "ticketlink-66328",
-  "at": "2026-10-30 13:00",
-  "title": "뮤지컬 <아나키스트> 마지막 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66328",
-  "mt20id": "PF298593",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-cdc1884b4f8260613dbf"
-  ]
- },
- {
-  "id": "yes24-18758",
-  "at": "2026-10-30 14:00",
-  "title": "뮤지컬 [소크라테스 패러독스] 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18758",
-  "mt20id": "PF296148",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-62c9dc38a6d2345882af"
-  ]
- },
- {
-  "id": "ticketlink-66336",
-  "at": "2026-10-30 15:00",
-  "title": "2026 뮤지컬 <피장파장의 오류> 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66336",
-  "mt20id": null
- },
- {
-  "id": "yes24-18756",
-  "at": "2026-10-30 15:00",
-  "title": "2026 뮤지컬 <피장파장의 오류> 1차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18756",
-  "mt20id": null
- },
- {
-  "id": "yes24-18737",
-  "at": "2026-10-30 16:00",
-  "title": "뮤지컬 [엠. 버터플라이] 마지막 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "마지막",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18737",
-  "mt20id": "PF297794",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-1bf3b0055588fed74d34"
-  ]
- },
- {
   "id": "yes24-18762",
   "at": "2026-11-02 11:00",
   "title": "뮤지컬 <단종, 1698> 낭독공연 티켓오픈 안내",
@@ -400,6 +307,32 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66466",
+  "at": "2026-11-10 11:00",
+  "title": "뮤지컬 <어느 60대 노부부의 이야기> - 영덕​​ 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66466",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18808",
+  "at": "2026-11-10 14:00",
+  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
+  "mt20id": "PF294046",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-e9a887930f8ae4013b14"
+  ]
+ },
+ {
   "id": "yes24-18785",
   "at": "2026-11-10 14:00",
   "title": "식스 더 뮤지컬(SIX THE MUSICAL) 2차 티켓오픈 안내",
@@ -498,5 +431,37 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66441",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18805",
+  "at": "2026-11-13 14:00",
+  "title": "뮤지컬 [두 도시 이야기] 3차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "3차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18805",
+  "mt20id": "PF300974",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-20087ee4ea2a09d99384"
+  ]
+ },
+ {
+  "id": "melon-13231",
+  "at": "2026-11-13 14:00",
+  "title": "뮤지컬 〈두 도시 이야기〉 3차 티켓 오픈 안내",
+  "vendor": "멜론티켓",
+  "round": "3차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
+  "mt20id": "PF300974",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-dab7b6a5ad74bca2c93d"
+  ],
+  "performanceFrom": "2026-12-15",
+  "performanceTo": "2027-01-03"
  }
 ]
