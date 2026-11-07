@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-06T17:06:24.496Z",
+ "checkedAt": "2026-11-07T00:54:21.157Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66419",
@@ -27,12 +27,15 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
-   "status": "verified"
+   "status": "fetch_failed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1",
+   "status": "review_needed"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "fetch_failed",
-   "error": "HTTP 500"
+   "status": "checked"
   },
   {
    "source": "네이버 뉴스",
@@ -50,32 +53,32 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 7
+   "matches": 9
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 4
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
    "matches": 3
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/65961",
-   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
   },
   {
@@ -84,10 +87,6 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65990",
-   "status": "verified"
-  },
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/65676",
    "status": "verified"
   },
   {
@@ -119,6 +118,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://blog.naver.com/yioa99/224467844259",
+   "status": "review_needed"
+  },
+  {
    "url": "https://blog.naver.com/blackfox__/224467109421",
    "status": "review_needed"
   },
@@ -128,14 +131,6 @@
   },
   {
    "url": "https://blog.naver.com/dandi_0829/224466564441",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://namu.wiki/w/2022%20%EB%AE%A4%EC%A7%80%EC%BB%AC%20%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%B3%2010%EC%A3%BC%EB%85%84%20%EA%B8%B0%EB%85%90%20%EA%B3%B5%EC%97%B0%20%EC%BA%90%EC%8A%A4%ED%8C%85%20%EB%85%BC%EB%9E%80",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://leaplis.com/elisabeth22/778359",
    "status": "review_needed"
   }
  ]

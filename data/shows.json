@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T01:29:15.072Z",
+ "generatedAt": "2026-11-07T00:50:17.584Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -2006,12 +2006,16 @@
      "url": "https://booking.naver.com/booking/12/bizes/1744810"
     },
     {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79539"
+    },
+    {
      "name": "타임티켓",
      "url": "https://timeticket.co.kr/product/7526"
     }
    ],
    "registeredAt": "2026-09-10 13:16:02",
-   "updatedAt": "2026-11-03 11:26:38"
+   "updatedAt": "2026-11-06 13:30:00"
   },
   {
    "id": "PF300890",
@@ -2527,6 +2531,10 @@
    "creative": true,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/65384"
+    },
+    {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/590324"
     },
@@ -2552,7 +2560,7 @@
     }
    ],
    "registeredAt": "2026-06-24 13:26:50",
-   "updatedAt": "2026-10-12 11:57:10"
+   "updatedAt": "2026-11-06 10:47:32"
   },
   {
    "id": "PF300790",
@@ -2679,7 +2687,7 @@
    ],
    "area": "경기도",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304069_261021_154843.jpg",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 1,000원",
    "times": "토요일(14:00)",
    "runtime": "1시간",
@@ -2714,7 +2722,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304520_261026_162506.png",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 20,000원",
    "times": "토요일 ~ 일요일(15:00,19:00)",
    "runtime": "1시간 10분",
@@ -2749,7 +2757,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303749_261019_135836.png",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 30,000원",
    "times": "토요일(15:00,18:00), 일요일(15:00)",
    "runtime": "1시간 20분",
@@ -2785,7 +2793,7 @@
    ],
    "area": "경기도",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF298908_260820_103910.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "R석 110,000원, S석 99,000원, A석 77,000원, B석 66,000원",
    "times": "토요일 ~ 일요일(14:00,19:00)",
    "runtime": "2시간 40분",
@@ -3830,6 +3838,14 @@
    "creative": false,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66772"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1772218"
+    },
+    {
      "name": "놀유니버스",
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013993"
     },
@@ -3839,7 +3855,7 @@
     }
    ],
    "registeredAt": "2026-10-06 13:45:41",
-   "updatedAt": "2026-10-12 11:02:42"
+   "updatedAt": "2026-11-06 13:28:56"
   },
   {
    "id": "PF304042",
@@ -4134,6 +4150,51 @@
    "updatedAt": "2026-11-03 15:00:03.094823"
   },
   {
+   "id": "PF305670",
+   "title": "로미오와 줄리엣",
+   "from": "2026-12-01",
+   "to": "2027-01-31",
+   "openrun": false,
+   "venue": "한전아트센터 (한전아트센터)",
+   "venueId": "FC000113",
+   "hallId": "FC000113-01",
+   "seats": 999,
+   "large": true,
+   "child": "N",
+   "cast": "남우현, 하성운, 김희재, 박민혁, 이경윤, 이루원, 김수 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305670_202611060112259232.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305670_202611060112259071.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305670_202611060112258990.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305670_261106_131225.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 165,000원, R석 143,000원, S석 110,000원, A석 88,000원",
+   "times": "화요일(19:30), 수요일(15:00,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
+   "runtime": "2시간 30분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66745"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1770516"
+    },
+    {
+     "name": "예스24",
+     "url": "https://ticket.yes24.com/Perf/60933"
+    }
+   ],
+   "registeredAt": "2026-11-06 13:12:26",
+   "updatedAt": "2026-11-06 15:00:03.112494"
+  },
+  {
    "id": "PF282162",
    "title": "서울시뮤지컬단, 크리스마스 캐럴",
    "from": "2026-12-02",
@@ -4384,6 +4445,45 @@
    ],
    "registeredAt": "2026-10-16 14:17:57",
    "updatedAt": "2026-10-16 15:00:00.152684"
+  },
+  {
+   "id": "PF305676",
+   "title": "우주보다 멀고 빛보다 가까운 [대학로]",
+   "from": "2026-12-04",
+   "to": "2026-12-20",
+   "openrun": false,
+   "venue": "연우소극장 (연우소극장)",
+   "venueId": "FC000526",
+   "hallId": "FC000526-01",
+   "seats": 100,
+   "large": false,
+   "child": "N",
+   "cast": "윤석원",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305676_202611060124052490.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305676_261106_132405.jpg",
+   "state": "공연예정",
+   "prices": "전석 45,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(14:00,17:30), 일요일(14:00)",
+   "runtime": "1시간 15분",
+   "age": "만 13세 이상",
+   "producer": "곰컴퍼니",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66775"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1773144"
+    }
+   ],
+   "registeredAt": "2026-11-06 13:24:05",
+   "updatedAt": "2026-11-06 15:00:03.112494"
   },
   {
    "id": "PF302015",
@@ -4664,12 +4764,16 @@
    "creative": true,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66746"
+    },
+    {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60967"
     }
    ],
    "registeredAt": "2026-11-05 10:14:42",
-   "updatedAt": "2026-11-05 15:00:03.098692"
+   "updatedAt": "2026-11-06 13:30:36"
   },
   {
    "id": "PF304889",
