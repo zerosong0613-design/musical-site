@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T00:50:17.584Z",
+ "generatedAt": "2026-11-08T00:21:29.958Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -2632,77 +2632,6 @@
    ],
    "registeredAt": "2026-09-14 12:12:07",
    "updatedAt": "2026-11-03 11:20:30"
-  },
-  {
-   "id": "PF302770",
-   "title": "정약용 묵시록: 희망과 허망 사이, 붓으로 길을 열다 [남양주]",
-   "from": "2026-11-06",
-   "to": "2026-11-07",
-   "openrun": false,
-   "venue": "다산아트홀 (다산아트홀)",
-   "venueId": "FC001931",
-   "hallId": "FC001931-01",
-   "seats": 496,
-   "large": false,
-   "child": "N",
-   "cast": "이태훈, 최영규, 이현준, 이일섭, 진도희, 정재연, 안중현 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302770_202610081019050050.png"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF302770_261008_101904.png",
-   "state": "공연중",
-   "prices": "1층석 30,000원, 2층석 20,000원",
-   "times": "금요일(19:00), 토요일(15:00,19:00)",
-   "runtime": "1시간 40분",
-   "age": "만 7세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "남양주문화재단",
-     "url": "http://nyjcf.moonhwain.net/rsvc/rsv_pm.html?b_id=nyjcf&p_idx=729"
-    }
-   ],
-   "registeredAt": "2026-10-08 10:19:05",
-   "updatedAt": "2026-10-08 15:00:00.092925"
-  },
-  {
-   "id": "PF304069",
-   "title": "넌 특별하단다 [남양주]",
-   "from": "2026-11-07",
-   "to": "2026-11-07",
-   "openrun": false,
-   "venue": "남양주 어린이비전센터 (다목적강당)",
-   "venueId": "FC001875",
-   "hallId": "FC001875-01",
-   "seats": 200,
-   "large": false,
-   "child": "N",
-   "cast": "",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304069_202610210348435111.png",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304069_202610210348434920.png"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304069_261021_154843.jpg",
-   "state": "공연중",
-   "prices": "전석 1,000원",
-   "times": "토요일(14:00)",
-   "runtime": "1시간",
-   "age": "전체 관람가",
-   "producer": "사단법인 하늘에",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "남양주문화재단",
-     "url": "http://nyjcf.moonhwain.net/rsvc/rsv_pm.html?b_id=nyjcf&p_idx=732"
-    }
-   ],
-   "registeredAt": "2026-10-21 15:48:44",
-   "updatedAt": "2026-10-21 18:00:00.114794"
   },
   {
    "id": "PF304520",
