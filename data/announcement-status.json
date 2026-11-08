@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-08T00:25:56.634Z",
+ "checkedAt": "2026-11-08T06:53:23.296Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66419",
@@ -27,7 +27,7 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127799&page=1",
@@ -53,13 +53,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 3
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 15
   },
   {
    "source": "네이버 웹문서",
@@ -118,7 +118,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/mmini_muse/224468625530",
+   "url": "https://blog.naver.com/curtaincallnote/224468984903",
    "status": "review_needed"
   },
   {
@@ -131,10 +131,6 @@
   },
   {
    "url": "https://blog.naver.com/heeyeon2__/224466449893",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/zhzh171017/224467790118",
    "status": "review_needed"
   }
  ]
