@@ -1,10 +1,6 @@
 {
- "checkedAt": "2026-11-09T07:33:02.127Z",
+ "checkedAt": "2026-11-09T20:21:40.121Z",
  "sources": [
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66419",
-   "status": "verified"
-  },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
    "status": "verified"
@@ -41,7 +37,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 4
   },
   {
    "source": "네이버 뉴스",
@@ -53,13 +49,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 17
+   "matches": 19
   },
   {
    "source": "네이버 웹문서",
@@ -106,10 +102,6 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739309",
-   "status": "review_needed"
-  },
-  {
    "url": "https://isplus.com/article/view/isp202611040101",
    "status": "review_needed"
   },
@@ -118,19 +110,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/vuswl57/224470124539",
+   "url": "https://blog.naver.com/booty1020/224470956692",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/hsbclara/224470417130",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/feelfreefun/224470411310",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/dlsdh79/224469195579",
+   "url": "https://blog.naver.com/make2t0418/224470658248",
    "status": "review_needed"
   },
   {
