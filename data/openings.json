@@ -1,16 +1,5 @@
 [
  {
-  "id": "yes24-18762",
-  "at": "2026-11-02 11:00",
-  "title": "뮤지컬 <단종, 1698> 낭독공연 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18762",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66279",
   "at": "2026-11-03 10:00",
   "title": "베베핀 뮤지컬 <두근두근 새친구> - 상주 티켓오픈 안내",
@@ -430,6 +419,17 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66441",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66475",
+  "at": "2026-11-12 14:00",
+  "title": "2026 뮤지컬 <미드나잇 : 액터뮤지션> - THE FINAL 1차 티켓오픈",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66475",
   "mt20id": null
  },
  {
