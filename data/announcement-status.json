@@ -1,14 +1,6 @@
 {
- "checkedAt": "2026-11-10T07:57:35.581Z",
+ "checkedAt": "2026-11-10T17:25:48.846Z",
  "sources": [
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
-   "status": "verified"
-  },
-  {
-   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18785",
-   "status": "verified"
-  },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18799",
    "status": "verified"
@@ -53,7 +45,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 1
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
@@ -65,7 +57,7 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 6
   },
   {
    "source": "네이버 웹문서",
@@ -79,6 +71,10 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65890",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/Notice",
    "status": "verified"
   },
   {
@@ -114,6 +110,22 @@
    "status": "review_needed"
   },
   {
+   "url": "https://blog.naver.com/syeon_unni/224472351827",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/lastlook24/224472262504",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/kseu10/224472176854",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/mimature/224472108841",
+   "status": "review_needed"
+  },
+  {
    "url": "https://blog.naver.com/zsccfb/224471760618",
    "status": "review_needed"
   },
@@ -131,14 +143,6 @@
   },
   {
    "url": "https://blog.naver.com/curtaincallnote/224471297609",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/pluss4/224471258857",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/booty1020/224470956692",
    "status": "review_needed"
   }
  ]
