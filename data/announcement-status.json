@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-10T03:26:22.901Z",
+ "checkedAt": "2026-11-10T07:57:35.581Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
@@ -30,15 +30,18 @@
    "status": "verified"
   },
   {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127855&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "fetch_failed",
-   "error": "HTTP 500"
+   "status": "checked"
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 3
   },
   {
    "source": "네이버 뉴스",
@@ -50,13 +53,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 17
+   "matches": 14
   },
   {
    "source": "네이버 웹문서",
@@ -99,11 +102,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266745",
+   "url": "https://isplus.com/article/view/isp202611040101",
    "status": "review_needed"
   },
   {
-   "url": "https://isplus.com/article/view/isp202611040101",
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266745",
    "status": "review_needed"
   },
   {
@@ -111,7 +114,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/vuswl57/224471399791",
+   "url": "https://blog.naver.com/zsccfb/224471760618",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/hodaengbt/224471564115",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/zsccfb/224471520604",
    "status": "review_needed"
   },
   {
@@ -128,14 +139,6 @@
   },
   {
    "url": "https://blog.naver.com/booty1020/224470956692",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/make2t0418/224470658248",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/musiiiical/224469685804",
    "status": "review_needed"
   }
  ]
