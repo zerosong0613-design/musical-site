@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-09",
+  "checkedAt": "2026-11-10",
   "shows": {
     "PF272938": {
       "title": "더 맨 얼라이브: 초이스",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25014107",
@@ -30,7 +30,7 @@
     },
     "PF292160": {
       "title": "겨울왕국 [서울]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://tickets.interpark.com/goods/26007416",
@@ -152,10 +152,10 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/11/2/2026110209302100e9ea473e834f01aeb31ac6121b275b.jpg",
+          "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/11/10/20261110120116f24afca0b4e2463386c51fc075c720e9.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79228",
-          "sha256": "b886487f948d4ba6a1daa8b24ce535c11dbcaae0272036baca584af4f0776c2b",
-          "changed": false,
+          "sha256": "ebd64bf6ebefb043fdcd65ce744cb8c71dee6a03583ec6fdd24f7ebd1801897e",
+          "changed": true,
           "contentType": "image/jpeg"
         }
       ],
@@ -664,7 +664,7 @@
     },
     "PF301912": {
       "title": "마제스티 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853",
@@ -776,14 +776,14 @@
     },
     "PF301634": {
       "title": "정신병동에도 아침이 와요",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF300974": {
       "title": "두 도시 이야기",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013098",
@@ -895,7 +895,7 @@
     },
     "PF302516": {
       "title": "레베카 [서울]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013993",
@@ -1003,7 +1003,7 @@
     },
     "PF282162": {
       "title": "서울시뮤지컬단, 크리스마스 캐럴",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004481",
@@ -1044,7 +1044,7 @@
           "url": "http://ticketimage.interpark.com/P00044812026/11/09/ad5300c4.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=P0004481",
           "sha256": "51c0217e41e2764cd54eddf91f47efda171837901fd9d2ed2e07a87e4a771a79",
-          "changed": true,
+          "changed": false,
           "contentType": "image/jpeg"
         },
         {
@@ -1093,7 +1093,7 @@
           "url": "https://commonfile.clipservice.co.kr/Storage/Management/Editor/2026/11/9/20261109090102b5fc851731b84811bb12cb1339b91a48.jpg",
           "pageUrl": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=78945",
           "sha256": "1934b877b64dc67e9234716c79670c29f4f6a30a8c2c771bdd5fd40d69dc7f9e",
-          "changed": true,
+          "changed": false,
           "contentType": "image/jpeg"
         },
         {
@@ -1115,7 +1115,7 @@
     },
     "PF302677": {
       "title": "미세스 다웃파이어 [서울]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014015",
@@ -1212,7 +1212,7 @@
     },
     "PF302744": {
       "title": "식스 더 뮤지컬 (SIX THE MUSICAL)",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60484",
@@ -1278,7 +1278,7 @@
     },
     "PF299684": {
       "title": "빨래 [수원]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012526",
@@ -1301,10 +1301,10 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26012526-01.jpg",
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26012526-02.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012526",
-          "sha256": "96a87ff32107476f90699d3d1d719f3fa4c6d988db8c5b490064d2d7ff692c9d",
-          "changed": false,
+          "sha256": "f0ce46a90e3ec58d2fc40ea00893bbb9a47bf42996cda0181ea253fa4b1b60e4",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
@@ -1442,7 +1442,7 @@
     },
     "PF294046": {
       "title": "빨래 [하남]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008450",
@@ -1497,7 +1497,7 @@
     },
     "PF301439": {
       "title": "광화문 연가 [인천]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013050",
@@ -1594,7 +1594,7 @@
     },
     "PF235543": {
       "title": "난타 [명동]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22006637",
@@ -1613,13 +1613,6 @@
           "url": "http://ticketimage.interpark.com/220066372026/10/29/5d9bff27.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22006637",
           "sha256": "fba52d1877f522eb2e2e147bb718f9150d635be881c25288502bbf993ab6f824",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "http://ticketimage.interpark.com/220066372026/10/29/73c32e60.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=22006637",
-          "sha256": "5fa58dfa1d667793576aab02fd045a703d220e1dd39077c71bad0937dd6b8d61",
           "changed": false,
           "contentType": "image/jpeg"
         },
@@ -1684,7 +1677,7 @@
     },
     "PF236349": {
       "title": "난타 [홍대]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=23012005",
@@ -1760,7 +1753,7 @@
     },
     "PF242666": {
       "title": "페인터즈 [서대문전용관]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25005146",
@@ -1790,10 +1783,10 @@
           "contentType": "image/jpeg"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/25005146-25.jpg",
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/25005146-26.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25005146",
-          "sha256": "b2cca28838405d3b7d8441d29dfb0b79bd3cc4220a740cd989a030abdef4b870",
-          "changed": false,
+          "sha256": "5526a8a74dbf28dad9644f1193288ce2433a068ac01f379b4faa63902c1dbca1",
+          "changed": true,
           "contentType": "image/jpeg"
         },
         {
@@ -1815,7 +1808,7 @@
     },
     "PF247938": {
       "title": "점프 JUMP",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=24015236",
@@ -2450,7 +2443,7 @@
     },
     "PF296148": {
       "title": "소크라테스 패러독스",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010086",
@@ -2484,7 +2477,7 @@
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/11/2026110616434862.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26010086",
           "sha256": "cbd61f18303ac1353cdbde7381a4a20a0e04fae0ab769e55aac7c8c9cf2f6d51",
-          "changed": true,
+          "changed": false,
           "contentType": "image/jpeg"
         },
         {
@@ -2569,7 +2562,7 @@
     },
     "PF298163": {
       "title": "연의 편지 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
@@ -2666,7 +2659,7 @@
           "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/21/08/0400042108_48184_02.922.gif",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011553",
           "sha256": "87b08c4c2916e0333b3b4f225099f10aeb499d490744cbdd817bd915a3cc0533",
-          "changed": true,
+          "changed": false,
           "contentType": "image/gif"
         }
       ],
@@ -2674,7 +2667,7 @@
     },
     "PF296104": {
       "title": "콰이어 오브 맨 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009193",
@@ -2876,7 +2869,7 @@
     },
     "PF298792": {
       "title": "섬: 1933~2019",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011828",
@@ -2973,7 +2966,7 @@
     },
     "PF297794": {
       "title": "엠. 버터플라이",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
@@ -2996,13 +2989,6 @@
           "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/8/2026080516053458.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
           "sha256": "b1decc831630fcccd7c655807217a7097e45624bd6b4f2106b24effd5e7adc76",
-          "changed": false,
-          "contentType": "image/jpeg"
-        },
-        {
-          "url": "https://ticketimage.interpark.com/Play/ITM/Data/Modify/2026/10/2026103016085351.jpg",
-          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
-          "sha256": "b3c72f24878e783715e48f95890ccd42ae50fae56f5f4d4caea656363a4b664e",
           "changed": false,
           "contentType": "image/jpeg"
         },
@@ -3067,6 +3053,13 @@
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
           "sha256": "09a5f0d59cd4764692f6cdc2260688b188a542eb5a6b0ba15914879eac92c4c9",
           "changed": false,
+          "contentType": "image/gif"
+        },
+        {
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/20/05/0400042005_46344_02.gif",
+          "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011453",
+          "sha256": "093f4d0d44fcee788aa8d3335bd7cb70e208912a23adedfe98766922dc64ba8c",
+          "changed": true,
           "contentType": "image/gif"
         }
       ],
@@ -3304,7 +3297,7 @@
     },
     "PF301746": {
       "title": "마하고니 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60316",
@@ -3335,7 +3328,7 @@
     },
     "PF302016": {
       "title": "썸데이 [안성]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013791",
@@ -3362,7 +3355,7 @@
     },
     "PF302842": {
       "title": "오페라의 유령 40주년 스페셜 시즌",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013995",
@@ -3509,7 +3502,7 @@
     },
     "PF301001": {
       "title": "광화문 연가 [수원]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013007",
@@ -3703,7 +3696,7 @@
     },
     "PF303276": {
       "title": "사의찬미 [서울 영등포]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013816",
@@ -3765,7 +3758,7 @@
     },
     "PF303043": {
       "title": "스위니토드 (SWEENEY TODD)",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014509",
@@ -3820,10 +3813,10 @@
           "contentType": "image/gif"
         },
         {
-          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_3438_013654.gif",
+          "url": "http://ticketimage.interpark.com/PlayDictionary/DATA/PlayDic/PlayDicUpload/040004/07/01/0400040701_3438_013654.335.gif",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014509",
-          "sha256": "51a57894d042c83a6df52df6b6ddec6d3ed7652b43aa74b7ca096f35aab1be0b",
-          "changed": false,
+          "sha256": "6d6168b24cc7c5108dcbd86b28ab014006418f18e5721535d3e99442799ca55a",
+          "changed": true,
           "contentType": "image/gif"
         },
         {
@@ -3873,7 +3866,7 @@
     },
     "PF303193": {
       "title": "오지게 재밌는 가시나들 [과천]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014505",
@@ -3900,7 +3893,7 @@
     },
     "PF303612": {
       "title": "오지게 재밌는 가시나들 [안산]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60351",
@@ -3919,7 +3912,7 @@
     },
     "PF295981": {
       "title": "서울예술단, 백범",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://nol.yanolja.com/ticket/products/26013711",
@@ -3971,7 +3964,7 @@
     },
     "PF303673": {
       "title": "여신님이 보고 계셔 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014511",
@@ -4072,7 +4065,7 @@
     },
     "PF303912": {
       "title": "쉐도우 [인천]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014912",
@@ -4134,7 +4127,7 @@
     },
     "PF304258": {
       "title": "청소년을 위한 공연축제 Ⅱ, 페이크북 [인천]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015017",
@@ -4161,7 +4154,7 @@
     },
     "PF304068": {
       "title": "앨런 튜링 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014988",
@@ -4255,7 +4248,7 @@
     },
     "PF304620": {
       "title": "악극제, 작은 할머니 [성남]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015033",
@@ -4267,7 +4260,7 @@
     },
     "PF304559": {
       "title": "더 퍼스트 에디션 낭독공연",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [],
       "images": [],
       "status": "no_sources"
@@ -4379,7 +4372,7 @@
     },
     "PF299855": {
       "title": "이끼숲",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79449",
@@ -4407,7 +4400,7 @@
     },
     "PF304086": {
       "title": "닥터 두리틀 [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015064",
@@ -4515,7 +4508,7 @@
     },
     "PF304788": {
       "title": "1598 연안에서 [서울 노원]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014936",
@@ -4556,7 +4549,7 @@
     },
     "PF305560": {
       "title": "밤을 건너는 시인",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015896",
@@ -4572,10 +4565,10 @@
           "contentType": "image/gif"
         },
         {
-          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26015896-03.jpg",
+          "url": "http://ticketimage.interpark.com/Play/image/etc/26/26015896-04.jpg",
           "pageUrl": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015896",
-          "sha256": "8cf7ad0325d9de12b7dbc6f6ab3e1c3814289bfcd009b09cca60286d148e7878",
-          "changed": false,
+          "sha256": "45ee35ab5719bcd2f439d1b1b7e06b9541a79871581bb9ebeb0a1774d4139bf6",
+          "changed": true,
           "contentType": "image/jpeg"
         }
       ],
@@ -4583,14 +4576,14 @@
     },
     "PF305432": {
       "title": "제58회 파주시립예술단 정기연주회: 구내과 병원 [파주]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF305106": {
       "title": "중섭 리딩 쇼케이스",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014962",
@@ -4631,7 +4624,7 @@
     },
     "PF304909": {
       "title": "봄 잠",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015562",
@@ -4665,21 +4658,21 @@
     },
     "PF305003": {
       "title": "소금빌레 리딩 쇼케이스",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF305210": {
       "title": "바다의 불빛 [인천]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [],
       "images": [],
       "status": "no_sources"
     },
     "PF305507": {
       "title": "아가사 AGATHA [대학로]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015729",
@@ -4792,7 +4785,7 @@
     },
     "PF304889": {
       "title": "가장 보편의 환상",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015570",
@@ -4819,7 +4812,7 @@
     },
     "PF304911": {
       "title": "당신만이 [부평]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://nol.yanolja.com/ticket/products/26015567",
@@ -4853,7 +4846,7 @@
     },
     "PF305506": {
       "title": "ART LINK: 지역예술인 동행 시리즈 Ⅳ. GREASE [평택]",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60903",
@@ -4865,7 +4858,7 @@
     },
     "PF305670": {
       "title": "로미오와 줄리엣",
-      "checkedAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
       "pages": [
         {
           "url": "https://ticket.yes24.com/Perf/60933",

@@ -1,27 +1,5 @@
 [
  {
-  "id": "ticketlink-66279",
-  "at": "2026-11-03 10:00",
-  "title": "베베핀 뮤지컬 <두근두근 새친구> - 상주 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66279",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66375",
-  "at": "2026-11-03 10:00",
-  "title": "베베핀 뮤지컬 <두근두근 새친구> - 서울 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66375",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66333",
   "at": "2026-11-03 14:00",
   "title": "뮤지컬 스위니토드( SWEENEY TODD ) – 10주년 2차 티켓오픈 안내",
@@ -422,6 +400,21 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18815",
+  "at": "2026-11-12 11:00",
+  "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-추가 회차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18815",
+  "mt20id": "PF302842",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-2edc5f87d9ad3432c5dc"
+  ]
+ },
+ {
   "id": "ticketlink-66475",
   "at": "2026-11-12 14:00",
   "title": "2026 뮤지컬 <미드나잇 : 액터뮤지션> - THE FINAL 1차 티켓오픈",
@@ -430,6 +423,17 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66475",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66487",
+  "at": "2026-11-12 15:00",
+  "title": "뮤지컬 < DMZ > 낭독공연 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66487",
   "mt20id": null
  },
  {
@@ -463,5 +467,16 @@
   ],
   "performanceFrom": "2026-12-15",
   "performanceTo": "2027-01-03"
+ },
+ {
+  "id": "ticketlink-66485",
+  "at": "2026-11-13 14:00",
+  "title": "뮤지컬 <도둑맞은 책> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66485",
+  "mt20id": null
  }
 ]
