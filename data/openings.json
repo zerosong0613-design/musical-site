@@ -315,7 +315,7 @@
  {
   "id": "ticketlink-66509",
   "at": "2026-11-16 15:00",
-  "title": "[피처링_트랙 60] 뮤지컬 <마하고니> 티켓오픈 안",
+  "title": "[피처링_트랙 60] 뮤지컬 <마하고니> 티켓오픈 안내",
   "vendor": "티켓링크",
   "round": "",
   "exclusive": true,
@@ -415,6 +415,21 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66518",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18838",
+  "at": "2026-11-19 15:00",
+  "title": "뮤지컬 [앨런튜링] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18838",
+  "mt20id": "PF304068",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a9ac9d1826f1806f87c9"
+  ]
  },
  {
   "id": "yes24-18830",
