@@ -1,105 +1,5 @@
 [
  {
-  "id": "ticketlink-66350",
-  "at": "2026-11-05 14:00",
-  "title": "뮤지컬 <시카고> 2차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66350",
-  "mt20id": "PF302015",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-0f76db504152e1f0ddbe"
-  ]
- },
- {
-  "id": "ticketlink-66352",
-  "at": "2026-11-05 14:00",
-  "title": "뮤지컬 <풍월주> 프리뷰 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66352",
-  "mt20id": null
- },
- {
-  "id": "yes24-18760",
-  "at": "2026-11-05 14:00",
-  "title": "뮤지컬 <풍월주> 프리뷰 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18760",
-  "mt20id": "PF305499"
- },
- {
-  "id": "ticketlink-66331",
-  "at": "2026-11-05 14:00",
-  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66331",
-  "mt20id": null
- },
- {
-  "id": "yes24-18752",
-  "at": "2026-11-05 14:00",
-  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 1차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18752",
-  "mt20id": "PF305670"
- },
- {
-  "id": "ticketlink-66405",
-  "at": "2026-11-05 15:00",
-  "title": "뮤지컬 <이끼숲> 함께 별을 헤는 밤 DAY 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66405",
-  "mt20id": "PF299855",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-831a14f3dcf878a54d14"
-  ]
- },
- {
-  "id": "ticketlink-66403",
-  "at": "2026-11-05 16:00",
-  "title": "[오픈시간변경] [단독판매] [링크스페셜데이_Page 14] 뮤지컬 <레베카> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66403",
-  "mt20id": "PF302516",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-b28d5b7e85bc0c78ce51"
-  ]
- },
- {
-  "id": "ticketlink-66378",
-  "at": "2026-11-05 16:00",
-  "title": "뮤지컬 <우주보다 멀고 빛보다 가까운> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66378",
-  "mt20id": null
- },
- {
   "id": "yes24-18796",
   "at": "2026-11-06 11:00",
   "title": "[수원] 2027 베스트셀러 뮤지컬 [콧구멍을 후비면] 티켓 오픈 안내",
@@ -348,6 +248,17 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18835",
+  "at": "2026-11-13 09:00",
+  "title": "[안산] 뮤지컬 타키포오 [몬스터 전쟁의 서막 ; 더 좀비] 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18835",
+  "mt20id": null
+ },
+ {
   "id": "yes24-18805",
   "at": "2026-11-13 14:00",
   "title": "뮤지컬 [두 도시 이야기] 3차 티켓오픈 안내",
@@ -428,6 +339,21 @@
   "mt20id": null
  },
  {
+  "id": "nol-26016519",
+  "at": "2026-11-17 14:00",
+  "title": "[슈가데이#8] 뮤지컬 〈렛미플라이〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26016519",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-86a8f62b2b2cd3852f03"
+  ]
+ },
+ {
   "id": "yes24-18831",
   "at": "2026-11-17 14:00",
   "title": "뮤지컬 [하트셉수트] 1차 티켓오픈 안내",
@@ -437,6 +363,21 @@
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18831",
   "mt20id": null
+ },
+ {
+  "id": "ticketlink-66516",
+  "at": "2026-11-17 14:00",
+  "title": "뮤지컬 <미세스 다웃파이어> 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66516",
+  "mt20id": "PF302677",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a623daaa466be5346d28"
+  ]
  },
  {
   "id": "ticketlink-66506",
@@ -463,6 +404,17 @@
   "announcementIds": [
    "announcement-beaf3b3090de8c146ac9"
   ]
+ },
+ {
+  "id": "ticketlink-66518",
+  "at": "2026-11-19 14:00",
+  "title": "뮤지컬 <아라비안 나이트> 낭독공연 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66518",
+  "mt20id": null
  },
  {
   "id": "yes24-18830",
