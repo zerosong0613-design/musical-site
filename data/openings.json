@@ -275,7 +275,7 @@
   "exclusive": false,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18753",
-  "mt20id": null
+  "mt20id": "PF306119"
  },
  {
   "id": "ticketlink-66493",
@@ -391,6 +391,65 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66505",
+  "at": "2026-11-13 15:00",
+  "title": "뮤지컬 <김의 나라> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66505",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66509",
+  "at": "2026-11-16 15:00",
+  "title": "[피처링_트랙 60] 뮤지컬 <마하고니> 티켓오픈 안",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66509",
+  "mt20id": "PF301746",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-229b8180e815dd3b7a12"
+  ]
+ },
+ {
+  "id": "ticketlink-66510",
+  "at": "2026-11-17 11:00",
+  "title": "뮤지컬 <리플리> 프리뷰 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66510",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18831",
+  "at": "2026-11-17 14:00",
+  "title": "뮤지컬 [하트셉수트] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18831",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66506",
+  "at": "2026-11-17 14:00",
+  "title": "뮤지컬 <하트셉수트> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66506",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66501",
   "at": "2026-11-17 15:00",
   "title": "뮤지컬 < V 에버 애프터 > 3차 티켓오픈 안내",
@@ -403,6 +462,36 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-beaf3b3090de8c146ac9"
+  ]
+ },
+ {
+  "id": "yes24-18830",
+  "at": "2026-11-20 11:00",
+  "title": "뮤지컬 [풍월주] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18830",
+  "mt20id": "PF305499",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-8b3dcf2544558186dd3f"
+  ]
+ },
+ {
+  "id": "ticketlink-66511",
+  "at": "2026-11-20 11:00",
+  "title": "뮤지컬 <풍월주> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66511",
+  "mt20id": "PF305499",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-13f00c94a7fe014db663"
   ]
  }
 ]

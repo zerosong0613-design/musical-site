@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T01:11:02.714Z",
+ "generatedAt": "2026-11-12T02:13:04.462Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -433,7 +433,7 @@
     }
    ],
    "registeredAt": "2024-10-11 10:20:00",
-   "updatedAt": "2026-10-30 16:22:19"
+   "updatedAt": "2026-11-11 10:10:44"
   },
   {
    "id": "PF259779",
@@ -2583,7 +2583,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304765_261028_163235.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 50,000원",
    "times": "월요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,18:30)",
    "runtime": "1시간 40분",
@@ -2618,7 +2618,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303405_261019_152347.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 60,000원",
    "times": "화요일 ~ 금요일(19:30), 토요일(14:00,18:30), 일요일(15:00)",
    "runtime": "2시간 10분",
@@ -3536,12 +3536,16 @@
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014511"
     },
     {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD31314"
+    },
+    {
      "name": "클립서비스주식회사",
      "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79496"
     }
    ],
    "registeredAt": "2026-10-19 10:47:05",
-   "updatedAt": "2026-10-20 13:12:36"
+   "updatedAt": "2026-11-11 17:30:43"
   },
   {
    "id": "PF305803",
@@ -4555,6 +4559,41 @@
    "updatedAt": "2026-10-30 15:00:03.089931"
   },
   {
+   "id": "PF306042",
+   "title": "애기봉 [김포]",
+   "from": "2026-12-11",
+   "to": "2026-12-12",
+   "openrun": false,
+   "venue": "김포아트홀 (김포아트홀)",
+   "venueId": "FC001618",
+   "hallId": "FC001618-01",
+   "seats": 503,
+   "large": true,
+   "child": "N",
+   "cast": "이아진, 양경원, 신고은, 조현식, 김채은, 김유성, 송창현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306042_202611111104349460.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306042_261111_110434.gif",
+   "state": "공연예정",
+   "prices": "R석 20,000원, S석 10,000원",
+   "times": "금요일(15:00,19:30), 토요일(13:00,16:30)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "공연배달서비스간다",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016228"
+    }
+   ],
+   "registeredAt": "2026-11-11 11:04:35",
+   "updatedAt": "2026-11-11 15:00:03.033025"
+  },
+  {
    "id": "PF303193",
    "title": "오지게 재밌는 가시나들 [과천]",
    "from": "2026-12-11",
@@ -5060,12 +5099,16 @@
    "creative": true,
    "links": [
     {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1775204"
+    },
+    {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/60974"
     }
    ],
    "registeredAt": "2026-11-10 10:32:52",
-   "updatedAt": "2026-11-10 15:00:03.058793"
+   "updatedAt": "2026-11-11 12:38:13"
   },
   {
    "id": "PF302842",
@@ -5279,6 +5322,42 @@
    ],
    "registeredAt": "2026-09-15 14:37:27",
    "updatedAt": "2026-10-14 13:10:52"
+  },
+  {
+   "id": "PF306119",
+   "title": "해밀턴 내한공연 (Musical HAMILTON) [서울]",
+   "from": "2027-01-21",
+   "to": "2027-03-20",
+   "openrun": false,
+   "venue": "세종문화회관 (세종대극장)",
+   "venueId": "FC000020",
+   "hallId": "FC000020-01",
+   "seats": 3022,
+   "large": true,
+   "child": "N",
+   "cast": "마크 앤더슨, 제이슨 애로우, 조던 캐슬, 존 데버로, 니콜라 에스파야르도, 제이크 할시-존스, 조렐 하비에르 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306119_202611110247168261.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306119_202611110247168010.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306119_261111_144716.png",
+   "state": "공연예정",
+   "prices": "VIP석 220,000원, R석 180,000원, S석 140,000원, A석 100,000원, B석 70,000원",
+   "times": "화요일 ~ 목요일(19:30), 금요일(14:30,19:30), 토요일 ~ 일요일(14:00,19:00), HOL(14:00,15:00,19:00)",
+   "runtime": "2시간 50분",
+   "age": "만 13세 이상",
+   "producer": "에스앤코(S&CO)",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79530"
+    }
+   ],
+   "registeredAt": "2026-11-11 14:47:17",
+   "updatedAt": "2026-11-11 18:00:03.074637"
   }
  ]
 }
