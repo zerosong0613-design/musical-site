@@ -296,7 +296,7 @@
   "title": "뮤지컬 <도둑맞은 책> 티켓오픈 안내",
   "vendor": "티켓링크",
   "round": "",
-  "exclusive": false,
+  "exclusive": true,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66485",
   "mt20id": null
@@ -404,6 +404,28 @@
   "announcementIds": [
    "announcement-beaf3b3090de8c146ac9"
   ]
+ },
+ {
+  "id": "ticketlink-66521",
+  "at": "2026-11-18 14:00",
+  "title": "뮤지컬 <나르치스와 골드문트> 1차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66521",
+  "mt20id": null
+ },
+ {
+  "id": "yes24-18839",
+  "at": "2026-11-18 14:00",
+  "title": "좋은좌석 뮤지컬 [나르치스와 골드문트] 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18839",
+  "mt20id": null
  },
  {
   "id": "ticketlink-66518",

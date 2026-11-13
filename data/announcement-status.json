@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-12T17:51:07.822Z",
+ "checkedAt": "2026-11-13T01:51:46.172Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18805",
@@ -57,13 +57,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 18
+   "matches": 17
   },
   {
    "source": "네이버 웹문서",
@@ -106,10 +106,6 @@
    "status": "review_needed"
   },
   {
-   "url": "http://withinnews.co.kr/news/view.html?section=9&category=126&item=&no=40917",
-   "status": "fetch_failed"
-  },
-  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269788",
    "status": "review_needed"
   },
@@ -127,10 +123,6 @@
   },
   {
    "url": "https://blog.naver.com/nine1017/224474927661",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/bomiwon63/224473523709",
    "status": "review_needed"
   },
   {
