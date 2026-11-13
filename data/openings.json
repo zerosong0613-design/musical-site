@@ -291,6 +291,17 @@
   ]
  },
  {
+  "id": "nol-26016063",
+  "at": "2026-11-17 11:00",
+  "title": "뮤지컬 〈다이스〉 낭독공연 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26016063",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66510",
   "at": "2026-11-17 11:00",
   "title": "뮤지컬 <리플리> 프리뷰 티켓오픈 안내",
@@ -414,6 +425,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-a9ac9d1826f1806f87c9"
+  ]
+ },
+ {
+  "id": "nol-26014988",
+  "at": "2026-11-19 15:00",
+  "title": "뮤지컬 〈앨런 튜링〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26014988",
+  "mt20id": "PF304068",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-2a996f691526e8cf4df6"
   ]
  },
  {
