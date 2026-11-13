@@ -1,5 +1,16 @@
 [
  {
+  "id": "announcement-dab7b6a5ad74bca2c93d",
+  "mt20id": "PF300974",
+  "title": "멜론 티켓",
+  "at": "2026-11-13T07:32:02.002Z",
+  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
+  "source": "멜론티켓",
+  "kind": "roster",
+  "excerpt": "캐스팅] 시드니 칼튼┃ 카이 고은성 신성록 찰스 다네이┃ 백형훈 진태화 노윤 루시 마네뜨┃ 선민 이지혜 김수연 마담 드파르주┃ 이영미 김소향 마네트 박사┃ 김용수 존 바사드┃ 최호중 에르네스트 드파르주┃ 심재현 자비스 로리┃ 이종문 미스 프로스┃ 최나",
+  "announcementId": "announcement-dab7b6a5ad74bca2c93d"
+ },
+ {
   "id": "announcement-229b8180e815dd3b7a12",
   "mt20id": "PF301746",
   "title": "[단독판매] [피처링_트랙 60] 뮤지컬 티켓오픈 안내 | 티켓링크",
@@ -20,17 +31,6 @@
   "kind": "roster",
   "excerpt": "캐스팅 그대로 컴백! 연말 가장 확실한 재미! 육아에 지쳤나요? 월급이 스쳐 가나요? 차트에 비가 오나요? 무엇하나 내 뜻대로 되지 않는 인생, 올해도 수고한 당신을 위해 ‘다웃파이어’가 웃음 하나 만큼은 책임집니다. 오감을 넘어 오장육부 자극하는 웃",
   "announcementId": "announcement-a623daaa466be5346d28"
- },
- {
-  "id": "announcement-dab7b6a5ad74bca2c93d",
-  "mt20id": "PF300974",
-  "title": "멜론 티켓",
-  "at": "2026-11-12T07:54:53.205Z",
-  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
-  "source": "멜론티켓",
-  "kind": "roster",
-  "excerpt": "캐스팅] 시드니 칼튼┃ 카이 고은성 신성록 찰스 다네이┃ 백형훈 진태화 노윤 루시 마네뜨┃ 선민 이지혜 김수연 마담 드파르주┃ 이영미 김소향 마네트 박사┃ 김용수 존 바사드┃ 최호중 에르네스트 드파르주┃ 심재현 자비스 로리┃ 이종문 미스 프로스┃ 최나",
-  "announcementId": "announcement-dab7b6a5ad74bca2c93d"
  },
  {
   "id": "announcement-a5ce5c369728b9fdee2f",

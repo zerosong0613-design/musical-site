@@ -1,42 +1,5 @@
 [
  {
-  "id": "yes24-18796",
-  "at": "2026-11-06 11:00",
-  "title": "[수원] 2027 베스트셀러 뮤지컬 [콧구멍을 후비면] 티켓 오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18796",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66417",
-  "at": "2026-11-06 11:00",
-  "title": "뮤지컬 <언더 문보우>프리뷰&1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66417",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66457",
-  "at": "2026-11-06 16:00",
-  "title": "뮤지컬 <시카고> 추가 회차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66457",
-  "mt20id": "PF302015",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-4ea49e55d35e5555d120"
-  ]
- },
- {
   "id": "ticketlink-66419",
   "at": "2026-11-09 11:00",
   "title": "뮤지컬 <닥터 두리틀> 티켓오픈 안내",
