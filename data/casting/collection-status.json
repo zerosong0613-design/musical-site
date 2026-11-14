@@ -1,34 +1,34 @@
 {
-  "checkedAt": "2026-11-13",
+  "checkedAt": "2026-11-14",
   "shows": [
     {
       "mt20id": "PF235543",
       "title": "난타 [명동]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF236349",
       "title": "난타 [홍대]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF242666",
       "title": "페인터즈 [서대문전용관]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF247938",
       "title": "점프 JUMP",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "fetch_failed",
       "label": "수집 실패·경로 확인 필요",
       "sourceIssues": [
@@ -41,20 +41,20 @@
     {
       "mt20id": "PF272938",
       "title": "더 맨 얼라이브: 초이스",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF292160",
       "title": "겨울왕국 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-06",
-      "rows": 31,
+      "rows": 29,
       "dataCheckedAt": "2026-10-08",
       "sourceIssues": [
         {
@@ -66,12 +66,12 @@
     {
       "mt20id": "PF294946",
       "title": "엘리자벳",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-15",
-      "rows": 5,
+      "rows": 3,
       "dataCheckedAt": "2026-11-11",
       "sourceIssues": [
         {
@@ -83,13 +83,13 @@
     {
       "mt20id": "PF295552",
       "title": "광화문연가 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-15",
-      "rows": 5,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 3,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432",
@@ -100,19 +100,19 @@
     {
       "mt20id": "PF297712",
       "title": "잔혹동화 생존기 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-29",
-      "rows": 24,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 22,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF296148",
       "title": "소크라테스 패러독스",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -125,13 +125,13 @@
     {
       "mt20id": "PF297912",
       "title": "곤 투모로우 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-15",
       "to": "2026-11-29",
-      "rows": 20,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 19,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.yes24.com/Perf/59596",
@@ -146,13 +146,13 @@
     {
       "mt20id": "PF298593",
       "title": "아나키스트 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-06",
-      "rows": 34,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 33,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.yes24.com/Perf/59694",
@@ -167,7 +167,7 @@
     {
       "mt20id": "PF298163",
       "title": "연의 편지 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -184,7 +184,7 @@
     {
       "mt20id": "PF296104",
       "title": "콰이어 오브 맨 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "fetch_failed",
       "label": "수집 실패·경로 확인 필요",
       "sourceIssues": [
@@ -197,15 +197,15 @@
     {
       "mt20id": "PF298792",
       "title": "섬: 1933~2019",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF297794",
       "title": "엠. 버터플라이",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -222,13 +222,13 @@
     {
       "mt20id": "PF299855",
       "title": "이끼숲",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-13",
-      "rows": 37,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 36,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79449",
@@ -239,13 +239,13 @@
     {
       "mt20id": "PF299169",
       "title": "미드나잇: 앤틀러스 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-15",
-      "rows": 6,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 4,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443",
@@ -256,13 +256,13 @@
     {
       "mt20id": "PF299346",
       "title": "렛미플라이 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-20",
-      "rows": 51,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 50,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.yes24.com/Perf/59852",
@@ -277,36 +277,36 @@
     {
       "mt20id": "PF302270",
       "title": "V 에버 애프터 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-06",
-      "rows": 32,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 31,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF301098",
       "title": "남벌 [서울 광진]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-14",
-      "rows": 3,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 2,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF301912",
       "title": "마제스티 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-15",
-      "rows": 5,
+      "rows": 4,
       "dataCheckedAt": "2026-10-08",
       "sourceIssues": [
         {
@@ -318,25 +318,25 @@
     {
       "mt20id": "PF301634",
       "title": "정신병동에도 아침이 와요",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-11-22",
-      "rows": 11,
+      "rows": 10,
       "dataCheckedAt": "2026-10-08",
       "sourceIssues": []
     },
     {
       "mt20id": "PF301746",
       "title": "마하고니 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-27",
-      "rows": 64,
-      "dataCheckedAt": "2026-11-13",
+      "rows": 62,
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.yes24.com/Perf/60316",
@@ -347,12 +347,12 @@
     {
       "mt20id": "PF300974",
       "title": "두 도시 이야기",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
-      "from": "2026-11-13",
+      "from": "2026-11-14",
       "to": "2026-12-13",
-      "rows": 39,
+      "rows": 38,
       "dataCheckedAt": "2026-11-11",
       "sourceIssues": [
         {
@@ -364,15 +364,15 @@
     {
       "mt20id": "PF294046",
       "title": "빨래 [하남]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF295981",
       "title": "서울예술단, 백범",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "fetch_failed",
       "label": "수집 실패·경로 확인 필요",
       "sourceIssues": [
@@ -385,99 +385,99 @@
     {
       "mt20id": "PF304620",
       "title": "악극제, 작은 할머니 [성남]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "unverified",
       "label": "캐스팅표 확인 필요"
     },
     {
       "mt20id": "PF303127",
       "title": "플릭스! (Musical FLIX!)",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-11-17",
       "to": "2026-11-28",
       "rows": 16,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF304788",
       "title": "1598 연안에서 [서울 노원]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305560",
       "title": "밤을 건너는 시인",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305966",
       "title": "이솝이야기 낭독공연 [서울 성동]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "no_sources",
       "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF303276",
       "title": "사의찬미 [서울 영등포]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305432",
       "title": "제58회 파주시립예술단 정기연주회: 구내과 병원 [파주]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "no_sources",
       "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF305106",
       "title": "중섭 리딩 쇼케이스",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF298550",
       "title": "팬레터 [인천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-11-21",
       "to": "2026-11-22",
       "rows": 4,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF304559",
       "title": "더 퍼스트 에디션 낭독공연",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "no_sources",
       "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF304909",
       "title": "봄 잠",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF302516",
       "title": "레베카 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-11-24",
@@ -489,7 +489,7 @@
     {
       "mt20id": "PF303673",
       "title": "여신님이 보고 계셔 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "fetch_failed",
       "label": "수집 실패·경로 확인 필요",
       "sourceIssues": [
@@ -502,49 +502,49 @@
     {
       "mt20id": "PF304086",
       "title": "닥터 두리틀 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-11-26",
       "to": "2027-01-03",
       "rows": 52,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF305906",
       "title": "마녀는 아이돌을 좋아해",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305003",
       "title": "소금빌레 리딩 쇼케이스",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "no_sources",
       "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF302016",
       "title": "썸데이 [안성]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305210",
       "title": "바다의 불빛 [인천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "no_sources",
       "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF305670",
       "title": "로미오와 줄리엣",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -557,7 +557,7 @@
     {
       "mt20id": "PF282162",
       "title": "서울시뮤지컬단, 크리스마스 캐럴",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -570,23 +570,30 @@
     {
       "mt20id": "PF302677",
       "title": "미세스 다웃파이어 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
+    },
+    {
+      "mt20id": "PF306330",
+      "title": "DMZ 낭독공연",
+      "checkedAt": "2026-11-14",
+      "status": "no_sources",
+      "label": "지원하는 수집 경로 없음"
     },
     {
       "mt20id": "PF303912",
       "title": "쉐도우 [인천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF303043",
       "title": "스위니토드 (SWEENEY TODD)",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-04",
@@ -598,7 +605,7 @@
     {
       "mt20id": "PF303612",
       "title": "오지게 재밌는 가시나들 [안산]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -611,31 +618,31 @@
     {
       "mt20id": "PF302015",
       "title": "시카고 [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-05",
       "to": "2027-01-31",
       "rows": 68,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF304963",
       "title": "윌리엄과 윌리엄의 윌리엄들",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-08",
       "to": "2027-01-03",
       "rows": 35,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF305507",
       "title": "아가사 AGATHA [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -648,13 +655,13 @@
     {
       "mt20id": "PF305499",
       "title": "풍월주",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-09",
       "to": "2026-12-13",
       "rows": 7,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": [
         {
           "url": "https://ticket.yes24.com/Perf/60967",
@@ -665,47 +672,47 @@
     {
       "mt20id": "PF304889",
       "title": "가장 보편의 환상",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF306042",
       "title": "애기봉 [김포]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF303193",
       "title": "오지게 재밌는 가시나들 [과천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF304911",
       "title": "당신만이 [부평]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF304258",
       "title": "청소년을 위한 공연축제 Ⅱ, 페이크북 [인천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305506",
       "title": "ART LINK: 지역예술인 동행 시리즈 Ⅳ. GREASE [평택]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -718,7 +725,7 @@
     {
       "mt20id": "PF302744",
       "title": "식스 더 뮤지컬 (SIX THE MUSICAL)",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-15",
@@ -735,7 +742,7 @@
     {
       "mt20id": "PF304068",
       "title": "앨런 튜링 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -748,15 +755,15 @@
     {
       "mt20id": "PF301439",
       "title": "광화문 연가 [인천]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305920",
       "title": "빨래 [평택 남부]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -769,7 +776,7 @@
     {
       "mt20id": "PF302842",
       "title": "오페라의 유령 40주년 스페셜 시즌",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-22",
@@ -786,43 +793,43 @@
     {
       "mt20id": "PF305999",
       "title": "얼음나무 숲 [대학로]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "collected",
       "label": "캐스팅 확보",
       "from": "2026-12-23",
       "to": "2027-01-03",
       "rows": 17,
-      "dataCheckedAt": "2026-11-13",
+      "dataCheckedAt": "2026-11-14",
       "sourceIssues": []
     },
     {
       "mt20id": "PF299684",
       "title": "빨래 [수원]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF305737",
       "title": "송년음악회 Ⅱ, 가장 완벽한 엔딩 [하남]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF301001",
       "title": "광화문 연가 [수원]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "pending_extraction",
       "label": "이미지 확보·표 판독 대기",
-      "sourceCheckedAt": "2026-11-13"
+      "sourceCheckedAt": "2026-11-14"
     },
     {
       "mt20id": "PF306119",
       "title": "해밀턴 내한공연 (Musical HAMILTON) [서울]",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "blocked",
       "label": "접근 제한",
       "sourceIssues": [
@@ -837,7 +844,7 @@
     {
       "mt20id": null,
       "title": "스타크로스드",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "status": "excluded",
       "label": "수집 대상 제외",
       "reason": "현재 자동수집은 뮤지컬 장르를 대상으로 하므로 연극은 수집 대상에서 제외됩니다.",

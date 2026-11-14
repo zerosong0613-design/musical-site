@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T01:47:32.072Z",
+ "generatedAt": "2026-11-14T01:25:00.085Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -598,7 +598,7 @@
     }
    ],
    "registeredAt": "2025-10-14 10:56:39",
-   "updatedAt": "2026-10-28 15:21:31"
+   "updatedAt": "2026-11-13 11:52:39"
   },
   {
    "id": "PF264855",
@@ -643,7 +643,7 @@
    "id": "PF267104",
    "title": "슬립노모어 서울",
    "from": "2025-07-24",
-   "to": "2026-11-15",
+   "to": "2026-12-31",
    "openrun": true,
    "venue": "매키탄 호텔 (공연장)",
    "venueId": "FC004391",
@@ -667,12 +667,16 @@
    "creative": false,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66992"
+    },
+    {
      "name": "놀유니버스",
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25008376"
     }
    ],
    "registeredAt": "2025-06-13 10:36:11",
-   "updatedAt": "2026-10-12 17:50:37"
+   "updatedAt": "2026-11-13 14:05:13"
   },
   {
    "id": "PF286497",
@@ -2566,6 +2570,45 @@
    "updatedAt": "2026-11-09 15:00:03.078038"
   },
   {
+   "id": "PF300456",
+   "title": "도씨네공방 [부천]",
+   "from": "2026-11-12",
+   "to": "2026-11-14",
+   "openrun": false,
+   "venue": "부천시민회관 (소공연장)",
+   "venueId": "FC000122",
+   "hallId": "FC000122-02",
+   "seats": 214,
+   "large": false,
+   "child": "N",
+   "cast": "도재혁, 신아림, 한기태, 김형우, 김영웅, 정민찬, 하태영",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300456_202611131204550270.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300456_260909_113212.gif",
+   "state": "공연중",
+   "prices": "전석 20,000원",
+   "times": "목요일(19:30), 금요일(15:00,19:30), 토요일(15:00)",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "producer": "아이큐브(ICUVE)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "나눔티켓",
+     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=4&p_new=&start2=0&page_no2=1&p_idx=14123"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012972"
+    }
+   ],
+   "registeredAt": "2026-09-09 11:32:13",
+   "updatedAt": "2026-11-13 15:00:03.532917"
+  },
+  {
    "id": "PF304765",
    "title": "붓다, 세상의 길을 묻다 [대학로]",
    "from": "2026-11-12",
@@ -2735,7 +2778,7 @@
    ],
    "area": "경기도",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305532_261105_112948.jpg",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석무료",
    "times": "토요일 ~ 일요일(18:00)",
    "runtime": "2시간",
@@ -2771,7 +2814,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295981_261001_134601.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "R석 110,000원, S석 80,000원, A석 50,000원, B석 30,000원",
    "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(14:00)",
    "runtime": "2시간 15분",
@@ -2818,7 +2861,7 @@
    ],
    "area": "경기도",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304620_261027_151802.png",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석무료",
    "times": "토요일(15:00)",
    "runtime": "",
@@ -3888,6 +3931,47 @@
    "updatedAt": "2026-11-09 16:55:13"
   },
   {
+   "id": "PF306377",
+   "title": "미드나잇: 액터뮤지션 THE FINAL",
+   "from": "2026-12-01",
+   "to": "2026-12-13",
+   "openrun": false,
+   "venue": "유니플렉스 (3관(소극장))",
+   "venueId": "FC001233",
+   "hallId": "FC001233-03",
+   "seats": 181,
+   "large": false,
+   "child": "N",
+   "cast": "임강성, 정지은, 조환지, 박선영, 박슬기, 박유덕, 김도하 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306377_202611130225282842.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306377_202611130225282531.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306377_202611130225282290.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306377_261113_142528.gif",
+   "state": "공연예정",
+   "prices": "전석 70,000원",
+   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+   "runtime": "1시간 40분",
+   "age": "만 13세 이상",
+   "producer": "(주)모먼트메이커",
+   "license": true,
+   "creative": false,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "https://www.ticketlink.co.kr/product/66923"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016165"
+    }
+   ],
+   "registeredAt": "2026-11-13 14:25:28",
+   "updatedAt": "2026-11-13 18:00:03.346179"
+  },
+  {
    "id": "PF282162",
    "title": "서울시뮤지컬단, 크리스마스 캐럴",
    "from": "2026-12-02",
@@ -3984,6 +4068,43 @@
    ],
    "registeredAt": "2026-10-07 11:38:00",
    "updatedAt": "2026-10-07 15:00:00.086823"
+  },
+  {
+   "id": "PF306330",
+   "title": "DMZ 낭독공연",
+   "from": "2026-12-03",
+   "to": "2026-12-03",
+   "openrun": false,
+   "venue": "홍익대 대학로 아트센터 (대극장)",
+   "venueId": "FC001208",
+   "hallId": "FC001208-01",
+   "seats": 702,
+   "large": true,
+   "child": "N",
+   "cast": "차지현, 박경호, 지현준, 강기둥, 김우성, 김민규, 김예환 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306330_202611131051320682.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306330_202611131051320601.jpg",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306330_202611131051320400.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306330_261113_105132.jpg",
+   "state": "공연예정",
+   "prices": "1층석 30,000원, 2층석 20,000원",
+   "times": "목요일(19:00)",
+   "runtime": "2시간 10분",
+   "age": "만 11세 이상",
+   "producer": "쎈스(CenS)",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66949"
+    }
+   ],
+   "registeredAt": "2026-11-13 10:51:32",
+   "updatedAt": "2026-11-13 15:00:03.532917"
   },
   {
    "id": "PF303902",
@@ -4971,12 +5092,16 @@
    "creative": true,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66907"
+    },
+    {
      "name": "예스24",
      "url": "https://ticket.yes24.com/Perf/61103"
     }
    ],
    "registeredAt": "2026-11-12 11:16:05",
-   "updatedAt": "2026-11-12 15:00:03.095404"
+   "updatedAt": "2026-11-13 16:59:55"
   },
   {
    "id": "PF304068",

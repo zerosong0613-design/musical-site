@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-13T17:28:13.739Z",
+ "checkedAt": "2026-11-14T01:29:08.162Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66509",
@@ -49,7 +49,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
@@ -110,11 +110,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/story-83/224475691677",
+   "url": "https://blog.naver.com/interesrose/224476607609",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/zzangminari/224472515298",
+   "url": "https://blog.naver.com/rakid85/224476521231",
    "status": "review_needed"
   },
   {
