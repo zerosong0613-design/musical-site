@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T01:25:00.085Z",
+ "generatedAt": "2026-11-15T00:58:41.229Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -2019,55 +2019,6 @@
    "updatedAt": "2026-10-26 10:14:12"
   },
   {
-   "id": "PF301098",
-   "title": "남벌 [서울 광진]",
-   "from": "2026-10-23",
-   "to": "2026-11-14",
-   "openrun": false,
-   "venue": "티켓링크 1975 씨어터(구.능동 어린이회관) (티켓링크 1975 씨어터(구.무지개극장))",
-   "venueId": "FC000156",
-   "hallId": "FC000156-01",
-   "seats": 1010,
-   "large": true,
-   "child": "N",
-   "cast": "오종혁, 선율, 박소은, 이재림, 김민철, 정시욱, 이종영 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160310000502.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599921.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301098_202609160309599850.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301098_260916_150959.gif",
-   "state": "공연중",
-   "prices": "VIP석 150,000원, R석 130,000원, S석 100,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일(14:00,19:00), 일요일(14:30)",
-   "runtime": "2시간 30분",
-   "age": "만 13세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/65515"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1739401"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012901"
-    },
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79507"
-    }
-   ],
-   "registeredAt": "2026-09-16 15:10:00",
-   "updatedAt": "2026-10-26 11:31:33"
-  },
-  {
    "id": "PF301912",
    "title": "마제스티 [대학로]",
    "from": "2026-10-25",
@@ -2570,45 +2521,6 @@
    "updatedAt": "2026-11-09 15:00:03.078038"
   },
   {
-   "id": "PF300456",
-   "title": "도씨네공방 [부천]",
-   "from": "2026-11-12",
-   "to": "2026-11-14",
-   "openrun": false,
-   "venue": "부천시민회관 (소공연장)",
-   "venueId": "FC000122",
-   "hallId": "FC000122-02",
-   "seats": 214,
-   "large": false,
-   "child": "N",
-   "cast": "도재혁, 신아림, 한기태, 김형우, 김영웅, 정민찬, 하태영",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300456_202611131204550270.jpg"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300456_260909_113212.gif",
-   "state": "공연중",
-   "prices": "전석 20,000원",
-   "times": "목요일(19:30), 금요일(15:00,19:30), 토요일(15:00)",
-   "runtime": "1시간 10분",
-   "age": "만 7세 이상",
-   "producer": "아이큐브(ICUVE)",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "나눔티켓",
-     "url": "https://www.nanumticket.or.kr/pe/detail.html?p_marking=4&p_new=&start2=0&page_no2=1&p_idx=14123"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012972"
-    }
-   ],
-   "registeredAt": "2026-09-09 11:32:13",
-   "updatedAt": "2026-11-13 15:00:03.532917"
-  },
-  {
    "id": "PF304765",
    "title": "붓다, 세상의 길을 묻다 [대학로]",
    "from": "2026-11-12",
@@ -2842,41 +2754,6 @@
    ],
    "registeredAt": "2026-07-13 16:33:40",
    "updatedAt": "2026-10-28 10:53:25"
-  },
-  {
-   "id": "PF304620",
-   "title": "악극제, 작은 할머니 [성남]",
-   "from": "2026-11-14",
-   "to": "2026-11-14",
-   "openrun": false,
-   "venue": "성남아트센터 (앙상블씨어터)",
-   "venueId": "FC000016",
-   "hallId": "FC000016-03",
-   "seats": 378,
-   "large": false,
-   "child": "N",
-   "cast": "김영, 이주희, 강은주, 강준구, 김성언, 정영경, 이정희 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304620_202610270318027640.png"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304620_261027_151802.png",
-   "state": "공연중",
-   "prices": "전석무료",
-   "times": "토요일(15:00)",
-   "runtime": "",
-   "age": "만 7세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015033"
-    }
-   ],
-   "registeredAt": "2026-10-27 15:18:03",
-   "updatedAt": "2026-10-27 18:00:00.115388"
   },
   {
    "id": "PF303127",
