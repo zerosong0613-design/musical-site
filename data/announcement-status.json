@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15T07:26:52.595Z",
+ "checkedAt": "2026-11-15T16:45:36.224Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66509",
@@ -26,36 +26,32 @@
    "status": "verified"
   },
   {
-   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127855&page=1",
-   "status": "review_needed"
-  },
-  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "checked"
+   "status": "no_matching_posts"
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 4
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 2
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 3
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 10
   },
   {
    "source": "네이버 웹문서",
@@ -78,7 +74,7 @@
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/66028",
+   "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
   },
   {
@@ -90,15 +86,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202611110151",
-   "status": "review_needed"
-  },
-  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269788",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://isplus.com/article/view/isp202611040101",
    "status": "review_needed"
   },
   {
@@ -106,15 +94,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/echeveau/224477948067",
+   "url": "https://blog.naver.com/hohomom0225/224478187909",
    "status": "review_needed"
   },
   {
    "url": "https://blog.naver.com/heeyeon2__/224477214564",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/story-83/224477578743",
    "status": "review_needed"
   },
   {
@@ -131,6 +115,18 @@
   },
   {
    "url": "https://blog.naver.com/heeyeon2__/224474599289",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/wise_lee_/224474760877",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.iseensee.com/Home/Community/Notice.aspx",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.lgart.com/community/ko/notice/184103",
    "status": "review_needed"
   }
  ]
