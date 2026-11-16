@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T00:58:41.229Z",
+ "generatedAt": "2026-11-16T00:57:07.768Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -1071,100 +1071,6 @@
    "updatedAt": "2026-10-23 13:10:51"
   },
   {
-   "id": "PF294946",
-   "title": "엘리자벳",
-   "from": "2026-08-16",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "블루스퀘어 (우리은행홀 (구. 인터파크홀, 구. 신한카드홀) )",
-   "venueId": "FC000031",
-   "hallId": "FC000031-01",
-   "seats": 1766,
-   "large": true,
-   "child": "N",
-   "cast": "이지연, 이지혜, 이지수, 정기열, 서경수, 고은성, 박은태 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294946_202606301244388130.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294946_260701_134627.gif",
-   "state": "공연중",
-   "prices": "VIP석 180,000원, R석 150,000원, S석 120,000원, A석 90,000원",
-   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일(19:30), 금요일(14:30,19:30), 토요일(14:00,19:00), 일요일(15:00), HOL(14:00,19:00)",
-   "runtime": "2시간 50분",
-   "age": "만 7세 이상",
-   "producer": "(주)EMK뮤지컬컴퍼니",
-   "license": true,
-   "creative": false,
-   "links": [
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1756124"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009314"
-    },
-    {
-     "name": "멜론티켓",
-     "url": "https://ticket.melon.com/performance/index.htm?prodId=213527"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60602"
-    }
-   ],
-   "registeredAt": "2026-06-30 12:44:39",
-   "updatedAt": "2026-10-15 15:05:52"
-  },
-  {
-   "id": "PF295552",
-   "title": "광화문연가 [서울]",
-   "from": "2026-09-06",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "디큐브링크아트센터 (디큐브씨어터)",
-   "venueId": "FC000011",
-   "hallId": "FC000011-01",
-   "seats": 1242,
-   "large": true,
-   "child": "N",
-   "cast": "손준호, 이석훈, 정용훈, 차지연, 서은광, 류승수, 민선예 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295552_202610131103353160.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF295552_260708_103436.gif",
-   "state": "공연중",
-   "prices": "VIP석 160,000원, R석 140,000원, S석 110,000원, A석 80,000원",
-   "times": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,18:30), HOL(14:00,18:30)",
-   "runtime": "2시간 35분",
-   "age": "만 7세 이상",
-   "producer": "(주)CJ ENM",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/64251"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1693563"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26009625"
-    },
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79432"
-    }
-   ],
-   "registeredAt": "2026-07-08 10:34:36",
-   "updatedAt": "2026-10-13 11:03:35"
-  },
-  {
    "id": "PF298032",
    "title": "난세: 정도전과 이방원의 이야기 [대학로]",
    "from": "2026-09-08",
@@ -1739,61 +1645,6 @@
    "updatedAt": "2026-10-07 13:38:43"
   },
   {
-   "id": "PF299169",
-   "title": "미드나잇: 앤틀러스 [대학로]",
-   "from": "2026-10-04",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "유니플렉스 (1관(대극장))",
-   "venueId": "FC001233",
-   "hallId": "FC001233-01",
-   "seats": 599,
-   "large": true,
-   "child": "N",
-   "cast": "김종구, 고상호, 김려원, 장보람, 박유덕, 이창용, 신수빈 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299169_202608241136430230.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF299169_260824_113642.gif",
-   "state": "공연중",
-   "prices": "R석 88,000원, S석 66,000원, A석 55,000원",
-   "times": "화요일(20:00), 수요일(16:00,20:00), 목요일(20:00), 금요일(16:00,20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
-   "runtime": "1시간 30분",
-   "age": "만 13세 이상",
-   "producer": "(주)모먼트메이커",
-   "license": true,
-   "creative": false,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/65093"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1724182"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012145"
-    },
-    {
-     "name": "예스24",
-     "url": "https://ticket.yes24.com/Perf/60524"
-    },
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79443"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7428"
-    }
-   ],
-   "registeredAt": "2026-08-24 11:36:43",
-   "updatedAt": "2026-10-12 11:11:54"
-  },
-  {
    "id": "PF299346",
    "title": "렛미플라이 [서울]",
    "from": "2026-10-06",
@@ -1897,43 +1748,6 @@
    "updatedAt": "2026-11-06 13:30:00"
   },
   {
-   "id": "PF300890",
-   "title": "이상한 나라의 춘자씨 [서울 용산]",
-   "from": "2026-10-16",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "더 줌 아트센터 (더 줌 아트센터)",
-   "venueId": "FC001994",
-   "hallId": "FC001994-01",
-   "seats": 128,
-   "large": false,
-   "child": "N",
-   "cast": "전국향, 백현주, 윤성원, 박현철, 전민준, 강나리, 양나은",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425351332.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425350761.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300890_202609140425350620.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF300890_260914_162535.gif",
-   "state": "공연중",
-   "prices": "전석 77,000원",
-   "times": "월요일(19:30), 수요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)",
-   "runtime": "1시간 45분",
-   "age": "만 7세 이상",
-   "producer": "품씨어트리컬스 유한책임회사",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013144"
-    }
-   ],
-   "registeredAt": "2026-09-14 16:25:35",
-   "updatedAt": "2026-09-14 18:00:00.025371"
-  },
-  {
    "id": "PF301308",
    "title": "하트비트: 심폐소생일지 [대학로]",
    "from": "2026-10-20",
@@ -2017,58 +1831,6 @@
    ],
    "registeredAt": "2026-10-01 15:04:18",
    "updatedAt": "2026-10-26 10:14:12"
-  },
-  {
-   "id": "PF301912",
-   "title": "마제스티 [대학로]",
-   "from": "2026-10-25",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "NOL 씨어터 대학로 (구. 대학로뮤지컬센터) (우리카드홀 )",
-   "venueId": "FC001213",
-   "hallId": "FC001213-04",
-   "seats": 935,
-   "large": true,
-   "child": "N",
-   "cast": "엄기준, 박은석, 박정원, 김우석, 이정화, 허윤슬, 양승리 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301912_202609291012432461.jpg",
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301912_202609291012432390.jpg"
-   ],
-   "area": "서울특별시",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF301912_260929_101243.gif",
-   "state": "공연중",
-   "prices": "VIP석 120,000원, R석 90,000원, S석 60,000원",
-   "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00)",
-   "runtime": "2시간 40분",
-   "age": "만 7세 이상",
-   "producer": "",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/65909"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1748258"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013853"
-    },
-    {
-     "name": "클립서비스주식회사",
-     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79464"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7456"
-    }
-   ],
-   "registeredAt": "2026-09-29 10:12:43",
-   "updatedAt": "2026-10-12 18:02:32"
   },
   {
    "id": "PF301634",
@@ -2591,53 +2353,6 @@
    "updatedAt": "2026-10-19 15:24:02"
   },
   {
-   "id": "PF294046",
-   "title": "빨래 [하남]",
-   "from": "2026-11-13",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "하남문화예술회관 (검단홀(대극장))",
-   "venueId": "FC000095",
-   "hallId": "FC000095-01",
-   "seats": 911,
-   "large": true,
-   "child": "N",
-   "cast": "신고은, 정형석, 조영임, 김유정, 김영환, 박준성, 이윤성 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF294046_202610140245542680.jpg"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF294046_260618_151101.gif",
-   "state": "공연중",
-   "prices": "R석 77,000원, S석 55,000원",
-   "times": "금요일(19:30), 토요일(14:00,18:30), 일요일(14:00)",
-   "runtime": "2시간 45분",
-   "age": "만 13세 이상",
-   "producer": "(주)씨에이치수박",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "NHN티켓링크",
-     "url": "http://www.ticketlink.co.kr/product/63891"
-    },
-    {
-     "name": "네이버N예약",
-     "url": "https://booking.naver.com/booking/12/bizes/1677472"
-    },
-    {
-     "name": "놀유니버스",
-     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008450"
-    },
-    {
-     "name": "타임티켓",
-     "url": "https://timeticket.co.kr/product/7514"
-    }
-   ],
-   "registeredAt": "2026-06-18 15:11:01",
-   "updatedAt": "2026-11-02 15:24:25"
-  },
-  {
    "id": "PF304266",
    "title": "우리의 마지막 순간들 [대학로]",
    "from": "2026-11-13",
@@ -2671,41 +2386,6 @@
    ],
    "registeredAt": "2026-10-23 11:27:34",
    "updatedAt": "2026-10-23 15:00:00.235211"
-  },
-  {
-   "id": "PF305532",
-   "title": "대진대학교 연기예술학과, 내 마음의 풍금",
-   "from": "2026-11-14",
-   "to": "2026-11-15",
-   "openrun": false,
-   "venue": "대진대학교 (예술관 소극장)",
-   "venueId": "FC001950",
-   "hallId": "FC001950-02",
-   "seats": 50,
-   "large": false,
-   "child": "N",
-   "cast": "김민지, 김희건, 서승환, 안예원, 안정원, 여채원, 이광민 등",
-   "images": [
-    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305532_202611051129484360.jpg"
-   ],
-   "area": "경기도",
-   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF305532_261105_112948.jpg",
-   "state": "공연중",
-   "prices": "전석무료",
-   "times": "토요일 ~ 일요일(18:00)",
-   "runtime": "2시간",
-   "age": "만 7세 이상",
-   "producer": "대진대학교 연기예술학과",
-   "license": false,
-   "creative": true,
-   "links": [
-    {
-     "name": "플레이티켓",
-     "url": "http://playticket.co.kr/nav/detail.html?idx=4760"
-    }
-   ],
-   "registeredAt": "2026-11-05 11:29:48",
-   "updatedAt": "2026-11-05 15:00:03.098692"
   },
   {
    "id": "PF295981",

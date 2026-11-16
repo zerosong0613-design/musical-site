@@ -56,7 +56,7 @@
   "exclusive": true,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
-  "mt20id": "PF294046",
+  "mt20id": "PF305920",
   "auto": "announcement",
   "announcementIds": [
    "announcement-e9a887930f8ae4013b14"
@@ -75,6 +75,20 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-10f8161d434156182ba4"
+  ]
+ },
+ {
+  "id": "announcement-e9a887930f8ae4013b14:2026-11-10 14:00:false",
+  "mt20id": "PF294046",
+  "at": "2026-11-10 14:00",
+  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-e9a887930f8ae4013b14"
   ]
  },
  {
