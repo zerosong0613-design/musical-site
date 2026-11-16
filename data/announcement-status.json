@@ -1,10 +1,6 @@
 {
- "checkedAt": "2026-11-16T07:33:06.212Z",
+ "checkedAt": "2026-11-16T19:58:43.671Z",
  "sources": [
-  {
-   "url": "https://www.ticketlink.co.kr/help/notice/66509",
-   "status": "verified"
-  },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66516",
    "status": "verified"
@@ -49,7 +45,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 7
   },
   {
    "source": "네이버 뉴스",
@@ -61,19 +57,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 1
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 12
+   "matches": 9
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 6
   },
   {
    "source": "네이버 웹문서",
@@ -94,6 +90,18 @@
    "status": "verified"
   },
   {
+   "url": "https://www.ticketlink.co.kr/help/notice/65502",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.econovill.com/news/articleView.html?idxno=757459",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753936",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.slist.kr/news/articleView.html?idxno=782070",
    "status": "review_needed"
   },
@@ -110,23 +118,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269788",
-   "status": "review_needed"
-  },
-  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266745",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/projeckza/224479235044",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/kmj636363/224479233148",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/dnjfcjs63/224479231182",
    "status": "review_needed"
   },
   {
@@ -134,23 +126,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/dnjfcjs63/224479216350",
+   "url": "https://blog.naver.com/heeyeon2__/224477248740",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/kmj636363/224479214190",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/projeckza/224479212076",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/dyjy2115/224479181222",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/ticket_info/224479127868",
+   "url": "https://blog.naver.com/hohomom0225/224478829627",
    "status": "review_needed"
   }
  ]
