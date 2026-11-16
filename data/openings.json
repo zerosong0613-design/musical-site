@@ -1,42 +1,5 @@
 [
  {
-  "id": "ticketlink-66419",
-  "at": "2026-11-09 11:00",
-  "title": "뮤지컬 <닥터 두리틀> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66419",
-  "mt20id": "PF304086",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-98ecfa2c66e5379e3996"
-  ]
- },
- {
-  "id": "ticketlink-66416",
-  "at": "2026-11-09 11:00",
-  "title": "뮤지컬 <얼음나무 숲> 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66416",
-  "mt20id": null
- },
- {
-  "id": "yes24-18782",
-  "at": "2026-11-09 11:00",
-  "title": "뮤지컬 <얼음나무 숲> 1차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18782",
-  "mt20id": "PF305999"
- },
- {
   "id": "ticketlink-66466",
   "at": "2026-11-10 11:00",
   "title": "뮤지컬 <어느 60대 노부부의 이야기> - 영덕​​ 티켓오픈 안내",
@@ -63,6 +26,20 @@
   ]
  },
  {
+  "id": "announcement-e9a887930f8ae4013b14:2026-11-10 14:00:false",
+  "mt20id": "PF294046",
+  "at": "2026-11-10 14:00",
+  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-e9a887930f8ae4013b14"
+  ]
+ },
+ {
   "id": "yes24-18785",
   "at": "2026-11-10 14:00",
   "title": "식스 더 뮤지컬(SIX THE MUSICAL) 2차 티켓오픈 안내",
@@ -75,20 +52,6 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-10f8161d434156182ba4"
-  ]
- },
- {
-  "id": "announcement-e9a887930f8ae4013b14:2026-11-10 14:00:false",
-  "mt20id": "PF294046",
-  "at": "2026-11-10 14:00",
-  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-e9a887930f8ae4013b14"
   ]
  },
  {
@@ -484,6 +447,81 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-13f00c94a7fe014db663"
+  ]
+ },
+ {
+  "id": "yes24-18850",
+  "at": "2026-11-20 14:00",
+  "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-프리뷰 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18850",
+  "mt20id": "PF302842",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-04f778d11397ac34cec1"
+  ]
+ },
+ {
+  "id": "yes24-18848",
+  "at": "2026-11-20 14:00",
+  "title": "프랑스 뮤지컬 [로미오와 줄리엣] 2차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18848",
+  "mt20id": "PF305670",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-1d310f98b964b9846d80"
+  ]
+ },
+ {
+  "id": "nol-26015424",
+  "at": "2026-11-20 14:00",
+  "title": "프랑스 뮤지컬 〈로미오와 줄리엣〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26015424",
+  "mt20id": "PF305670",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-b3b6a320aad450a48c03"
+  ]
+ },
+ {
+  "id": "ticketlink-66544",
+  "at": "2026-11-20 14:00",
+  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 2차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66544",
+  "mt20id": "PF305670",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-d0cd50be866a8282a947"
+  ]
+ },
+ {
+  "id": "yes24-18846",
+  "at": "2026-11-25 14:00",
+  "title": "뮤지컬 <겨울왕국> 한국 초연 - 종연시즌 1월 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18846",
+  "mt20id": "PF292160",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-f2c95ba02759e0874806"
   ]
  }
 ]

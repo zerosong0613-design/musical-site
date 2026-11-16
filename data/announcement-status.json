@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-16T01:01:00.551Z",
+ "checkedAt": "2026-11-16T07:33:06.212Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66509",
@@ -26,6 +26,22 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18850",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18848",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66544",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18846",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
    "status": "no_matching_posts"
   },
@@ -45,13 +61,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 11
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 11
+   "matches": 12
   },
   {
    "source": "네이버 웹문서",
@@ -102,27 +118,39 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/manami1004/224478621891",
+   "url": "https://blog.naver.com/projeckza/224479235044",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/heeyeon2__/224477214564",
+   "url": "https://blog.naver.com/kmj636363/224479233148",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/xjustice/224477547550",
+   "url": "https://blog.naver.com/dnjfcjs63/224479231182",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/benefit_note/224476451446",
+   "url": "https://blog.naver.com/rukacia/224479220297",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/nine1017/224476824490",
+   "url": "https://blog.naver.com/dnjfcjs63/224479216350",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/heeyeon2__/224474599289",
+   "url": "https://blog.naver.com/kmj636363/224479214190",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/projeckza/224479212076",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/dyjy2115/224479181222",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/ticket_info/224479127868",
    "status": "review_needed"
   }
  ]
