@@ -421,6 +421,36 @@
   ]
  },
  {
+  "id": "nol-26013995",
+  "at": "2026-11-20 14:00",
+  "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera) 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26013995",
+  "mt20id": "PF302842",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-5ee3f637b825f1d86d3c"
+  ]
+ },
+ {
+  "id": "ticketlink-66566",
+  "at": "2026-11-20 14:00",
+  "title": "뮤지컬 <쉐도우> 앵콜 팝업스토어 - 2층 이머시브 팝업 입장권 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66566",
+  "mt20id": "PF303912",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-21661b2b9acd8e70d943"
+  ]
+ },
+ {
   "id": "yes24-18850",
   "at": "2026-11-20 14:00",
   "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-프리뷰 티켓오픈 안내",
@@ -493,6 +523,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-a4a0e96dc208390d315d"
+  ]
+ },
+ {
+  "id": "nol-26013993",
+  "at": "2026-11-24 14:00",
+  "title": "뮤지컬 〈레베카〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26013993",
+  "mt20id": "PF302516",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-8b1f82082db4e026c938"
   ]
  },
  {
