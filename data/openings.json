@@ -1,49 +1,5 @@
 [
  {
-  "id": "yes24-18808",
-  "at": "2026-11-10 14:00",
-  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
-  "mt20id": "PF305920",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-e9a887930f8ae4013b14"
-  ]
- },
- {
-  "id": "announcement-e9a887930f8ae4013b14:2026-11-10 14:00:false",
-  "mt20id": "PF294046",
-  "at": "2026-11-10 14:00",
-  "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18808",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-e9a887930f8ae4013b14"
-  ]
- },
- {
-  "id": "yes24-18785",
-  "at": "2026-11-10 14:00",
-  "title": "식스 더 뮤지컬(SIX THE MUSICAL) 2차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18785",
-  "mt20id": "PF302744",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-10f8161d434156182ba4"
-  ]
- },
- {
   "id": "yes24-18793",
   "at": "2026-11-11 11:00",
   "title": "뮤지컬 〈사랑의 하츄핑: 고래보석의 전설〉 티켓오픈 안내",
@@ -379,6 +335,17 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66555",
+  "at": "2026-11-19 15:00",
+  "title": "2026 대형 뮤지컬 낭독공연 지원사업 선정작 뮤지컬 <데카당스 경성> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66555",
+  "mt20id": null
+ },
+ {
   "id": "yes24-18838",
   "at": "2026-11-19 15:00",
   "title": "뮤지컬 [앨런튜링] 1차 티켓오픈 안내",
@@ -396,9 +363,9 @@
  {
   "id": "nol-26014988",
   "at": "2026-11-19 15:00",
-  "title": "뮤지컬 〈앨런 튜링〉 티켓오픈",
+  "title": "뮤지컬 〈앨런 튜링〉 1차 티켓오픈",
   "vendor": "NOL 티켓",
-  "round": "",
+  "round": "1차",
   "exclusive": false,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26014988",
@@ -406,6 +373,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-2a996f691526e8cf4df6"
+  ]
+ },
+ {
+  "id": "nol-25014107",
+  "at": "2026-11-19 17:00",
+  "title": "쇼뮤지컬 〈더 맨 얼라이브 : 초이스〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/25014107",
+  "mt20id": "PF272938",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-b3fd84d568e00d02a150"
   ]
  },
  {
@@ -511,6 +493,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-a4a0e96dc208390d315d"
+  ]
+ },
+ {
+  "id": "nol-26007416",
+  "at": "2026-11-25 14:00",
+  "title": "뮤지컬 〈겨울왕국〉 한국 초연 (FROZEN The Musical) 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26007416",
+  "mt20id": "PF292160",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-c1970e10d6cd64c8c11e"
   ]
  },
  {
