@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T00:57:07.768Z",
+ "generatedAt": "2026-11-17T03:38:42.019Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -1043,6 +1043,10 @@
    "creative": false,
    "links": [
     {
+     "name": "29CM",
+     "url": "https://ticket.29cm.co.kr/catalog/4355508"
+    },
+    {
      "name": "NHN티켓링크",
      "url": "http://www.ticketlink.co.kr/product/63344"
     },
@@ -1068,7 +1072,42 @@
     }
    ],
    "registeredAt": "2026-05-26 11:45:01",
-   "updatedAt": "2026-10-23 13:10:51"
+   "updatedAt": "2026-11-16 16:24:46"
+  },
+  {
+   "id": "PF296265",
+   "title": "옹알스 [대학로]",
+   "from": "2026-08-15",
+   "to": "2026-12-27",
+   "openrun": true,
+   "venue": "씨어터조이 (구. 마당세실극장) (씨어터조이 (구. 마당세실극장) )",
+   "venueId": "FC000419",
+   "hallId": "FC000419-01",
+   "seats": 100,
+   "large": false,
+   "child": "N",
+   "cast": "조수원, 채경선, 최기섭, 하승철, 이경섭, 최진영",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF296265_202611160201111880.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF296265_261116_140111.jpg",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "금요일(19:30), 토요일(14:00,16:00), 일요일(14:00)",
+   "runtime": "1시간 10분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/874409"
+    }
+   ],
+   "registeredAt": "2026-07-16 14:02:11",
+   "updatedAt": "2026-11-16 14:04:17"
   },
   {
    "id": "PF298032",
@@ -1415,7 +1454,7 @@
    "times": "화요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
    "runtime": "1시간 40분",
    "age": "만 9세 이상",
-   "producer": "(주)수컴퍼니",
+   "producer": "수컴퍼니 (su company)",
    "license": false,
    "creative": true,
    "links": [
@@ -1445,7 +1484,7 @@
     }
    ],
    "registeredAt": "2026-08-11 10:10:48",
-   "updatedAt": "2026-10-19 15:31:26"
+   "updatedAt": "2026-11-17 10:48:16"
   },
   {
    "id": "PF296104",
@@ -1972,10 +2011,14 @@
     {
      "name": "코스타(Coaster)",
      "url": "https://ticket.co-star.kr/shop/item.php?it_id=1792409787"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://timeticket.co.kr/product/7565"
     }
    ],
    "registeredAt": "2026-09-28 11:44:07",
-   "updatedAt": "2026-10-22 10:16:57"
+   "updatedAt": "2026-11-16 15:05:22"
   },
   {
    "id": "PF301565",
@@ -2453,7 +2496,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303127_261013_103504.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "OP석  169,000원, VIP1석  169,000원, VIP2석  159,000원, R1석  149,000원, R2석  139,000원, S1석  119,000원, S2석  99,000원, A석 79,000원",
    "times": "화요일(19:30), 수요일(14:30,19:30), 목요일 ~ 금요일(19:30), 토요일 ~ 일요일(14:00,19:00)",
    "runtime": "2시간 20분",
@@ -3437,6 +3480,41 @@
    ],
    "registeredAt": "2026-11-03 11:05:33",
    "updatedAt": "2026-11-03 15:00:03.094823"
+  },
+  {
+   "id": "PF306469",
+   "title": "김의 나라 리딩 쇼케이스",
+   "from": "2026-12-01",
+   "to": "2026-12-01",
+   "openrun": false,
+   "venue": "엔아트센터 (엔 아트홀)",
+   "venueId": "FC004881",
+   "hallId": "FC004881-01",
+   "seats": 498,
+   "large": false,
+   "child": "N",
+   "cast": "임진섭, 유낙원, 김대곤, 김현숙, 박유덕, 이은상, 윤현선 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306469_202611161139446880.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306469_261116_113944.jpg",
+   "state": "공연예정",
+   "prices": "R석 20,000원, S석 15,000원",
+   "times": "화요일(19:30)",
+   "runtime": "1시간 50분",
+   "age": "만 13세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66987"
+    }
+   ],
+   "registeredAt": "2026-11-16 11:39:45",
+   "updatedAt": "2026-11-16 15:00:03.091877"
   },
   {
    "id": "PF305670",
@@ -4704,6 +4782,41 @@
    "updatedAt": "2026-10-21 18:00:00.114794"
   },
   {
+   "id": "PF306608",
+   "title": "킬링 맥벌스 [대학로]",
+   "from": "2026-12-17",
+   "to": "2027-01-03",
+   "openrun": false,
+   "venue": "소극장 공유 (소극장 공유)",
+   "venueId": "FC001266",
+   "hallId": "FC001266-01",
+   "seats": 80,
+   "large": false,
+   "child": "N",
+   "cast": "이여진, 유호인, 전종혁, 남도윤, 오혜민, 김여름, 임종우 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306608_202611160508198030.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306608_261116_170819.gif",
+   "state": "공연예정",
+   "prices": "전석 30,000원",
+   "times": "화요일 ~ 금요일(20:00), 토요일(15:00,18:00), 일요일(16:00)",
+   "runtime": "1시간",
+   "age": "만 12세 이상",
+   "producer": "창작집단 결",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016385"
+    }
+   ],
+   "registeredAt": "2026-11-16 17:08:20",
+   "updatedAt": "2026-11-16 18:00:03.025754"
+  },
+  {
    "id": "PF301439",
    "title": "광화문 연가 [인천]",
    "from": "2026-12-19",
@@ -4751,6 +4864,45 @@
    ],
    "registeredAt": "2026-09-21 14:36:44",
    "updatedAt": "2026-11-02 14:46:41"
+  },
+  {
+   "id": "PF306492",
+   "title": "도둑맞은 책 [대학로]",
+   "from": "2026-12-19",
+   "to": "2027-02-28",
+   "openrun": false,
+   "venue": "세우아트센터 (1관)",
+   "venueId": "FC000794",
+   "hallId": "FC000794-01",
+   "seats": 160,
+   "large": false,
+   "child": "N",
+   "cast": "임강성, 이창용, 이형훈, 백인태, 이휘종, 최민우, 안다니엘 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306492_202611160123185280.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306492_261116_132318.jpg",
+   "state": "공연예정",
+   "prices": "VIP석 70,000원, R석 50,000원",
+   "times": "화요일 ~ 금요일(19:30), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+   "runtime": "1시간 30분",
+   "age": "만 15세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66700"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1779293"
+    }
+   ],
+   "registeredAt": "2026-11-16 13:23:19",
+   "updatedAt": "2026-11-16 15:00:03.091877"
   },
   {
    "id": "PF305395",
@@ -4995,6 +5147,41 @@
    ],
    "registeredAt": "2026-11-09 12:38:10",
    "updatedAt": "2026-11-09 15:00:03.078038"
+  },
+  {
+   "id": "PF306459",
+   "title": "다이스 낭독공연",
+   "from": "2026-12-31",
+   "to": "2026-12-31",
+   "openrun": false,
+   "venue": "KT&G 상상마당 대치아트홀 (KT&G 상상마당 대치아트홀)",
+   "venueId": "FC000052",
+   "hallId": "FC000052-01",
+   "seats": 422,
+   "large": false,
+   "child": "N",
+   "cast": "김찬종, 이효은, 문경초, 김보근, 장민수, 옥경민, 박혜원 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306459_202611161110276790.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306459_261116_111027.gif",
+   "state": "공연예정",
+   "prices": "전석 20,000원",
+   "times": "목요일(19:30)",
+   "runtime": "2시간",
+   "age": "만 13세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016063"
+    }
+   ],
+   "registeredAt": "2026-11-16 11:10:28",
+   "updatedAt": "2026-11-16 15:00:03.091877"
   },
   {
    "id": "PF301001",

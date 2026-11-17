@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-16T19:58:43.671Z",
+ "checkedAt": "2026-11-17T03:42:35.072Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66516",
@@ -11,7 +11,7 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18838",
-   "status": "review_needed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18830",
@@ -34,36 +34,52 @@
    "status": "verified"
   },
   {
+   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
+   "status": "verified"
+  },
+  {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18846",
    "status": "review_needed"
   },
   {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18858",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127922&page=1",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127921&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/lists/?id=theatergoing",
-   "status": "no_matching_posts"
+   "status": "checked"
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 6
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 1
+   "matches": 0
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 1
+   "matches": 4
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 9
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -76,6 +92,10 @@
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
    "matches": 0
+  },
+  {
+   "url": "https://ticket.yes24.com/Notice",
+   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -118,19 +138,15 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266745",
+   "url": "https://blog.naver.com/hohomom0225/224480244997",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/rukacia/224479220297",
+   "url": "https://blog.naver.com/yamyamjin_/224480242476",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/heeyeon2__/224477248740",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/hohomom0225/224478829627",
+   "url": "https://blog.naver.com/booty1020/224479842086",
    "status": "review_needed"
   }
  ]

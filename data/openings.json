@@ -1,16 +1,5 @@
 [
  {
-  "id": "ticketlink-66466",
-  "at": "2026-11-10 11:00",
-  "title": "뮤지컬 <어느 60대 노부부의 이야기> - 영덕​​ 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66466",
-  "mt20id": null
- },
- {
   "id": "yes24-18808",
   "at": "2026-11-10 14:00",
   "title": "[평택] 뮤지컬[빨래] 티켓 오픈 안내",
@@ -510,6 +499,21 @@
   ]
  },
  {
+  "id": "melon-13303",
+  "at": "2026-11-24 14:00",
+  "title": "뮤지컬 〈레베카〉 3차 티켓 오픈 안내",
+  "vendor": "멜론티켓",
+  "round": "3차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
+  "mt20id": "PF302516",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a4a0e96dc208390d315d"
+  ]
+ },
+ {
   "id": "yes24-18846",
   "at": "2026-11-25 14:00",
   "title": "뮤지컬 <겨울왕국> 한국 초연 - 종연시즌 1월 티켓오픈 안내",
@@ -522,6 +526,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-f2c95ba02759e0874806"
+  ]
+ },
+ {
+  "id": "yes24-18858",
+  "at": "2026-11-26 14:00",
+  "title": "뮤지컬 <해밀턴> 내한공연-서울 1차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "1차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18858",
+  "mt20id": "PF306119",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-5657628e564d4fc43875"
   ]
  }
 ]
