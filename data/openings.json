@@ -1,46 +1,5 @@
 [
  {
-  "id": "yes24-18799",
-  "at": "2026-11-11 12:00",
-  "title": "뮤지컬 [마하고니] 3차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18799",
-  "mt20id": "PF301746",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-665fdede3e08cb3fe5b3"
-  ]
- },
- {
-  "id": "ticketlink-66453",
-  "at": "2026-11-11 12:00",
-  "title": "뮤지컬 <마하고니> 3차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66453",
-  "mt20id": "PF301746",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a5ce5c369728b9fdee2f"
-  ]
- },
- {
-  "id": "yes24-18753",
-  "at": "2026-11-11 15:00",
-  "title": "뮤지컬 [해밀턴] 내한공연-서울 프리미어 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18753",
-  "mt20id": "PF306119"
- },
- {
   "id": "ticketlink-66493",
   "at": "2026-11-12 09:00",
   "title": "뮤지컬 멜로우TV < Run it up , 팀나빠 > - 서울 티켓오픈 안내",
