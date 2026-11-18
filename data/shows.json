@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T03:38:42.019Z",
+ "generatedAt": "2026-11-18T02:52:57.290Z",
  "source": "(재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr)",
  "criteria": {
   "regions": [
@@ -11,6 +11,77 @@
   "excludeChildren": true
  },
  "shows": [
+  {
+   "id": "PF173894",
+   "title": "프리즌 [H씨어터]",
+   "from": "2021-05-01",
+   "to": "2026-11-30",
+   "openrun": true,
+   "venue": "에이치씨어터 (익스트림씨어터 2관)",
+   "venueId": "FC001804",
+   "hallId": "FC001804-01",
+   "seats": 180,
+   "large": false,
+   "child": "N",
+   "cast": "하준석, 장원준, 조계영, 이경호, 최종훈, 이연승, 김동근 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF173894_202604130300118120.jpg"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF173894_260413_145942.gif",
+   "state": "공연중",
+   "prices": "전석 50,000원",
+   "times": "월요일(14:00), 화요일 ~ 금요일(16:00), 토요일(14:00,16:30), 일요일(15:00)",
+   "runtime": "1시간 30분",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "11번가",
+     "url": "https://ticket.11st.co.kr/Product/Detail?id=265154"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/348118"
+    },
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/348118/items/3888901"
+    },
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=21003285"
+    },
+    {
+     "name": "대학로티켓닷컴",
+     "url": "http://www.maketicket.co.kr/ticket/GD19338"
+    },
+    {
+     "name": "예스24",
+     "url": "http://ticket.yes24.com/Pages/Perf/Detail/Detail.aspx?IdPerf=38930"
+    },
+    {
+     "name": "옥션",
+     "url": "http://ticket1.auction.co.kr/VIP/Item?IdPerf=38798"
+    },
+    {
+     "name": "위메프",
+     "url": "https://ticket.wemakeprice.com/product/3000007147"
+    },
+    {
+     "name": "쿠팡",
+     "url": "https://trip.coupang.com/tp/products/30000000421596"
+    },
+    {
+     "name": "타임티켓",
+     "url": "https://www.timeticket.co.kr/index.php?number=4352"
+    }
+   ],
+   "registeredAt": "2021-04-23 10:52:47",
+   "updatedAt": "2026-11-17 16:50:44"
+  },
   {
    "id": "PF235543",
    "title": "난타 [명동]",
@@ -2544,7 +2615,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF304788_261029_104954.gif",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "전석 15,000원",
    "times": "수요일(19:30)",
    "runtime": "1시간 10분",
@@ -2581,7 +2652,7 @@
    ],
    "area": "서울특별시",
    "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF303594_261016_134745.jpg",
-   "state": "공연예정",
+   "state": "공연중",
    "prices": "기억석 66,000원, 기록석 55,000원, 존재석 44,000원",
    "times": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
    "runtime": "1시간 40분",
@@ -3265,10 +3336,14 @@
     {
      "name": "놀유니버스",
      "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015064"
+    },
+    {
+     "name": "클립서비스주식회사",
+     "url": "https://ticket.clipservice.co.kr/Clipservice/Ticket/ShowDetail?playNum=79527"
     }
    ],
    "registeredAt": "2026-10-21 17:11:31",
-   "updatedAt": "2026-10-23 10:50:00"
+   "updatedAt": "2026-11-17 13:34:16"
   },
   {
    "id": "PF305906",
@@ -4315,6 +4390,41 @@
    "updatedAt": "2026-10-30 15:00:03.089931"
   },
   {
+   "id": "PF306682",
+   "title": "문화살롱 4회차, 팬텀부터 렌트까지: 올 댓 뮤지컬 [파주]",
+   "from": "2026-12-10",
+   "to": "2026-12-10",
+   "openrun": false,
+   "venue": "문산행복센터 (대공연장)",
+   "venueId": "FC000666",
+   "hallId": "FC000666-01",
+   "seats": 463,
+   "large": false,
+   "child": "N",
+   "cast": "강상범, 구정은, 김홍제, 서영",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306682_202611171255308790.jpg"
+   ],
+   "area": "경기도",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306682_261117_125530.png",
+   "state": "공연예정",
+   "prices": "전석무료",
+   "times": "목요일(19:00)",
+   "runtime": "1시간",
+   "age": "만 7세 이상",
+   "producer": "",
+   "license": false,
+   "creative": false,
+   "links": [
+    {
+     "name": "파주문화재단",
+     "url": "http://paju.moonhwain.kr/rsvc/rsv_pm.html?b_id=paju&p_idx=861"
+    }
+   ],
+   "registeredAt": "2026-11-17 12:55:31",
+   "updatedAt": "2026-11-17 15:00:03.079705"
+  },
+  {
    "id": "PF306042",
    "title": "애기봉 [김포]",
    "from": "2026-12-11",
@@ -4980,6 +5090,42 @@
    "updatedAt": "2026-11-11 12:38:13"
   },
   {
+   "id": "PF306722",
+   "title": "선교사들 [대학로]",
+   "from": "2026-12-22",
+   "to": "2027-01-17",
+   "openrun": false,
+   "venue": "소극장 창덕궁 (소극장 창덕궁)",
+   "venueId": "FC001215",
+   "hallId": "FC001215-01",
+   "seats": 150,
+   "large": false,
+   "child": "N",
+   "cast": "이인철, 송하루, 김다니엘, 조예나",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306722_202611170241547481.png",
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306722_202611170241547410.png"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306722_261117_144154.jpg",
+   "state": "공연예정",
+   "prices": "전석 50,000원",
+   "times": "월요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00,19:30), HOL(19:30)",
+   "runtime": "2시간",
+   "age": "만 8세 이상",
+   "producer": "극단 와이",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "네이버N예약",
+     "url": "https://booking.naver.com/booking/12/bizes/1773608"
+    }
+   ],
+   "registeredAt": "2026-11-17 14:41:55",
+   "updatedAt": "2026-11-17 15:00:03.079705"
+  },
+  {
    "id": "PF302842",
    "title": "오페라의 유령 40주년 스페셜 시즌",
    "from": "2026-12-22",
@@ -5008,6 +5154,10 @@
    "creative": false,
    "links": [
     {
+     "name": "NHN티켓링크",
+     "url": "http://www.ticketlink.co.kr/product/66647"
+    },
+    {
      "name": "네이버N예약",
      "url": "https://booking.naver.com/booking/12/bizes/1758018"
     },
@@ -5025,7 +5175,7 @@
     }
    ],
    "registeredAt": "2026-10-08 14:39:50",
-   "updatedAt": "2026-10-19 16:06:08"
+   "updatedAt": "2026-11-17 14:09:25"
   },
   {
    "id": "PF305999",
@@ -5147,6 +5297,41 @@
    ],
    "registeredAt": "2026-11-09 12:38:10",
    "updatedAt": "2026-11-09 15:00:03.078038"
+  },
+  {
+   "id": "PF306714",
+   "title": "너 하나만 보여",
+   "from": "2026-12-30",
+   "to": "2027-01-10",
+   "openrun": false,
+   "venue": "R&J씨어터(구. 연진아트홀) (R&J씨어터(구. 연진아트홀))",
+   "venueId": "FC001142",
+   "hallId": "FC001142-01",
+   "seats": 127,
+   "large": false,
+   "child": "N",
+   "cast": "신경준, 김경욱, 이경민, 박서빈, 최영현, 박성준, 배문현 등",
+   "images": [
+    "https://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306714_202611170216266740.png"
+   ],
+   "area": "서울특별시",
+   "poster": "https://www.kopis.or.kr/upload/pfmPoster/PF_PF306714_261117_141626.gif",
+   "state": "공연예정",
+   "prices": "전석 35,000원",
+   "times": "목요일 ~ 금요일(19:00), 토요일 ~ 일요일(15:00,19:00)",
+   "runtime": "1시간 20분",
+   "age": "만 12세 이상",
+   "producer": "",
+   "license": false,
+   "creative": true,
+   "links": [
+    {
+     "name": "놀유니버스",
+     "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016503"
+    }
+   ],
+   "registeredAt": "2026-11-17 14:16:27",
+   "updatedAt": "2026-11-17 15:00:03.079705"
   },
   {
    "id": "PF306459",

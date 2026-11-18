@@ -1,27 +1,5 @@
 [
  {
-  "id": "yes24-18793",
-  "at": "2026-11-11 11:00",
-  "title": "뮤지컬 〈사랑의 하츄핑: 고래보석의 전설〉 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18793",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66439",
-  "at": "2026-11-11 11:00",
-  "title": "뮤지컬 <사랑의 하츄핑: 고래보석의 전설> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66439",
-  "mt20id": null
- },
- {
   "id": "yes24-18799",
   "at": "2026-11-11 12:00",
   "title": "뮤지컬 [마하고니] 3차 티켓오픈 안내",
@@ -541,6 +519,17 @@
   ]
  },
  {
+  "id": "ticketlink-66568",
+  "at": "2026-11-24 14:00",
+  "title": "뮤지컬 <마이 블러디 보드카> 낭독 공연 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66568",
+  "mt20id": null
+ },
+ {
   "id": "nol-26007416",
   "at": "2026-11-25 14:00",
   "title": "뮤지컬 〈겨울왕국〉 한국 초연 (FROZEN The Musical) 티켓오픈",
@@ -568,6 +557,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-f2c95ba02759e0874806"
+  ]
+ },
+ {
+  "id": "nol-26015650",
+  "at": "2026-11-26 14:00",
+  "title": "뮤지컬 〈해밀턴〉 내한공연 - 서울 (Musical HAMILTON) 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26015650",
+  "mt20id": "PF306119",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-dc17d1317c66d32366e0"
   ]
  },
  {
