@@ -161,7 +161,7 @@
   "contentHash": "1638fd7f6b7c1aa36bab60f0f2bd56bb039296fcd2cb4f3ce4e76501b0eaa3a9"
  },
  "https://www.ticketlink.co.kr/help/notice/65990": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "6e541ccfadc4877d435e148c1f19f1780ddce7b962af8a2c5157e85c4b81ad02"
  },
@@ -171,7 +171,7 @@
   "contentHash": "b89b838d903d3f3bae9dd4e9a5ec603f872fb77f61af92da80e879766997e6dd"
  },
  "https://www.ticketlink.co.kr/help/notice/65961": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "fa6d3d143c0b1eeccf42bc53fd9a62a557f383f891b8250b11b83b2850788941"
  },
@@ -350,9 +350,9 @@
   "contentHash": "2cad9a465e14209692a5cdea514008e055d642ab1b0c117f5449ce230b6c8e4f"
  },
  "https://ticket.yes24.com/Notice": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
-  "contentHash": "e05e1e433cbdd58480e26de6783815e0a5781be3ceb106ddb674ed6524aa3c5f"
+  "contentHash": "3af2a57a0f31e575479fdec758d8de240b7401143dd18b4e738ee76f6b6aec23"
  },
  "https://blog.naver.com/musiiiical/224443206779": {
   "checkedAt": "2026-10-18",
@@ -590,7 +590,7 @@
   "contentHash": "286b3640224f4a24178770d3cb5e33dc118c14e3c52c5894d1b5ca3bddb587af"
  },
  "https://nol.yanolja.com/ticket/products/26013993": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18708": {
@@ -2754,24 +2754,24 @@
   "contentHash": "0b1431e5eb163c083bf1e370426bff43bfa45cbaed5259c7a5a37e4fbd68edfc"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18830": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "57fe3ec2999f16408aa1a03a60ecdcf326cc2d4befcc52f7b5d533887a64bad5"
+  "contentHash": "9013fa6247c36ca2fe4642cc9185d23bdfbcf5b11e4d51e81b29deccfea87f4a"
  },
  "https://www.ticketlink.co.kr/help/notice/66511": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "34b3846597a936b98679a7de61cf69d456ed4c2e03ea3634c381cfca1c9fa146"
  },
  "https://www.gukjenews.com/news/articleView.html?idxno=3749665": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "2e6a5732a9f5ae89b20b563983f9501e1484069f5aba7b3d9564c2297073d650"
+  "contentHash": "864fe2b699bd7c3236ef9fdc4aa8e1beafde68414628768e89e154dd24fd5409"
  },
  "https://www.stardailynews.co.kr/news/articleView.html?idxno=602022": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "45d39e8f3c26eb2f4bf8e95a65cffc93687ff7c9012caac92a25eb6c41cb54a7"
+  "contentHash": "09da60240155912ed4668c192b8c0c77af37f1c7e248f0fd62a56fbccae59518"
  },
  "https://blog.naver.com/jaykey0103/224473991496": {
   "checkedAt": "2026-11-12",
@@ -2858,9 +2858,9 @@
   "contentHash": "e8f4047bae0b44afb600e51ad047e2079b2e7711ae6fe9488ea7546ebb59379e"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18838": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
-  "contentHash": "d4f0655c42def6df344c61be470a83207d583e739f38b98d55139b75ed9ffd0d"
+  "contentHash": "c02e36e36bb9c02c5d13d2a012fc08a3d4d58ce60bc3c7c29d14d657b23fb00a"
  },
  "https://blog.naver.com/dandi_0829/224474966767": {
   "checkedAt": "2026-11-15",
@@ -2933,7 +2933,7 @@
   "contentHash": "166db3d108e28e4323c6c88150c1c04407d7d79f8429e5c7272395525520c19c"
  },
  "https://nol.yanolja.com/ticket/products/26014988": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://blog.naver.com/story-83/224475691677": {
@@ -3077,7 +3077,7 @@
   "contentHash": "baafedc947c857f4a5334977e9024fb36bfe11ffb4a317aa06bdab88a6efd631"
  },
  "https://www.ticketlink.co.kr/help/notice/59492": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "4a94715b61f5e829412b1b201f8d05a5749892e73d33e1314526841d6f67d44c"
  },
@@ -3107,14 +3107,15 @@
   "contentHash": "60e09c9422cd9ecdd70c1571e1aed2e0e4a8592eabeff6765cf6b03a77074e5f"
  },
  "https://www.slist.kr/news/articleView.html?idxno=782070": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "7cdbca74cc1592086c4e7b26147098533625a1f1843e6b6dd24987f879b8da76"
+  "contentHash": "e77ff8abae3d9913a75a4169a0721199984a1e3c7d994a36db9f6667746a044e"
  },
  "https://www.bntnews.co.kr/article/view/bnt202611160120": {
-  "checkedAt": "2026-11-18",
-  "status": "review_needed",
-  "contentHash": "50afa2c4109ee3e1780c947f8ab21689fc06ecdbe93116ac06ad18e3da84cb82"
+  "checkedAt": "2026-11-19",
+  "status": "fetch_failed",
+  "contentHash": "50afa2c4109ee3e1780c947f8ab21689fc06ecdbe93116ac06ad18e3da84cb82",
+  "error": "HTTP 403"
  },
  "https://blog.naver.com/manami1004/224478621891": {
   "checkedAt": "2026-11-16",
@@ -3147,28 +3148,28 @@
   "contentHash": "6bd0f10cecf2e8f4e6de4510e116a0c633feb0610a2d7d021806c997a5cf6e4d"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18850": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
-  "contentHash": "1ef1b78352b81e0a2d26250b8b8c087f28aad2b2f57b2a980ad7697f443e6113"
+  "contentHash": "0978035b5fca19824ed5f35f4120dedd6e92b984fb1ecd1895bd584a8ba13f10"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18848": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "a974949de951fb8aa8e8d36daa7f65e8462c2b18cd8a239352535fe65a1eda39"
+  "contentHash": "e7f0c5ce4acce304c3a71f936c99feffc2c58da8d8645d8f380275abb5100b85"
  },
  "https://nol.yanolja.com/ticket/products/26015424": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://www.ticketlink.co.kr/help/notice/66544": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "59213bd97f930c8b61b4e1991c19edc9d22194a8ca42cfb86cf804ea1064badf"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18846": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "002b194506c1f6461dfc3b883733cb73ecfb1319d99c80668a962d4aef74ab24"
+  "contentHash": "1f92b476ad4d0dbd3ade4514f8672a2f7f60a331efd1a8b9c2b704fe04cadbf1"
  },
  "https://blog.naver.com/aeji8481/224479257185": {
   "checkedAt": "2026-11-16",
@@ -3221,14 +3222,14 @@
   "contentHash": "72605bf010aebe9f99acee8013aad6098186792512db1bc485845eedd9604def"
  },
  "https://www.econovill.com/news/articleView.html?idxno=757459": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "8b23812d14e375ce150e2deb2b1b742a0144567b9493e693b87c288c4b5c2fb7"
+  "contentHash": "d3cfd8204171ad47ee82c766792234ffc72e9e28fc03a39bc8a72bb66be4d96a"
  },
  "https://www.gukjenews.com/news/articleView.html?idxno=3753936": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "a4d1b257e66753ccf8f84bb2e4a80261e46777f408de864e271712d1d55347d6"
+  "contentHash": "a4901bb30cc54c7eab0ed54abf137b4f73d10bc20fb02e81ddf93571c7068da4"
  },
  "https://blog.naver.com/bimbim_18_/224459890186": {
   "checkedAt": "2026-11-17",
@@ -3271,23 +3272,23 @@
   "contentHash": "356ec832675187c295d708b23877576da0a86c44115bf1156cc5d0a7a786dd58"
  },
  "https://ticket.melon.com/csoon/detail.htm?csoonId=13303": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "fetch_failed",
   "contentHash": "6fc70e69b0c9543b3acc0bbdb0448a17239da32c7e12b415cf5b630480dd036e",
   "error": "HTTP 423"
  },
  "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18858": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
-  "contentHash": "d619080b3a344c63562ed093749aac898df2c7b9d0d296d8f624530a6023c11c"
+  "contentHash": "84d3dd37ff086f76bf7067259b7b84cbe1730319af0a4915932ea8b6946e6804"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127922&page=1": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
   "contentHash": "787d90fcebc6978528d67af9257145911822a5e746266b457c7f13f62ed0bf93"
  },
  "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127921&page=1": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "review_needed",
   "contentHash": "d46d0e634dbbd63f71ab440ed46588a5e946b19a0984b5df63a8c0f72dc52b32"
  },
@@ -3312,11 +3313,11 @@
   "contentHash": "0b718cfc423a53c43d80478895baa085eda5639b6a9cf28cd974147c7e160e33"
  },
  "https://nol.yanolja.com/ticket/products/25014107": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://nol.yanolja.com/ticket/products/26007416": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://blog.naver.com/rukacia/224480779483": {
@@ -3350,11 +3351,11 @@
   "contentHash": "b3b5ee99deee318f4ac2c474fa7b34e54184f2c77623f529b2b319a5ea2359a7"
  },
  "https://nol.yanolja.com/ticket/products/26013995": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://www.ticketlink.co.kr/help/notice/66566": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "verified",
   "contentHash": "cec025d16ce5c52da25bfb3545fd62e76e066d703592ad9e45683e0630bb349d"
  },
@@ -3389,7 +3390,7 @@
   "contentHash": "cf26f36e99904d7bc2602af335567816bb195b2fd1c666df9c380df0a90280f3"
  },
  "https://nol.yanolja.com/ticket/products/26015650": {
-  "checkedAt": "2026-11-18",
+  "checkedAt": "2026-11-19",
   "status": "product_page"
  },
  "https://blog.naver.com/ouwang11/224480491253": {
@@ -3436,5 +3437,45 @@
   "checkedAt": "2026-11-18",
   "status": "not_relevant",
   "contentHash": "b695227724fa53a926cfbbbaca4a58d9f6b7e71ac0f6daabae602659ec320a54"
+ },
+ "http://www.withinnews.co.kr/news/view.html?section=9&category=126&item=&no=41026": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "53e21bce83eedd7c31396bf2f4ab5b0693d27db986ec48f38969d6b0fd851a05"
+ },
+ "https://blog.naver.com/sewkqp/224482537664": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "b69de4cbb16a198712c49fdaec60e726e828edb3f30e58289e7b4265f804d85f"
+ },
+ "https://blog.naver.com/eleanor-fortuna/224482526855": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "373d2056ca49f47521217befd3c20d3f43119a450074bbffd53e0cd873ba5094"
+ },
+ "https://blog.naver.com/trendy8894/224482471059": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "fa92f758c45f8198c9fc115758b15b398b41e75f8cbb087d52c74b675f9847aa"
+ },
+ "https://blog.naver.com/easystorybokji/224482079079": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "61234cdedc79c50c61cfbdfd11b49267e42f1f903d5a3ebd36f7c107478824c4"
+ },
+ "https://blog.naver.com/benefit_note/224481406085": {
+  "checkedAt": "2026-11-19",
+  "status": "review_needed",
+  "contentHash": "fc7761678c9664cccfe62236d1479992b6295ae35977b61f1183992ce9bbfcbb"
+ },
+ "https://blog.naver.com/booty1020/224482269604": {
+  "checkedAt": "2026-11-19",
+  "status": "review_needed",
+  "contentHash": "e5b4862067b1ca40373614817ad259981a037c361267c4c3d9f6b08d639c063c"
+ },
+ "https://blog.naver.com/something_memorable/224482711966": {
+  "checkedAt": "2026-11-19",
+  "status": "not_relevant",
+  "contentHash": "7ab16dd565763f2da4d43135270bf4041ecfca9e8a4bf89efa078cb5864de28f"
  }
 }
