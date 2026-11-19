@@ -1,27 +1,5 @@
 [
  {
-  "id": "ticketlink-66475",
-  "at": "2026-11-12 14:00",
-  "title": "2026 뮤지컬 <미드나잇 : 액터뮤지션> - THE FINAL 1차 티켓오픈",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66475",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66487",
-  "at": "2026-11-12 15:00",
-  "title": "뮤지컬 < DMZ > 낭독공연 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66487",
-  "mt20id": "PF306330"
- },
- {
   "id": "yes24-18835",
   "at": "2026-11-13 09:00",
   "title": "[안산] 뮤지컬 타키포오 [몬스터 전쟁의 서막 ; 더 좀비] 티켓오픈 안내",
@@ -450,6 +428,36 @@
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66568",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18869",
+  "at": "2026-11-25 11:00",
+  "title": "뮤지컬 [렛미플라이] 5차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "5차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-9a13d116723a4ca5bc2a"
+  ]
+ },
+ {
+  "id": "ticketlink-66574",
+  "at": "2026-11-25 11:00",
+  "title": "뮤지컬 <렛미플라이> 5차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "5차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66574",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-b14f6bfc8154dd60ba2d"
+  ]
  },
  {
   "id": "nol-26007416",

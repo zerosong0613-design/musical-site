@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-19T02:35:36.083Z",
+ "checkedAt": "2026-11-19T08:18:03.949Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18838",
@@ -31,7 +31,15 @@
   },
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "fetch_failed"
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66574",
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18846",
@@ -69,7 +77,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 3
   },
   {
    "source": "네이버 블로그",
@@ -90,10 +98,6 @@
    "matches": 0
   },
   {
-   "url": "https://ticket.yes24.com/Notice",
-   "status": "verified"
-  },
-  {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
   },
@@ -103,6 +107,10 @@
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65502",
+   "status": "verified"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
   },
   {
@@ -130,11 +138,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/ouwang11/224482031203",
+   "url": "https://blog.naver.com/memoriers/224481718130",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/heeyeon2__/224482471705",
+   "url": "https://blog.naver.com/jekyll9207/224483405920",
    "status": "review_needed"
   }
  ]
