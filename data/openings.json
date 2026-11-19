@@ -1,53 +1,5 @@
 [
  {
-  "id": "ticketlink-66493",
-  "at": "2026-11-12 09:00",
-  "title": "뮤지컬 멜로우TV < Run it up , 팀나빠 > - 서울 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66493",
-  "mt20id": null
- },
- {
-  "id": "yes24-18795",
-  "at": "2026-11-12 11:00",
-  "title": "뮤지컬 [샤이닝] 1차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18795",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66441",
-  "at": "2026-11-12 11:00",
-  "title": "뮤지컬 <샤이닝> 1차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66441",
-  "mt20id": null
- },
- {
-  "id": "yes24-18815",
-  "at": "2026-11-12 11:00",
-  "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-추가 회차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18815",
-  "mt20id": "PF302842",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-2edc5f87d9ad3432c5dc"
-  ]
- },
- {
   "id": "ticketlink-66475",
   "at": "2026-11-12 14:00",
   "title": "2026 뮤지컬 <미드나잇 : 액터뮤지션> - THE FINAL 1차 티켓오픈",
@@ -446,6 +398,17 @@
   "announcementIds": [
    "announcement-d0cd50be866a8282a947"
   ]
+ },
+ {
+  "id": "ticketlink-66573",
+  "at": "2026-11-20 15:00",
+  "title": "뮤지컬 <그레이하우스> 낭독공연 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66573",
+  "mt20id": null
  },
  {
   "id": "melon-13303",
