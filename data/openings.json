@@ -391,6 +391,21 @@
   ]
  },
  {
+  "id": "nol-26012259",
+  "at": "2026-11-25 11:00",
+  "title": "뮤지컬 〈렛미플라이〉 5차 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "5차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26012259",
+  "mt20id": "PF299346",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-a6e2fef68258d2b052e8"
+  ]
+ },
+ {
   "id": "ticketlink-66574",
   "at": "2026-11-25 11:00",
   "title": "뮤지컬 <렛미플라이> 5차 티켓오픈 안내",
@@ -474,6 +489,21 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-5657628e564d4fc43875"
+  ]
+ },
+ {
+  "id": "yes24-18876",
+  "at": "2026-11-26 15:00",
+  "title": "뮤지컬〈아가사 AGATHA〉2차 티켓 오픈안내",
+  "vendor": "예스24",
+  "round": "2차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18876",
+  "mt20id": "PF305507",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-080b91da8ce2290d88be"
   ]
  }
 ]
