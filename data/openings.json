@@ -1,16 +1,5 @@
 [
  {
-  "id": "yes24-18835",
-  "at": "2026-11-13 09:00",
-  "title": "[안산] 뮤지컬 타키포오 [몬스터 전쟁의 서막 ; 더 좀비] 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18835",
-  "mt20id": null
- },
- {
   "id": "yes24-18805",
   "at": "2026-11-13 14:00",
   "title": "뮤지컬 [두 도시 이야기] 3차 티켓오픈 안내",
@@ -188,7 +177,7 @@
   "exclusive": false,
   "presale": false,
   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18839",
-  "mt20id": null
+  "mt20id": "PF306985"
  },
  {
   "id": "ticketlink-66518",
@@ -386,6 +375,17 @@
   "exclusive": true,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66573",
+  "mt20id": null
+ },
+ {
+  "id": "ticketlink-66578",
+  "at": "2026-11-24 09:00",
+  "title": "뮤지컬 꽥 <꽥꽥탐험대 ; One Shot, One Team > - 서울​ 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66578",
   "mt20id": null
  },
  {
