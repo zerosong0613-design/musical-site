@@ -1,59 +1,5 @@
 [
  {
-  "id": "yes24-18805",
-  "at": "2026-11-13 14:00",
-  "title": "뮤지컬 [두 도시 이야기] 3차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18805",
-  "mt20id": "PF300974",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-20087ee4ea2a09d99384"
-  ]
- },
- {
-  "id": "melon-13231",
-  "at": "2026-11-13 14:00",
-  "title": "뮤지컬 〈두 도시 이야기〉 3차 티켓 오픈 안내",
-  "vendor": "멜론티켓",
-  "round": "3차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13231",
-  "mt20id": "PF300974",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-dab7b6a5ad74bca2c93d"
-  ],
-  "performanceFrom": "2026-12-15",
-  "performanceTo": "2027-01-03"
- },
- {
-  "id": "ticketlink-66485",
-  "at": "2026-11-13 14:00",
-  "title": "뮤지컬 <도둑맞은 책> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66485",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66505",
-  "at": "2026-11-13 15:00",
-  "title": "뮤지컬 <김의 나라> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66505",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66509",
   "at": "2026-11-16 15:00",
   "title": "[피처링_트랙 60] 뮤지컬 <마하고니> 티켓오픈 안내",
@@ -406,9 +352,9 @@
  {
   "id": "nol-26013993",
   "at": "2026-11-24 14:00",
-  "title": "뮤지컬 〈레베카〉 티켓오픈",
+  "title": "뮤지컬 〈레베카〉 3차 티켓오픈",
   "vendor": "NOL 티켓",
-  "round": "",
+  "round": "3차",
   "exclusive": false,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26013993",
@@ -488,6 +434,17 @@
   "announcementIds": [
    "announcement-f2c95ba02759e0874806"
   ]
+ },
+ {
+  "id": "ticketlink-66592",
+  "at": "2026-11-25 14:00",
+  "title": "뮤지컬 <길동> 낭독 쇼케이스 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": true,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66592",
+  "mt20id": null
  },
  {
   "id": "nol-26015650",
