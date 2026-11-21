@@ -1,9 +1,9 @@
 {
- "checkedAt": "2026-11-20T18:13:36.727Z",
+ "checkedAt": "2026-11-21T02:08:22.987Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
@@ -53,13 +53,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 2
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 18
+   "matches": 21
   },
   {
    "source": "네이버 웹문서",
@@ -118,19 +118,19 @@
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/matzinharu/224485001319",
+   "url": "https://blog.naver.com/heeyeon2__/224482644206",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/lifesospatial/224483629474",
+   "url": "https://blog.naver.com/miinn8/224485749395",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/hhhong-shi/224483880617",
+   "url": "https://blog.naver.com/lianms92/224484066407",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/akfn150/224484407036",
+   "url": "https://blog.naver.com/dandi_0829/224485382747",
    "status": "review_needed"
   }
  ]
