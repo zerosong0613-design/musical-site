@@ -1,9 +1,9 @@
 {
- "checkedAt": "2026-11-21T07:56:00.172Z",
+ "checkedAt": "2026-11-21T17:03:31.916Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
@@ -41,7 +41,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 8
+   "matches": 7
   },
   {
    "source": "네이버 뉴스",
@@ -53,19 +53,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 8
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 20
+   "matches": 19
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 8
   },
   {
    "source": "네이버 웹문서",
@@ -98,6 +98,10 @@
    "status": "review_needed"
   },
   {
+   "url": "http://withinnews.co.kr/news/view.html?section=9&category=126&item=&no=41026",
+   "status": "fetch_failed"
+  },
+  {
    "url": "https://www.econovill.com/news/articleView.html?idxno=757459",
    "status": "review_needed"
   },
@@ -114,19 +118,31 @@
    "status": "fetch_failed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3749665",
+   "url": "https://blog.naver.com/health88-/224486512746",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/health88-/224486507512",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/mobolnam/224486228696",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/goodseatview/224486358150",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/goodseatview/224486339788",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/mobolnam/224486225861",
    "status": "review_needed"
   },
   {
    "url": "https://blog.naver.com/miinn8/224486077307",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/lifesospatial/224485277885",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/heeyeon2__/224482644206",
    "status": "review_needed"
   }
  ]

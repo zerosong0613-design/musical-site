@@ -492,6 +492,21 @@
   ]
  },
  {
+  "id": "nol-26015729",
+  "at": "2026-11-26 15:00",
+  "title": "뮤지컬 〈아가사 AGATHA〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26015729",
+  "mt20id": "PF305507",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-c181cd0123f5ba455f00"
+  ]
+ },
+ {
   "id": "yes24-18876",
   "at": "2026-11-26 15:00",
   "title": "뮤지컬〈아가사 AGATHA〉2차 티켓 오픈안내",
