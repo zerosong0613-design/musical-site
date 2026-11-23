@@ -1,20 +1,5 @@
 [
  {
-  "id": "ticketlink-66509",
-  "at": "2026-11-16 15:00",
-  "title": "[피처링_트랙 60] 뮤지컬 <마하고니> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66509",
-  "mt20id": "PF301746",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-229b8180e815dd3b7a12"
-  ]
- },
- {
   "id": "nol-26016063",
   "at": "2026-11-17 11:00",
   "title": "뮤지컬 〈다이스〉 낭독공연 티켓오픈",
@@ -335,6 +320,17 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66620",
+  "at": "2026-11-24 09:00",
+  "title": "뮤지컬 꽥 <꽥꽥탐험대 ; One Shot, One Team> - 서울 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66620",
+  "mt20id": null
+ },
+ {
   "id": "melon-13303",
   "at": "2026-11-24 14:00",
   "title": "뮤지컬 〈레베카〉 3차 티켓 오픈 안내",
@@ -393,7 +389,7 @@
  {
   "id": "nol-26012259",
   "at": "2026-11-25 11:00",
-  "title": "뮤지컬 〈렛미플라이〉 티켓오픈",
+  "title": "뮤지컬 〈렛미플라이〉 5차 티켓오픈",
   "vendor": "NOL 티켓",
   "round": "5차",
   "exclusive": false,

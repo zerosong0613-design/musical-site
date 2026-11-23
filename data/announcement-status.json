@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-23T01:34:01.393Z",
+ "checkedAt": "2026-11-23T08:31:03.017Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
@@ -26,6 +26,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127950&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127922&page=1",
    "status": "review_needed"
   },
@@ -41,7 +45,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 10
+   "matches": 11
   },
   {
    "source": "네이버 뉴스",
@@ -53,13 +57,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 18
+   "matches": 22
   },
   {
    "source": "네이버 웹문서",
@@ -74,12 +78,28 @@
    "matches": 1
   },
   {
+   "url": "https://ticket.yes24.com/Notice",
+   "status": "verified"
+  },
+  {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
    "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
+  },
+  {
+   "url": "http://www.srtimes.kr/news/articleView.html?idxno=218380",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.dailian.co.kr/news/view/1718267/?sc=Naver",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3759970",
+   "status": "review_needed"
   },
   {
    "url": "https://swtvnews.com/news/newsview.php?ncode=1065575565074361",
@@ -110,39 +130,27 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.econovill.com/news/articleView.html?idxno=757459",
+   "url": "http://withinnews.co.kr/news/view.html?section=9&category=126&item=&no=41026",
+   "status": "fetch_failed"
+  },
+  {
+   "url": "https://blog.naver.com/hsbclara/224488465478",
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753936",
+   "url": "https://blog.naver.com/st30830/224488461588",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/today_picknote_/224488042145",
+   "url": "https://blog.naver.com/starstory2026/224487573675",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/today_picknote_/224488034147",
+   "url": "https://blog.naver.com/ggul_osori/224488424302",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/uniqueuni/224488032543",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/issuespark/224487955031",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/trends91/224487958160",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/trendmemory/224487777550",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/jyjy5297/224486532569",
+   "url": "https://blog.naver.com/424242_/224488404739",
    "status": "review_needed"
   }
  ]
