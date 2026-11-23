@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-23T08:31:03.017Z",
+ "checkedAt": "2026-11-23T21:52:35.771Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
@@ -45,25 +45,25 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 14
   },
   {
    "source": "네이버 뉴스",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 1
+   "matches": 2
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 22
+   "matches": 25
   },
   {
    "source": "네이버 웹문서",
@@ -88,6 +88,18 @@
   {
    "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
+  },
+  {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16284397",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://mhnse.com/news/articleView.html?idxno=1707807",
+   "status": "fetch_failed"
+  },
+  {
+   "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010325044&plink=ORI&cooper=NAVER",
+   "status": "review_needed"
   },
   {
    "url": "http://www.srtimes.kr/news/articleView.html?idxno=218380",
@@ -130,28 +142,20 @@
    "status": "review_needed"
   },
   {
-   "url": "http://withinnews.co.kr/news/view.html?section=9&category=126&item=&no=41026",
+   "url": "https://blog.naver.com/gkakgid/224487023236",
    "status": "fetch_failed"
   },
   {
-   "url": "https://blog.naver.com/hsbclara/224488465478",
-   "status": "review_needed"
+   "url": "https://blog.naver.com/maereokee/224489137685",
+   "status": "fetch_failed"
   },
   {
-   "url": "https://blog.naver.com/st30830/224488461588",
-   "status": "review_needed"
+   "url": "https://blog.naver.com/topstarnews/224489086184",
+   "status": "fetch_failed"
   },
   {
-   "url": "https://blog.naver.com/starstory2026/224487573675",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/ggul_osori/224488424302",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/424242_/224488404739",
-   "status": "review_needed"
+   "url": "https://blog.naver.com/hayun1015-/224489112732",
+   "status": "fetch_failed"
   }
  ]
 }
