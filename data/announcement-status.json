@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-22T17:34:05.643Z",
+ "checkedAt": "2026-11-23T01:34:01.393Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
@@ -41,7 +41,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 7
+   "matches": 10
   },
   {
    "source": "네이버 뉴스",
@@ -53,13 +53,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 19
+   "matches": 18
   },
   {
    "source": "네이버 웹문서",
@@ -82,6 +82,26 @@
    "status": "verified"
   },
   {
+   "url": "https://swtvnews.com/news/newsview.php?ncode=1065575565074361",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.sctoday.co.kr/news/articleView.html?idxno=49093",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602785",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.sportsseoul.com/news/read/1651532?ref=naver",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.slist.kr/news/articleView.html?idxno=783888",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.munhwa.com/article/11632767?ref=naver",
    "status": "review_needed"
   },
@@ -98,31 +118,31 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=782070",
+   "url": "https://blog.naver.com/today_picknote_/224488042145",
    "status": "review_needed"
   },
   {
-   "url": "https://www.bntnews.co.kr/article/view/bnt202611160120",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://blog.naver.com/nomadist_2/224487396072",
+   "url": "https://blog.naver.com/today_picknote_/224488034147",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/darkling1024/224487103313",
+   "url": "https://blog.naver.com/uniqueuni/224488032543",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/heeyeon2__/224482673183",
+   "url": "https://blog.naver.com/issuespark/224487955031",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/fact_note26/224486047914",
+   "url": "https://blog.naver.com/trends91/224487958160",
    "status": "review_needed"
   },
   {
-   "url": "https://blog.naver.com/miinn8/224486077307",
+   "url": "https://blog.naver.com/trendmemory/224487777550",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://blog.naver.com/jyjy5297/224486532569",
    "status": "review_needed"
   }
  ]
