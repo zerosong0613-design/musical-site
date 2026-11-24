@@ -1,9 +1,9 @@
 {
- "checkedAt": "2026-11-23T21:52:35.771Z",
+ "checkedAt": "2026-11-24T05:16:25.453Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "fetch_failed"
+   "status": "verified"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
@@ -26,6 +26,10 @@
    "status": "review_needed"
   },
   {
+   "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127957&page=1",
+   "status": "review_needed"
+  },
+  {
    "url": "https://gall.dcinside.com/mini/board/view/?id=theatergoing&no=127950&page=1",
    "status": "review_needed"
   },
@@ -45,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 14
+   "matches": 18
   },
   {
    "source": "네이버 뉴스",
@@ -57,7 +61,7 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 11
   },
   {
    "source": "네이버 블로그",
@@ -69,17 +73,13 @@
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 5
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
    "matches": 1
-  },
-  {
-   "url": "https://ticket.yes24.com/Notice",
-   "status": "verified"
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -90,12 +90,36 @@
    "status": "verified"
   },
   {
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16284785",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010325065&plink=ORI&cooper=NAVER",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761126",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761115",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.bntnews.co.kr/article/view/bnt202611240147",
+   "status": "fetch_failed"
+  },
+  {
+   "url": "https://swtvnews.com/news/newsview.php?ncode=1065570262862499",
+   "status": "review_needed"
+  },
+  {
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16284397",
    "status": "review_needed"
   },
   {
    "url": "https://mhnse.com/news/articleView.html?idxno=1707807",
-   "status": "fetch_failed"
+   "status": "review_needed"
   },
   {
    "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010325044&plink=ORI&cooper=NAVER",
@@ -136,26 +160,6 @@
   {
    "url": "https://www.munhwa.com/article/11632767?ref=naver",
    "status": "review_needed"
-  },
-  {
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16280841",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://blog.naver.com/gkakgid/224487023236",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://blog.naver.com/maereokee/224489137685",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://blog.naver.com/topstarnews/224489086184",
-   "status": "fetch_failed"
-  },
-  {
-   "url": "https://blog.naver.com/hayun1015-/224489112732",
-   "status": "fetch_failed"
   }
  ]
 }
