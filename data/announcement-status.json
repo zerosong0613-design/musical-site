@@ -1,10 +1,6 @@
 {
- "checkedAt": "2026-11-24T10:38:17.714Z",
+ "checkedAt": "2026-11-24T22:53:20.007Z",
  "sources": [
-  {
-   "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "fetch_failed"
-  },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
    "status": "verified"
@@ -61,19 +57,19 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 6
+   "matches": 9
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 22
+   "matches": 20
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 4
+   "matches": 5
   },
   {
    "source": "네이버 웹문서",
@@ -98,11 +94,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761115",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761126",
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761126",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761115",
    "status": "review_needed"
   },
   {
