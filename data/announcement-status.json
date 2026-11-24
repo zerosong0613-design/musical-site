@@ -1,9 +1,9 @@
 {
- "checkedAt": "2026-11-24T05:16:25.453Z",
+ "checkedAt": "2026-11-24T10:38:17.714Z",
  "sources": [
   {
    "url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13303",
-   "status": "verified"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18869",
@@ -49,7 +49,7 @@
    "source": "네이버 뉴스",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 18
+   "matches": 17
   },
   {
    "source": "네이버 뉴스",
@@ -61,25 +61,25 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 11
+   "matches": 6
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 25
+   "matches": 22
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 5
+   "matches": 4
   },
   {
    "source": "네이버 웹문서",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 1
+   "matches": 0
   },
   {
    "url": "https://www.ticketlink.co.kr/help/notice/65961",
@@ -98,11 +98,11 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761126",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761115",
    "status": "review_needed"
   },
   {
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761115",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3761126",
    "status": "review_needed"
   },
   {
@@ -119,7 +119,7 @@
   },
   {
    "url": "https://mhnse.com/news/articleView.html?idxno=1707807",
-   "status": "review_needed"
+   "status": "fetch_failed"
   },
   {
    "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010325044&plink=ORI&cooper=NAVER",
@@ -158,7 +158,7 @@
    "status": "review_needed"
   },
   {
-   "url": "https://www.munhwa.com/article/11632767?ref=naver",
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16280841",
    "status": "review_needed"
   }
  ]
