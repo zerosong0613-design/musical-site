@@ -419,6 +419,17 @@
   "mt20id": null
  },
  {
+  "id": "nol-26017003",
+  "at": "2026-11-30 10:00",
+  "title": "뮤지컬 최고다 호기심딱지 시즌4 〈우리 몸은 우리가 지킨다!〉 - 수원 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26017003",
+  "mt20id": null
+ },
+ {
   "id": "ticketlink-66640",
   "at": "2026-11-30 10:00",
   "title": "뮤지컬 최고다 호기심딱지 시즌4 <우리 몸은 우리가 지킨다!> - 수원 티켓오픈 안내",
@@ -427,6 +438,17 @@
   "exclusive": false,
   "presale": false,
   "url": "https://www.ticketlink.co.kr/help/notice/66640",
+  "mt20id": null
+ },
+ {
+  "id": "nol-26017095",
+  "at": "2026-12-01 14:00",
+  "title": "2026 대형 뮤지컬 낭독공연 〈뮤지컬 소현, 새벽을 연 자〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26017095",
   "mt20id": null
  }
 ]
