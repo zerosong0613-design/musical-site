@@ -1,72 +1,5 @@
 [
  {
-  "id": "ticketlink-66518",
-  "at": "2026-11-19 14:00",
-  "title": "뮤지컬 <아라비안 나이트> 낭독공연 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66518",
-  "mt20id": null
- },
- {
-  "id": "ticketlink-66555",
-  "at": "2026-11-19 15:00",
-  "title": "2026 대형 뮤지컬 낭독공연 지원사업 선정작 뮤지컬 <데카당스 경성> 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66555",
-  "mt20id": null
- },
- {
-  "id": "yes24-18838",
-  "at": "2026-11-19 15:00",
-  "title": "뮤지컬 [앨런튜링] 1차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18838",
-  "mt20id": "PF304068",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-a9ac9d1826f1806f87c9"
-  ]
- },
- {
-  "id": "nol-26014988",
-  "at": "2026-11-19 15:00",
-  "title": "뮤지컬 〈앨런 튜링〉 1차 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "1차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26014988",
-  "mt20id": "PF304068",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-2a996f691526e8cf4df6"
-  ]
- },
- {
-  "id": "nol-25014107",
-  "at": "2026-11-19 17:00",
-  "title": "쇼뮤지컬 〈더 맨 얼라이브 : 초이스〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/25014107",
-  "mt20id": "PF272938",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-b3fd84d568e00d02a150"
-  ]
- },
- {
   "id": "yes24-18830",
   "at": "2026-11-20 11:00",
   "title": "뮤지컬 [풍월주] 1차 티켓오픈 안내",
@@ -457,10 +390,42 @@
   "title": "2026 대형 뮤지컬 낭독공연 〈뮤지컬 소현, 새벽을 연 자〉 티켓오픈",
   "vendor": "NOL 티켓",
   "round": "",
-  "exclusive": false,
+  "exclusive": true,
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26017095",
   "mt20id": null
+ },
+ {
+  "id": "nol-26015064",
+  "at": "2026-12-02 11:00",
+  "title": "뮤지컬 〈닥터 두리틀〉 마지막 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "마지막",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26015064",
+  "mt20id": "PF304086",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-49a4e46f3efee7cceeed"
+  ]
+ },
+ {
+  "id": "ticketlink-66660",
+  "at": "2026-12-02 11:00",
+  "title": "뮤지컬 <닥터 두리틀> 마지막(3차) 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66660",
+  "mt20id": "PF304086",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-f9bccea3332871e123b7"
+  ],
+  "performanceFrom": "2027-01-05",
+  "performanceTo": "2027-01-24"
  },
  {
   "id": "yes24-18899",
@@ -490,6 +455,36 @@
   "auto": "announcement",
   "announcementIds": [
    "announcement-6026e092d033efb59f00"
+  ]
+ },
+ {
+  "id": "nol-26014509",
+  "at": "2026-12-03 14:00",
+  "title": "뮤지컬 스위니토드(SWEENEY TODD) - 10주년 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26014509",
+  "mt20id": "PF303043",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-6bc0032494a31f488d3d"
+  ]
+ },
+ {
+  "id": "ticketlink-66656",
+  "at": "2026-12-03 14:00",
+  "title": "뮤지컬 스위니토드(SWEENEY TODD) – 10주년 3차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "3차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66656",
+  "mt20id": "PF303043",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-d15c5fe5bded71807f2b"
   ]
  }
 ]
