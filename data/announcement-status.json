@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-25T19:43:22.296Z",
+ "checkedAt": "2026-11-26T03:33:17.330Z",
  "sources": [
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18858",
@@ -7,6 +7,14 @@
   },
   {
    "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18876",
+   "status": "verified"
+  },
+  {
+   "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18899",
+   "status": "review_needed"
+  },
+  {
+   "url": "https://www.ticketlink.co.kr/help/notice/66652",
    "status": "verified"
   },
   {
@@ -49,13 +57,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 5
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 9
+   "matches": 11
   },
   {
    "source": "네이버 웹문서",
@@ -74,11 +82,11 @@
    "status": "verified"
   },
   {
-   "url": "https://ticket.yes24.com/Notice",
+   "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/59492",
+   "url": "https://ticket.yes24.com/Notice",
    "status": "verified"
   },
   {
@@ -147,14 +155,6 @@
   },
   {
    "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602785",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.sportsseoul.com/news/read/1651532?ref=naver",
-   "status": "review_needed"
-  },
-  {
-   "url": "https://www.slist.kr/news/articleView.html?idxno=783888",
    "status": "review_needed"
   }
  ]

@@ -441,6 +441,17 @@
   "mt20id": null
  },
  {
+  "id": "yes24-18897",
+  "at": "2026-11-30 12:00",
+  "title": "뮤지컬 타키포오［몬스터 전쟁의 서막 ; 더 좀비］- 남양주 티켓오픈안내",
+  "vendor": "예스24",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18897",
+  "mt20id": null
+ },
+ {
   "id": "nol-26017095",
   "at": "2026-12-01 14:00",
   "title": "2026 대형 뮤지컬 낭독공연 〈뮤지컬 소현, 새벽을 연 자〉 티켓오픈",
@@ -450,5 +461,35 @@
   "presale": false,
   "url": "https://nol.yanolja.com/ticket/products/26017095",
   "mt20id": null
+ },
+ {
+  "id": "yes24-18899",
+  "at": "2026-12-02 12:00",
+  "title": "뮤지컬 [마하고니] 4차 티켓오픈 안내",
+  "vendor": "예스24",
+  "round": "4차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18899",
+  "mt20id": "PF301746",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-b43e810d0a16023803b9"
+  ]
+ },
+ {
+  "id": "ticketlink-66652",
+  "at": "2026-12-02 12:00",
+  "title": "뮤지컬 <마하고니> 4차 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "4차",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66652",
+  "mt20id": "PF301746",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-6026e092d033efb59f00"
+  ]
  }
 ]
