@@ -1,106 +1,5 @@
 [
  {
-  "id": "nol-26013995",
-  "at": "2026-11-20 14:00",
-  "title": "뮤지컬 〈오페라의 유령〉 40주년 스페셜 시즌 (Phantom of The Opera) 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26013995",
-  "mt20id": "PF302842",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-5ee3f637b825f1d86d3c"
-  ]
- },
- {
-  "id": "ticketlink-66566",
-  "at": "2026-11-20 14:00",
-  "title": "뮤지컬 <쉐도우> 앵콜 팝업스토어 - 2층 이머시브 팝업 입장권 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66566",
-  "mt20id": "PF303912",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-21661b2b9acd8e70d943"
-  ]
- },
- {
-  "id": "yes24-18850",
-  "at": "2026-11-20 14:00",
-  "title": "뮤지컬 <오페라의 유령> 40주년 스페셜 시즌-프리뷰 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18850",
-  "mt20id": "PF302842",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-04f778d11397ac34cec1"
-  ]
- },
- {
-  "id": "yes24-18848",
-  "at": "2026-11-20 14:00",
-  "title": "프랑스 뮤지컬 [로미오와 줄리엣] 2차 티켓오픈 안내",
-  "vendor": "예스24",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://ticket.yes24.com/New/Notice/NoticeMain.aspx#id=18848",
-  "mt20id": "PF305670",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-1d310f98b964b9846d80"
-  ]
- },
- {
-  "id": "nol-26015424",
-  "at": "2026-11-20 14:00",
-  "title": "프랑스 뮤지컬 〈로미오와 줄리엣〉 티켓오픈",
-  "vendor": "NOL 티켓",
-  "round": "",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://nol.yanolja.com/ticket/products/26015424",
-  "mt20id": "PF305670",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-b3b6a320aad450a48c03"
-  ]
- },
- {
-  "id": "ticketlink-66544",
-  "at": "2026-11-20 14:00",
-  "title": "프랑스 뮤지컬 <로미오와 줄리엣> 2차 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "2차",
-  "exclusive": false,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66544",
-  "mt20id": "PF305670",
-  "auto": "announcement",
-  "announcementIds": [
-   "announcement-d0cd50be866a8282a947"
-  ]
- },
- {
-  "id": "ticketlink-66573",
-  "at": "2026-11-20 15:00",
-  "title": "뮤지컬 <그레이하우스> 낭독공연 티켓오픈 안내",
-  "vendor": "티켓링크",
-  "round": "",
-  "exclusive": true,
-  "presale": false,
-  "url": "https://www.ticketlink.co.kr/help/notice/66573",
-  "mt20id": null
- },
- {
   "id": "ticketlink-66578",
   "at": "2026-11-24 09:00",
   "title": "뮤지컬 꽥 <꽥꽥탐험대 ; One Shot, One Team > - 서울​ 티켓오픈 안내",
@@ -366,6 +265,17 @@
   "mt20id": null
  },
  {
+  "id": "ticketlink-66664",
+  "at": "2026-12-01 14:00",
+  "title": "뮤지컬 <사랑해 엄마> - 평택​ 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66664",
+  "mt20id": null
+ },
+ {
   "id": "nol-26015064",
   "at": "2026-12-02 11:00",
   "title": "뮤지컬 〈닥터 두리틀〉 마지막 티켓오픈",
@@ -409,7 +319,8 @@
   "mt20id": "PF301746",
   "auto": "announcement",
   "announcementIds": [
-   "announcement-b43e810d0a16023803b9"
+   "announcement-b43e810d0a16023803b9",
+   "announcement-195c40d336a6bea2d7f1"
   ]
  },
  {
@@ -456,5 +367,31 @@
   "announcementIds": [
    "announcement-d15c5fe5bded71807f2b"
   ]
+ },
+ {
+  "id": "nol-26014511",
+  "at": "2026-12-09 11:00",
+  "title": "뮤지컬 〈여신님이 보고 계셔〉 티켓오픈",
+  "vendor": "NOL 티켓",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://nol.yanolja.com/ticket/products/26014511",
+  "mt20id": "PF303673",
+  "auto": "announcement",
+  "announcementIds": [
+   "announcement-1688c95b6771502454d8"
+  ]
+ },
+ {
+  "id": "ticketlink-66665",
+  "at": "2026-12-15 14:00",
+  "title": "2027 뮤지컬 <클래식> 티켓오픈 안내",
+  "vendor": "티켓링크",
+  "round": "",
+  "exclusive": false,
+  "presale": false,
+  "url": "https://www.ticketlink.co.kr/help/notice/66665",
+  "mt20id": null
  }
 ]
