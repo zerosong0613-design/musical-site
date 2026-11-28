@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-28T08:38:32.511Z",
+ "checkedAt": "2026-11-28T17:55:07.685Z",
  "sources": [
   {
    "url": "https://www.ticketlink.co.kr/help/notice/66660",
@@ -57,13 +57,13 @@
    "source": "네이버 블로그",
    "query": "뮤지컬 티켓 오픈",
    "status": "checked",
-   "matches": 3
+   "matches": 7
   },
   {
    "source": "네이버 블로그",
    "query": "뮤지컬 캐스팅 스케줄",
    "status": "checked",
-   "matches": 14
+   "matches": 13
   },
   {
    "source": "네이버 웹문서",
@@ -78,11 +78,11 @@
    "matches": 1
   },
   {
-   "url": "https://ticket.yes24.com/Notice",
+   "url": "https://www.ticketlink.co.kr/help/notice/59492",
    "status": "verified"
   },
   {
-   "url": "https://www.ticketlink.co.kr/help/notice/59492",
+   "url": "https://ticket.yes24.com/Notice",
    "status": "verified"
   },
   {
